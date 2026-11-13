@@ -1,0 +1,617 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-content_root="../../../../../">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>geometor.ceva.static_barycentrics &mdash; GEOMETOR • ceva</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="../../../../../_static/pygments.css?v=ea5fcf70" />
+  <link rel="stylesheet" type="text/css" href="../../../../../_static/css/styles.css?v=66998e95" />
+  <link rel="stylesheet" type="text/css" href="../../../../../_static/graphviz.css?v=4ae1632d" />
+  <link rel="stylesheet" type="text/css" href="../../../../../_static/ceva_codex.css?v=bd145ad9" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <link rel="stylesheet" href="../../../../../_static/css/print.css" type="text/css" media="print" />
+  <link rel="icon" href="../../../../../_static/favicon.ico" />
+</head>
+
+<body class="book-theme-classical-serif">
+  <header>
+    <div class="logo">
+      <a href="../../../../../index.html">
+        <h1>GEOMETOR • ceva</h1>
+      </a>
+      <div class="org-repo">
+        <span class="org">GEOMETOR</span>
+        •
+        <span class="repo">ceva</span>
+      </div>
+    </div>
+    <nav aria-label="Header">
+      <input type="checkbox" id="nav-Header-toggle" >
+      <label for="nav-Header-toggle" >Header</label>
+      <ul>
+        <li>
+          <a href="../../../../../de_lineis_rectis/index.html"  >De Lineis Rectis Codex (1678)</a>
+        </li>
+        <li>
+          <a href="../../../../../demos/index.html"  >Symbolic Demonstrations</a>
+        </li>
+        <li>
+          <a href="../../../../index.html" class="is-active" aria-selected="true" >Modules</a>
+        </li>
+        <li>
+          <a href="../../../../../log/index.html"  >log</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="motto"></div>
+  </header>
+  <main class="book-main">
+    <article class="book-layout book-reading-pane">
+      <header class="book-header">
+        <div class="book-header-bar">
+          <div class="book-header-identity">
+            <a class="book-portal-link" href="../../../../../index.html" title="Return to Project Portal">&larr; ceva</a>
+            <span class="book-header-sep">/</span>
+            <a class="book-title-link" href="../../../../../index.html">GEOMETOR • ceva</a>
+          </div>
+          <div class="book-header-breadcrumbs book-header-badges" role="navigation" aria-label="Breadcrumbs">
+            <a class="book-crumb-link" href="../../../../index.html">Modules</a>
+          </div>
+        </div>
+        <div class="book-header-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../../../../index.html" title="Modules">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../polygon_tetrahedron/index.html" title="geometor.ceva.polygon_tetrahedron"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </header>
+      <div class="content body book-content" role="main">
+        <section class="level-1" id="module-geometor.ceva.static_barycentrics">
+        <span id="geometor-ceva-static-barycentrics"></span><h1>geometor.ceva.static_barycentrics<a class="headerlink" href="#module-geometor.ceva.static_barycentrics" title="Link to this heading">¶</a></h1>
+        <p>Exact static-barycentric solver and constructive proofs for Ceva’s Theorem (1678).</p>
+        <p>Models Giovanni Ceva’s <em>De lineis rectis se invicem secantibus statica constructio</em>
+        (Milan, 1678) in 100% exact symbolic algebra over <span class="math notranslate nohighlight">\(\mathbb{Q}\)</span> and symbolic
+        rings using <code class="xref py py-mod docutils literal notranslate"><span class="pre">sympy</span></code> and <code class="xref py py-mod docutils literal notranslate"><span class="pre">geometor.model</span></code>:</p>
+        <ul class="simple">
+        <li><p><strong>Static-Mass Solver</strong> (<a class="reference internal" href="#geometor.ceva.static_barycentrics.solve_static_barycentrics" title="geometor.ceva.static_barycentrics.solve_static_barycentrics"><code class="xref py py-func docutils literal notranslate"><span class="pre">solve_static_barycentrics()</span></code></a>): Assigns exact homogeneous
+        weights <span class="math notranslate nohighlight">\((u : v : w)\)</span> to vertices <span class="math notranslate nohighlight">\((A, B, C)\)</span> (<em>Liber Primus</em>, <em>Elementa</em>
+        I–III &amp; <em>Scholium</em> p. 5 on negative weights <span class="math notranslate nohighlight">\(F - A\)</span>), computes the three
+        Archimedean lever fulcrums <span class="math notranslate nohighlight">\(D \in BC\)</span>, <span class="math notranslate nohighlight">\(E \in CA\)</span>, <span class="math notranslate nohighlight">\(F \in AB\)</span>,
+        the static center of gravity <span class="math notranslate nohighlight">\(P\)</span>, signed segment ratios, signed sub-triangle
+        area ratios (<em>Appendix Geometrica</em>), and verifies <span class="math notranslate nohighlight">\(\frac{AF}{FB}\cdot\frac{BD}{DC}\cdot\frac{CE}{EA} = 1\)</span>.</p></li>
+        <li><p><strong>Canonical Rational Triangle Centers</strong> (<a class="reference internal" href="#geometor.ceva.static_barycentrics.CANONICAL_CENTERS" title="geometor.ceva.static_barycentrics.CANONICAL_CENTERS"><code class="xref py py-data docutils literal notranslate"><span class="pre">CANONICAL_CENTERS</span></code></a>,
+        <a class="reference internal" href="#geometor.ceva.static_barycentrics.evaluate_canonical_centers" title="geometor.ceva.static_barycentrics.evaluate_canonical_centers"><code class="xref py py-func docutils literal notranslate"><span class="pre">evaluate_canonical_centers()</span></code></a>): Evaluates <span class="math notranslate nohighlight">\(X(1), X(2), X(4), X(6), X(7), X(8)\)</span>
+        and the exterior <span class="math notranslate nohighlight">\(A\)</span>-excenter <span class="math notranslate nohighlight">\(J_A\)</span> on the Heronian <span class="math notranslate nohighlight">\((13, 14, 15)\)</span>
+        triangle <span class="math notranslate nohighlight">\(A=(5, 12), B=(0, 0), C=(14, 0)\)</span> where every coordinate lies in <span class="math notranslate nohighlight">\(\mathbb{Q}\)</span>.</p></li>
+        <li><p><strong>Constructive ``&#64;proposition`` Proofs</strong>:</p>
+        <ul>
+        <li><p><a class="reference internal" href="#geometor.ceva.static_barycentrics.construct_ceva_concurrency" title="geometor.ceva.static_barycentrics.construct_ceva_concurrency"><code class="xref py py-func docutils literal notranslate"><span class="pre">construct_ceva_concurrency()</span></code></a>: Targeted <code class="docutils literal notranslate"><span class="pre">geometor.model</span></code> construction of
+        interior and exterior cevian concurrency (<em>Liber Primus</em>, <em>Elementa</em> II–III &amp; <em>Prop.</em> VI).</p></li>
+        <li><p><a class="reference internal" href="#geometor.ceva.static_barycentrics.construct_isotomic_conjugate" title="geometor.ceva.static_barycentrics.construct_isotomic_conjugate"><code class="xref py py-func docutils literal notranslate"><span class="pre">construct_isotomic_conjugate()</span></code></a>: Midpoint-reflection construction of the
+        isotomic conjugate <span class="math notranslate nohighlight">\((u^{-1} : v^{-1} : w^{-1})\)</span> pairing Ceva’s contact point
+        <span class="math notranslate nohighlight">\(X(7)\)</span> (<em>Liber Secundus</em>, <em>Prop.</em> I) with the Nagel point <span class="math notranslate nohighlight">\(X(8)\)</span>.</p></li>
+        <li><p><a class="reference internal" href="#geometor.ceva.static_barycentrics.construct_cevian_menelaus_harmonic" title="geometor.ceva.static_barycentrics.construct_cevian_menelaus_harmonic"><code class="xref py py-func docutils literal notranslate"><span class="pre">construct_cevian_menelaus_harmonic()</span></code></a>: Dual Menelaus transversal <span class="math notranslate nohighlight">\(EF \cap BC = D'\)</span>
+        (<em>Liber Primus</em>, <em>Elementum</em> I &amp; <em>Prop.</em> VIII) proving harmonic division
+        <span class="math notranslate nohighlight">\((B, C; D, D') = -1\)</span>.</p></li>
+        <li><p><a class="reference internal" href="#geometor.ceva.static_barycentrics.verify_spread_ceva" title="geometor.ceva.static_barycentrics.verify_spread_ceva"><code class="xref py py-func docutils literal notranslate"><span class="pre">verify_spread_ceva()</span></code></a>: Rational Trigonometry <strong>Spread Ceva’s Theorem</strong>
+        verified via exact rational spreads and quadrances with zero square roots.</p></li>
+        </ul>
+        </li>
+        </ul>
+        <section class="level-2" id="attributes">
+        <h2>Attributes<a class="headerlink" href="#attributes" title="Link to this heading">¶</a></h2>
+        <table class="autosummary longtable docutils align-default">
+        <tbody>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.ceva.static_barycentrics.SymScalar" title="geometor.ceva.static_barycentrics.SymScalar"><code class="xref py py-obj docutils literal notranslate"><span class="pre">SymScalar</span></code></a></p></td>
+        <td><p></p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.ceva.static_barycentrics.HERONIAN_VERTICES" title="geometor.ceva.static_barycentrics.HERONIAN_VERTICES"><code class="xref py py-obj docutils literal notranslate"><span class="pre">HERONIAN_VERTICES</span></code></a></p></td>
+        <td><p>Canonical Heronian (13, 14, 15) triangle A=(5,12), B=(0,0), C=(14,0) with Area = 84.</p></td>
+        </tr>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.ceva.static_barycentrics.CANONICAL_CENTERS" title="geometor.ceva.static_barycentrics.CANONICAL_CENTERS"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CANONICAL_CENTERS</span></code></a></p></td>
+        <td><p>Exact integer homogeneous barycentric weights on the (13, 14, 15) Heronian triangle.</p></td>
+        </tr>
+        </tbody>
+        </table>
+        </section>
+        <section class="level-2" id="classes">
+        <h2>Classes<a class="headerlink" href="#classes" title="Link to this heading">¶</a></h2>
+        <table class="autosummary longtable docutils align-default">
+        <tbody>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.ceva.static_barycentrics.StaticBarycentricResult" title="geometor.ceva.static_barycentrics.StaticBarycentricResult"><code class="xref py py-obj docutils literal notranslate"><span class="pre">StaticBarycentricResult</span></code></a></p></td>
+        <td><p>Exact symbolic solution of Ceva's three-weight static equilibrium on triangle ABC.</p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.ceva.static_barycentrics.SpreadCevaResult" title="geometor.ceva.static_barycentrics.SpreadCevaResult"><code class="xref py py-obj docutils literal notranslate"><span class="pre">SpreadCevaResult</span></code></a></p></td>
+        <td><p>Exact Rational Trigonometry invariants for Spread Ceva's Theorem.</p></td>
+        </tr>
+        </tbody>
+        </table>
+        </section>
+        <section class="level-2" id="functions">
+        <h2>Functions<a class="headerlink" href="#functions" title="Link to this heading">¶</a></h2>
+        <table class="autosummary longtable docutils align-default">
+        <tbody>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.ceva.static_barycentrics.directed_ratio_collinear" title="geometor.ceva.static_barycentrics.directed_ratio_collinear"><code class="xref py py-obj docutils literal notranslate"><span class="pre">directed_ratio_collinear</span></code></a>(p_start, p_div, p_end) → sympy.Expr</p></td>
+        <td><p>Compute the exact directed segment ratio <code class="docutils literal notranslate"><span class="pre">(p_start</span> <span class="pre">-&gt;</span> <span class="pre">p_div)</span> <span class="pre">/</span> <span class="pre">(p_div</span> <span class="pre">-&gt;</span> <span class="pre">p_end)</span></code>.</p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.ceva.static_barycentrics.solve_static_barycentrics" title="geometor.ceva.static_barycentrics.solve_static_barycentrics"><code class="xref py py-obj docutils literal notranslate"><span class="pre">solve_static_barycentrics</span></code></a>(u, v, w[, vertices, name]) → StaticBarycentricResult</p></td>
+        <td><p>Solve Ceva's static equilibrium for homogeneous vertex weights <code class="docutils literal notranslate"><span class="pre">(u,</span> <span class="pre">v,</span> <span class="pre">w)</span></code>.</p></td>
+        </tr>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.ceva.static_barycentrics.evaluate_canonical_centers" title="geometor.ceva.static_barycentrics.evaluate_canonical_centers"><code class="xref py py-obj docutils literal notranslate"><span class="pre">evaluate_canonical_centers</span></code></a>() → dict[str, StaticBarycentricResult]</p></td>
+        <td><p>Evaluate all canonical centers in <a class="reference internal" href="#geometor.ceva.static_barycentrics.CANONICAL_CENTERS" title="geometor.ceva.static_barycentrics.CANONICAL_CENTERS"><code class="xref py py-data docutils literal notranslate"><span class="pre">CANONICAL_CENTERS</span></code></a> over <span class="math notranslate nohighlight">\(\mathbb{Q}\)</span>.</p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.ceva.static_barycentrics.prove_ceva_barycentric_identity" title="geometor.ceva.static_barycentrics.prove_ceva_barycentric_identity"><code class="xref py py-obj docutils literal notranslate"><span class="pre">prove_ceva_barycentric_identity</span></code></a>() → dict[str, sympy.Expr]</p></td>
+        <td><p>Prove Ceva's Theorem and sub-triangle area proportions universally over symbolic coordinates.</p></td>
+        </tr>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.ceva.static_barycentrics.construct_ceva_concurrency" title="geometor.ceva.static_barycentrics.construct_ceva_concurrency"><code class="xref py py-obj docutils literal notranslate"><span class="pre">construct_ceva_concurrency</span></code></a>([u, v, w, vertices]) → geometor.model.Model</p></td>
+        <td><p>Construct exact cevian concurrency in <code class="xref py py-class docutils literal notranslate"><span class="pre">Model</span></code> for weights <code class="docutils literal notranslate"><span class="pre">(u,</span> <span class="pre">v,</span> <span class="pre">w)</span></code>.</p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.ceva.static_barycentrics.construct_isotomic_conjugate" title="geometor.ceva.static_barycentrics.construct_isotomic_conjugate"><code class="xref py py-obj docutils literal notranslate"><span class="pre">construct_isotomic_conjugate</span></code></a>([u, v, w, vertices]) → geometor.model.Model</p></td>
+        <td><p>Construct the isotomic conjugate <span class="math notranslate nohighlight">\(P' = (u^{-1}:v^{-1}:w^{-1})\)</span> via side-midpoint reflection.</p></td>
+        </tr>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.ceva.static_barycentrics.construct_cevian_menelaus_harmonic" title="geometor.ceva.static_barycentrics.construct_cevian_menelaus_harmonic"><code class="xref py py-obj docutils literal notranslate"><span class="pre">construct_cevian_menelaus_harmonic</span></code></a>([u, v, w, vertices]) → geometor.model.Model</p></td>
+        <td><p>Construct the projective harmonic conjugate <code class="docutils literal notranslate"><span class="pre">D'</span> <span class="pre">=</span> <span class="pre">EF</span> <span class="pre">∩</span> <span class="pre">BC</span></code> of a cevian foot <code class="docutils literal notranslate"><span class="pre">D</span></code>.</p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.ceva.static_barycentrics.verify_spread_ceva" title="geometor.ceva.static_barycentrics.verify_spread_ceva"><code class="xref py py-obj docutils literal notranslate"><span class="pre">verify_spread_ceva</span></code></a>([u, v, w, vertices]) → SpreadCevaResult</p></td>
+        <td><p>Verify Rational Trigonometry <strong>Spread Ceva's Theorem</strong> with zero square roots.</p></td>
+        </tr>
+        </tbody>
+        </table>
+        </section>
+        <section class="level-2" id="module-contents">
+        <h2>Module Contents<a class="headerlink" href="#module-contents" title="Link to this heading">¶</a></h2>
+        <dl class="py data">
+        <dt class="sig sig-object py" id="geometor.ceva.static_barycentrics.SymScalar">
+        <span class="sig-prename descclassname"><span class="pre">geometor.ceva.static_barycentrics.</span></span><span class="sig-name descname"><span class="pre">SymScalar</span></span><a class="headerlink" href="#geometor.ceva.static_barycentrics.SymScalar" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py data">
+        <dt class="sig sig-object py" id="geometor.ceva.static_barycentrics.HERONIAN_VERTICES">
+        <span class="sig-prename descclassname"><span class="pre">geometor.ceva.static_barycentrics.</span></span><span class="sig-name descname"><span class="pre">HERONIAN_VERTICES</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">int</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">int</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">int</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">int</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">int</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">int</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span><span class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">((5,</span> <span class="pre">12),</span> <span class="pre">(0,</span> <span class="pre">0),</span> <span class="pre">(14,</span> <span class="pre">0))</span></span><a class="headerlink" href="#geometor.ceva.static_barycentrics.HERONIAN_VERTICES" title="Link to this definition">¶</a></dt>
+        <dd><p>Canonical Heronian (13, 14, 15) triangle A=(5,12), B=(0,0), C=(14,0) with Area = 84.</p>
+        </dd></dl>
+
+        <dl class="py class">
+        <dt class="sig sig-object py" id="geometor.ceva.static_barycentrics.StaticBarycentricResult">
+        <span class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></span><span class="sig-prename descclassname"><span class="pre">geometor.ceva.static_barycentrics.</span></span><span class="sig-name descname"><span class="pre">StaticBarycentricResult</span></span><a class="headerlink" href="#geometor.ceva.static_barycentrics.StaticBarycentricResult" title="Link to this definition">¶</a></dt>
+        <dd><p>Exact symbolic solution of Ceva’s three-weight static equilibrium on triangle ABC.</p>
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.ceva.static_barycentrics.StaticBarycentricResult.name">
+        <span class="sig-name descname"><span class="pre">name</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></span><a class="headerlink" href="#geometor.ceva.static_barycentrics.StaticBarycentricResult.name" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.ceva.static_barycentrics.StaticBarycentricResult.weights">
+        <span class="sig-name descname"><span class="pre">weights</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">sympy.Expr</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.Expr</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.Expr</span><span class="p"><span class="pre">]</span></span></span><a class="headerlink" href="#geometor.ceva.static_barycentrics.StaticBarycentricResult.weights" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.ceva.static_barycentrics.StaticBarycentricResult.vertices">
+        <span class="sig-name descname"><span class="pre">vertices</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">sympy.geometry.Point2D</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point2D</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point2D</span><span class="p"><span class="pre">]</span></span></span><a class="headerlink" href="#geometor.ceva.static_barycentrics.StaticBarycentricResult.vertices" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.ceva.static_barycentrics.StaticBarycentricResult.foot_d">
+        <span class="sig-name descname"><span class="pre">foot_d</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point2D</span></span><a class="headerlink" href="#geometor.ceva.static_barycentrics.StaticBarycentricResult.foot_d" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.ceva.static_barycentrics.StaticBarycentricResult.foot_e">
+        <span class="sig-name descname"><span class="pre">foot_e</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point2D</span></span><a class="headerlink" href="#geometor.ceva.static_barycentrics.StaticBarycentricResult.foot_e" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.ceva.static_barycentrics.StaticBarycentricResult.foot_f">
+        <span class="sig-name descname"><span class="pre">foot_f</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point2D</span></span><a class="headerlink" href="#geometor.ceva.static_barycentrics.StaticBarycentricResult.foot_f" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.ceva.static_barycentrics.StaticBarycentricResult.center">
+        <span class="sig-name descname"><span class="pre">center</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point2D</span></span><a class="headerlink" href="#geometor.ceva.static_barycentrics.StaticBarycentricResult.center" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.ceva.static_barycentrics.StaticBarycentricResult.ratio_af_fb">
+        <span class="sig-name descname"><span class="pre">ratio_af_fb</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#geometor.ceva.static_barycentrics.StaticBarycentricResult.ratio_af_fb" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.ceva.static_barycentrics.StaticBarycentricResult.ratio_bd_dc">
+        <span class="sig-name descname"><span class="pre">ratio_bd_dc</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#geometor.ceva.static_barycentrics.StaticBarycentricResult.ratio_bd_dc" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.ceva.static_barycentrics.StaticBarycentricResult.ratio_ce_ea">
+        <span class="sig-name descname"><span class="pre">ratio_ce_ea</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#geometor.ceva.static_barycentrics.StaticBarycentricResult.ratio_ce_ea" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.ceva.static_barycentrics.StaticBarycentricResult.ceva_product">
+        <span class="sig-name descname"><span class="pre">ceva_product</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#geometor.ceva.static_barycentrics.StaticBarycentricResult.ceva_product" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.ceva.static_barycentrics.StaticBarycentricResult.area_pbc">
+        <span class="sig-name descname"><span class="pre">area_pbc</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#geometor.ceva.static_barycentrics.StaticBarycentricResult.area_pbc" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.ceva.static_barycentrics.StaticBarycentricResult.area_pca">
+        <span class="sig-name descname"><span class="pre">area_pca</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#geometor.ceva.static_barycentrics.StaticBarycentricResult.area_pca" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.ceva.static_barycentrics.StaticBarycentricResult.area_pab">
+        <span class="sig-name descname"><span class="pre">area_pab</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#geometor.ceva.static_barycentrics.StaticBarycentricResult.area_pab" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.ceva.static_barycentrics.StaticBarycentricResult.lever_residuals">
+        <span class="sig-name descname"><span class="pre">lever_residuals</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">sympy.Expr</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.Expr</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.Expr</span><span class="p"><span class="pre">]</span></span></span><a class="headerlink" href="#geometor.ceva.static_barycentrics.StaticBarycentricResult.lever_residuals" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.ceva.static_barycentrics.StaticBarycentricResult.area_ratio_residuals">
+        <span class="sig-name descname"><span class="pre">area_ratio_residuals</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">sympy.Expr</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.Expr</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.Expr</span><span class="p"><span class="pre">]</span></span></span><a class="headerlink" href="#geometor.ceva.static_barycentrics.StaticBarycentricResult.area_ratio_residuals" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.ceva.static_barycentrics.StaticBarycentricResult.is_interior">
+        <span class="sig-name descname"><span class="pre">is_interior</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">bool</span></span><a class="headerlink" href="#geometor.ceva.static_barycentrics.StaticBarycentricResult.is_interior" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        </dd></dl>
+
+        <dl class="py class">
+        <dt class="sig sig-object py" id="geometor.ceva.static_barycentrics.SpreadCevaResult">
+        <span class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></span><span class="sig-prename descclassname"><span class="pre">geometor.ceva.static_barycentrics.</span></span><span class="sig-name descname"><span class="pre">SpreadCevaResult</span></span><a class="headerlink" href="#geometor.ceva.static_barycentrics.SpreadCevaResult" title="Link to this definition">¶</a></dt>
+        <dd><p>Exact Rational Trigonometry invariants for Spread Ceva’s Theorem.</p>
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.ceva.static_barycentrics.SpreadCevaResult.spread_bad">
+        <span class="sig-name descname"><span class="pre">spread_bad</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#geometor.ceva.static_barycentrics.SpreadCevaResult.spread_bad" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.ceva.static_barycentrics.SpreadCevaResult.spread_dac">
+        <span class="sig-name descname"><span class="pre">spread_dac</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#geometor.ceva.static_barycentrics.SpreadCevaResult.spread_dac" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.ceva.static_barycentrics.SpreadCevaResult.spread_cbe">
+        <span class="sig-name descname"><span class="pre">spread_cbe</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#geometor.ceva.static_barycentrics.SpreadCevaResult.spread_cbe" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.ceva.static_barycentrics.SpreadCevaResult.spread_eba">
+        <span class="sig-name descname"><span class="pre">spread_eba</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#geometor.ceva.static_barycentrics.SpreadCevaResult.spread_eba" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.ceva.static_barycentrics.SpreadCevaResult.spread_acf">
+        <span class="sig-name descname"><span class="pre">spread_acf</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#geometor.ceva.static_barycentrics.SpreadCevaResult.spread_acf" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.ceva.static_barycentrics.SpreadCevaResult.spread_fcb">
+        <span class="sig-name descname"><span class="pre">spread_fcb</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#geometor.ceva.static_barycentrics.SpreadCevaResult.spread_fcb" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.ceva.static_barycentrics.SpreadCevaResult.spread_product">
+        <span class="sig-name descname"><span class="pre">spread_product</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#geometor.ceva.static_barycentrics.SpreadCevaResult.spread_product" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.ceva.static_barycentrics.SpreadCevaResult.quadrance_product">
+        <span class="sig-name descname"><span class="pre">quadrance_product</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#geometor.ceva.static_barycentrics.SpreadCevaResult.quadrance_product" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        </dd></dl>
+
+        <dl class="py data">
+        <dt class="sig sig-object py" id="geometor.ceva.static_barycentrics.CANONICAL_CENTERS">
+        <span class="sig-prename descclassname"><span class="pre">geometor.ceva.static_barycentrics.</span></span><span class="sig-name descname"><span class="pre">CANONICAL_CENTERS</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">int</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">int</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">int</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span><a class="headerlink" href="#geometor.ceva.static_barycentrics.CANONICAL_CENTERS" title="Link to this definition">¶</a></dt>
+        <dd><p>Exact integer homogeneous barycentric weights on the (13, 14, 15) Heronian triangle.</p>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.ceva.static_barycentrics.directed_ratio_collinear">
+        <span class="sig-prename descclassname"><span class="pre">geometor.ceva.static_barycentrics.</span></span><span class="sig-name descname"><span class="pre">directed_ratio_collinear</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">p_start</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Point2D</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">p_div</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Point2D</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">p_end</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Point2D</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">sympy.Expr</span></span></span><a class="headerlink" href="#geometor.ceva.static_barycentrics.directed_ratio_collinear" title="Link to this definition">¶</a></dt>
+        <dd><p>Compute the exact directed segment ratio <code class="docutils literal notranslate"><span class="pre">(p_start</span> <span class="pre">-&gt;</span> <span class="pre">p_div)</span> <span class="pre">/</span> <span class="pre">(p_div</span> <span class="pre">-&gt;</span> <span class="pre">p_end)</span></code>.</p>
+        <p>Projects collinear displacements onto <code class="docutils literal notranslate"><span class="pre">p_end</span> <span class="pre">-</span> <span class="pre">p_start</span></code> so no square roots are
+        introduced. Positive when <code class="docutils literal notranslate"><span class="pre">p_div</span></code> lies strictly between <code class="docutils literal notranslate"><span class="pre">p_start</span></code> and <code class="docutils literal notranslate"><span class="pre">p_end</span></code>,
+        and negative when <code class="docutils literal notranslate"><span class="pre">p_div</span></code> divides <code class="docutils literal notranslate"><span class="pre">p_start</span> <span class="pre">p_end</span></code> externally.</p>
+        <dl class="field-list simple">
+        <dt class="field-odd">Parameters<span class="colon">:</span></dt>
+        <dd class="field-odd"><ul class="simple">
+        <li><p><strong>p_start</strong> – First endpoint of the directed base segment.</p></li>
+        <li><p><strong>p_div</strong> – Collinear division point (lever fulcrum).</p></li>
+        <li><p><strong>p_end</strong> – Second endpoint of the directed base segment.</p></li>
+        </ul>
+        </dd>
+        <dt class="field-even">Returns<span class="colon">:</span></dt>
+        <dd class="field-even"><p>Exact simplified SymPy expression for the signed ratio.</p>
+        </dd>
+        <dt class="field-odd">Raises<span class="colon">:</span></dt>
+        <dd class="field-odd"><p><strong>ValueError</strong> – If the three points are not collinear or <code class="docutils literal notranslate"><span class="pre">p_div</span> <span class="pre">==</span> <span class="pre">p_end</span></code>.</p>
+        </dd>
+        </dl>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.ceva.static_barycentrics.solve_static_barycentrics">
+        <span class="sig-prename descclassname"><span class="pre">geometor.ceva.static_barycentrics.</span></span><span class="sig-name descname"><span class="pre">solve_static_barycentrics</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">u</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#geometor.ceva.static_barycentrics.SymScalar" title="geometor.ceva.static_barycentrics.SymScalar"><span class="pre">SymScalar</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">v</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#geometor.ceva.static_barycentrics.SymScalar" title="geometor.ceva.static_barycentrics.SymScalar"><span class="pre">SymScalar</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">w</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#geometor.ceva.static_barycentrics.SymScalar" title="geometor.ceva.static_barycentrics.SymScalar"><span class="pre">SymScalar</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">vertices</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#geometor.ceva.static_barycentrics.SymScalar" title="geometor.ceva.static_barycentrics.SymScalar"><span class="pre">SymScalar</span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference internal" href="#geometor.ceva.static_barycentrics.SymScalar" title="geometor.ceva.static_barycentrics.SymScalar"><span class="pre">SymScalar</span></a><span class="p"><span class="pre">]</span></span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point2D</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="p"><span class="pre">...</span></span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">HERONIAN_VERTICES</span></span></em>, <em class="sig-param"><span class="keyword-only-separator o"><abbr title="Keyword-only parameters separator (PEP 3102)"><span class="pre">*</span></abbr></span></em>, <em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">'P'</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#geometor.ceva.static_barycentrics.StaticBarycentricResult" title="geometor.ceva.static_barycentrics.StaticBarycentricResult"><span class="pre">StaticBarycentricResult</span></a></span></span><a class="headerlink" href="#geometor.ceva.static_barycentrics.solve_static_barycentrics" title="Link to this definition">¶</a></dt>
+        <dd><p>Solve Ceva’s static equilibrium for homogeneous vertex weights <code class="docutils literal notranslate"><span class="pre">(u,</span> <span class="pre">v,</span> <span class="pre">w)</span></code>.</p>
+        <p>Places weights <code class="docutils literal notranslate"><span class="pre">u</span></code> at <code class="docutils literal notranslate"><span class="pre">A</span></code>, <code class="docutils literal notranslate"><span class="pre">v</span></code> at <code class="docutils literal notranslate"><span class="pre">B</span></code>, and <code class="docutils literal notranslate"><span class="pre">w</span></code> at <code class="docutils literal notranslate"><span class="pre">C</span></code>. By Archimedes’
+        Law of the Lever (<em>Liber Primus</em>, <em>Lemma</em> I):</p>
+        <ul class="simple">
+        <li><p><span class="math notranslate nohighlight">\(D = \frac{v B + w C}{v + w}\)</span> balances <span class="math notranslate nohighlight">\(B\)</span> and <span class="math notranslate nohighlight">\(C\)</span> with
+        <span class="math notranslate nohighlight">\(v \cdot \overline{BD} = w \cdot \overline{DC}\)</span>,</p></li>
+        <li><p><span class="math notranslate nohighlight">\(E = \frac{w C + u A}{w + u}\)</span> balances <span class="math notranslate nohighlight">\(C\)</span> and <span class="math notranslate nohighlight">\(A\)</span> with
+        <span class="math notranslate nohighlight">\(w \cdot \overline{CE} = u \cdot \overline{EA}\)</span>,</p></li>
+        <li><p><span class="math notranslate nohighlight">\(F = \frac{u A + v B}{u + v}\)</span> balances <span class="math notranslate nohighlight">\(A\)</span> and <span class="math notranslate nohighlight">\(B\)</span> with
+        <span class="math notranslate nohighlight">\(u \cdot \overline{AF} = v \cdot \overline{FB}\)</span>,</p></li>
+        </ul>
+        <p>and all three cevians <span class="math notranslate nohighlight">\(AD, BE, CF\)</span> concur at the static center of gravity
+        <span class="math notranslate nohighlight">\(P = \frac{u A + v B + w C}{u + v + w}\)</span>.</p>
+        <dl class="field-list simple">
+        <dt class="field-odd">Parameters<span class="colon">:</span></dt>
+        <dd class="field-odd"><ul class="simple">
+        <li><p><strong>u</strong> – Exact weight at vertex <code class="docutils literal notranslate"><span class="pre">A</span></code> (integer, rational, or SymPy expression).</p></li>
+        <li><p><strong>v</strong> – Exact weight at vertex <code class="docutils literal notranslate"><span class="pre">B</span></code>.</p></li>
+        <li><p><strong>w</strong> – Exact weight at vertex <code class="docutils literal notranslate"><span class="pre">C</span></code>.</p></li>
+        <li><p><strong>vertices</strong> – Three non-collinear vertices <code class="docutils literal notranslate"><span class="pre">(A,</span> <span class="pre">B,</span> <span class="pre">C)</span></code>.</p></li>
+        <li><p><strong>name</strong> – Label for the concurrency center.</p></li>
+        </ul>
+        </dd>
+        <dt class="field-even">Returns<span class="colon">:</span></dt>
+        <dd class="field-even"><p>Populated <a class="reference internal" href="#geometor.ceva.static_barycentrics.StaticBarycentricResult" title="geometor.ceva.static_barycentrics.StaticBarycentricResult"><code class="xref py py-class docutils literal notranslate"><span class="pre">StaticBarycentricResult</span></code></a> with verified lever and area invariants.</p>
+        </dd>
+        <dt class="field-odd">Raises<span class="colon">:</span></dt>
+        <dd class="field-odd"><p><strong>ValueError</strong> – If any pairwise or total weight sum vanishes (parallel cevian / point at infinity)
+        or if <code class="docutils literal notranslate"><span class="pre">vertices</span></code> are collinear or contain <code class="docutils literal notranslate"><span class="pre">Float</span></code> values.</p>
+        </dd>
+        </dl>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.ceva.static_barycentrics.evaluate_canonical_centers">
+        <span class="sig-prename descclassname"><span class="pre">geometor.ceva.static_barycentrics.</span></span><span class="sig-name descname"><span class="pre">evaluate_canonical_centers</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference internal" href="#geometor.ceva.static_barycentrics.StaticBarycentricResult" title="geometor.ceva.static_barycentrics.StaticBarycentricResult"><span class="pre">StaticBarycentricResult</span></a><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#geometor.ceva.static_barycentrics.evaluate_canonical_centers" title="Link to this definition">¶</a></dt>
+        <dd><p>Evaluate all canonical centers in <a class="reference internal" href="#geometor.ceva.static_barycentrics.CANONICAL_CENTERS" title="geometor.ceva.static_barycentrics.CANONICAL_CENTERS"><code class="xref py py-data docutils literal notranslate"><span class="pre">CANONICAL_CENTERS</span></code></a> over <span class="math notranslate nohighlight">\(\mathbb{Q}\)</span>.</p>
+        <dl class="field-list simple">
+        <dt class="field-odd">Returns<span class="colon">:</span></dt>
+        <dd class="field-odd"><p>Mapping from center key (<code class="docutils literal notranslate"><span class="pre">X(1)</span></code>, <code class="docutils literal notranslate"><span class="pre">X(2)</span></code>, <code class="docutils literal notranslate"><span class="pre">X(4)</span></code>, <code class="docutils literal notranslate"><span class="pre">X(6)</span></code>, <code class="docutils literal notranslate"><span class="pre">X(7)</span></code>,
+        <code class="docutils literal notranslate"><span class="pre">X(8)</span></code>, <code class="docutils literal notranslate"><span class="pre">J_A</span></code>) to its exact <a class="reference internal" href="#geometor.ceva.static_barycentrics.StaticBarycentricResult" title="geometor.ceva.static_barycentrics.StaticBarycentricResult"><code class="xref py py-class docutils literal notranslate"><span class="pre">StaticBarycentricResult</span></code></a>.</p>
+        </dd>
+        </dl>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.ceva.static_barycentrics.prove_ceva_barycentric_identity">
+        <span class="sig-prename descclassname"><span class="pre">geometor.ceva.static_barycentrics.</span></span><span class="sig-name descname"><span class="pre">prove_ceva_barycentric_identity</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.Expr</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#geometor.ceva.static_barycentrics.prove_ceva_barycentric_identity" title="Link to this definition">¶</a></dt>
+        <dd><p>Prove Ceva’s Theorem and sub-triangle area proportions universally over symbolic coordinates.</p>
+        <p>Uses indeterminate vertex coordinates <span class="math notranslate nohighlight">\(A=(x_A, y_A), B=(x_B, y_B), C=(x_C, y_C)\)</span>
+        and symbolic weights <span class="math notranslate nohighlight">\((u, v, w)\)</span> to verify that:</p>
+        <ol class="arabic simple">
+        <li><p><span class="math notranslate nohighlight">\(P = \frac{u A + v B + w C}{u + v + w}\)</span> is collinear with <span class="math notranslate nohighlight">\((A, D)\)</span>,
+        <span class="math notranslate nohighlight">\((B, E)\)</span>, and <span class="math notranslate nohighlight">\((C, F)\)</span>.</p></li>
+        <li><p><span class="math notranslate nohighlight">\(\frac{\overline{AF}}{\overline{FB}} \cdot \frac{\overline{BD}}{\overline{DC}} \cdot \frac{\overline{CE}}{\overline{EA}} - 1 = 0\)</span>.</p></li>
+        <li><p><span class="math notranslate nohighlight">\([\triangle PBC] : [\triangle PCA] : [\triangle PAB] = u : v : w\)</span>.</p></li>
+        </ol>
+        <dl class="field-list simple">
+        <dt class="field-odd">Returns<span class="colon">:</span></dt>
+        <dd class="field-odd"><p>Dictionary of simplified symbolic residuals (every residual identically <code class="docutils literal notranslate"><span class="pre">0</span></code>).</p>
+        </dd>
+        </dl>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.ceva.static_barycentrics.construct_ceva_concurrency">
+        <span class="sig-prename descclassname"><span class="pre">geometor.ceva.static_barycentrics.</span></span><span class="sig-name descname"><span class="pre">construct_ceva_concurrency</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">u</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">sympy.Rational</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">24</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">v</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">sympy.Rational</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">28</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">w</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">sympy.Rational</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">21</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">vertices</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">int</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">int</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">int</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">int</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">int</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">int</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">HERONIAN_VERTICES</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">geometor.model.Model</span></span></span><a class="headerlink" href="#geometor.ceva.static_barycentrics.construct_ceva_concurrency" title="Link to this definition">¶</a></dt>
+        <dd><p>Construct exact cevian concurrency in <code class="xref py py-class docutils literal notranslate"><span class="pre">Model</span></code> for weights <code class="docutils literal notranslate"><span class="pre">(u,</span> <span class="pre">v,</span> <span class="pre">w)</span></code>.</p>
+        <p>Supports both interior concurrency (all weights same sign, e.g. Gergonne <code class="docutils literal notranslate"><span class="pre">(24,</span> <span class="pre">28,</span> <span class="pre">21)</span></code>)
+        and exterior concurrency with negative static weights (<em>Elementum</em> III &amp; p. 5 <em>Scholium</em>,
+        e.g. <code class="docutils literal notranslate"><span class="pre">(-14,</span> <span class="pre">15,</span> <span class="pre">13)</span></code>). Constructs <code class="docutils literal notranslate"><span class="pre">P</span></code> strictly as the intersection <code class="docutils literal notranslate"><span class="pre">AD</span> <span class="pre">∩</span> <span class="pre">BE</span></code> via
+        <code class="docutils literal notranslate"><span class="pre">model.intersect</span></code> and deductively demonstrates <code class="docutils literal notranslate"><span class="pre">P</span> <span class="pre">∈</span> <span class="pre">CF</span></code> and Ceva’s ratio product <code class="docutils literal notranslate"><span class="pre">=</span> <span class="pre">1</span></code>.</p>
+        <dl class="field-list simple">
+        <dt class="field-odd">Parameters<span class="colon">:</span></dt>
+        <dd class="field-odd"><ul class="simple">
+        <li><p><strong>u</strong> – Exact rational weight at <code class="docutils literal notranslate"><span class="pre">A</span></code>.</p></li>
+        <li><p><strong>v</strong> – Exact rational weight at <code class="docutils literal notranslate"><span class="pre">B</span></code>.</p></li>
+        <li><p><strong>w</strong> – Exact rational weight at <code class="docutils literal notranslate"><span class="pre">C</span></code>.</p></li>
+        <li><p><strong>vertices</strong> – Rational vertex coordinates <code class="docutils literal notranslate"><span class="pre">(A,</span> <span class="pre">B,</span> <span class="pre">C)</span></code>.</p></li>
+        </ul>
+        </dd>
+        <dt class="field-even">Returns<span class="colon">:</span></dt>
+        <dd class="field-even"><p>Verified <code class="xref py py-class docutils literal notranslate"><span class="pre">Model</span></code> with <code class="docutils literal notranslate"><span class="pre">auto_intersect=False</span></code> and zero floats.</p>
+        </dd>
+        </dl>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.ceva.static_barycentrics.construct_isotomic_conjugate">
+        <span class="sig-prename descclassname"><span class="pre">geometor.ceva.static_barycentrics.</span></span><span class="sig-name descname"><span class="pre">construct_isotomic_conjugate</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">u</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">sympy.Rational</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">24</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">v</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">sympy.Rational</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">28</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">w</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">sympy.Rational</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">21</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">vertices</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">int</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">int</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">int</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">int</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">int</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">int</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">HERONIAN_VERTICES</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">geometor.model.Model</span></span></span><a class="headerlink" href="#geometor.ceva.static_barycentrics.construct_isotomic_conjugate" title="Link to this definition">¶</a></dt>
+        <dd><p>Construct the isotomic conjugate <span class="math notranslate nohighlight">\(P' = (u^{-1}:v^{-1}:w^{-1})\)</span> via side-midpoint reflection.</p>
+        <p>Reflects each cevian foot <span class="math notranslate nohighlight">\(D, E, F\)</span> of <span class="math notranslate nohighlight">\(P = (u:v:w)\)</span> across the midpoints
+        <span class="math notranslate nohighlight">\(M_A, M_B, M_C\)</span> of <span class="math notranslate nohighlight">\(BC, CA, AB\)</span> to obtain <span class="math notranslate nohighlight">\(D^*, E^*, F^*\)</span> satisfying
+        <span class="math notranslate nohighlight">\(BD^* = DC\)</span>, <span class="math notranslate nohighlight">\(CE^* = EA\)</span>, <span class="math notranslate nohighlight">\(AF^* = FB\)</span>, and proves by Ceva’s Converse
+        (<em>Liber Secundus</em>, <em>Prop.</em> I <em>Corollarium</em>) that <span class="math notranslate nohighlight">\(AD^*, BE^*, CF^*\)</span> concur at
+        the isotomic conjugate <span class="math notranslate nohighlight">\(P^*\)</span>. For <span class="math notranslate nohighlight">\((24:28:21)\)</span>, <span class="math notranslate nohighlight">\(P = X(7)\)</span> (Gergonne)
+        and <span class="math notranslate nohighlight">\(P^* = X(8)\)</span> (Nagel).</p>
+        <dl class="field-list simple">
+        <dt class="field-odd">Parameters<span class="colon">:</span></dt>
+        <dd class="field-odd"><ul class="simple">
+        <li><p><strong>u</strong> – Exact non-zero rational weight at <code class="docutils literal notranslate"><span class="pre">A</span></code>.</p></li>
+        <li><p><strong>v</strong> – Exact non-zero rational weight at <code class="docutils literal notranslate"><span class="pre">B</span></code>.</p></li>
+        <li><p><strong>w</strong> – Exact non-zero rational weight at <code class="docutils literal notranslate"><span class="pre">C</span></code>.</p></li>
+        <li><p><strong>vertices</strong> – Rational vertex coordinates <code class="docutils literal notranslate"><span class="pre">(A,</span> <span class="pre">B,</span> <span class="pre">C)</span></code>.</p></li>
+        </ul>
+        </dd>
+        <dt class="field-even">Returns<span class="colon">:</span></dt>
+        <dd class="field-even"><p>Verified <code class="xref py py-class docutils literal notranslate"><span class="pre">Model</span></code> proving isotomic segment equalities and concurrency.</p>
+        </dd>
+        </dl>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.ceva.static_barycentrics.construct_cevian_menelaus_harmonic">
+        <span class="sig-prename descclassname"><span class="pre">geometor.ceva.static_barycentrics.</span></span><span class="sig-name descname"><span class="pre">construct_cevian_menelaus_harmonic</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">u</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">sympy.Rational</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">24</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">v</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">sympy.Rational</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">28</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">w</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">sympy.Rational</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">21</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">vertices</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">int</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">int</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">int</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">int</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">int</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">int</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">HERONIAN_VERTICES</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">geometor.model.Model</span></span></span><a class="headerlink" href="#geometor.ceva.static_barycentrics.construct_cevian_menelaus_harmonic" title="Link to this definition">¶</a></dt>
+        <dd><p>Construct the projective harmonic conjugate <code class="docutils literal notranslate"><span class="pre">D'</span> <span class="pre">=</span> <span class="pre">EF</span> <span class="pre">∩</span> <span class="pre">BC</span></code> of a cevian foot <code class="docutils literal notranslate"><span class="pre">D</span></code>.</p>
+        <p>Combines Ceva’s interior concurrency (<em>Elementum</em> II, <em>Prop.</em> VII) with Ceva’s static
+        proof of Menelaus’s Transversal Theorem (<em>Elementum</em> I, <em>Prop.</em> VIII): for any point
+        <code class="docutils literal notranslate"><span class="pre">P</span> <span class="pre">=</span> <span class="pre">(u:v:w)</span></code> with <code class="docutils literal notranslate"><span class="pre">v</span> <span class="pre">!=</span> <span class="pre">w</span></code>, the line <code class="docutils literal notranslate"><span class="pre">EF</span></code> joining two cevian feet meets the
+        third side <code class="docutils literal notranslate"><span class="pre">BC</span></code> at <code class="docutils literal notranslate"><span class="pre">D'</span></code> such that <code class="docutils literal notranslate"><span class="pre">(B,</span> <span class="pre">C;</span> <span class="pre">D,</span> <span class="pre">D')</span> <span class="pre">=</span> <span class="pre">-1</span></code>.</p>
+        <dl class="field-list simple">
+        <dt class="field-odd">Parameters<span class="colon">:</span></dt>
+        <dd class="field-odd"><ul class="simple">
+        <li><p><strong>u</strong> – Exact rational weight at <code class="docutils literal notranslate"><span class="pre">A</span></code>.</p></li>
+        <li><p><strong>v</strong> – Exact rational weight at <code class="docutils literal notranslate"><span class="pre">B</span></code> (must differ from <code class="docutils literal notranslate"><span class="pre">w</span></code> so <code class="docutils literal notranslate"><span class="pre">EF</span></code> meets <code class="docutils literal notranslate"><span class="pre">BC</span></code> finitely).</p></li>
+        <li><p><strong>w</strong> – Exact rational weight at <code class="docutils literal notranslate"><span class="pre">C</span></code>.</p></li>
+        <li><p><strong>vertices</strong> – Rational vertex coordinates <code class="docutils literal notranslate"><span class="pre">(A,</span> <span class="pre">B,</span> <span class="pre">C)</span></code>.</p></li>
+        </ul>
+        </dd>
+        <dt class="field-even">Returns<span class="colon">:</span></dt>
+        <dd class="field-even"><p>Verified <code class="xref py py-class docutils literal notranslate"><span class="pre">Model</span></code> whose collinear points <code class="docutils literal notranslate"><span class="pre">(B,</span> <span class="pre">C,</span> <span class="pre">D,</span> <span class="pre">D')</span></code>
+        satisfy <code class="docutils literal notranslate"><span class="pre">is_harmonic(B,</span> <span class="pre">C,</span> <span class="pre">D,</span> <span class="pre">D')</span> <span class="pre">==</span> <span class="pre">True</span></code>.</p>
+        </dd>
+        </dl>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.ceva.static_barycentrics.verify_spread_ceva">
+        <span class="sig-prename descclassname"><span class="pre">geometor.ceva.static_barycentrics.</span></span><span class="sig-name descname"><span class="pre">verify_spread_ceva</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">u</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">sympy.Rational</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">14</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">v</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">sympy.Rational</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">15</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">w</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">sympy.Rational</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">13</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">vertices</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">int</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">int</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">int</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">int</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">int</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">int</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">HERONIAN_VERTICES</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#geometor.ceva.static_barycentrics.SpreadCevaResult" title="geometor.ceva.static_barycentrics.SpreadCevaResult"><span class="pre">SpreadCevaResult</span></a></span></span><a class="headerlink" href="#geometor.ceva.static_barycentrics.verify_spread_ceva" title="Link to this definition">¶</a></dt>
+        <dd><p>Verify Rational Trigonometry <strong>Spread Ceva’s Theorem</strong> with zero square roots.</p>
+        <p>For concurrent cevians <code class="docutils literal notranslate"><span class="pre">AD,</span> <span class="pre">BE,</span> <span class="pre">CF</span></code> meeting at <code class="docutils literal notranslate"><span class="pre">P</span> <span class="pre">=</span> <span class="pre">(u:v:w)</span></code>, computes the six
+        exact vertex spreads <code class="docutils literal notranslate"><span class="pre">s(BAD),</span> <span class="pre">s(DAC),</span> <span class="pre">s(CBE),</span> <span class="pre">s(EBA),</span> <span class="pre">s(ACF),</span> <span class="pre">s(FCB)</span></code> and six segment
+        quadrances over <span class="math notranslate nohighlight">\(\mathbb{Q}\)</span> and verifies:</p>
+        <div class="math notranslate nohighlight">
+        \[\frac{s(\angle BAD)}{s(\angle DAC)} \cdot
+        \frac{s(\angle CBE)}{s(\angle EBA)} \cdot
+        \frac{s(\angle ACF)}{s(\angle FCB)} = 1,
+        \qquad
+        \frac{Q(AF)}{Q(FB)} \cdot \frac{Q(BD)}{Q(DC)} \cdot \frac{Q(CE)}{Q(EA)} = 1.\]</div>
+        <dl class="field-list simple">
+        <dt class="field-odd">Parameters<span class="colon">:</span></dt>
+        <dd class="field-odd"><ul class="simple">
+        <li><p><strong>u</strong> – Exact rational weight at <code class="docutils literal notranslate"><span class="pre">A</span></code>.</p></li>
+        <li><p><strong>v</strong> – Exact rational weight at <code class="docutils literal notranslate"><span class="pre">B</span></code>.</p></li>
+        <li><p><strong>w</strong> – Exact rational weight at <code class="docutils literal notranslate"><span class="pre">C</span></code>.</p></li>
+        <li><p><strong>vertices</strong> – Rational vertex coordinates <code class="docutils literal notranslate"><span class="pre">(A,</span> <span class="pre">B,</span> <span class="pre">C)</span></code>.</p></li>
+        </ul>
+        </dd>
+        <dt class="field-even">Returns<span class="colon">:</span></dt>
+        <dd class="field-even"><p>Verified <a class="reference internal" href="#geometor.ceva.static_barycentrics.SpreadCevaResult" title="geometor.ceva.static_barycentrics.SpreadCevaResult"><code class="xref py py-class docutils literal notranslate"><span class="pre">SpreadCevaResult</span></code></a> over <span class="math notranslate nohighlight">\(\mathbb{Q}\)</span>.</p>
+        </dd>
+        </dl>
+        </dd></dl>
+
+        </section>
+        </section>
+
+      </div>
+      <footer class="book-footer">
+        <div class="book-footer-ornament">&#10086;</div>
+        <div class="book-footer-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../../../../index.html" title="Modules">&larr; <span class="nav-label">Modules</span></a>
+          </div>
+          <div class="book-nav-center">
+            <a class="book-toc-link" href="../../../../../index.html">GEOMETOR • ceva</a>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../polygon_tetrahedron/index.html" title="geometor.ceva.polygon_tetrahedron"><span class="nav-label">geometor.ceva.polygon_tetrahedron</span> &rarr;</a>
+          </div>
+        </div>
+      </footer>
+    </article>
+  </main>
+  <div class="asides">
+    <aside class="aside-search">
+      <h3>Search</h3>
+      <div id="searchbox" role="search">
+        <form id="rtd-search-form" class="wy-form search-form" action="../../../../../search.html" method="get">
+          <div class="search-field">
+            <input type="search" name="q" placeholder="Search docs..." aria-label="Search docs" autocomplete="off" />
+            <button type="submit" class="search-submit" aria-label="Search" title="Search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </div>
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+      </div>
+    </aside>
+    <aside class="aside-recent-logs">
+      <h3>Recent Logs</h3>
+      <ul>
+        <li><a href="../../../../../log/26.316-154500/index.html">Initial Bilingual Book Codex & Symbolic Engine of Ceva’s De Lineis Rectis Statica Constructio</a></li>
+      </ul>
+    </aside>
+    <aside class="aside-tags">
+      <h3>Tags</h3>
+      <ul>
+        <li><a href="../../../../../tags/barycentrics.html">barycentrics</a></li>
+        <li><a href="../../../../../tags/ceva.html">ceva</a></li>
+        <li><a href="../../../../../tags/indivisibles.html">indivisibles</a></li>
+        <li><a href="../../../../../tags/isotomic-conjugate.html">isotomic-conjugate</a></li>
+        <li><a href="../../../../../tags/menelaus.html">menelaus</a></li>
+        <li><a href="../../../../../tags/tetrahedron.html">tetrahedron</a></li>
+      </ul>
+    </aside>
+    <aside class="aside-categories">
+      <h3>Categories</h3>
+      <ul>
+        <li><a href="../../../../../categories/codex.html">codex</a></li>
+        <li><a href="../../../../../categories/symbolic-geometry.html">symbolic-geometry</a></li>
+        <li><a href="../../../../../categories/translation.html">translation</a></li>
+      </ul>
+    </aside>
+    <aside class="aside-types">
+      <h3>Types</h3>
+      <ul>
+        <li><a href="../../../../../types/log.html">log</a></li>
+      </ul>
+    </aside>
+  </div>
+  <footer>
+    <div class="footer-nav">
+      <ul>
+        <li><a href="../../../../../about/index.html"  >About GEOMETOR Ceva</a></li>
+      </ul>
+    </div>
+    <hr />
+    <div role="contentinfo">
+      <p>
+        &copy; Copyright 1678 Ludovico Monza (Milan) · Digital Codex & Symbolic Engine GEOMETOR.
+      </p>
+    </div>
+  </footer>
+
+  <script src="../../../../../_static/jquery.js?v=5d32c60e"></script>
+  <script src="../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+  <script src="../../../../../_static/documentation_options.js?v=01f34227"></script>
+  <script src="../../../../../_static/doctools.js?v=fd6eb6e6"></script>
+  <script src="../../../../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+  <script src="../../../../../_static/js/collection_controls.js?v=b6b5297a"></script>
+  <script src="../../../../../_static/js/geometor_interactive.js?v=b2892320"></script>
+  <script>window.MathJax = {"tex": {"inlineMath": [["\\(", "\\)"], ["$", "$"]], "displayMath": [["\\[", "\\]"], ["$$", "$$"]]}}</script>
+  <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
+  <script src="../../../../../_static/js/search_highlight.js"></script>
+
+</body>
+</html>

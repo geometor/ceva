@@ -1,0 +1,289 @@
+geometor.ceva.polygon_tetrahedron
+=================================
+
+.. py:module:: geometor.ceva.polygon_tetrahedron
+
+.. autoapi-nested-parse::
+
+   Multilateral polygons, circumscribed conics, 3D tetrahedra, and Appendix theorems (1678).
+
+   Formalizes *Liber Primus* (Props. V *Coroll.*, XXII–XXVI), *Liber Secundus* (*Lemma* I,
+   Props. I–XIV), and *Appendix Geometrica* (Props. I–XVI) of Giovanni Ceva's
+   *De lineis rectis se invicem secantibus statica constructio* (Milan, 1678) in 100%
+   exact symbolic algebra:
+
+   - **Odd Multilateral Polygon Ceva Concurrency** (:func:`verify_odd_polygon_ceva`,
+     :func:`construct_pentagon_ceva`): Verifies over :math:`\mathbb{Q}` that rays joining
+     the :math:`2m + 1` vertices of an odd polygon through a common point :math:`P` divide
+     the opposite sides in cyclic directed product :math:`+1`.
+   - **Circumscribed Conic Contact Ratio (*Liber Secundus, Lemma I*)**
+     (:func:`prove_circumscribed_polygon_lemma`): Proves symbolically that any :math:`n`-gon
+     circumscribed around a circle or ellipse (via Ceva's Borelli–Serenus cylindrical /
+     affine projection) divides its sides at the contact points in cyclic product :math:`1`.
+   - **3D Tetrahedron 7-Line Static Equilibrium (*Liber Primus, Prop. XXIII*)**
+     (:func:`solve_tetrahedron_static_equilibrium`): Computes the 6 edge fulcrums, 4 face
+     centers of gravity, and unique 3D center of gravity :math:`O` for four spatial weights
+     :math:`(m_A, m_B, m_C, m_D)`, proving that all 4 vertex-to-face-barycenter cevians and
+     all 3 opposite-edge fulcrum joins concur at :math:`O` (*"mira quadam concordia"*).
+   - **3D Skew Quadrilateral Concurrency (*Liber Primus, Elementum V Corollarium*)**
+     (:func:`verify_skew_quadrilateral_ceva`): Proves coplanarity and intersection of
+     opposite-side fulcrum joins on a non-planar 3D quadrilateral.
+   - **Appendix Geometrica Quadratures, Cubatures & Centers of Gravity**
+     (:func:`verify_appendix_invariants`): Symbolic verification of Hippocratean lune
+     quadrature (*Prop.* II), cylindrical hoof :math:`\frac{2}{3}` prism cubature (*Prop.* VII),
+     hemisphere :math:`5:3` centroid (*Prop.* XIII), and paraboloid :math:`2:1` centroid (*Prop.* XIV).
+
+
+
+Attributes
+----------
+
+.. autoapisummary::
+
+   geometor.ceva.polygon_tetrahedron.RATIONAL_PENTAGON
+   geometor.ceva.polygon_tetrahedron.RATIONAL_TETRAHEDRON
+
+
+Classes
+-------
+
+.. autoapisummary::
+
+   geometor.ceva.polygon_tetrahedron.OddPolygonCevaResult
+   geometor.ceva.polygon_tetrahedron.TetrahedronStaticResult
+   geometor.ceva.polygon_tetrahedron.SkewQuadrilateralResult
+
+
+Functions
+---------
+
+.. autoapisummary::
+
+   geometor.ceva.polygon_tetrahedron.verify_odd_polygon_ceva
+   geometor.ceva.polygon_tetrahedron.construct_pentagon_ceva
+   geometor.ceva.polygon_tetrahedron.prove_circumscribed_polygon_lemma
+   geometor.ceva.polygon_tetrahedron.solve_tetrahedron_static_equilibrium
+   geometor.ceva.polygon_tetrahedron.verify_skew_quadrilateral_ceva
+   geometor.ceva.polygon_tetrahedron.verify_appendix_invariants
+
+
+Module Contents
+---------------
+
+.. py:data:: RATIONAL_PENTAGON
+   :type:  tuple[tuple[int, int], ...]
+
+   Strictly convex rational pentagon in Q^2 for odd-polygon Ceva demonstrations.
+
+.. py:data:: RATIONAL_TETRAHEDRON
+   :type:  tuple[tuple[int, int, int], tuple[int, int, int], tuple[int, int, int], tuple[int, int, int]]
+   :value: ((0, 0, 0), (12, 0, 0), (3, 10, 0), (4, 3, 9))
+
+
+   Asymmetric non-degenerate rational tetrahedron in Z^3 (6 * Volume = 1080).
+
+.. py:class:: OddPolygonCevaResult
+
+   Exact verification record for Ceva's Theorem on an odd (2m + 1)-gon.
+
+
+   .. py:attribute:: n_sides
+      :type:  int
+
+
+   .. py:attribute:: vertices
+      :type:  tuple[sympy.geometry.Point2D, ...]
+
+
+   .. py:attribute:: center
+      :type:  sympy.geometry.Point2D
+
+
+   .. py:attribute:: feet
+      :type:  tuple[sympy.geometry.Point2D, ...]
+
+
+   .. py:attribute:: side_ratios
+      :type:  tuple[sympy.Expr, ...]
+
+
+   .. py:attribute:: cyclic_product
+      :type:  sympy.Expr
+
+
+.. py:class:: TetrahedronStaticResult
+
+   Exact 3D static equilibrium of 4 weights on a tetrahedron (Lib. I Prop. XXIII).
+
+
+   .. py:attribute:: weights
+      :type:  tuple[sympy.Expr, sympy.Expr, sympy.Expr, sympy.Expr]
+
+
+   .. py:attribute:: vertices
+      :type:  tuple[sympy.Matrix, sympy.Matrix, sympy.Matrix, sympy.Matrix]
+
+
+   .. py:attribute:: edge_fulcrums
+      :type:  dict[str, sympy.Matrix]
+
+
+   .. py:attribute:: face_centers
+      :type:  dict[str, sympy.Matrix]
+
+
+   .. py:attribute:: center_of_gravity
+      :type:  sympy.Matrix
+
+
+   .. py:attribute:: vertex_cevian_ratios
+      :type:  dict[str, sympy.Expr]
+
+
+   .. py:attribute:: bimedian_ratios
+      :type:  dict[str, sympy.Expr]
+
+
+   .. py:attribute:: concurrency_residuals_zero
+      :type:  bool
+
+
+.. py:class:: SkewQuadrilateralResult
+
+   Exact 3D skew-quadrilateral static concurrency (Lib. I Elem. V Corollarium).
+
+
+   .. py:attribute:: weights
+      :type:  tuple[sympy.Expr, sympy.Expr, sympy.Expr, sympy.Expr]
+
+
+   .. py:attribute:: vertices
+      :type:  tuple[sympy.Matrix, sympy.Matrix, sympy.Matrix, sympy.Matrix]
+
+
+   .. py:attribute:: side_fulcrums
+      :type:  tuple[sympy.Matrix, sympy.Matrix, sympy.Matrix, sympy.Matrix]
+
+
+   .. py:attribute:: center
+      :type:  sympy.Matrix
+
+
+   .. py:attribute:: cyclic_ratio_product
+      :type:  sympy.Expr
+
+
+   .. py:attribute:: tetrahedron_det6
+      :type:  sympy.Expr
+
+
+   .. py:attribute:: fulcrum_coplanarity_det
+      :type:  sympy.Expr
+
+
+.. py:function:: verify_odd_polygon_ceva(vertices: tuple[tuple[geometor.ceva.static_barycentrics.SymScalar, geometor.ceva.static_barycentrics.SymScalar] | sympy.geometry.Point2D, ...] = RATIONAL_PENTAGON, center: tuple[geometor.ceva.static_barycentrics.SymScalar, geometor.ceva.static_barycentrics.SymScalar] | sympy.geometry.Point2D = (4, 4)) -> OddPolygonCevaResult
+
+   Verify Ceva's cyclic ratio product ``= 1`` for any odd ``(2m + 1)``-gon.
+
+   For each vertex :math:`V_i` (:math:`0 \le i < 2m + 1`), projects the ray :math:`V_i P`
+   onto the opposite side line :math:`V_{i+m} V_{i+m+1}` (indices modulo :math:`2m + 1`)
+   at :math:`Q_i` and verifies:
+
+   .. math::
+
+      \prod_{i=0}^{2m} \frac{\overline{V_{i+m} Q_i}}{\overline{Q_i V_{i+m+1}}} = 1.
+
+   :param vertices: Sequence of ``2m + 1`` planar vertices (``n >= 3`` odd).
+   :param center: Concurrency point ``P`` not lying on any side line or parallel ray.
+
+   :returns: Verified :class:`OddPolygonCevaResult` with exact rational/symbolic ratios.
+
+
+.. py:function:: construct_pentagon_ceva(vertices: tuple[tuple[int, int], ...] = RATIONAL_PENTAGON, center: tuple[int, int] = (4, 4)) -> geometor.model.Model
+
+   Construct concurrent cevians of a rational pentagon in :class:`~geometor.model.Model`.
+
+   :param vertices: Five rational vertices ``V0..V4``.
+   :param center: Rational concurrency center ``P``.
+
+   :returns: Verified :class:`~geometor.model.Model` with ``auto_intersect=False`` and zero floats.
+
+
+.. py:function:: prove_circumscribed_polygon_lemma(n_sides: int = 5) -> dict[str, sympy.Expr]
+
+   Prove Ceva's *Liber Secundus, Lemma I* for polygons circumscribed about circles & ellipses.
+
+   In *Liber Secundus, Lemma I* (`tab. 4. figs. 32–35`), Ceva proves that if an :math:`n`-gon
+   is circumscribed around a circle—or, by cylindrical projection citing Borelli and Serenus,
+   around any ellipse—the contact points :math:`T_0, \dots, T_{n-1}` divide the sides in cyclic
+   product :math:`1`. This function verifies:
+
+   1. Equal tangent lengths :math:`t_k` from each vertex :math:`V_k` to a circle give
+      :math:`\prod_{k=0}^{n-1} \frac{t_k}{t_{k+1}} = 1`.
+   2. Applying a general symbolic invertible affine map :math:`X' = M X + b` (the planar
+      realization of Serenus/Borelli cylindrical section mapping the circle to an arbitrary
+      ellipse) preserves every collinear contact ratio :math:`\frac{V'_k T'_k}{T'_k V'_{k+1}}`
+      and maintains :math:`\prod_{k=0}^{n-1} \frac{V'_k T'_k}{T'_k V'_{k+1}} = 1`.
+
+   :param n_sides: Number of polygon sides (``n_sides >= 3``, odd or even).
+
+   :returns: Dictionary of simplified symbolic residuals (all identically ``0``).
+
+
+.. py:function:: solve_tetrahedron_static_equilibrium(weights: tuple[geometor.ceva.static_barycentrics.SymScalar, geometor.ceva.static_barycentrics.SymScalar, geometor.ceva.static_barycentrics.SymScalar, geometor.ceva.static_barycentrics.SymScalar] = (2, 3, 5, 8), vertices: tuple[tuple[geometor.ceva.static_barycentrics.SymScalar, geometor.ceva.static_barycentrics.SymScalar, geometor.ceva.static_barycentrics.SymScalar], tuple[geometor.ceva.static_barycentrics.SymScalar, geometor.ceva.static_barycentrics.SymScalar, geometor.ceva.static_barycentrics.SymScalar], tuple[geometor.ceva.static_barycentrics.SymScalar, geometor.ceva.static_barycentrics.SymScalar, geometor.ceva.static_barycentrics.SymScalar], tuple[geometor.ceva.static_barycentrics.SymScalar, geometor.ceva.static_barycentrics.SymScalar, geometor.ceva.static_barycentrics.SymScalar]] = RATIONAL_TETRAHEDRON) -> TetrahedronStaticResult
+
+   Solve Ceva's 3D tetrahedron 7-line static concurrency (*Liber Primus, Prop. XXIII*).
+
+   Places exact weights :math:`(m_A, m_B, m_C, m_D)` at the four vertices :math:`(A, B, C, D)`
+   of a 3D tetrahedron (`tab. 3. fig. 28`) and verifies that:
+
+   1. The **4 spatial cevians** :math:`A G_A, B G_B, C G_C, D G_D` joining each vertex to
+      the static center of gravity of its opposite triangular face concur at :math:`O`.
+   2. The **3 spatial bimedians** :math:`E_{AB} E_{CD}, E_{AC} E_{BD}, E_{AD} E_{BC}` joining
+      the lever fulcrums of opposite skew edges ALSO concur at the exact same point :math:`O`
+      (*"mira quadam concordia"*).
+
+   :param weights: Four exact non-zero vertex weights ``(m_A, m_B, m_C, m_D)``.
+   :param vertices: Four non-coplanar 3D vertices ``(A, B, C, D)``.
+
+   :returns: Verified :class:`TetrahedronStaticResult` over :math:`\mathbb{Q}` (or symbolic ring).
+
+
+.. py:function:: verify_skew_quadrilateral_ceva(weights: tuple[geometor.ceva.static_barycentrics.SymScalar, geometor.ceva.static_barycentrics.SymScalar, geometor.ceva.static_barycentrics.SymScalar, geometor.ceva.static_barycentrics.SymScalar] = (2, 3, 5, 7), vertices: tuple[tuple[geometor.ceva.static_barycentrics.SymScalar, geometor.ceva.static_barycentrics.SymScalar, geometor.ceva.static_barycentrics.SymScalar], tuple[geometor.ceva.static_barycentrics.SymScalar, geometor.ceva.static_barycentrics.SymScalar, geometor.ceva.static_barycentrics.SymScalar], tuple[geometor.ceva.static_barycentrics.SymScalar, geometor.ceva.static_barycentrics.SymScalar, geometor.ceva.static_barycentrics.SymScalar], tuple[geometor.ceva.static_barycentrics.SymScalar, geometor.ceva.static_barycentrics.SymScalar, geometor.ceva.static_barycentrics.SymScalar]] = RATIONAL_TETRAHEDRON) -> SkewQuadrilateralResult
+
+   Verify Ceva's *Liber Primus, Elementum V Corollarium* on a 3D skew quadrilateral.
+
+   Along the cyclic skew quadrilateral ``A -> B -> C -> D -> A`` in :math:`\mathbb{R}^3`,
+   the four side fulcrums :math:`E_{AB}, E_{BC}, E_{CD}, E_{DA}` divide the skew sides in
+   cyclic ratio product ``1``, lie in a single plane, and have opposite joins
+   :math:`E_{AB} E_{CD}` and :math:`E_{BC} E_{DA}` intersecting at :math:`O`.
+
+   :param weights: Four exact non-zero weights ``(m_A, m_B, m_C, m_D)``.
+   :param vertices: Four non-coplanar 3D vertices ``(A, B, C, D)``.
+
+   :returns: Verified :class:`SkewQuadrilateralResult`.
+
+
+.. py:function:: verify_appendix_invariants() -> dict[str, sympy.Expr]
+
+   Verify key quadrature, cubature, and centroid propositions in *Appendix Geometrica*.
+
+   Symbolically confirms four signature results from Printed pp. 63–83:
+
+   1. **Prop. II (Hippocratean Lune Quadrature)**: For an isosceles right triangle of legs
+      :math:`R` and hypotenuse :math:`R\sqrt{2}`, the lune bounded by the semicircle on
+      the hypotenuse (radius :math:`R/\sqrt{2}`) and the quadrant arc of radius :math:`R`
+      has exact area :math:`\frac{1}{2} R^2 = [\triangle ABC]` (all :math:`\pi` terms cancel).
+   2. **Prop. VII (Cylindrical Hoof / Ungula Cubature)**: A plane through a diameter of the
+      base of a right circular cylinder (radius :math:`R`, altitude :math:`H`) cuts off a
+      cylindrical hoof whose volume :math:`\frac{2}{3} R^2 H` equals exactly :math:`\frac{2}{3}`
+      of the circumscribed triangular prism (volume :math:`R^2 H`).
+   3. **Prop. XIII (Hemisphere Center of Gravity)**: Divides the axis from vertex to base
+      in the exact ratio :math:`5 : 3` (:math:`\bar{z} = \frac{3}{8} R` from the base,
+      :math:`\frac{5}{8} R` from the vertex).
+   4. **Prop. XIV (Parabolic Conoid Center of Gravity)**: Divides the axis from vertex to
+      base in the exact ratio :math:`2 : 1` (:math:`\bar{z} = \frac{2}{3} H` from the vertex).
+
+   :returns: Dictionary of exact symbolic ratios and zero-residuals.
+
+

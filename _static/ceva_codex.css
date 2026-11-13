@@ -1,0 +1,22 @@
+/* Typography and dark/light theme styling for GEOMETOR Ceva Bilingual Book Codex */
+
+.latin-source {
+  font-family: "Gentium Plus", "EB Garamond", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+  font-size: 1.05rem;
+  line-height: 1.78;
+}
+
+.title-page {
+  text-align: center;
+  padding: 1.5rem 1rem;
+  margin: 1.25rem 0 2rem 0;
+  border-top: 1px solid rgba(148, 163, 184, 0.35);
+  border-bottom: 1px solid rgba(148, 163, 184, 0.35);
+}
+
+svg.euclid-graphic {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 1.4rem auto;
+}

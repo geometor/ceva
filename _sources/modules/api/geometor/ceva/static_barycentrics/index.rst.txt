@@ -1,0 +1,346 @@
+geometor.ceva.static_barycentrics
+=================================
+
+.. py:module:: geometor.ceva.static_barycentrics
+
+.. autoapi-nested-parse::
+
+   Exact static-barycentric solver and constructive proofs for Ceva's Theorem (1678).
+
+   Models Giovanni Ceva's *De lineis rectis se invicem secantibus statica constructio*
+   (Milan, 1678) in 100% exact symbolic algebra over :math:`\mathbb{Q}` and symbolic
+   rings using :mod:`sympy` and :mod:`geometor.model`:
+
+   - **Static-Mass Solver** (:func:`solve_static_barycentrics`): Assigns exact homogeneous
+     weights :math:`(u : v : w)` to vertices :math:`(A, B, C)` (*Liber Primus*, *Elementa*
+     I–III & *Scholium* p. 5 on negative weights :math:`F - A`), computes the three
+     Archimedean lever fulcrums :math:`D \in BC`, :math:`E \in CA`, :math:`F \in AB`,
+     the static center of gravity :math:`P`, signed segment ratios, signed sub-triangle
+     area ratios (*Appendix Geometrica*), and verifies :math:`\frac{AF}{FB}\cdot\frac{BD}{DC}\cdot\frac{CE}{EA} = 1`.
+   - **Canonical Rational Triangle Centers** (:data:`CANONICAL_CENTERS`,
+     :func:`evaluate_canonical_centers`): Evaluates :math:`X(1), X(2), X(4), X(6), X(7), X(8)`
+     and the exterior :math:`A`-excenter :math:`J_A` on the Heronian :math:`(13, 14, 15)`
+     triangle :math:`A=(5, 12), B=(0, 0), C=(14, 0)` where every coordinate lies in :math:`\mathbb{Q}`.
+   - **Constructive ``@proposition`` Proofs**:
+
+     - :func:`construct_ceva_concurrency`: Targeted ``geometor.model`` construction of
+       interior and exterior cevian concurrency (*Liber Primus*, *Elementa* II–III & *Prop.* VI).
+     - :func:`construct_isotomic_conjugate`: Midpoint-reflection construction of the
+       isotomic conjugate :math:`(u^{-1} : v^{-1} : w^{-1})` pairing Ceva's contact point
+       :math:`X(7)` (*Liber Secundus*, *Prop.* I) with the Nagel point :math:`X(8)`.
+     - :func:`construct_cevian_menelaus_harmonic`: Dual Menelaus transversal :math:`EF \cap BC = D'`
+       (*Liber Primus*, *Elementum* I & *Prop.* VIII) proving harmonic division
+       :math:`(B, C; D, D') = -1`.
+     - :func:`verify_spread_ceva`: Rational Trigonometry **Spread Ceva's Theorem**
+       verified via exact rational spreads and quadrances with zero square roots.
+
+
+
+Attributes
+----------
+
+.. autoapisummary::
+
+   geometor.ceva.static_barycentrics.SymScalar
+   geometor.ceva.static_barycentrics.HERONIAN_VERTICES
+   geometor.ceva.static_barycentrics.CANONICAL_CENTERS
+
+
+Classes
+-------
+
+.. autoapisummary::
+
+   geometor.ceva.static_barycentrics.StaticBarycentricResult
+   geometor.ceva.static_barycentrics.SpreadCevaResult
+
+
+Functions
+---------
+
+.. autoapisummary::
+
+   geometor.ceva.static_barycentrics.directed_ratio_collinear
+   geometor.ceva.static_barycentrics.solve_static_barycentrics
+   geometor.ceva.static_barycentrics.evaluate_canonical_centers
+   geometor.ceva.static_barycentrics.prove_ceva_barycentric_identity
+   geometor.ceva.static_barycentrics.construct_ceva_concurrency
+   geometor.ceva.static_barycentrics.construct_isotomic_conjugate
+   geometor.ceva.static_barycentrics.construct_cevian_menelaus_harmonic
+   geometor.ceva.static_barycentrics.verify_spread_ceva
+
+
+Module Contents
+---------------
+
+.. py:data:: SymScalar
+
+.. py:data:: HERONIAN_VERTICES
+   :type:  tuple[tuple[int, int], tuple[int, int], tuple[int, int]]
+   :value: ((5, 12), (0, 0), (14, 0))
+
+
+   Canonical Heronian (13, 14, 15) triangle A=(5,12), B=(0,0), C=(14,0) with Area = 84.
+
+.. py:class:: StaticBarycentricResult
+
+   Exact symbolic solution of Ceva's three-weight static equilibrium on triangle ABC.
+
+
+   .. py:attribute:: name
+      :type:  str
+
+
+   .. py:attribute:: weights
+      :type:  tuple[sympy.Expr, sympy.Expr, sympy.Expr]
+
+
+   .. py:attribute:: vertices
+      :type:  tuple[sympy.geometry.Point2D, sympy.geometry.Point2D, sympy.geometry.Point2D]
+
+
+   .. py:attribute:: foot_d
+      :type:  sympy.geometry.Point2D
+
+
+   .. py:attribute:: foot_e
+      :type:  sympy.geometry.Point2D
+
+
+   .. py:attribute:: foot_f
+      :type:  sympy.geometry.Point2D
+
+
+   .. py:attribute:: center
+      :type:  sympy.geometry.Point2D
+
+
+   .. py:attribute:: ratio_af_fb
+      :type:  sympy.Expr
+
+
+   .. py:attribute:: ratio_bd_dc
+      :type:  sympy.Expr
+
+
+   .. py:attribute:: ratio_ce_ea
+      :type:  sympy.Expr
+
+
+   .. py:attribute:: ceva_product
+      :type:  sympy.Expr
+
+
+   .. py:attribute:: area_pbc
+      :type:  sympy.Expr
+
+
+   .. py:attribute:: area_pca
+      :type:  sympy.Expr
+
+
+   .. py:attribute:: area_pab
+      :type:  sympy.Expr
+
+
+   .. py:attribute:: lever_residuals
+      :type:  tuple[sympy.Expr, sympy.Expr, sympy.Expr]
+
+
+   .. py:attribute:: area_ratio_residuals
+      :type:  tuple[sympy.Expr, sympy.Expr, sympy.Expr]
+
+
+   .. py:attribute:: is_interior
+      :type:  bool
+
+
+.. py:class:: SpreadCevaResult
+
+   Exact Rational Trigonometry invariants for Spread Ceva's Theorem.
+
+
+   .. py:attribute:: spread_bad
+      :type:  sympy.Expr
+
+
+   .. py:attribute:: spread_dac
+      :type:  sympy.Expr
+
+
+   .. py:attribute:: spread_cbe
+      :type:  sympy.Expr
+
+
+   .. py:attribute:: spread_eba
+      :type:  sympy.Expr
+
+
+   .. py:attribute:: spread_acf
+      :type:  sympy.Expr
+
+
+   .. py:attribute:: spread_fcb
+      :type:  sympy.Expr
+
+
+   .. py:attribute:: spread_product
+      :type:  sympy.Expr
+
+
+   .. py:attribute:: quadrance_product
+      :type:  sympy.Expr
+
+
+.. py:data:: CANONICAL_CENTERS
+   :type:  dict[str, tuple[str, tuple[int, int, int]]]
+
+   Exact integer homogeneous barycentric weights on the (13, 14, 15) Heronian triangle.
+
+.. py:function:: directed_ratio_collinear(p_start: sympy.geometry.Point2D, p_div: sympy.geometry.Point2D, p_end: sympy.geometry.Point2D) -> sympy.Expr
+
+   Compute the exact directed segment ratio ``(p_start -> p_div) / (p_div -> p_end)``.
+
+   Projects collinear displacements onto ``p_end - p_start`` so no square roots are
+   introduced. Positive when ``p_div`` lies strictly between ``p_start`` and ``p_end``,
+   and negative when ``p_div`` divides ``p_start p_end`` externally.
+
+   :param p_start: First endpoint of the directed base segment.
+   :param p_div: Collinear division point (lever fulcrum).
+   :param p_end: Second endpoint of the directed base segment.
+
+   :returns: Exact simplified SymPy expression for the signed ratio.
+
+   :raises ValueError: If the three points are not collinear or ``p_div == p_end``.
+
+
+.. py:function:: solve_static_barycentrics(u: SymScalar, v: SymScalar, w: SymScalar, vertices: tuple[tuple[SymScalar, SymScalar] | sympy.geometry.Point2D, ...] = HERONIAN_VERTICES, *, name: str = 'P') -> StaticBarycentricResult
+
+   Solve Ceva's static equilibrium for homogeneous vertex weights ``(u, v, w)``.
+
+   Places weights ``u`` at ``A``, ``v`` at ``B``, and ``w`` at ``C``. By Archimedes'
+   Law of the Lever (*Liber Primus*, *Lemma* I):
+
+   - :math:`D = \frac{v B + w C}{v + w}` balances :math:`B` and :math:`C` with
+     :math:`v \cdot \overline{BD} = w \cdot \overline{DC}`,
+   - :math:`E = \frac{w C + u A}{w + u}` balances :math:`C` and :math:`A` with
+     :math:`w \cdot \overline{CE} = u \cdot \overline{EA}`,
+   - :math:`F = \frac{u A + v B}{u + v}` balances :math:`A` and :math:`B` with
+     :math:`u \cdot \overline{AF} = v \cdot \overline{FB}`,
+
+   and all three cevians :math:`AD, BE, CF` concur at the static center of gravity
+   :math:`P = \frac{u A + v B + w C}{u + v + w}`.
+
+   :param u: Exact weight at vertex ``A`` (integer, rational, or SymPy expression).
+   :param v: Exact weight at vertex ``B``.
+   :param w: Exact weight at vertex ``C``.
+   :param vertices: Three non-collinear vertices ``(A, B, C)``.
+   :param name: Label for the concurrency center.
+
+   :returns: Populated :class:`StaticBarycentricResult` with verified lever and area invariants.
+
+   :raises ValueError: If any pairwise or total weight sum vanishes (parallel cevian / point at infinity)
+       or if ``vertices`` are collinear or contain ``Float`` values.
+
+
+.. py:function:: evaluate_canonical_centers() -> dict[str, StaticBarycentricResult]
+
+   Evaluate all canonical centers in :data:`CANONICAL_CENTERS` over :math:`\mathbb{Q}`.
+
+   :returns: Mapping from center key (``X(1)``, ``X(2)``, ``X(4)``, ``X(6)``, ``X(7)``,
+             ``X(8)``, ``J_A``) to its exact :class:`StaticBarycentricResult`.
+
+
+.. py:function:: prove_ceva_barycentric_identity() -> dict[str, sympy.Expr]
+
+   Prove Ceva's Theorem and sub-triangle area proportions universally over symbolic coordinates.
+
+   Uses indeterminate vertex coordinates :math:`A=(x_A, y_A), B=(x_B, y_B), C=(x_C, y_C)`
+   and symbolic weights :math:`(u, v, w)` to verify that:
+
+   1. :math:`P = \frac{u A + v B + w C}{u + v + w}` is collinear with :math:`(A, D)`,
+      :math:`(B, E)`, and :math:`(C, F)`.
+   2. :math:`\frac{\overline{AF}}{\overline{FB}} \cdot \frac{\overline{BD}}{\overline{DC}} \cdot \frac{\overline{CE}}{\overline{EA}} - 1 = 0`.
+   3. :math:`[\triangle PBC] : [\triangle PCA] : [\triangle PAB] = u : v : w`.
+
+   :returns: Dictionary of simplified symbolic residuals (every residual identically ``0``).
+
+
+.. py:function:: construct_ceva_concurrency(u: int | sympy.Rational = 24, v: int | sympy.Rational = 28, w: int | sympy.Rational = 21, vertices: tuple[tuple[int, int], tuple[int, int], tuple[int, int]] = HERONIAN_VERTICES) -> geometor.model.Model
+
+   Construct exact cevian concurrency in :class:`~geometor.model.Model` for weights ``(u, v, w)``.
+
+   Supports both interior concurrency (all weights same sign, e.g. Gergonne ``(24, 28, 21)``)
+   and exterior concurrency with negative static weights (*Elementum* III & p. 5 *Scholium*,
+   e.g. ``(-14, 15, 13)``). Constructs ``P`` strictly as the intersection ``AD ∩ BE`` via
+   ``model.intersect`` and deductively demonstrates ``P ∈ CF`` and Ceva's ratio product ``= 1``.
+
+   :param u: Exact rational weight at ``A``.
+   :param v: Exact rational weight at ``B``.
+   :param w: Exact rational weight at ``C``.
+   :param vertices: Rational vertex coordinates ``(A, B, C)``.
+
+   :returns: Verified :class:`~geometor.model.Model` with ``auto_intersect=False`` and zero floats.
+
+
+.. py:function:: construct_isotomic_conjugate(u: int | sympy.Rational = 24, v: int | sympy.Rational = 28, w: int | sympy.Rational = 21, vertices: tuple[tuple[int, int], tuple[int, int], tuple[int, int]] = HERONIAN_VERTICES) -> geometor.model.Model
+
+   Construct the isotomic conjugate :math:`P' = (u^{-1}:v^{-1}:w^{-1})` via side-midpoint reflection.
+
+   Reflects each cevian foot :math:`D, E, F` of :math:`P = (u:v:w)` across the midpoints
+   :math:`M_A, M_B, M_C` of :math:`BC, CA, AB` to obtain :math:`D^*, E^*, F^*` satisfying
+   :math:`BD^* = DC`, :math:`CE^* = EA`, :math:`AF^* = FB`, and proves by Ceva's Converse
+   (*Liber Secundus*, *Prop.* I *Corollarium*) that :math:`AD^*, BE^*, CF^*` concur at
+   the isotomic conjugate :math:`P^*`. For :math:`(24:28:21)`, :math:`P = X(7)` (Gergonne)
+   and :math:`P^* = X(8)` (Nagel).
+
+   :param u: Exact non-zero rational weight at ``A``.
+   :param v: Exact non-zero rational weight at ``B``.
+   :param w: Exact non-zero rational weight at ``C``.
+   :param vertices: Rational vertex coordinates ``(A, B, C)``.
+
+   :returns: Verified :class:`~geometor.model.Model` proving isotomic segment equalities and concurrency.
+
+
+.. py:function:: construct_cevian_menelaus_harmonic(u: int | sympy.Rational = 24, v: int | sympy.Rational = 28, w: int | sympy.Rational = 21, vertices: tuple[tuple[int, int], tuple[int, int], tuple[int, int]] = HERONIAN_VERTICES) -> geometor.model.Model
+
+   Construct the projective harmonic conjugate ``D' = EF ∩ BC`` of a cevian foot ``D``.
+
+   Combines Ceva's interior concurrency (*Elementum* II, *Prop.* VII) with Ceva's static
+   proof of Menelaus's Transversal Theorem (*Elementum* I, *Prop.* VIII): for any point
+   ``P = (u:v:w)`` with ``v != w``, the line ``EF`` joining two cevian feet meets the
+   third side ``BC`` at ``D'`` such that ``(B, C; D, D') = -1``.
+
+   :param u: Exact rational weight at ``A``.
+   :param v: Exact rational weight at ``B`` (must differ from ``w`` so ``EF`` meets ``BC`` finitely).
+   :param w: Exact rational weight at ``C``.
+   :param vertices: Rational vertex coordinates ``(A, B, C)``.
+
+   :returns: Verified :class:`~geometor.model.Model` whose collinear points ``(B, C, D, D')``
+             satisfy ``is_harmonic(B, C, D, D') == True``.
+
+
+.. py:function:: verify_spread_ceva(u: int | sympy.Rational = 14, v: int | sympy.Rational = 15, w: int | sympy.Rational = 13, vertices: tuple[tuple[int, int], tuple[int, int], tuple[int, int]] = HERONIAN_VERTICES) -> SpreadCevaResult
+
+   Verify Rational Trigonometry **Spread Ceva's Theorem** with zero square roots.
+
+   For concurrent cevians ``AD, BE, CF`` meeting at ``P = (u:v:w)``, computes the six
+   exact vertex spreads ``s(BAD), s(DAC), s(CBE), s(EBA), s(ACF), s(FCB)`` and six segment
+   quadrances over :math:`\mathbb{Q}` and verifies:
+
+   .. math::
+
+      \frac{s(\angle BAD)}{s(\angle DAC)} \cdot
+      \frac{s(\angle CBE)}{s(\angle EBA)} \cdot
+      \frac{s(\angle ACF)}{s(\angle FCB)} = 1,
+      \qquad
+      \frac{Q(AF)}{Q(FB)} \cdot \frac{Q(BD)}{Q(DC)} \cdot \frac{Q(CE)}{Q(EA)} = 1.
+
+   :param u: Exact rational weight at ``A``.
+   :param v: Exact rational weight at ``B``.
+   :param w: Exact rational weight at ``C``.
+   :param vertices: Rational vertex coordinates ``(A, B, C)``.
+
+   :returns: Verified :class:`SpreadCevaResult` over :math:`\mathbb{Q}`.
+
+

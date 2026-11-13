@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="euclid-graphic" viewBox="0 0 940 440" role="img" aria-label="Ceva Liber Secundus Odd Pentagon Concurrency and Lemma I Circumscribed Ellipse Projection">
+  <defs>
+    <marker id="geom-tick-1" viewBox="-2 -6 4 12" refX="0" refY="0" markerWidth="4" markerHeight="12" orient="auto">
+      <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="currentColor" stroke-width="1.35" stroke-linecap="round"/>
+    </marker>
+    <marker id="geom-tick-2" viewBox="-4 -6 8 12" refX="0" refY="0" markerWidth="8" markerHeight="12" orient="auto">
+      <line x1="-1.8" y1="-4.5" x2="-1.8" y2="4.5" stroke="currentColor" stroke-width="1.35" stroke-linecap="round"/>
+      <line x1="1.8" y1="-4.5" x2="1.8" y2="4.5" stroke="currentColor" stroke-width="1.35" stroke-linecap="round"/>
+    </marker>
+    <marker id="geom-tick-3" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" orient="auto">
+      <line x1="-3.4" y1="-4.5" x2="-3.4" y2="4.5" stroke="currentColor" stroke-width="1.35" stroke-linecap="round"/>
+      <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="currentColor" stroke-width="1.35" stroke-linecap="round"/>
+      <line x1="3.4" y1="-4.5" x2="3.4" y2="4.5" stroke="currentColor" stroke-width="1.35" stroke-linecap="round"/>
+    </marker>
+  </defs>
+  <g id="elements">
+    <path class="geom-line" d="M 105.00 360.00 L 207.00 360.00 L 309.00 360.00" fill="none" data-ref="pentagon" stroke-width="2.00"/>
+    <path class="geom-line" d="M 105.00 360.00 L 210.48 254.52 L 315.95 149.05" fill="none" data-ref="cev0" stroke="#d97706" stroke-width="1.65"/>
+    <path class="geom-line" d="M 309.00 360.00 L 347.25 283.50 L 385.50 207.00" fill="none" data-ref="pentagon" stroke-width="2.00"/>
+    <path class="geom-line" d="M 309.00 360.00 L 211.25 262.25 L 113.50 164.50" fill="none" data-ref="cev1" stroke="#d97706" stroke-width="1.65"/>
+    <path class="geom-line" d="M 385.50 207.00 L 309.00 143.25 L 232.50 79.50" fill="none" data-ref="pentagon" stroke-width="2.00"/>
+    <path class="geom-line" d="M 385.50 207.00 L 234.16 250.24 L 82.83 293.48" fill="none" data-ref="cev2" stroke="#d97706" stroke-width="1.65"/>
+    <path class="geom-line" d="M 232.50 79.50 L 143.25 143.25 L 54.00 207.00" fill="none" data-ref="pentagon" stroke-width="2.00"/>
+    <path class="geom-line" d="M 232.50 79.50 L 212.46 219.75 L 192.43 360.00" fill="none" data-ref="cev3" stroke="#d97706" stroke-width="1.65"/>
+    <path class="geom-line" d="M 54.00 207.00 L 79.50 283.50 L 105.00 360.00" fill="none" data-ref="pentagon" stroke-width="2.00"/>
+    <path class="geom-line" d="M 54.00 207.00 L 196.07 254.36 L 338.14 301.71" fill="none" data-ref="cev4" stroke="#d97706" stroke-width="1.65"/>
+    <circle class="geom-circle" cx="695.00" cy="140.00" r="56.00" fill="none" data-ref="circleC" stroke="#0284c7" stroke-width="1.80"/>
+    <ellipse class="geom-circle" cx="695.00" cy="305.00" rx="102.00" ry="54.00" fill="none" data-ref="ellipseE" stroke="#7c3aed" stroke-width="1.90"/>
+    <path class="geom-line" d="M 763.27 153.89 L 746.22 117.34 L 729.18 80.80" fill="none" data-ref="circleC" stroke-width="1.50"/>
+    <path class="geom-line" d="M 819.34 318.39 L 788.30 283.15 L 757.26 247.91" fill="none" data-ref="ellipseE" stroke-width="1.70"/>
+    <path class="geom-line" d="M 745.75 116.33 L 766.60 199.26 L 787.44 282.18" fill="none" data-ref="projCyl" stroke="#94a3b8" stroke-width="1.10" stroke-dasharray="4 3"/>
+    <path class="geom-line" d="M 729.18 80.80 L 689.01 84.31 L 648.84 87.82" fill="none" data-ref="circleC" stroke-width="1.50"/>
+    <path class="geom-line" d="M 757.26 247.91 L 684.09 251.30 L 610.92 254.69" fill="none" data-ref="ellipseE" stroke-width="1.70"/>
+    <path class="geom-line" d="M 690.12 84.21 L 688.11 167.71 L 686.11 251.21" fill="none" data-ref="projCyl" stroke="#94a3b8" stroke-width="1.10" stroke-dasharray="4 3"/>
+    <path class="geom-line" d="M 648.84 87.82 L 640.46 127.27 L 632.07 166.71" fill="none" data-ref="circleC" stroke-width="1.50"/>
+    <path class="geom-line" d="M 610.92 254.69 L 595.65 292.72 L 580.38 330.76" fill="none" data-ref="ellipseE" stroke-width="1.70"/>
+    <path class="geom-line" d="M 640.22 128.36 L 617.73 211.06 L 595.23 293.77" fill="none" data-ref="projCyl" stroke="#94a3b8" stroke-width="1.10" stroke-dasharray="4 3"/>
+    <path class="geom-line" d="M 632.07 166.71 L 666.59 188.28 L 701.11 209.85" fill="none" data-ref="circleC" stroke-width="1.50"/>
+    <path class="geom-line" d="M 580.38 330.76 L 643.26 351.56 L 706.13 372.36" fill="none" data-ref="ellipseE" stroke-width="1.70"/>
+    <path class="geom-line" d="M 665.32 187.49 L 653.14 269.14 L 640.95 350.79" fill="none" data-ref="projCyl" stroke="#94a3b8" stroke-width="1.10" stroke-dasharray="4 3"/>
+    <path class="geom-line" d="M 701.11 209.85 L 732.19 181.87 L 763.27 153.89" fill="none" data-ref="circleC" stroke-width="1.50"/>
+    <path class="geom-line" d="M 706.13 372.36 L 762.74 345.38 L 819.34 318.39" fill="none" data-ref="ellipseE" stroke-width="1.70"/>
+    <path class="geom-line" d="M 732.47 181.62 L 747.86 263.37 L 763.25 345.13" fill="none" data-ref="projCyl" stroke="#94a3b8" stroke-width="1.10" stroke-dasharray="4 3"/>
+  </g>
+  <g id="graphics">
+  </g>
+  <g id="highlights">
+    <polygon class="geom-polygon" points="105.00,360.00 309.00,360.00 385.50,207.00 232.50,79.50 54.00,207.00" fill="#0284c7" fill-opacity="0.07" stroke="none" data-ref="pentagon"/>
+  </g>
+  <g id="points">
+    <circle class="geom-point" cx="105.00" cy="360.00" r="3.60" data-ref="V0"/>
+    <circle class="geom-point" cx="315.95" cy="149.05" r="3.20" fill="#0284c7" data-ref="Q0"/>
+    <circle class="geom-point" cx="309.00" cy="360.00" r="3.60" data-ref="V1"/>
+    <circle class="geom-point" cx="113.50" cy="164.50" r="3.20" fill="#0284c7" data-ref="Q1"/>
+    <circle class="geom-point" cx="385.50" cy="207.00" r="3.60" data-ref="V2"/>
+    <circle class="geom-point" cx="82.83" cy="293.48" r="3.20" fill="#0284c7" data-ref="Q2"/>
+    <circle class="geom-point" cx="232.50" cy="79.50" r="3.60" data-ref="V3"/>
+    <circle class="geom-point" cx="192.43" cy="360.00" r="3.20" fill="#0284c7" data-ref="Q3"/>
+    <circle class="geom-point" cx="54.00" cy="207.00" r="3.60" data-ref="V4"/>
+    <circle class="geom-point" cx="338.14" cy="301.71" r="3.20" fill="#0284c7" data-ref="Q4"/>
+    <circle class="geom-point" cx="207.00" cy="258.00" r="4.60" fill="#dc2626" data-ref="P"/>
+    <circle class="geom-point" cx="745.75" cy="116.33" r="2.90" fill="#0284c7" data-ref="circleC"/>
+    <circle class="geom-point" cx="787.44" cy="282.18" r="3.10" fill="#7c3aed" data-ref="ellipseE"/>
+    <circle class="geom-point" cx="690.12" cy="84.21" r="2.90" fill="#0284c7" data-ref="circleC"/>
+    <circle class="geom-point" cx="686.11" cy="251.21" r="3.10" fill="#7c3aed" data-ref="ellipseE"/>
+    <circle class="geom-point" cx="640.22" cy="128.36" r="2.90" fill="#0284c7" data-ref="circleC"/>
+    <circle class="geom-point" cx="595.23" cy="293.77" r="3.10" fill="#7c3aed" data-ref="ellipseE"/>
+    <circle class="geom-point" cx="665.32" cy="187.49" r="2.90" fill="#0284c7" data-ref="circleC"/>
+    <circle class="geom-point" cx="640.95" cy="350.79" r="3.10" fill="#7c3aed" data-ref="ellipseE"/>
+    <circle class="geom-point" cx="732.47" cy="181.62" r="2.90" fill="#0284c7" data-ref="circleC"/>
+    <circle class="geom-point" cx="763.25" cy="345.13" r="3.10" fill="#7c3aed" data-ref="ellipseE"/>
+  </g>
+  <g id="labels">
+    <text class="geom-label" x="105.00" y="376.00" text-anchor="middle" dominant-baseline="central" style="font-style: italic; font-size: 13px;" data-ref="V0">V_0</text>
+    <text class="geom-label" x="329.95" y="141.05" text-anchor="middle" dominant-baseline="central" style="font-style: italic; font-size: 12px;" data-ref="Q0">Q_0</text>
+    <text class="geom-label" x="325.00" y="374.00" text-anchor="middle" dominant-baseline="central" style="font-style: italic; font-size: 13px;" data-ref="V1">V_1</text>
+    <text class="geom-label" x="103.50" y="150.50" text-anchor="middle" dominant-baseline="central" style="font-style: italic; font-size: 12px;" data-ref="Q1">Q_1</text>
+    <text class="geom-label" x="403.50" y="207.00" text-anchor="middle" dominant-baseline="central" style="font-style: italic; font-size: 13px;" data-ref="V2">V_2</text>
+    <text class="geom-label" x="67.83" y="301.48" text-anchor="middle" dominant-baseline="central" style="font-style: italic; font-size: 12px;" data-ref="Q2">Q_2</text>
+    <text class="geom-label" x="232.50" y="63.50" text-anchor="middle" dominant-baseline="central" style="font-style: italic; font-size: 13px;" data-ref="V3">V_3</text>
+    <text class="geom-label" x="192.43" y="376.00" text-anchor="middle" dominant-baseline="central" style="font-style: italic; font-size: 12px;" data-ref="Q3">Q_3</text>
+    <text class="geom-label" x="36.00" y="207.00" text-anchor="middle" dominant-baseline="central" style="font-style: italic; font-size: 13px;" data-ref="V4">V_4</text>
+    <text class="geom-label" x="354.14" y="309.71" text-anchor="middle" dominant-baseline="central" style="font-style: italic; font-size: 12px;" data-ref="Q4">Q_4</text>
+    <text class="geom-label" x="221.00" y="248.00" text-anchor="middle" dominant-baseline="central" style="font-style: italic; font-size: 14px;" data-ref="P">P</text>
+    <text class="geom-label" x="235.00" y="32.00" text-anchor="middle" style="font-size: 13px; opacity: 0.86;">Liber Secundus: Odd (2m+1)-gon Ceva Concurrency</text>
+    <text class="geom-label" x="235.00" y="406.00" text-anchor="middle" style="font-size: 13px; opacity: 0.86;">Cyclic Opposite-Side Product = (5/6)*(2)*(13/10)*(3/4)*(8/13) = 1</text>
+    <text class="geom-label" x="695.00" y="32.00" text-anchor="middle" style="font-size: 13px; opacity: 0.86;">Lib. II Lemma I: Borelli-Serenus Cylindrical Section</text>
+    <text class="geom-label" x="695.00" y="406.00" text-anchor="middle" style="font-size: 13px; opacity: 0.86;">Tab. 4, Figs. 32-35 — Affine Projection Preserves Contact Ratios = 1</text>
+  </g>
+</svg>

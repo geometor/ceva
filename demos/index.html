@@ -1,0 +1,354 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-content_root="../">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Symbolic Demonstrations &mdash; GEOMETOR • ceva</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=ea5fcf70" />
+  <link rel="stylesheet" type="text/css" href="../_static/css/styles.css?v=66998e95" />
+  <link rel="stylesheet" type="text/css" href="../_static/graphviz.css?v=4ae1632d" />
+  <link rel="stylesheet" type="text/css" href="../_static/ceva_codex.css?v=bd145ad9" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <link rel="stylesheet" href="../_static/css/print.css" type="text/css" media="print" />
+  <link rel="icon" href="../_static/favicon.ico" />
+</head>
+
+<body class="book-theme-classical-serif">
+  <header>
+    <div class="logo">
+      <a href="../index.html">
+        <h1>GEOMETOR • ceva</h1>
+      </a>
+      <div class="org-repo">
+        <span class="org">GEOMETOR</span>
+        •
+        <span class="repo">ceva</span>
+      </div>
+    </div>
+    <nav aria-label="Header">
+      <input type="checkbox" id="nav-Header-toggle" >
+      <label for="nav-Header-toggle" >Header</label>
+      <ul>
+        <li>
+          <a href="../de_lineis_rectis/index.html"  >De Lineis Rectis Codex (1678)</a>
+        </li>
+        <li>
+          <a href="#" class="is-active" aria-selected="true" aria-current="page">Symbolic Demonstrations</a>
+        </li>
+        <li>
+          <a href="../modules/index.html"  >Modules</a>
+        </li>
+        <li>
+          <a href="../log/index.html"  >log</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="motto"></div>
+  </header>
+  <main class="book-main">
+    <article class="book-layout book-reading-pane">
+      <header class="book-header">
+        <div class="book-header-bar">
+          <div class="book-header-identity">
+            <a class="book-portal-link" href="../index.html" title="Return to Project Portal">&larr; ceva</a>
+            <span class="book-header-sep">/</span>
+            <a class="book-title-link" href="../index.html">GEOMETOR • ceva</a>
+          </div>
+        </div>
+        <div class="book-header-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../de_lineis_rectis/glossary.html" title="Latin &amp; Mathematical Glossary">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../modules/index.html" title="Modules"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </header>
+      <div class="content body book-content" role="main">
+        <section class="level-1" id="symbolic-demonstrations">
+        <h1>Symbolic Demonstrations<a class="headerlink" href="#symbolic-demonstrations" title="Link to this heading">¶</a></h1>
+        <p>Executable pure-symbolic Python demonstrations (<cite>Model(…, auto_intersect=False)</cite>) verifying every static lever equilibrium, signed barycentric coordinate, isotomic conjugate, projective harmonic range, Rational Trigonometry spread law, multilateral odd-polygon product, 3D seven-line tetrahedral concurrency, and <em>Appendix Geometrica</em> quadrature/cubature in <code class="docutils literal notranslate"><span class="pre">geometor.ceva</span></code> with <strong>zero floating-point coordinates</strong>.</p>
+        <nav class="contents local" id="on-this-page">
+        <p class="topic-title">On this page</p>
+        <ul class="simple">
+        <li><p><a class="reference internal" href="#static-barycentrics-negative-weights-f-a-isotomic-conjugates-spread-ceva" id="id1">1. Static Barycentrics, Negative Weights (<cite>F - A</cite>), Isotomic Conjugates &amp; Spread Ceva</a></p></li>
+        <li><p><a class="reference internal" href="#multilateral-odd-polygons-circumscribed-conics-3d-tetrahedra-appendix-geometrica" id="id2">2. Multilateral Odd Polygons, Circumscribed Conics, 3D Tetrahedra &amp; Appendix Geometrica</a></p></li>
+        </ul>
+        </nav>
+        <section class="level-2" id="static-barycentrics-negative-weights-f-a-isotomic-conjugates-spread-ceva">
+        <h2><a class="toc-backref" href="#id1" role="doc-backlink">1. Static Barycentrics, Negative Weights (<cite>F - A</cite>), Isotomic Conjugates &amp; Spread Ceva</a><a class="headerlink" href="#static-barycentrics-negative-weights-f-a-isotomic-conjugates-spread-ceva" title="Link to this heading">¶</a></h2>
+        <p>Proves Ceva’s Theorem and sub-triangle area proportions universally over indeterminate coordinates, evaluates canonical centers $X(1), X(2), X(4), X(6), X(7), X(8)$ and the exterior $A$-excenter $J_A$ over $\mathbb{Q}^2$ on the Heronian $(13, 14, 15)$ triangle, constructs <code class="docutils literal notranslate"><span class="pre">&#64;proposition</span></code> models for interior/exterior concurrency, isotomic conjugation ($X(7) \leftrightarrow X(8)$), and the Menelaus harmonic conjugate $(B, C; D, D') = -1$, and verifies <strong>Spread Ceva’s Theorem</strong> without square roots.</p>
+        <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="linenos"> 1</span><span class="ch">#!/usr/bin/env python3</span>
+        <span class="linenos"> 2</span><span class="sd">"""Exact symbolic demonstration of Ceva's static barycentrics, isotomic conjugates, and Spread Ceva."""</span>
+        <span class="linenos"> 3</span>
+        <span class="linenos"> 4</span><span class="kn">from</span><span class="w"> </span><span class="nn">__future__</span><span class="w"> </span><span class="kn">import</span> <span class="n">annotations</span>
+        <span class="linenos"> 5</span>
+        <span class="linenos"> 6</span><span class="kn">import</span><span class="w"> </span><span class="nn">sympy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">sp</span>
+        <span class="linenos"> 7</span><span class="kn">from</span><span class="w"> </span><span class="nn">geometor.model</span><span class="w"> </span><span class="kn">import</span> <span class="n">cross_ratio</span><span class="p">,</span> <span class="n">is_harmonic</span>
+        <span class="linenos"> 8</span><span class="kn">from</span><span class="w"> </span><span class="nn">rich.console</span><span class="w"> </span><span class="kn">import</span> <span class="n">Console</span>
+        <span class="linenos"> 9</span><span class="kn">from</span><span class="w"> </span><span class="nn">rich.table</span><span class="w"> </span><span class="kn">import</span> <span class="n">Table</span>
+        <span class="linenos">10</span>
+        <span class="linenos">11</span><span class="kn">from</span><span class="w"> </span><span class="nn">geometor.ceva</span><span class="w"> </span><span class="kn">import</span> <span class="p">(</span>
+        <span class="linenos">12</span>    <span class="n">CANONICAL_CENTERS</span><span class="p">,</span>
+        <span class="linenos">13</span>    <span class="n">construct_ceva_concurrency</span><span class="p">,</span>
+        <span class="linenos">14</span>    <span class="n">construct_cevian_menelaus_harmonic</span><span class="p">,</span>
+        <span class="linenos">15</span>    <span class="n">construct_isotomic_conjugate</span><span class="p">,</span>
+        <span class="linenos">16</span>    <span class="n">evaluate_canonical_centers</span><span class="p">,</span>
+        <span class="linenos">17</span>    <span class="n">prove_ceva_barycentric_identity</span><span class="p">,</span>
+        <span class="linenos">18</span>    <span class="n">verify_spread_ceva</span><span class="p">,</span>
+        <span class="linenos">19</span><span class="p">)</span>
+        <span class="linenos">20</span>
+        <span class="linenos">21</span>
+        <span class="linenos">22</span><span class="k">def</span><span class="w"> </span><span class="nf">run_demo</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="linenos">23</span><span class="w">    </span><span class="sd">"""Execute exact symbolic proofs for Liber Primus and canonical triangle centers."""</span>
+        <span class="linenos">24</span>    <span class="n">console</span> <span class="o">=</span> <span class="n">Console</span><span class="p">()</span>
+        <span class="linenos">25</span>    <span class="n">console</span><span class="o">.</span><span class="n">print</span><span class="p">(</span>
+        <span class="linenos">26</span>        <span class="s2">"[bold amber1]1. Universal Symbolic Proof of Ceva's Barycentric &amp; Area Identities[/bold amber1]"</span>
+        <span class="linenos">27</span>    <span class="p">)</span>
+        <span class="linenos">28</span>    <span class="n">residuals</span> <span class="o">=</span> <span class="n">prove_ceva_barycentric_identity</span><span class="p">()</span>
+        <span class="linenos">29</span>    <span class="k">for</span> <span class="n">key</span><span class="p">,</span> <span class="n">expr</span> <span class="ow">in</span> <span class="n">residuals</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+        <span class="linenos">30</span>        <span class="k">assert</span> <span class="n">expr</span> <span class="o">==</span> <span class="mi">0</span><span class="p">,</span> <span class="sa">f</span><span class="s2">"Non-zero symbolic residual </span><span class="si">{</span><span class="n">key</span><span class="si">}</span><span class="s2">: </span><span class="si">{</span><span class="n">expr</span><span class="si">}</span><span class="s2">"</span>
+        <span class="linenos">31</span>        <span class="n">console</span><span class="o">.</span><span class="n">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"  • </span><span class="si">{</span><span class="n">key</span><span class="si">}</span><span class="s2">: [green]</span><span class="si">{</span><span class="n">expr</span><span class="si">}</span><span class="s2">[/green]"</span><span class="p">)</span>
+        <span class="linenos">32</span>
+        <span class="linenos">33</span>    <span class="n">console</span><span class="o">.</span><span class="n">print</span><span class="p">(</span>
+        <span class="linenos">34</span>        <span class="s2">"</span><span class="se">\n</span><span class="s2">[bold amber1]2. Canonical Rational Centers on Heronian Δ(13, 14, 15)[/bold amber1]"</span>
+        <span class="linenos">35</span>    <span class="p">)</span>
+        <span class="linenos">36</span>    <span class="n">tbl</span> <span class="o">=</span> <span class="n">Table</span><span class="p">(</span><span class="n">show_lines</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+        <span class="linenos">37</span>    <span class="n">tbl</span><span class="o">.</span><span class="n">add_column</span><span class="p">(</span><span class="s2">"Center"</span><span class="p">,</span> <span class="n">style</span><span class="o">=</span><span class="s2">"bold cyan"</span><span class="p">)</span>
+        <span class="linenos">38</span>    <span class="n">tbl</span><span class="o">.</span><span class="n">add_column</span><span class="p">(</span><span class="s2">"Weights (u:v:w)"</span><span class="p">,</span> <span class="n">style</span><span class="o">=</span><span class="s2">"magenta"</span><span class="p">)</span>
+        <span class="linenos">39</span>    <span class="n">tbl</span><span class="o">.</span><span class="n">add_column</span><span class="p">(</span><span class="s2">"Exact P in Q^2"</span><span class="p">,</span> <span class="n">style</span><span class="o">=</span><span class="s2">"green"</span><span class="p">)</span>
+        <span class="linenos">40</span>    <span class="n">tbl</span><span class="o">.</span><span class="n">add_column</span><span class="p">(</span><span class="s2">"Signed Ratios (AF/FB, BD/DC, CE/EA)"</span><span class="p">,</span> <span class="n">style</span><span class="o">=</span><span class="s2">"yellow"</span><span class="p">)</span>
+        <span class="linenos">41</span>    <span class="n">tbl</span><span class="o">.</span><span class="n">add_column</span><span class="p">(</span><span class="s2">"Product"</span><span class="p">)</span>
+        <span class="linenos">42</span>
+        <span class="linenos">43</span>    <span class="k">for</span> <span class="n">code</span><span class="p">,</span> <span class="n">res</span> <span class="ow">in</span> <span class="n">evaluate_canonical_centers</span><span class="p">()</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+        <span class="linenos">44</span>        <span class="n">_desc</span><span class="p">,</span> <span class="p">(</span><span class="n">u_val</span><span class="p">,</span> <span class="n">v_val</span><span class="p">,</span> <span class="n">w_val</span><span class="p">)</span> <span class="o">=</span> <span class="n">CANONICAL_CENTERS</span><span class="p">[</span><span class="n">code</span><span class="p">]</span>
+        <span class="linenos">45</span>        <span class="n">tbl</span><span class="o">.</span><span class="n">add_row</span><span class="p">(</span>
+        <span class="linenos">46</span>            <span class="n">code</span><span class="p">,</span>
+        <span class="linenos">47</span>            <span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">u_val</span><span class="si">}</span><span class="s2">:</span><span class="si">{</span><span class="n">v_val</span><span class="si">}</span><span class="s2">:</span><span class="si">{</span><span class="n">w_val</span><span class="si">}</span><span class="s2">"</span><span class="p">,</span>
+        <span class="linenos">48</span>            <span class="sa">f</span><span class="s2">"(</span><span class="si">{</span><span class="n">res</span><span class="o">.</span><span class="n">center</span><span class="o">.</span><span class="n">x</span><span class="si">}</span><span class="s2">, </span><span class="si">{</span><span class="n">res</span><span class="o">.</span><span class="n">center</span><span class="o">.</span><span class="n">y</span><span class="si">}</span><span class="s2">)"</span><span class="p">,</span>
+        <span class="linenos">49</span>            <span class="sa">f</span><span class="s2">"(</span><span class="si">{</span><span class="n">res</span><span class="o">.</span><span class="n">ratio_af_fb</span><span class="si">}</span><span class="s2">, </span><span class="si">{</span><span class="n">res</span><span class="o">.</span><span class="n">ratio_bd_dc</span><span class="si">}</span><span class="s2">, </span><span class="si">{</span><span class="n">res</span><span class="o">.</span><span class="n">ratio_ce_ea</span><span class="si">}</span><span class="s2">)"</span><span class="p">,</span>
+        <span class="linenos">50</span>            <span class="nb">str</span><span class="p">(</span><span class="n">res</span><span class="o">.</span><span class="n">ceva_product</span><span class="p">),</span>
+        <span class="linenos">51</span>        <span class="p">)</span>
+        <span class="linenos">52</span>    <span class="n">console</span><span class="o">.</span><span class="n">print</span><span class="p">(</span><span class="n">tbl</span><span class="p">)</span>
+        <span class="linenos">53</span>
+        <span class="linenos">54</span>    <span class="n">console</span><span class="o">.</span><span class="n">print</span><span class="p">(</span>
+        <span class="linenos">55</span>        <span class="s2">"</span><span class="se">\n</span><span class="s2">[bold amber1]3. Constructive @proposition Models (Interior, Exterior F-A, Isotomic, Harmonic)[/bold amber1]"</span>
+        <span class="linenos">56</span>    <span class="p">)</span>
+        <span class="linenos">57</span>    <span class="n">m_int</span> <span class="o">=</span> <span class="n">construct_ceva_concurrency</span><span class="p">(</span><span class="mi">24</span><span class="p">,</span> <span class="mi">28</span><span class="p">,</span> <span class="mi">21</span><span class="p">)</span>
+        <span class="linenos">58</span>    <span class="n">m_ext</span> <span class="o">=</span> <span class="n">construct_ceva_concurrency</span><span class="p">(</span><span class="o">-</span><span class="mi">14</span><span class="p">,</span> <span class="mi">15</span><span class="p">,</span> <span class="mi">13</span><span class="p">)</span>
+        <span class="linenos">59</span>    <span class="n">m_iso</span> <span class="o">=</span> <span class="n">construct_isotomic_conjugate</span><span class="p">(</span><span class="mi">24</span><span class="p">,</span> <span class="mi">28</span><span class="p">,</span> <span class="mi">21</span><span class="p">)</span>
+        <span class="linenos">60</span>    <span class="n">m_har</span> <span class="o">=</span> <span class="n">construct_cevian_menelaus_harmonic</span><span class="p">(</span><span class="mi">24</span><span class="p">,</span> <span class="mi">28</span><span class="p">,</span> <span class="mi">21</span><span class="p">)</span>
+        <span class="linenos">61</span>
+        <span class="linenos">62</span>    <span class="n">b_pt</span> <span class="o">=</span> <span class="n">m_har</span><span class="o">.</span><span class="n">get_element_by_ID</span><span class="p">(</span><span class="s2">"B"</span><span class="p">)</span>
+        <span class="linenos">63</span>    <span class="n">c_pt</span> <span class="o">=</span> <span class="n">m_har</span><span class="o">.</span><span class="n">get_element_by_ID</span><span class="p">(</span><span class="s2">"C"</span><span class="p">)</span>
+        <span class="linenos">64</span>    <span class="n">d_pt</span> <span class="o">=</span> <span class="n">m_har</span><span class="o">.</span><span class="n">get_element_by_ID</span><span class="p">(</span><span class="s2">"D"</span><span class="p">)</span>
+        <span class="linenos">65</span>    <span class="n">dp_pt</span> <span class="o">=</span> <span class="n">m_har</span><span class="o">.</span><span class="n">get_element_by_ID</span><span class="p">(</span><span class="s2">"D_prime"</span><span class="p">)</span>
+        <span class="linenos">66</span>    <span class="n">cr_val</span> <span class="o">=</span> <span class="n">cross_ratio</span><span class="p">(</span><span class="n">b_pt</span><span class="p">,</span> <span class="n">c_pt</span><span class="p">,</span> <span class="n">d_pt</span><span class="p">,</span> <span class="n">dp_pt</span><span class="p">)</span>
+        <span class="linenos">67</span>    <span class="k">assert</span> <span class="n">is_harmonic</span><span class="p">(</span><span class="n">b_pt</span><span class="p">,</span> <span class="n">c_pt</span><span class="p">,</span> <span class="n">d_pt</span><span class="p">,</span> <span class="n">dp_pt</span><span class="p">)</span>
+        <span class="linenos">68</span>
+        <span class="linenos">69</span>    <span class="n">console</span><span class="o">.</span><span class="n">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"  • Interior Gergonne X(7) Model elements: [green]</span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">m_int</span><span class="p">)</span><span class="si">}</span><span class="s2">[/green]"</span><span class="p">)</span>
+        <span class="linenos">70</span>    <span class="n">console</span><span class="o">.</span><span class="n">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"  • Exterior Excenter J_A (-14:15:13) elements: [green]</span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">m_ext</span><span class="p">)</span><span class="si">}</span><span class="s2">[/green]"</span><span class="p">)</span>
+        <span class="linenos">71</span>    <span class="n">console</span><span class="o">.</span><span class="n">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"  • Isotomic X(7) &lt;-&gt; X(8) Model elements: [green]</span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">m_iso</span><span class="p">)</span><span class="si">}</span><span class="s2">[/green]"</span><span class="p">)</span>
+        <span class="linenos">72</span>    <span class="n">console</span><span class="o">.</span><span class="n">print</span><span class="p">(</span>
+        <span class="linenos">73</span>        <span class="sa">f</span><span class="s2">"  • Cevian–Menelaus Cross-Ratio (B, C; D, D'): [green]</span><span class="si">{</span><span class="n">sp</span><span class="o">.</span><span class="n">simplify</span><span class="p">(</span><span class="n">cr_val</span><span class="p">)</span><span class="si">}</span><span class="s2">[/green]"</span>
+        <span class="linenos">74</span>    <span class="p">)</span>
+        <span class="linenos">75</span>
+        <span class="linenos">76</span>    <span class="n">console</span><span class="o">.</span><span class="n">print</span><span class="p">(</span>
+        <span class="linenos">77</span>        <span class="s2">"</span><span class="se">\n</span><span class="s2">[bold amber1]4. Rational Trigonometry Spread Ceva Theorem (Zero Radicals)[/bold amber1]"</span>
+        <span class="linenos">78</span>    <span class="p">)</span>
+        <span class="linenos">79</span>    <span class="n">spread</span> <span class="o">=</span> <span class="n">verify_spread_ceva</span><span class="p">()</span>
+        <span class="linenos">80</span>    <span class="n">console</span><span class="o">.</span><span class="n">print</span><span class="p">(</span>
+        <span class="linenos">81</span>        <span class="sa">f</span><span class="s2">"  • s(BAD)=</span><span class="si">{</span><span class="n">spread</span><span class="o">.</span><span class="n">spread_bad</span><span class="si">}</span><span class="s2">, s(DAC)=</span><span class="si">{</span><span class="n">spread</span><span class="o">.</span><span class="n">spread_dac</span><span class="si">}</span><span class="s2"> | "</span>
+        <span class="linenos">82</span>        <span class="sa">f</span><span class="s2">"s(CBE)=</span><span class="si">{</span><span class="n">spread</span><span class="o">.</span><span class="n">spread_cbe</span><span class="si">}</span><span class="s2">, s(EBA)=</span><span class="si">{</span><span class="n">spread</span><span class="o">.</span><span class="n">spread_eba</span><span class="si">}</span><span class="s2"> | "</span>
+        <span class="linenos">83</span>        <span class="sa">f</span><span class="s2">"s(ACF)=</span><span class="si">{</span><span class="n">spread</span><span class="o">.</span><span class="n">spread_acf</span><span class="si">}</span><span class="s2">, s(FCB)=</span><span class="si">{</span><span class="n">spread</span><span class="o">.</span><span class="n">spread_fcb</span><span class="si">}</span><span class="s2">"</span>
+        <span class="linenos">84</span>    <span class="p">)</span>
+        <span class="linenos">85</span>    <span class="n">console</span><span class="o">.</span><span class="n">print</span><span class="p">(</span>
+        <span class="linenos">86</span>        <span class="sa">f</span><span class="s2">"  • Spread Product = [green]</span><span class="si">{</span><span class="n">spread</span><span class="o">.</span><span class="n">spread_product</span><span class="si">}</span><span class="s2">[/green], "</span>
+        <span class="linenos">87</span>        <span class="sa">f</span><span class="s2">"Quadrance Product = [green]</span><span class="si">{</span><span class="n">spread</span><span class="o">.</span><span class="n">quadrance_product</span><span class="si">}</span><span class="s2">[/green]"</span>
+        <span class="linenos">88</span>    <span class="p">)</span>
+        <span class="linenos">89</span>
+        <span class="linenos">90</span>
+        <span class="linenos">91</span><span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s2">"__main__"</span><span class="p">:</span>
+        <span class="linenos">92</span>    <span class="n">run_demo</span><span class="p">()</span>
+        </pre></div>
+        </div>
+        <p>Run locally:</p>
+        <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>/home/phi/PROJECTS/geometor/.venv/bin/python<span class="w"> </span>demos/static_barycentrics.py
+        </pre></div>
+        </div>
+        </section>
+        <section class="level-2" id="multilateral-odd-polygons-circumscribed-conics-3d-tetrahedra-appendix-geometrica">
+        <h2><a class="toc-backref" href="#id2" role="doc-backlink">2. Multilateral Odd Polygons, Circumscribed Conics, 3D Tetrahedra &amp; Appendix Geometrica</a><a class="headerlink" href="#multilateral-odd-polygons-circumscribed-conics-3d-tetrahedra-appendix-geometrica" title="Link to this heading">¶</a></h2>
+        <p>Constructs concurrent cevians on a convex rational pentagon, proves <em>Liber Secundus, Lemma I</em> symbolically for polygons circumscribed around circles and Borelli–Serenus projected ellipses, verifies Ceva’s 3D skew-quadrilateral corollary (<em>Elementum</em> V <em>Coroll.</em>) and 7-line tetrahedral equilibrium (<em>Liber Primus, Prop.</em> XXIII), and confirms Hippocratean lune quadrature, cylindrical <em>ungula</em> $\frac{2}{3}$ prism cubature, and hemisphere ($5:3$) / paraboloid ($2:1$) centroids.</p>
+        <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="linenos"> 1</span><span class="ch">#!/usr/bin/env python3</span>
+        <span class="linenos"> 2</span><span class="sd">"""Exact symbolic demonstration of multilateral polygons, 3D tetrahedra, and Appendix Geometrica."""</span>
+        <span class="linenos"> 3</span>
+        <span class="linenos"> 4</span><span class="kn">from</span><span class="w"> </span><span class="nn">__future__</span><span class="w"> </span><span class="kn">import</span> <span class="n">annotations</span>
+        <span class="linenos"> 5</span>
+        <span class="linenos"> 6</span><span class="kn">from</span><span class="w"> </span><span class="nn">rich.console</span><span class="w"> </span><span class="kn">import</span> <span class="n">Console</span>
+        <span class="linenos"> 7</span>
+        <span class="linenos"> 8</span><span class="kn">from</span><span class="w"> </span><span class="nn">geometor.ceva</span><span class="w"> </span><span class="kn">import</span> <span class="p">(</span>
+        <span class="linenos"> 9</span>    <span class="n">construct_pentagon_ceva</span><span class="p">,</span>
+        <span class="linenos">10</span>    <span class="n">prove_circumscribed_polygon_lemma</span><span class="p">,</span>
+        <span class="linenos">11</span>    <span class="n">solve_tetrahedron_static_equilibrium</span><span class="p">,</span>
+        <span class="linenos">12</span>    <span class="n">verify_appendix_invariants</span><span class="p">,</span>
+        <span class="linenos">13</span>    <span class="n">verify_odd_polygon_ceva</span><span class="p">,</span>
+        <span class="linenos">14</span>    <span class="n">verify_skew_quadrilateral_ceva</span><span class="p">,</span>
+        <span class="linenos">15</span><span class="p">)</span>
+        <span class="linenos">16</span>
+        <span class="linenos">17</span>
+        <span class="linenos">18</span><span class="k">def</span><span class="w"> </span><span class="nf">run_demo</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="linenos">19</span><span class="w">    </span><span class="sd">"""Execute exact symbolic verifications for Liber Secundus, 3D statics, and Appendix."""</span>
+        <span class="linenos">20</span>    <span class="n">console</span> <span class="o">=</span> <span class="n">Console</span><span class="p">()</span>
+        <span class="linenos">21</span>
+        <span class="linenos">22</span>    <span class="n">console</span><span class="o">.</span><span class="n">print</span><span class="p">(</span>
+        <span class="linenos">23</span>        <span class="s2">"[bold amber1]1. Liber Secundus: Odd Multilateral Polygon Ceva &amp; Circumscribed Conic Lemma I[/bold amber1]"</span>
+        <span class="linenos">24</span>    <span class="p">)</span>
+        <span class="linenos">25</span>    <span class="n">pent</span> <span class="o">=</span> <span class="n">verify_odd_polygon_ceva</span><span class="p">()</span>
+        <span class="linenos">26</span>    <span class="n">pent_model</span> <span class="o">=</span> <span class="n">construct_pentagon_ceva</span><span class="p">()</span>
+        <span class="linenos">27</span>    <span class="n">conic_lemma</span> <span class="o">=</span> <span class="n">prove_circumscribed_polygon_lemma</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
+        <span class="linenos">28</span>    <span class="n">console</span><span class="o">.</span><span class="n">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"  • Rational Pentagon side ratios: </span><span class="si">{</span><span class="n">pent</span><span class="o">.</span><span class="n">side_ratios</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+        <span class="linenos">29</span>    <span class="n">console</span><span class="o">.</span><span class="n">print</span><span class="p">(</span>
+        <span class="linenos">30</span>        <span class="sa">f</span><span class="s2">"  • Cyclic opposite-side product = [green]</span><span class="si">{</span><span class="n">pent</span><span class="o">.</span><span class="n">cyclic_product</span><span class="si">}</span><span class="s2">[/green] "</span>
+        <span class="linenos">31</span>        <span class="sa">f</span><span class="s2">"(Model elements: </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">pent_model</span><span class="p">)</span><span class="si">}</span><span class="s2">)"</span>
+        <span class="linenos">32</span>    <span class="p">)</span>
+        <span class="linenos">33</span>    <span class="n">console</span><span class="o">.</span><span class="n">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"  • Borelli–Serenus Circumscribed Ellipse residuals: </span><span class="si">{</span><span class="n">conic_lemma</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+        <span class="linenos">34</span>
+        <span class="linenos">35</span>    <span class="n">console</span><span class="o">.</span><span class="n">print</span><span class="p">(</span>
+        <span class="linenos">36</span>        <span class="s2">"</span><span class="se">\n</span><span class="s2">[bold amber1]2. Liber Primus Elem. V Coroll. &amp; Prop. XXIII: 3D Skew Quad &amp; 7-Line Tetrahedron[/bold amber1]"</span>
+        <span class="linenos">37</span>    <span class="p">)</span>
+        <span class="linenos">38</span>    <span class="n">skew</span> <span class="o">=</span> <span class="n">verify_skew_quadrilateral_ceva</span><span class="p">()</span>
+        <span class="linenos">39</span>    <span class="n">tet</span> <span class="o">=</span> <span class="n">solve_tetrahedron_static_equilibrium</span><span class="p">()</span>
+        <span class="linenos">40</span>    <span class="n">console</span><span class="o">.</span><span class="n">print</span><span class="p">(</span>
+        <span class="linenos">41</span>        <span class="sa">f</span><span class="s2">"  • 3D Skew Quadrilateral: 6·Vol = </span><span class="si">{</span><span class="n">skew</span><span class="o">.</span><span class="n">tetrahedron_det6</span><span class="si">}</span><span class="s2">, "</span>
+        <span class="linenos">42</span>        <span class="sa">f</span><span class="s2">"coplanarity det = [green]</span><span class="si">{</span><span class="n">skew</span><span class="o">.</span><span class="n">fulcrum_coplanarity_det</span><span class="si">}</span><span class="s2">[/green], "</span>
+        <span class="linenos">43</span>        <span class="sa">f</span><span class="s2">"cyclic product = [green]</span><span class="si">{</span><span class="n">skew</span><span class="o">.</span><span class="n">cyclic_ratio_product</span><span class="si">}</span><span class="s2">[/green]"</span>
+        <span class="linenos">44</span>    <span class="p">)</span>
+        <span class="linenos">45</span>    <span class="n">console</span><span class="o">.</span><span class="n">print</span><span class="p">(</span>
+        <span class="linenos">46</span>        <span class="sa">f</span><span class="s2">"  • 3D Tetrahedron Center O = [green]</span><span class="si">{</span><span class="nb">tuple</span><span class="p">(</span><span class="n">tet</span><span class="o">.</span><span class="n">center_of_gravity</span><span class="p">)</span><span class="si">}</span><span class="s2">[/green]"</span>
+        <span class="linenos">47</span>    <span class="p">)</span>
+        <span class="linenos">48</span>    <span class="n">console</span><span class="o">.</span><span class="n">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"  • 4 Vertex-to-Face-CG ratios VO/OG: </span><span class="si">{</span><span class="n">tet</span><span class="o">.</span><span class="n">vertex_cevian_ratios</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+        <span class="linenos">49</span>    <span class="n">console</span><span class="o">.</span><span class="n">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"  • 3 Skew-Edge Bimedian ratios: </span><span class="si">{</span><span class="n">tet</span><span class="o">.</span><span class="n">bimedian_ratios</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+        <span class="linenos">50</span>
+        <span class="linenos">51</span>    <span class="n">console</span><span class="o">.</span><span class="n">print</span><span class="p">(</span>
+        <span class="linenos">52</span>        <span class="s2">"</span><span class="se">\n</span><span class="s2">[bold amber1]3. Appendix Geometrica: Lune Quadrature, Ungula Cubature &amp; Centroids[/bold amber1]"</span>
+        <span class="linenos">53</span>    <span class="p">)</span>
+        <span class="linenos">54</span>    <span class="n">app</span> <span class="o">=</span> <span class="n">verify_appendix_invariants</span><span class="p">()</span>
+        <span class="linenos">55</span>    <span class="k">for</span> <span class="n">k</span><span class="p">,</span> <span class="n">val</span> <span class="ow">in</span> <span class="n">app</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+        <span class="linenos">56</span>        <span class="n">console</span><span class="o">.</span><span class="n">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"  • </span><span class="si">{</span><span class="n">k</span><span class="si">}</span><span class="s2">: [green]</span><span class="si">{</span><span class="n">val</span><span class="si">}</span><span class="s2">[/green]"</span><span class="p">)</span>
+        <span class="linenos">57</span>
+        <span class="linenos">58</span>
+        <span class="linenos">59</span><span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s2">"__main__"</span><span class="p">:</span>
+        <span class="linenos">60</span>    <span class="n">run_demo</span><span class="p">()</span>
+        </pre></div>
+        </div>
+        <p>Run locally:</p>
+        <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>/home/phi/PROJECTS/geometor/.venv/bin/python<span class="w"> </span>demos/polygon_tetrahedron.py
+        </pre></div>
+        </div>
+        </section>
+        </section>
+
+      </div>
+      <footer class="book-footer">
+        <div class="book-footer-ornament">&#10086;</div>
+        <div class="book-footer-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../de_lineis_rectis/glossary.html" title="Latin &amp; Mathematical Glossary">&larr; <span class="nav-label">Latin & Mathematical Glossary</span></a>
+          </div>
+          <div class="book-nav-center">
+            <a class="book-toc-link" href="../index.html">GEOMETOR • ceva</a>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../modules/index.html" title="Modules"><span class="nav-label">Modules</span> &rarr;</a>
+          </div>
+        </div>
+      </footer>
+    </article>
+  </main>
+  <div class="asides">
+    <aside class="aside-search">
+      <h3>Search</h3>
+      <div id="searchbox" role="search">
+        <form id="rtd-search-form" class="wy-form search-form" action="../search.html" method="get">
+          <div class="search-field">
+            <input type="search" name="q" placeholder="Search docs..." aria-label="Search docs" autocomplete="off" />
+            <button type="submit" class="search-submit" aria-label="Search" title="Search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </div>
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+      </div>
+    </aside>
+    <aside class="aside-recent-logs">
+      <h3>Recent Logs</h3>
+      <ul>
+        <li><a href="../log/26.316-154500/index.html">Initial Bilingual Book Codex & Symbolic Engine of Ceva’s De Lineis Rectis Statica Constructio</a></li>
+      </ul>
+    </aside>
+    <aside class="aside-tags">
+      <h3>Tags</h3>
+      <ul>
+        <li><a href="../tags/barycentrics.html">barycentrics</a></li>
+        <li><a href="../tags/ceva.html">ceva</a></li>
+        <li><a href="../tags/indivisibles.html">indivisibles</a></li>
+        <li><a href="../tags/isotomic-conjugate.html">isotomic-conjugate</a></li>
+        <li><a href="../tags/menelaus.html">menelaus</a></li>
+        <li><a href="../tags/tetrahedron.html">tetrahedron</a></li>
+      </ul>
+    </aside>
+    <aside class="aside-categories">
+      <h3>Categories</h3>
+      <ul>
+        <li><a href="../categories/codex.html">codex</a></li>
+        <li><a href="../categories/symbolic-geometry.html">symbolic-geometry</a></li>
+        <li><a href="../categories/translation.html">translation</a></li>
+      </ul>
+    </aside>
+    <aside class="aside-types">
+      <h3>Types</h3>
+      <ul>
+        <li><a href="../types/log.html">log</a></li>
+      </ul>
+    </aside>
+  </div>
+  <footer>
+    <div class="footer-nav">
+      <ul>
+        <li><a href="../about/index.html"  >About GEOMETOR Ceva</a></li>
+      </ul>
+    </div>
+    <hr />
+    <div role="contentinfo">
+      <p>
+        &copy; Copyright 1678 Ludovico Monza (Milan) · Digital Codex & Symbolic Engine GEOMETOR.
+      </p>
+    </div>
+  </footer>
+
+  <script src="../_static/jquery.js?v=5d32c60e"></script>
+  <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+  <script src="../_static/documentation_options.js?v=01f34227"></script>
+  <script src="../_static/doctools.js?v=fd6eb6e6"></script>
+  <script src="../_static/sphinx_highlight.js?v=6ffebe34"></script>
+  <script src="../_static/js/collection_controls.js?v=b6b5297a"></script>
+  <script src="../_static/js/geometor_interactive.js?v=b2892320"></script>
+  <script src="../_static/js/search_highlight.js"></script>
+
+</body>
+</html>

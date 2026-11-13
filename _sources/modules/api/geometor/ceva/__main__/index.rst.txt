@@ -1,0 +1,27 @@
+geometor.ceva.__main__
+======================
+
+.. py:module:: geometor.ceva.__main__
+
+.. autoapi-nested-parse::
+
+   Rich CLI summary for ``geometor.ceva`` (``ceva`` console entry point).
+
+
+
+Functions
+---------
+
+.. autoapisummary::
+
+   geometor.ceva.__main__.main
+
+
+Module Contents
+---------------
+
+.. py:function:: main() -> None
+
+   Print an exact symbolic summary of Ceva's 1678 theorems over Q.
+
+

@@ -1,0 +1,59 @@
+geometor.ceva.sphinx_ext
+========================
+
+.. py:module:: geometor.ceva.sphinx_ext
+
+.. autoapi-nested-parse::
+
+   Runtime Sphinx & photon-platform/publish integration for GEOMETOR Ceva.
+
+   Configures offline-safe local intersphinx inventories across the GEOMETOR canon
+   (``euclid``, ``elements``, ``etc``, ``pappus``, ``ptolemy``, ``menelaus``,
+   ``archimedes``, ``apollonius``, ``casey``, ``divine``, ``altshiller-court``,
+   ``wildberger``, ``aquinas``, ``hoenen``, ``hilbert``, ``proclus``) and drops
+   unreachable remote-only targets so offline sandbox builds complete with zero warnings.
+
+
+
+Attributes
+----------
+
+.. autoapisummary::
+
+   geometor.ceva.sphinx_ext.SISTER_REPOS
+
+
+Functions
+---------
+
+.. autoapisummary::
+
+   geometor.ceva.sphinx_ext.configure_local_intersphinx
+   geometor.ceva.sphinx_ext.setup
+
+
+Module Contents
+---------------
+
+.. py:data:: SISTER_REPOS
+   :type:  tuple[str, ...]
+   :value: ('euclid', 'elements', 'etc', 'pappus', 'ptolemy', 'menelaus', 'archimedes', 'apollonius',...
+
+
+.. py:function:: configure_local_intersphinx(intersphinx_mapping: dict[str, Any], project_root: pathlib.Path) -> None
+
+   Bind local ``objects.inv`` files for sister GEOMETOR repositories.
+
+   :param intersphinx_mapping: Mutable Sphinx ``intersphinx_mapping`` dictionary.
+   :param project_root: Root directory of the ``ceva`` repository.
+
+
+.. py:function:: setup(app: object) -> dict[str, object]
+
+   Register the ``geometor.ceva.sphinx_ext`` Sphinx extension.
+
+   :param app: Active Sphinx application instance.
+
+   :returns: Extension metadata dictionary.
+
+
