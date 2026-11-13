@@ -1,0 +1,85 @@
+{
+  "work": "Giovanni Ceva — De lineis rectis se invicem secantibus statica constructio (Milan: Ludovico Monza, 1678)",
+  "editions": [
+    "De lineis rectis se invicem secantibus statica constructio. Ad Serenissimum Ferdinandum Carolum Ducem Mantuae, Montisferrati, Guastallae, &c. Auctore Ioanne Ceva Mediolanensi. Mediolani: Ex Typographia Ludovici Montiae, MDCLXXVIII ([16], 104 pp., 10 folding plates; BNCF Florence ita-bnc-mag-00001346-001)"
+  ],
+  "entries": [
+    {
+      "ceva_locus": "Liber Primus, Axiomata I–II, Petitio & Lemmata I–II (1678, pp. 1–2; Tab. 1, Figs. 1–3)",
+      "topic": "Uniqueness of the static center of gravity and Archimedes' Law of the Lever (u · AF = v · FB, A : B = BF : FA)",
+      "sister_repo": "archimedes / euclid",
+      "sister_locus": "Archimedes On the Equilibrium of Planes I.4–7; Elements V & VI",
+      "ceva_module": "geometor.ceva.static_barycentrics.solve_static_barycentrics"
+    },
+    {
+      "ceva_locus": "Liber Primus, Elementum I & Prop. VIII (1678, pp. 2–3, 10–12; Tab. 1, Figs. 4, 12)",
+      "topic": "Static two-lever proof of Menelaus's Transversal Theorem and projective harmonic range (B, C; D, D') = -1",
+      "sister_repo": "menelaus / ptolemy / pappus",
+      "sister_locus": "Menelaus Sphaerica III Lemma 1; Ptolemy Almagest I.13; Pappus Synagoge VII",
+      "ceva_module": "geometor.ceva.static_barycentrics.construct_cevian_menelaus_harmonic"
+    },
+    {
+      "ceva_locus": "Liber Primus, Elementum II & Prop. VII (1678, pp. 3–4, 8–10; Tab. 1, Figs. 5, 11)",
+      "topic": "Interior cevian concurrency at P = (uA + vB + wC)/(u+v+w) iff (AF/FB)·(BD/DC)·(CE/EA) = 1",
+      "sister_repo": "etc / altshiller-court / model",
+      "sister_locus": "Kimberling ETC barycentric centers X(1), X(2), X(4), X(6); College Geometry Ch. VII",
+      "ceva_module": "geometor.ceva.static_barycentrics.construct_ceva_concurrency"
+    },
+    {
+      "ceva_locus": "Liber Primus, Elementum III & p. 5 Scholium (1678, pp. 4–5; Tab. 1, Fig. 6)",
+      "topic": "Analytic negative static weights ('pondus... more analytico F - A') for exterior cevian concurrency (e.g., excenter J_A)",
+      "sister_repo": "etc / model",
+      "sister_locus": "Signed homogeneous barycentric coordinates (Möbius 1827); excenters of triangle ABC",
+      "ceva_module": "geometor.ceva.static_barycentrics.evaluate_canonical_centers"
+    },
+    {
+      "ceva_locus": "Liber Primus, Elementa IV–V & Corollarium (1678, pp. 5–7; Tab. 1, Figs. 7–8)",
+      "topic": "Planar and 3D non-planar skew quadrilateral ('non in eodem plano'): coplanarity and concurrency of opposite-side fulcrum joins",
+      "sister_repo": "elements / pappus",
+      "sister_locus": "Varignon / spatial barycentric coplanarity",
+      "ceva_module": "geometor.ceva.polygon_tetrahedron.verify_skew_quadrilateral_ceva"
+    },
+    {
+      "ceva_locus": "Liber Primus, Prop. VI (1678, pp. 7–8; Tab. 1, Fig. 10)",
+      "topic": "Pure Euclidean similar-triangle proof via parallel line through vertex A credited to Pietro Paolo Caravaggio Jr.",
+      "sister_repo": "euclid / elements",
+      "sister_locus": "Elements I.29, VI.2, VI.4 (similar triangles on parallel transversal)",
+      "ceva_module": "geometor.ceva.static_barycentrics.prove_ceva_barycentric_identity"
+    },
+    {
+      "ceva_locus": "Liber Primus, Props. IX–XXII (1678, pp. 12–35; Tab. 1–3) + Rational Trigonometry",
+      "topic": "Concurrency of medians X(2), altitudes X(4), angle bisectors X(1), symmedians X(6), and radical-free Spread Ceva Theorem",
+      "sister_repo": "etc / wildberger",
+      "sister_locus": "ETC X(1)–X(8); Wildberger Divine Proportions vertex spreads & quadrances",
+      "ceva_module": "geometor.ceva.static_barycentrics.verify_spread_ceva"
+    },
+    {
+      "ceva_locus": "Liber Primus, Props. XXIII–XXVI (1678, pp. 36–43; Tab. 3, Figs. 28–31)",
+      "topic": "3D Tetrahedron & Pyramid 7-Line Static Equilibrium ('mira quadam concordia' at spatial center O)",
+      "sister_repo": "archimedes / elements",
+      "sister_locus": "Commandino Liber de centro gravitatis solidorum (1565); Elements XII",
+      "ceva_module": "geometor.ceva.polygon_tetrahedron.solve_tetrahedron_static_equilibrium"
+    },
+    {
+      "ceva_locus": "Liber Secundus, Lemma I & Prop. I + Corollarium (1678, pp. 45–50; Tab. 4, Figs. 32–37)",
+      "topic": "Borelli–Serenus cylindrical ellipse projection, Gergonne contact point X(7), and Isotomic Conjugate Nagel point X(8)",
+      "sister_repo": "apollonius / etc / casey",
+      "sister_locus": "ETC X(7) & X(8); affine conic tangency invariance",
+      "ceva_module": "geometor.ceva.static_barycentrics.construct_isotomic_conjugate"
+    },
+    {
+      "ceva_locus": "Liber Secundus, Props. II–XIV (1678, pp. 50–72; Tab. 4–7, Figs. 38–61)",
+      "topic": "Multilateral generalization: cyclic opposite-side ratio product = 1 for any odd (2m + 1)-gon",
+      "sister_repo": "pappus / altshiller-court",
+      "sister_locus": "Carnot Essai sur la théorie des transversales (1806); odd-polygon concurrency",
+      "ceva_module": "geometor.ceva.polygon_tetrahedron.construct_pentagon_ceva"
+    },
+    {
+      "ceva_locus": "Appendix Geometrica, Props. I–XVI & Closing Scholium (1678, pp. 73–104; Tab. 8–10, Figs. 62–85)",
+      "topic": "Pure area-ratio proofs ([PAB]/[PAC] = BD/DC), Hippocratean lune, cylindrical ungula = 2/3 prism, Valerio 5:3 hemisphere CG, Torricelli 2:1 paraboloid CG, and Cavalieri curved-surface indivisibles caution",
+      "sister_repo": "archimedes / euclid / hoenen",
+      "sister_locus": "Elements VI.1, XII.2; Archimedes Method & Sphere and Cylinder I.33",
+      "ceva_module": "geometor.ceva.polygon_tetrahedron.verify_appendix_invariants"
+    }
+  ]
+}

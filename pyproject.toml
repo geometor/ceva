@@ -1,0 +1,56 @@
+[project]
+name = "geometor-ceva"
+dynamic = ["version"]
+authors = [
+  { name = "geometor", email = "github@geometor.com" },
+]
+description = "Digital Scriptorium Book Codex and exact SymPy / geometor.model symbolic demonstrations for Giovanni Ceva's De lineis rectis se invicem secantibus statica constructio (Milan, 1678)."
+readme = "README.rst"
+requires-python = ">=3.13"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "sympy",
+    "rich",
+    "geometor-model",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "ruff",
+]
+
+[project.scripts]
+ceva = "geometor.ceva.__main__:main"
+
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["geometor*"]
+namespaces = true
+
+[tool.setuptools.dynamic]
+version = {attr = "geometor.ceva.__version__"}
+
+[project.urls]
+"Website" = "https://geometor.github.io/ceva"
+"Repository" = "https://github.com/geometor/ceva"
+"Issues" = "https://github.com/geometor/ceva/issues"
+
+[tool.ruff]
+lint.select = ["E", "F", "I", "ANN", "D"]
+lint.ignore = ["E501"]
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

@@ -1,0 +1,98 @@
+{
+  "statica-constructio": {
+    "headword": "statica constructio (static construction)",
+    "translation": "Geometric proof and construction by point-weights alone, without auxiliary circles or lines",
+    "language": "Neo-Latin (Ceva 1678 Prooemium)",
+    "definition": "Ceva's signature methodological innovation ('substitutisque linearum vice ponderibus... nulla adhibita circulorum, linearumque praevia constructione... solis ponderibus statice enodare'): replacing auxiliary Euclidean lines and circles with hypothetical Archimedean weights placed at vertices so that collinearity and concurrency follow immediately from the uniqueness of the center of gravity."
+  },
+  "centrum-gravitatis": {
+    "headword": "centrum gravitatis (center of gravity / barycenter)",
+    "translation": "Unique equilibrium point P = (uA + vB + wC)/(u + v + w) of a weighted configuration",
+    "language": "Latin (Archimedes / Commandino / Ceva 1678)",
+    "definition": "By Ceva's Axiomata I–II and Petitio, every system of commensurable or incommensurable point weights admits a single determinate center of gravity, and grouping subsets of weights by their partial fulcrums (e.g., balancing B and C at D first, then balancing v + w at D against u at A) must always pass through the same global center P."
+  },
+  "momentum-ponderis": {
+    "headword": "momentum ponderis (static moment / lever balance)",
+    "translation": "Product of weight and lever arm: u · AF = v · FB (A : B = BF : FA)",
+    "language": "Latin (Liber Primus, Lemmata I–II)",
+    "definition": "The Archimedean inverse-proportion law of the straight lever (Equiponderants I.6–7): two weights u at A and v at B balance around fulcrum F on line AB if and only if AF / FB = v / u."
+  },
+  "pondus-negativum": {
+    "headword": "pondus subtractivum / F - A (algebraic negative weight)",
+    "translation": "Analytic negative weight ('more analytico, seu algebrico F - A') governing exterior concurrency",
+    "language": "Neo-Latin (Liber Primus, Elementum III & p. 5 Scholium)",
+    "definition": "When three cevians concur at an exterior point P outside triangle ABC, one vertex carries an upward/subtractive weight ('pondus... more analytico, seu algebrico ita scribemus F - A, hoc est F minus A'), placing two fulcrums externally on the extended sides so that two negative directed side ratios multiply with one positive ratio to +1—anticipating Möbius's signed barycentric coordinates (1827) by 149 years."
+  },
+  "obelus-additio": {
+    "headword": "nota crucis † pro additione (A † F)",
+    "translation": "Ludovico Monza's 1678 typographic dagger symbol denoting algebraic addition (+)",
+    "language": "Early Modern Milanese Mathematical Typography (1678)",
+    "definition": "As explained in the printer's prefatory note to the 1678 Milan quarto, Ludovico Monza's press set compound static sums with the obelus/dagger '†' (e.g., 'A † F' = A + F at an interior fulcrum) paired with the analytic minus sign '-' ('F - A') for exterior fulcrums."
+  },
+  "ratio-composita": {
+    "headword": "ratio composita (compound ratio)",
+    "translation": "Product of sequential segment ratios (AF/FB) · (BD/DC) · (CE/EA) = 1",
+    "language": "Latin (Euclid VI / Commandino / Clavius / Ceva Props. VII–VIII)",
+    "definition": "Classical Euclidean expression for the product of ratios ('ratio ex rationibus composita'): in Liber Primus, Props. VII–VIII, Ceva cites Commandino and Clavius to translate static weight elimination (v/u) · (w/v) · (u/w) = 1 into the pure compound-ratio equality of side segments."
+  },
+  "ceviana": {
+    "headword": "linea ceviana (cevian)",
+    "translation": "Straight line joining a polygon or polyhedron vertex to a point on the opposite side or face",
+    "language": "Modern Geometric Terminology (honoring Ceva 1678)",
+    "definition": "Coined in nineteenth-century triangle geometry in honor of Giovanni Ceva: any line AD, BE, CF joining a vertex of triangle ABC to a finite point on the opposite sideline (interior or extended)."
+  },
+  "sectio-harmonica": {
+    "headword": "sectio harmonica (projective harmonic range)",
+    "translation": "Collinear quadruple (B, C; D, D') with cross-ratio -1 where D' = EF ∩ BC",
+    "language": "Latin / Projective Geometry (Liber Primus, Elementum I & Props. VII–VIII)",
+    "definition": "When AD, BE, CF concur at P (BD/DC = w/v), the dual Menelaus transversal EF meets sideline BC at D' with directed ratio BD'/D'C = -w/v, so (B, C; D, D') = -1—furnishing a straightedge-only construction of harmonic conjugates."
+  },
+  "coniugatum-isotomicum": {
+    "headword": "coniugatum isotomicum (isotomic conjugate)",
+    "translation": "Reciprocal-weight concurrency P* = (u⁻¹ : v⁻¹ : w⁻¹) obtained by reflecting cevian feet across side midpoints",
+    "language": "Latin / Triangle Geometry (Liber Secundus, Prop. I Corollarium)",
+    "definition": "If AD, BE, CF concur at P, reflecting D, E, F across the midpoints of BC, CA, AB yields D*, E*, F* with BD* = DC, CE* = EA, AF* = FB; each side ratio inverts, preserving the unit product 1⁻¹ = 1 and proving concurrency at P* (notably mapping Gergonne X(7) to Nagel X(8))."
+  },
+  "punctum-contactus": {
+    "headword": "punctum contactus / Gergonne X(7)",
+    "translation": "Concurrency center of cevians joining vertices to the contact points of an inscribed circle or ellipse",
+    "language": "Latin / Triangle Geometry (Liber Secundus, Prop. I)",
+    "definition": "Proved in Ceva's Liber Secundus, Proposition I (1678)—more than a century before Gergonne—both for a triangle circumscribed about a circle (weights 1/(s-a) : 1/(s-b) : 1/(s-c)) and for a triangle circumscribed about any ellipse."
+  },
+  "quadrilaterum-non-planum": {
+    "headword": "quadrilaterum non in eodem plano (3D skew quadrilateral)",
+    "translation": "Non-planar spatial four-bar cycle whose four weighted side fulcrums are coplanar and opposite-concurrent",
+    "language": "Neo-Latin (Liber Primus, Elementum V Corollarium, pp. 6–7)",
+    "definition": "Ceva's striking observation ('licet praedictum sic sectum quadrilaterum non in eodem plano iaceat') that four weights on a non-planar 3D quadrilateral produce four edge fulcrums in cyclic ratio product 1 whose two opposite-edge joins intersect in space at the global center of gravity O."
+  },
+  "concordia-septem-linearum": {
+    "headword": "mira concordia septem linearum (7-line tetrahedral concurrency)",
+    "translation": "Simultaneous spatial concurrency of 4 vertex-face cevians and 3 skew-edge bimedians at O",
+    "language": "Neo-Latin (Liber Primus, Prop. XXIII, pp. 36–39, Tab. 3 Fig. 28)",
+    "definition": "For four non-zero weights (m_A, m_B, m_C, m_D) on a tetrahedron ABCD, the 4 lines joining each vertex to the static barycenter of its opposite face AND the 3 lines joining the fulcrums of opposite skew edges all concur ('mira quadam concordia') at the single 3D center of gravity O."
+  },
+  "sectio-cylindrica": {
+    "headword": "sectio cylindrica / projectio affinis (cylindrical projection)",
+    "translation": "Oblique plane section of a circular cylinder mapping circles to ellipses while preserving collinear ratios",
+    "language": "Latin (Serenus / Borelli / Ceva Liber Secundus, Lemma I)",
+    "definition": "In Liber Secundus, Lemma I (tab. 4, figs. 32–35), Ceva projects an n-gon circumscribed about a circular cylinder's base onto an oblique planar section (an ellipse), proving that collinear tangent-division ratios remain invariant."
+  },
+  "ungula-cylindrica": {
+    "headword": "ungula cylindrica (cylindrical hoof)",
+    "translation": "Solid wedge cut from a right circular cylinder by a plane through a base diameter (Vol = 2/3 R²H)",
+    "language": "Latin (Appendix Geometrica, Prop. VII)",
+    "definition": "Sliced parallel to the cylinder's axis and perpendicular to the base diameter, each cross-section of the cylindrical ungula is a right triangle proportional to R² - x², yielding exact volume (2/3) R²H—two-thirds of the circumscribed triangular prism without involving π."
+  },
+  "indivisibilia-cautio": {
+    "headword": "indivisibilia Cavallerii & cautio superficierum",
+    "translation": "Ceva's closing paradox demonstrating why naive parallel indivisibles fail on curved surfaces",
+    "language": "Neo-Latin (Appendix Geometrica, Closing Scholium)",
+    "definition": "At the close of the Appendix Geometrica, Ceva shows that summing parallel circular circumferences without accounting for the slant arc element ds = dz / cos(α) falsely equates curved surface areas (such as a sphere vs. a cone or cylinder), proving that Cavalieri's indivisibles require rigorous Archimedean frustum limits on surfaces."
+  },
+  "spread-ceva": {
+    "headword": "Spread Ceva & Quadrance",
+    "translation": "Radical-free Rational Trigonometry formulation of Ceva's Theorem over Q",
+    "language": "Modern Symbolic Geometry (Wildberger / geometor.model)",
+    "definition": "Replaces transcendental sine ratios sin(∠BAD)/sin(∠DAC) with rational vertex spreads s(∠BAD)/s(∠DAC) and segment lengths with quadrances Q(AF)/Q(FB), verifying Ceva's concurrency in 100% exact rational arithmetic with zero square roots."
+  }
+}

@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="euclid-graphic" viewBox="0 0 960 430" role="img" aria-label="Ceva Appendix Geometrica Hippocratean Lune, Cylindrical Ungula 2/3 Prism, and Indivisibles Caution">
+  <defs>
+    <marker id="geom-tick-1" viewBox="-2 -6 4 12" refX="0" refY="0" markerWidth="4" markerHeight="12" orient="auto">
+      <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="currentColor" stroke-width="1.35" stroke-linecap="round"/>
+    </marker>
+    <marker id="geom-tick-2" viewBox="-4 -6 8 12" refX="0" refY="0" markerWidth="8" markerHeight="12" orient="auto">
+      <line x1="-1.8" y1="-4.5" x2="-1.8" y2="4.5" stroke="currentColor" stroke-width="1.35" stroke-linecap="round"/>
+      <line x1="1.8" y1="-4.5" x2="1.8" y2="4.5" stroke="currentColor" stroke-width="1.35" stroke-linecap="round"/>
+    </marker>
+    <marker id="geom-tick-3" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" orient="auto">
+      <line x1="-3.4" y1="-4.5" x2="-3.4" y2="4.5" stroke="currentColor" stroke-width="1.35" stroke-linecap="round"/>
+      <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="currentColor" stroke-width="1.35" stroke-linecap="round"/>
+      <line x1="3.4" y1="-4.5" x2="3.4" y2="4.5" stroke="currentColor" stroke-width="1.35" stroke-linecap="round"/>
+    </marker>
+  </defs>
+  <g id="elements">
+    <path class="geom-line" d="M 95.00 295.00 L 95.00 230.00 L 95.00 165.00" fill="none" data-ref="triABC" stroke-width="1.90"/>
+    <path class="geom-line" d="M 95.00 295.00 L 160.00 295.00 L 225.00 295.00" fill="none" data-ref="triABC" stroke-width="1.90"/>
+    <path class="geom-line" d="M 95.00 165.00 L 160.00 230.00 L 225.00 295.00" fill="none" data-ref="triABC" stroke-width="1.90"/>
+    <path class="geom-arc" d="M 225.00 295.00 A 130.00 130.00 0 0 0 95.00 165.00" fill="none" data-ref="arcQuad" stroke="#0284c7" stroke-width="1.90"/>
+    <path class="geom-arc" d="M 225.00 295.00 A 91.92 91.92 0 0 0 95.00 165.00" fill="none" data-ref="arcHyp" stroke="#d97706" stroke-width="2.10"/>
+    <path class="geom-line" d="M 380.00 290.00 L 380.00 309.00 L 380.00 328.00" fill="none" data-ref="prism" stroke="#94a3b8" stroke-width="1.20" stroke-dasharray="4 3"/>
+    <path class="geom-line" d="M 590.00 290.00 L 590.00 309.00 L 590.00 328.00" fill="none" data-ref="prism" stroke="#94a3b8" stroke-width="1.20" stroke-dasharray="4 3"/>
+    <path class="geom-line" d="M 380.00 328.00 L 485.00 328.00 L 590.00 328.00" fill="none" data-ref="prism" stroke="#94a3b8" stroke-width="1.20" stroke-dasharray="4 3"/>
+    <path class="geom-line" d="M 380.00 328.00 L 380.00 255.50 L 380.00 183.00" fill="none" data-ref="prism" stroke="#94a3b8" stroke-width="1.20" stroke-dasharray="4 3"/>
+    <path class="geom-line" d="M 590.00 328.00 L 590.00 255.50 L 590.00 183.00" fill="none" data-ref="prism" stroke="#94a3b8" stroke-width="1.20" stroke-dasharray="4 3"/>
+    <path class="geom-line" d="M 380.00 183.00 L 485.00 183.00 L 590.00 183.00" fill="none" data-ref="prism" stroke="#94a3b8" stroke-width="1.20" stroke-dasharray="4 3"/>
+    <path class="geom-line" d="M 380.00 290.00 L 380.00 236.50 L 380.00 183.00" fill="none" data-ref="prism" stroke="#94a3b8" stroke-width="1.20" stroke-dasharray="4 3"/>
+    <path class="geom-line" d="M 590.00 290.00 L 590.00 236.50 L 590.00 183.00" fill="none" data-ref="prism" stroke="#94a3b8" stroke-width="1.20" stroke-dasharray="4 3"/>
+    <path class="geom-line" d="M 380.00 290.00 L 485.00 290.00 L 590.00 290.00" fill="none" data-ref="ungula" stroke-width="2.00"/>
+    <path class="geom-line" d="M 485.00 328.00 L 485.00 255.50 L 485.00 183.00" fill="none" data-ref="ungula" stroke="#d97706" stroke-width="2.10"/>
+    <path class="geom-line" d="M 380.00 290.00 L 432.50 236.50 L 485.00 183.00" fill="none" data-ref="ungula" stroke="#d97706" stroke-width="1.90"/>
+    <path class="geom-line" d="M 590.00 290.00 L 537.50 236.50 L 485.00 183.00" fill="none" data-ref="ungula" stroke="#d97706" stroke-width="1.90"/>
+    <path class="geom-arc" d="M 380.00 290.00 A 105.00 38.00 0 0 0 590.00 290.00" fill="none" stroke="currentColor" stroke-width="2.0" data-ref="ungula"/>
+    <path class="geom-line" d="M 529.10 290.00 L 529.10 307.24 L 529.10 324.49" fill="none" data-ref="sliceTri" stroke="#16a34a" stroke-width="1.80"/>
+    <path class="geom-line" d="M 529.10 324.49 L 529.10 258.69 L 529.10 192.89" fill="none" data-ref="sliceTri" stroke="#16a34a" stroke-width="1.80"/>
+    <path class="geom-line" d="M 529.10 192.89 L 529.10 241.45 L 529.10 290.00" fill="none" data-ref="sliceTri" stroke="#16a34a" stroke-width="1.80"/>
+    <path class="geom-arc" d="M 905.00 295.00 A 110.00 110.00 0 0 0 685.00 295.00" fill="none" data-ref="hemi" stroke="#0284c7" stroke-width="2.10"/>
+    <path class="geom-line" d="M 685.00 295.00 L 795.00 295.00 L 905.00 295.00" fill="none" data-ref="hemi" stroke-width="2.00"/>
+    <path class="geom-line" d="M 795.00 185.00 L 795.00 240.00 L 795.00 295.00" fill="none" data-ref="axisVO" stroke="#64748b" stroke-width="1.60" stroke-dasharray="4 3"/>
+    <path class="geom-line" d="M 708.69 226.80 L 795.00 226.80 L 881.31 226.80" fill="none" data-ref="chordSlice" stroke="#dc2626" stroke-width="1.60" stroke-dasharray="4 3"/>
+    <path class="geom-line" d="M 723.51 211.40 L 795.00 211.40 L 866.49 211.40" fill="none" data-ref="chordSlice" stroke="#dc2626" stroke-width="1.60" stroke-dasharray="4 3"/>
+    <path class="geom-line" d="M 881.31 226.80 L 873.90 219.10 L 866.49 211.40" fill="none" data-ref="slantArc" stroke="#16a34a" stroke-width="3.20"/>
+  </g>
+  <g id="graphics">
+  </g>
+  <g id="highlights">
+    <path class="geom-polygon" d="M 225.00 295.00 A 91.92 91.92 0 0 0 95.00 165.00 A 130.00 130.00 0 0 1 225.00 295.00 Z" fill="#d97706" fill-opacity="0.24" stroke="none" data-ref="lune"/>
+    <polygon class="geom-polygon" points="95.00,295.00 95.00,165.00 225.00,295.00" fill="#0284c7" fill-opacity="0.16" stroke="none" data-ref="triABC"/>
+    <polygon class="geom-polygon" points="529.10,290.00 529.10,324.49 529.10,192.89" fill="#16a34a" fill-opacity="0.25" stroke="none" data-ref="sliceTri"/>
+  </g>
+  <g id="points">
+    <circle class="geom-point" cx="95.00" cy="295.00" r="3.60" data-ref="triABC"/>
+    <circle class="geom-point" cx="95.00" cy="165.00" r="3.60" data-ref="lune"/>
+    <circle class="geom-point" cx="225.00" cy="295.00" r="3.60" data-ref="lune"/>
+    <circle class="geom-point" cx="795.00" cy="185.00" r="3.60" data-ref="axisVO"/>
+    <circle class="geom-point" cx="795.00" cy="295.00" r="3.60" data-ref="axisVO"/>
+    <circle class="geom-point" cx="795.00" cy="253.75" r="4.60" fill="#d97706" data-ref="cgH"/>
+  </g>
+  <g id="labels">
+    <text class="geom-label" x="195.00" y="182.00" text-anchor="middle" dominant-baseline="central" style="font-size: 13px;" data-ref="lune">Lune</text>
+    <text class="geom-label" x="135.00" y="265.00" text-anchor="middle" dominant-baseline="central" style="font-size: 12px;" data-ref="triABC">1/2 R^2</text>
+    <text class="geom-label" x="165.00" y="34.00" text-anchor="middle" style="font-size: 13px; opacity: 0.86;">App. Prop. II: Lune = Triangle</text>
+    <text class="geom-label" x="165.00" y="396.00" text-anchor="middle" style="font-size: 13px; opacity: 0.86;">[Lune] = [Delta] = 1/2 R^2</text>
+    <text class="geom-label" x="485.00" y="34.00" text-anchor="middle" style="font-size: 13px; opacity: 0.86;">App. Prop. VII: Cylindrical Ungula</text>
+    <text class="geom-label" x="485.00" y="396.00" text-anchor="middle" style="font-size: 13px; opacity: 0.86;">Vol(Ungula) = 2/3 R^2 H = 2/3 Prism</text>
+    <text class="geom-label" x="795.00" y="171.00" text-anchor="middle" dominant-baseline="central" style="font-style: italic; font-size: 13px;" data-ref="axisVO">V</text>
+    <text class="geom-label" x="795.00" y="310.00" text-anchor="middle" dominant-baseline="central" style="font-style: italic; font-size: 13px;" data-ref="axisVO">O</text>
+    <text class="geom-label" x="829.00" y="253.75" text-anchor="middle" dominant-baseline="central" style="font-size: 12px;" data-ref="cgH">G (5:3)</text>
+    <text class="geom-label" x="907.31" y="219.10" text-anchor="middle" dominant-baseline="central" style="font-size: 12px;" data-ref="slantArc">ds != dz</text>
+    <text class="geom-label" x="795.00" y="34.00" text-anchor="middle" style="font-size: 13px; opacity: 0.86;">Prop. XIII (5:3 CG) &amp; Indivisibles Paradox</text>
+    <text class="geom-label" x="795.00" y="396.00" text-anchor="middle" style="font-size: 13px; opacity: 0.86;">Curved Surface Requires Slant Frustum ds, Not dz</text>
+  </g>
+</svg>
