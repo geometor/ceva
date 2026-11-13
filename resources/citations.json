@@ -1,0 +1,128 @@
+{
+  "ceva:1678:dlr": {
+    "author": "Giovanni Ceva",
+    "work": "De lineis rectis se invicem secantibus statica constructio. Ad Serenissimum Ferdinandum Carolum Ducem Mantuae, Montisferrati, Guastallae, &c.",
+    "year": "1678",
+    "locus": "Milan: Ex Typographia Ludovici Montiae ([16], 104 pp., 10 folding engraved plates / 85 figures; BNCF Florence copy ita-bnc-mag-00001346-001)",
+    "note": "Editio princeps setting forth Ceva's static-barycentric method: Liber Primus (pp. 1–44, Tab. 1–3, Figs. 1–31: planar & 3D cevian concurrency, Menelaus's theorem, negative weights F - A, Caravaggio Jr.'s Prop. VI, tetrahedron 7-line equilibrium), Liber Secundus (pp. 45–72, Tab. 4–7, Figs. 32–61: circumscribed conics, Gergonne/isotomic conjugates, odd-polygon Ceva), and Appendix Geometrica (pp. 73–104, Tab. 8–10, Figs. 62–85: pure synthetic area proofs, lunes, cylindrical ungula = 2/3 prism, solid centroids, and indivisibles caution). 100% Public Domain."
+  },
+  "ceva:1682:opuscula": {
+    "author": "Giovanni Ceva",
+    "work": "Opuscula mathematica de potentiis obliquis, de pendulis, de vasis, et de fluminibus",
+    "year": "1682",
+    "locus": "Milan: Ex Typographia Ludovici Montiae",
+    "note": "Extends Ceva's geometric statics to oblique forces, compound pendulums, hydrostatics, and fluvial hydraulics. Public Domain."
+  },
+  "ceva:1692:motus": {
+    "author": "Giovanni Ceva",
+    "work": "Geometria motus: opusculum geometricum in gratiam aquarum excogitatum",
+    "year": "1692",
+    "locus": "Bologna: Typis HH. Antonii Pisarii",
+    "note": "Kinematic and infinitesimal treatise developed during Ceva's Mantuan service. Public Domain."
+  },
+  "euclid:elements": {
+    "author": "Euclid of Alexandria (ed. J. L. Heiberg / trans. T. L. Heath)",
+    "work": "Stoicheia (Elements), Books I, V, VI, XI, XII",
+    "year": "c. 300 BC",
+    "locus": "Digital Scriptorium geometor/euclid & geometor/elements",
+    "note": "Proportionality of triangles of equal altitude (VI.1), similar triangles (VI.2, VI.4), and compound ratios (VI.23) underlying Caravaggio Jr.'s Prop. VI and Ceva's synthetic Appendix."
+  },
+  "archimedes:equipond": {
+    "author": "Archimedes of Syracuse",
+    "work": "De planorum aequilibriis (On the Equilibrium of Planes), Book I, Props. 4–7",
+    "year": "c. 250 BC",
+    "locus": "Archimedis Opera Omnia, ed. J. L. Heiberg; Digital Scriptorium geometor/archimedes",
+    "note": "Establishes the Law of the Lever (commensurable and incommensurable weights balance at distances inversely proportional to their magnitudes, A : B = BF : FA), adopted by Ceva in Liber Primus, Lemmata I–II."
+  },
+  "menelaus:sphaerica": {
+    "author": "Menelaus of Alexandria",
+    "work": "Sphaerica, Book III, Lemma 1",
+    "year": "c. 100 AD",
+    "locus": "Digital Scriptorium geometor/menelaus",
+    "note": "Classical collinear transversal theorem re-proved statically by Ceva in Liber Primus, Elementum I and Proposition VIII."
+  },
+  "ptolemy:almagest": {
+    "author": "Claudius Ptolemy",
+    "work": "Syntaxis Mathematica (Almagest), Book I, Ch. 13",
+    "year": "c. 150 AD",
+    "locus": "Digital Scriptorium geometor/ptolemy",
+    "note": "Transmits the planar and spherical Menelaus sector configuration in compound-ratio form."
+  },
+  "serenus:cylindri": {
+    "author": "Serenus of Antinoöpolis (trans. Federico Commandino)",
+    "work": "Sereni Antinsensis Philosophi Libri Duo: Unus De Sectione Cylindri, Alter De Sectione Coni",
+    "year": "1566",
+    "locus": "Bologna: Alexander Benacius (appended to Commandino's Apollonius)",
+    "note": "Demonstrates equivalence of oblique cylindrical sections with Apollonian ellipses; cited by Ceva in Liber Secundus, Lemma I."
+  },
+  "pappus:synagoge": {
+    "author": "Pappus of Alexandria (trans. Federico Commandino)",
+    "work": "Pappi Alexandrini Mathematicae Collectiones, Books VII & VIII",
+    "year": "1588",
+    "locus": "Pesaro: Hieronymus Concordia; Digital Scriptorium geometor/pappus",
+    "note": "Cross-ratio/harmonic range invariance (Book VII) and centers of gravity (Book VIII)."
+  },
+  "commandino:1565:centro": {
+    "author": "Federico Commandino",
+    "work": "Federici Commandini Urbinatis Liber de centro gravitatis solidorum",
+    "year": "1565",
+    "locus": "Bologna: Ex Officina Alexandri Benacii",
+    "note": "Renaissance restoration of Archimedean solid barycenters (parabolic conoid, pyramid/tetrahedron), cited by Ceva."
+  },
+  "clavius:1589:euclides": {
+    "author": "Christoph Clavius, S.J.",
+    "work": "Euclidis Elementorum Libri XV: Accessit XVI. de Solidorum Regularium cuiuslibet intra quodlibet comparatione",
+    "year": "1589",
+    "locus": "Rome: Apud Bartholomaeum Grassium (2nd rev. ed.)",
+    "note": "Cited by Ceva in Liber Primus on compound-ratio algebra ('ratio composita')."
+  },
+  "valerio:1604:centro": {
+    "author": "Luca Valerio",
+    "work": "De centro gravitatis solidorum libri tres",
+    "year": "1604",
+    "locus": "Rome: Bartholomaeus Bonfadinus",
+    "note": "Rigorous exhaustion-free barycentric determinations of hemispheres and conoids; Ceva praises Valerio as 'subtilissimus nostri aevi Archimedes' in Appendix Geometrica."
+  },
+  "cavalieri:1635:indivis": {
+    "author": "Bonaventura Cavalieri, O.S.H.",
+    "work": "Geometria indivisibilibus continuorum nova quadam ratione promota",
+    "year": "1635",
+    "locus": "Bologna: Typis Clementis Ferronii",
+    "note": "Foundational treatise of planar and solid indivisibles; celebrated in Ceva's Prooemium and critically bounded on curved surfaces at the close of Ceva's Appendix Geometrica."
+  },
+  "torricelli:1644:opera": {
+    "author": "Evangelista Torricelli",
+    "work": "Opera geometrica",
+    "year": "1644",
+    "locus": "Florence: Typis Amatoris Massae & Laurentii de Landis",
+    "note": "Contains De dimensione parabolae, De solido acuto hyperbolico, and barycentric theorems cited in Ceva's Appendix Geometrica."
+  },
+  "borelli:1661:apollonius": {
+    "author": "Giovanni Alfonso Borelli",
+    "work": "Apollonii Pergaei Conicorum Lib. V, VI, et VII & Archimedis Assumptorum Liber",
+    "year": "1661",
+    "locus": "Florence: Ex Typographia Iosephi Cocchini",
+    "note": "Pisan conic tradition transmitted through Donato Rossetti to Ceva and cited in Liber Secundus, Lemma I."
+  },
+  "moebius:1827:barycentr": {
+    "author": "August Ferdinand Möbius",
+    "work": "Der barycentrische Calcul: ein neues Hülfsmittel zur analytischen Behandlung der Geometrie",
+    "year": "1827",
+    "locus": "Leipzig: Verlag von Johann Ambrosius Barth",
+    "note": "Systematizes homogeneous barycentric coordinates (u : v : w) of arbitrary sign as a universal projective-affine calculus directly generalizing Ceva's 1678 static weights."
+  },
+  "hogendijk:1995:mutaman": {
+    "author": "Jan P. Hogendijk",
+    "work": "Al-Mu'taman ibn Hūd, 11th Century King of Saragossa and Brilliant Mathematician",
+    "year": "1995",
+    "locus": "Historia Mathematica 22(1), pp. 1–18",
+    "note": "Documents the independent 11th-century Arabic synthetic discovery of Ceva's ratio theorem in Kitāb al-Istikmāl."
+  },
+  "wildberger:2005:divine": {
+    "author": "Norman J. Wildberger",
+    "work": "Divine Proportions: Rational Trigonometry to Universal Geometry",
+    "year": "2005",
+    "locus": "Sydney: Wild Egg; Digital Scriptorium geometor/wildberger",
+    "note": "Establishes radical-free quadrance and vertex-spread invariants underlying Spread Ceva's Theorem in geometor.ceva."
+  }
+}

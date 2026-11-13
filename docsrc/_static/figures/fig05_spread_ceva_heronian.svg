@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="euclid-graphic" viewBox="0 0 900 450" role="img" aria-label="Canonical Rational Triangle Centers and Rational Trigonometry Spread Ceva on Heronian (13,14,15)">
+  <defs>
+    <marker id="geom-tick-1" viewBox="-2 -6 4 12" refX="0" refY="0" markerWidth="4" markerHeight="12" orient="auto">
+      <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="currentColor" stroke-width="1.35" stroke-linecap="round"/>
+    </marker>
+    <marker id="geom-tick-2" viewBox="-4 -6 8 12" refX="0" refY="0" markerWidth="8" markerHeight="12" orient="auto">
+      <line x1="-1.8" y1="-4.5" x2="-1.8" y2="4.5" stroke="currentColor" stroke-width="1.35" stroke-linecap="round"/>
+      <line x1="1.8" y1="-4.5" x2="1.8" y2="4.5" stroke="currentColor" stroke-width="1.35" stroke-linecap="round"/>
+    </marker>
+    <marker id="geom-tick-3" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" orient="auto">
+      <line x1="-3.4" y1="-4.5" x2="-3.4" y2="4.5" stroke="currentColor" stroke-width="1.35" stroke-linecap="round"/>
+      <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="currentColor" stroke-width="1.35" stroke-linecap="round"/>
+      <line x1="3.4" y1="-4.5" x2="3.4" y2="4.5" stroke="currentColor" stroke-width="1.35" stroke-linecap="round"/>
+    </marker>
+  </defs>
+  <g id="elements">
+    <path class="geom-line" d="M 332.50 50.00 L 263.75 215.00 L 195.00 380.00" fill="none" data-ref="ABC" stroke-width="2.10"/>
+    <path class="geom-line" d="M 195.00 380.00 L 387.50 380.00 L 580.00 380.00" fill="none" data-ref="ABC" stroke-width="2.10"/>
+    <path class="geom-line" d="M 580.00 380.00 L 456.25 215.00 L 332.50 50.00" fill="none" data-ref="ABC" stroke-width="2.10"/>
+    <path class="geom-line" d="M 332.50 50.00 L 353.12 215.00 L 373.75 380.00" fill="none" data-ref="AD" stroke="#0284c7" stroke-width="1.60"/>
+    <path class="geom-line" d="M 195.00 380.00 L 323.33 294.44 L 451.67 208.89" fill="none" data-ref="BE" stroke="#0284c7" stroke-width="1.60"/>
+    <path class="geom-line" d="M 580.00 380.00 L 420.69 300.34 L 261.38 220.69" fill="none" data-ref="CF" stroke="#0284c7" stroke-width="1.60"/>
+  </g>
+  <g id="graphics">
+    <path class="geom-arc" d="M 319.42 81.38 A 34.00 34.00 0 0 0 337.31 83.66" fill="none" data-ref="sA" stroke="#d97706" stroke-width="2.00"/>
+    <path class="geom-arc" d="M 338.44 91.58 A 42.00 42.00 0 0 0 357.70 83.60" fill="none" data-ref="sA" stroke="#16a34a" stroke-width="2.00"/>
+    <path class="geom-arc" d="M 233.00 380.00 A 38.00 38.00 0 0 0 226.62 358.92" fill="none" data-ref="sB" stroke="#d97706" stroke-width="2.00"/>
+    <path class="geom-arc" d="M 233.27 354.48 A 46.00 46.00 0 0 0 212.69 337.54" fill="none" data-ref="sB" stroke="#16a34a" stroke-width="2.00"/>
+    <path class="geom-arc" d="M 557.20 349.60 A 38.00 38.00 0 0 0 546.01 363.00" fill="none" data-ref="sC" stroke="#d97706" stroke-width="2.00"/>
+    <path class="geom-arc" d="M 538.86 359.42 A 46.00 46.00 0 0 0 534.00 380.00" fill="none" data-ref="sC" stroke="#16a34a" stroke-width="2.00"/>
+  </g>
+  <g id="highlights">
+    <polygon class="geom-polygon" points="332.50,50.00 195.00,380.00 580.00,380.00" fill="#0284c7" fill-opacity="0.06" stroke="none" data-ref="ABC"/>
+  </g>
+  <g id="points">
+    <circle class="geom-point" cx="332.50" cy="50.00" r="3.60" data-ref="A"/>
+    <circle class="geom-point" cx="195.00" cy="380.00" r="3.60" data-ref="B"/>
+    <circle class="geom-point" cx="580.00" cy="380.00" r="3.60" data-ref="C"/>
+    <circle class="geom-point" cx="373.75" cy="380.00" r="3.60" data-ref="D"/>
+    <circle class="geom-point" cx="451.67" cy="208.89" r="3.60" data-ref="E"/>
+    <circle class="geom-point" cx="261.38" cy="220.69" r="3.60" data-ref="F"/>
+    <circle class="geom-point" cx="360.00" cy="270.00" r="4.20" fill="#0284c7" data-ref="X1"/>
+    <circle class="geom-point" cx="369.17" cy="270.00" r="4.20" fill="#16a34a" data-ref="X2"/>
+    <circle class="geom-point" cx="332.50" cy="276.88" r="4.20" fill="#dc2626" data-ref="X4"/>
+    <circle class="geom-point" cx="350.96" cy="270.37" r="4.20" fill="#7c3aed" data-ref="X6"/>
+    <circle class="geom-point" cx="350.96" cy="271.51" r="4.20" fill="#d97706" data-ref="X7"/>
+    <circle class="geom-point" cx="387.50" cy="270.00" r="4.20" fill="#0d9488" data-ref="X8"/>
+  </g>
+  <g id="labels">
+    <text class="geom-label" x="332.50" y="34.00" text-anchor="middle" dominant-baseline="central" style="font-style: italic; font-size: 13px;" data-ref="A">A (5,12)</text>
+    <text class="geom-label" x="171.00" y="396.00" text-anchor="middle" dominant-baseline="central" style="font-style: italic; font-size: 13px;" data-ref="B">B (0,0)</text>
+    <text class="geom-label" x="606.00" y="396.00" text-anchor="middle" dominant-baseline="central" style="font-style: italic; font-size: 13px;" data-ref="C">C (14,0)</text>
+    <text class="geom-label" x="373.75" y="396.00" text-anchor="middle" dominant-baseline="central" style="font-style: italic; font-size: 13px;" data-ref="D">D</text>
+    <text class="geom-label" x="467.67" y="202.89" text-anchor="middle" dominant-baseline="central" style="font-style: italic; font-size: 13px;" data-ref="E">E</text>
+    <text class="geom-label" x="245.38" y="214.69" text-anchor="middle" dominant-baseline="central" style="font-style: italic; font-size: 13px;" data-ref="F">F</text>
+    <text class="geom-label" x="334.00" y="260.00" text-anchor="middle" dominant-baseline="central" style="font-size: 12px;" data-ref="X1">X(1)</text>
+    <text class="geom-label" x="397.17" y="262.00" text-anchor="middle" dominant-baseline="central" style="font-size: 12px;" data-ref="X2">X(2)</text>
+    <text class="geom-label" x="304.50" y="268.88" text-anchor="middle" dominant-baseline="central" style="font-size: 12px;" data-ref="X4">X(4)</text>
+    <text class="geom-label" x="322.96" y="280.37" text-anchor="middle" dominant-baseline="central" style="font-size: 12px;" data-ref="X6">X(6)</text>
+    <text class="geom-label" x="324.96" y="285.51" text-anchor="middle" dominant-baseline="central" style="font-size: 12px;" data-ref="X7">X(7)</text>
+    <text class="geom-label" x="415.50" y="282.00" text-anchor="middle" dominant-baseline="central" style="font-size: 12px;" data-ref="X8">X(8)</text>
+    <text class="geom-label" x="740.00" y="110.00" text-anchor="middle" style="font-size: 13px; opacity: 0.86;">Exact Spreads over Q (X(1)):</text>
+    <text class="geom-label" x="740.00" y="138.00" text-anchor="middle" style="font-size: 12px; opacity: 0.86;">s(BAD) = 16/65,  s(DAC) = 16/65</text>
+    <text class="geom-label" x="740.00" y="164.00" text-anchor="middle" style="font-size: 12px; opacity: 0.86;">s(CBE) = 4/13,  s(EBA) = 4/13</text>
+    <text class="geom-label" x="740.00" y="190.00" text-anchor="middle" style="font-size: 12px; opacity: 0.86;">s(ACF) = 1/5,  s(FCB) = 1/5</text>
+    <text class="geom-label" x="740.00" y="222.00" text-anchor="middle" style="font-size: 12px; opacity: 0.86;">Spread Product = 1  |  Quadrance Product = 1</text>
+    <text class="geom-label" x="450.00" y="28.00" text-anchor="middle" style="font-size: 13px; opacity: 0.86;">Heronian Triangle (13, 14, 15): Exact Rational Centers X(1), X(2), X(4), X(6), X(7), X(8)</text>
+    <text class="geom-label" x="450.00" y="422.00" text-anchor="middle" style="font-size: 13px; opacity: 0.86;">Spread Ceva Theorem: [s(BAD)/s(DAC)] * [s(CBE)/s(EBA)] * [s(ACF)/s(FCB)] = 1  (Zero Radicals)</text>
+  </g>
+</svg>

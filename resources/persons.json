@@ -1,0 +1,158 @@
+{
+  "ceva": {
+    "name": "Giovanni Ceva",
+    "dates": "1647 – 1734",
+    "role": "Milanese Geometer, Statician & Mantuan Court Mathematician",
+    "bio": "Born in Milan and educated at the Jesuit Brera College and the University of Pisa under Donato Rossetti; published his masterwork De lineis rectis se invicem secantibus statica constructio (Milan: Ludovico Monza, 1678), introducing the static-barycentric method of point masses (including negative algebraic weights F - A), proving Ceva's Theorem, re-proving Menelaus's Theorem statically, discovering the isotomic conjugation of incircle contact cevians, establishing the seven-line spatial concurrency of the tetrahedron, and critiquing naive surface indivisibles. Later served Ferdinando Carlo Gonzaga at Mantua as court mathematician and hydraulic commissary, authoring Opuscula mathematica (1682), Geometria motus (1692), and the pioneering mathematical-economics treatise De re numaria (1711)."
+  },
+  "tommaso-ceva": {
+    "name": "Tommaso Ceva, S.J.",
+    "dates": "1648 – 1737",
+    "role": "Jesuit Mathematician & Neo-Latin Poet at the Brera College, Milan",
+    "bio": "Younger brother of Giovanni Ceva, professor of mathematics at the Collegio di Brera in Milan for over forty years, correspondent of Guido Grandi and Leibniz, and author of Opuscula mathematica (1699) introducing higher cycloidal/sectrix curves for angle multisection."
+  },
+  "gonzaga": {
+    "name": "Ferdinando Carlo Gonzaga-Nevers",
+    "dates": "1652 – 1708",
+    "role": "Tenth Duke of Mantua, Montferrat & Guastalla",
+    "bio": "Dedicatee of Giovanni Ceva's 1678 De lineis rectis ('Ad Serenissimum Ferdinandum Carolum Ducem Mantuae, Montisferrati, Guastallae, &c.'), who appointed Ceva mathematician and commissary of the archducal chamber of Mantua in 1686."
+  },
+  "rossetti": {
+    "name": "Donato Rossetti",
+    "dates": "1633 – 1686",
+    "role": "Canon of Livorno & Professor of Philosophy and Mathematics at Pisa",
+    "bio": "Galilean atomist, disciple of Giovanni Alfonso Borelli, and Ceva's revered university teacher at Pisa, honored warmly in the 1678 Prooemium as the mentor who guided Ceva's mathematical formation before departing for Turin."
+  },
+  "caravaggio": {
+    "name": "Pietro Paolo Caravaggio Jr.",
+    "dates": "1658 – 1723",
+    "role": "Milanese Mathematician & Professor at the Palatine Schools",
+    "bio": "Son of Ceva's early Milanese teacher Pietro Paolo Caravaggio Sr. (1617–1688); explicitly credited by Ceva in Liber Primus, Proposition VI ('Petrus Paulus Caravaggius Petri Pauli filius praeceptoris sui', tab. 1, fig. 10) for contributing a pure Euclidean parallel-line demonstration of cevian concurrency independent of statics."
+  },
+  "monza": {
+    "name": "Ludovico Monza",
+    "dates": "fl. 1650 – 1685",
+    "role": "Milanese Master Printer (Typographus Mediolanensis)",
+    "bio": "Printer of the 1678 quarto editio princeps of De lineis rectis se invicem secantibus statica constructio and Ceva's 1682 Opuscula mathematica; noted in the printer's preface for employing the typographic obelus/dagger '†' to denote algebraic addition ('A † F' = A plus F) alongside '-' for subtraction ('F - A')."
+  },
+  "euclid": {
+    "name": "Euclid of Alexandria",
+    "dates": "fl. c. 300 BC",
+    "role": "Greek Geometer, Author of the Stoicheia (Elements)",
+    "bio": "Author of the Elements (Books I, V, VI, XI, XII), supplying the proportional, similar-triangle, and area-ratio foundations for Caravaggio Jr.'s Prop. VI proof and Ceva's pure-synthetic Appendix Geometrica."
+  },
+  "archimedes": {
+    "name": "Archimedes of Syracuse",
+    "dates": "c. 287 – c. 212 BC",
+    "role": "Greek Geometer, Statician & Physicist",
+    "bio": "Author of On the Equilibrium of Planes (Equiponderants I.6–7), Quadrature of the Parabola, On the Sphere and Cylinder, and The Method (hoof cubature); provides the foundational Law of the Lever (A : B = BF : FA) upon which Ceva erects his entire Statica Constructio."
+  },
+  "apollonius": {
+    "name": "Apollonius of Perga",
+    "dates": "c. 240 – c. 190 BC",
+    "role": "Greek Geometer, Author of the Conics",
+    "bio": "Celebrated in Ceva's Prooemium alongside Archimedes and Pappus; supplies the tangent, diameter, and conjugate-chord properties of conics applied throughout Liber Secundus and the Appendix Geometrica."
+  },
+  "hippocrates": {
+    "name": "Hippocrates of Chios",
+    "dates": "fl. c. 440 BC",
+    "role": "Greek Geometer, Pioneer of Lune Quadrature",
+    "bio": "First mathematician to square curvilinear lunes bounded by circular arcs; generalized and re-proved synthetically by Ceva in Appendix Geometrica, Proposition II."
+  },
+  "menelaus": {
+    "name": "Menelaus of Alexandria",
+    "dates": "c. 70 – c. 140 AD",
+    "role": "Greco-Roman Geometer & Astronomer, Author of the Sphaerica",
+    "bio": "Discoverer of the collinear transversal theorem (Sphaerica III, Lemma 1), which Ceva re-proves instantaneously via two-stage static lever equilibrium in Liber Primus, Elementum I and Proposition VIII, uniting collinearity with concurrency."
+  },
+  "ptolemy": {
+    "name": "Claudius Ptolemy",
+    "dates": "c. 100 – c. 170 AD",
+    "role": "Greco-Roman Mathematician & Astronomer",
+    "bio": "Author of the Almagest, Book I Ch. 13 of which transmitted the planar and spherical Menelaus sector configuration ('regula sex quantitatum') to medieval Arabic and Renaissance Latin geometers."
+  },
+  "serenus": {
+    "name": "Serenus of Antinoöpolis",
+    "dates": "fl. 4th century AD",
+    "role": "Late Antique Geometer, Author of On the Section of a Cylinder",
+    "bio": "Proved the identity of planar sections of a circular cylinder with Apollonian ellipses; cited together with Borelli by Ceva in Liber Secundus, Lemma I (tab. 4, figs. 32–35) to transfer tangent-ratio products from circles to arbitrary ellipses."
+  },
+  "pappus": {
+    "name": "Pappus of Alexandria",
+    "dates": "c. 290 – c. 350 AD",
+    "role": "Late Antique Greek Geometer, Author of the Synagoge",
+    "bio": "Praised in Ceva's Prooemium; Books VII and VIII of his Mathematical Collection (translated into Latin by Commandino, 1588) preserved projective cross-ratio/harmonic properties and ancient mechanics."
+  },
+  "mutaman": {
+    "name": "Yusuf al-Mu'taman ibn Hud",
+    "dates": "d. 1085",
+    "role": "Hudid King of Zaragoza & Geometer",
+    "bio": "Eleventh-century Andalusian ruler and mathematician whose Arabic Kitāb al-Istikmāl (Book of Perfection) contained the earliest surviving pure-synthetic proof of the cevian concurrency theorem—untranslated into Latin and unknown to Ceva, rediscovered by Jan P. Hogendijk in 1985."
+  },
+  "commandino": {
+    "name": "Federico Commandino",
+    "dates": "1509 – 1575",
+    "role": "Italian Renaissance Humanist Geometer & Translator",
+    "bio": "Restorer of classical Greek mathematics in Latin (Euclid, Archimedes, Apollonius, Serenus 1566, Pappus 1588) and author of Liber de centro gravitatis solidorum (1565); cited explicitly by Ceva on compound ratios and solid centroids."
+  },
+  "clavius": {
+    "name": "Christoph Clavius, S.J.",
+    "dates": "1538 – 1612",
+    "role": "Jesuit Mathematician at the Collegio Romano",
+    "bio": "Author of the monumental annotated Euclidis Elementorum Libri XV (1574/1589), cited by Ceva in Liber Primus (Props. VII–VIII) for rigorous Euclidean manipulation of compound ratios."
+  },
+  "valerio": {
+    "name": "Luca Valerio",
+    "dates": "1553 – 1618",
+    "role": "Italian Geometer & Member of the Accademia dei Lincei",
+    "bio": "Author of De centro gravitatis solidorum libri tres (1604), praised by Galileo and hailed by Ceva in Appendix Geometrica ('subtilissimus nostri aevi Archimedes') in connection with the 5 : 3 center of gravity of the hemisphere (Prop. XIII)."
+  },
+  "cavalieri": {
+    "name": "Bonaventura Cavalieri, O.S.H.",
+    "dates": "1598 – 1647",
+    "role": "Jesuate Mathematician at Bologna, Pioneer of Indivisibles",
+    "bio": "Disciple of Galileo and author of Geometria indivisibilibus continuorum (1635). In his Prooemium Ceva credits 'indivisibilia Cavallerii' with curing him of youthful circle-squaring obstinacy, while in the closing pages of the Appendix Geometrica he delivers a celebrated warning against applying parallel indivisibles naively to curved surfaces."
+  },
+  "torricelli": {
+    "name": "Evangelista Torricelli",
+    "dates": "1608 – 1647",
+    "role": "Italian Geometer & Physicist, Successor to Galileo",
+    "bio": "Author of Opera geometrica (1644), cited by Ceva in Appendix Geometrica on the 2 : 1 center of gravity of the parabolic conoid, cycloidal/parabolic quadratures, and the acute infinite hyperbolic solid."
+  },
+  "borelli": {
+    "name": "Giovanni Alfonso Borelli",
+    "dates": "1608 – 1679",
+    "role": "Italian Mathematician, Astronomer & Biomechanist at Pisa",
+    "bio": "Author of Euclides restitutus (1658) and editor of Apollonius Books V–VII (1661), teacher of Donato Rossetti at Pisa, and cited by Ceva in Liber Secundus, Lemma I for cylindrical conic sections."
+  },
+  "carnot": {
+    "name": "Lazare Nicolas Marguerite Carnot",
+    "dates": "1753 – 1823",
+    "role": "French Projective Geometer & Mechanician",
+    "bio": "Author of Géométrie de position (1803) and Essai sur la théorie des transversales (1806), reviving and generalizing Ceva's and Menelaus's theorems across multilateral polygons and algebraic curves."
+  },
+  "gergonne": {
+    "name": "Joseph Diez Gergonne",
+    "dates": "1771 – 1859",
+    "role": "French Projective Geometer & Editor of Annales de Mathématiques",
+    "bio": "Formulator of projective duality and namesake of the Gergonne contact point X(7)—whose concurrency Ceva had already proved statically and projectively for circles and ellipses in Liber Secundus, Proposition I (1678)."
+  },
+  "moebius": {
+    "name": "August Ferdinand Möbius",
+    "dates": "1790 – 1868",
+    "role": "German Geometer & Astronomer",
+    "bio": "Author of Der barycentrische Calcul (1827), which erected modern homogeneous barycentric coordinates (u : v : w)—including negative weights—upon the exact static foundation introduced by Giovanni Ceva in 1678."
+  },
+  "nagel": {
+    "name": "Christian Heinrich von Nagel",
+    "dates": "1803 – 1882",
+    "role": "German Geometer",
+    "bio": "Investigator of triangle excircle-contact cevians concurring at the Nagel point X(8) (1836), which arises immediately from X(7) via Ceva's 1678 isotomic conjugation theorem (Liber Secundus, Prop. I Corollarium)."
+  },
+  "kimberling": {
+    "name": "Clark Kimberling",
+    "dates": "b. 1942",
+    "role": "American Geometer, Creator of the Encyclopedia of Triangle Centers",
+    "bio": "Founder of the Encyclopedia of Triangle Centers (ETC, geometor/etc), indexing X(1), X(2), X(4), X(6), X(7), X(8), and tens of thousands of barycentric and isotomic centers governed by Ceva's Theorem."
+  }
+}

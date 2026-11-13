@@ -1,0 +1,20 @@
+{
+  "repository": "geometor/ceva",
+  "author": "Giovanni Ceva (1647–1734)",
+  "copyright_audit": {
+    "status": "100% Public Domain Neo-Latin primary source (Milan, 1678) + 100% Original GEOMETOR English translation, executive summaries, SVG figures, and scholarly commentary",
+    "excluded_modern_translations": [
+      "No modern copyrighted English, Italian, or French translations (such as Pascal 1915 Italian notes or sourcebook excerpts in Smith 1929 / Struik 1969) were consulted or reproduced; all English prose is translated directly from the 1678 Milan editio princeps."
+    ]
+  },
+  "primary_public_domain_sources": [
+    {
+      "id": "ceva_1678_milan_editio_princeps",
+      "citation": "De lineis rectis se invicem secantibus statica constructio. Ad Serenissimum Ferdinandum Carolum Ducem Mantuae, Montisferrati, Guastallae, &c. Auctore Ioanne Ceva Mediolanensi. Mediolani: Ex Typographia Ludovici Montiae, MDCLXXVIII. Superiorum Permissu.",
+      "exemplar": "Biblioteca Nazionale Centrale di Firenze (BNCF), shelfmark Magl. / ita-bnc-mag-00001346-001 ([16], 104 printed pages + 10 folding copperplates containing Figs. 1–85; Printed page N = PDF scan page N + 17)",
+      "language": "Neo-Latin",
+      "rights": "Public Domain worldwide (published 1678; author died 1734)",
+      "sections_included": "Title Page & Printer's Note on '†' (PDF pp. 10–17), Dedication to Ferdinando Carlo Gonzaga & Prooemium honoring Donato Rossetti, Liber Primus (pp. 1–44: Axiomata, Lemmata I–II, Elementa I–V incl. negative weight F - A & 3D skew quadrilateral, Prop. VI Caravaggio Jr., Props. VII–XXII Ceva & Menelaus concurrencies, Props. XXIII–XXVI 3D tetrahedron 7-line equilibrium), Liber Secundus (pp. 45–72: Lemma I Borelli–Serenus ellipse projection, Prop. I Gergonne & isotomic conjugate, Props. II–XIV multilateral polygons & conics), and Appendix Geometrica (pp. 73–104: synthetic area ratios, Prop. II lune, Prop. VII cylindrical ungula = 2/3 prism, Props. XIII–XIV hemisphere 5:3 & paraboloid 2:1 centroids, and Closing Caution on Cavalieri's indivisibles)"
+    }
+  ]
+}
