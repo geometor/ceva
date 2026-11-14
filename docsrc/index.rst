@@ -32,7 +32,7 @@ Book Codex & Repository Architecture
 * :doc:`Exact Symbolic Demonstrations <demos/index>`: Pure-symbolic Python scripts (`Model(..., auto_intersect=False)`) free of floating-point coordinates, verifying canonical centers $X(1), X(2), X(4), X(6), X(7), X(8), J_A$ over $\mathbb{Q}$, harmonic ranges $(B, C; D, D') = -1$, **Spread Ceva's Theorem**, pentagonal concurrency, 3D 7-line tetrahedral equilibrium, and *Appendix* integrals.
 * :doc:`Python Package Reference <modules/index>`: Documented symbolic modules in ``geometor.ceva`` (`static_barycentrics`, `polygon_tetrahedron`, `sphinx_ext`, `__main__`).
 * :doc:`Curation Log <log/index>`: Chronological transcription, translation, and verification records.
-* :doc:`About GEOMETOR Ceva <about/index>`: Provenance, historical context, and editorial conventions.
+* :doc:`About This Edition <about/index>`: Provenance, historical context, and editorial conventions.
 
 .. toctree::
    :maxdepth: 2
@@ -41,6 +41,7 @@ Book Codex & Repository Architecture
    de_lineis_rectis/index
    de_lineis_rectis/persons
    de_lineis_rectis/bibliography
+   about/index
    usage/index
    demos/index
    log/index
