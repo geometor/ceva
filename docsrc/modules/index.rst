@@ -1,5 +1,6 @@
 :navigation: header
-:order: 30
+:order: 40
+:nav_title: Modules
 
 .. _ceva-modules:
 

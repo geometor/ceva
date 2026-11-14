@@ -1,12 +1,42 @@
-.. _ceva-persons:
+:navigation: header
+:order: 5
+:nav_title: People
 
-Index Nominum (Persons)
-=======================
+.. _ceva-persons:
+.. _persons:
+
+People
+======
+
+.. rubric:: Prosopographical Register of Geometers, Staticians, Patrons & Commentators in Ceva's *De Lineis Rectis*
 
 Prosopographical register of the **26** geometers, staticians, natural philosophers, printers, patrons, and modern mathematical heirs referenced across **GEOMETOR Ceva**.
 
-Classical & Medieval Authorities
---------------------------------
+Authors & Editors
+-----------------
+
+.. _person-ceva:
+
+* **Giovanni Ceva** (*1647 – 1734*) — Milanese geometer, statician, and court mathematician to Ferdinando Carlo Gonzaga at Mantua; author of *De lineis rectis se invicem secantibus statica constructio* (Milan, 1678), *Opuscula mathematica* (1682), *Geometria motus* (1692), and *De re numaria* (1711). Transformed Archimedes' Law of the Lever into a general projective method of geometric incidence and ratio analysis.
+
+.. _person-tommaso-ceva:
+
+* **Tommaso Ceva, S.J.** (*1648 – 1737*) — Younger brother of Giovanni Ceva, celebrated Jesuit mathematician, humanist, and poet; long-serving professor of mathematics at the Jesuit Brera College in Milan, inventor of the mathematical trisection instrument (pantograph-like gravity compass), and author of *Opuscula mathematica* (1699).
+
+.. _person-monza:
+
+* **Ludovico Monza** (*fl. 1650 – 1685*) — Master Milanese printer (*Ex Typographia Ludovici Montiae*) of the 1678 *editio princeps*, noted for setting algebraic addition with the obelus/dagger ``†`` (`A † F`).
+
+.. _person-gonzaga:
+
+* **Ferdinando Carlo Gonzaga-Nevers** (*1652 – 1708*) — Tenth Duke of Mantua, Montferrat, and Guastalla, patron and dedicatee of Ceva's 1678 treatise.
+
+.. _person-caravaggio:
+
+* **Pietro Paolo Caravaggio Jr.** (*1658 – 1723*) — Son of Ceva's Milanese mentor Pietro Paolo Caravaggio Sr., credited in *Liber Primus, Proposition VI* (`tab. 1. fig. 10`) with the pure Euclidean parallel-line proof of cevian concurrency.
+
+Cited Geometers, Philosophers & Scholars
+----------------------------------------
 
 .. _person-hippocrates:
 
@@ -44,9 +74,6 @@ Classical & Medieval Authorities
 
 * **Yusuf al-Mu'taman ibn Hud** (*d. 1085*) — Hudid King of Zaragoza whose Arabic *Kitāb al-Istikmāl* contained the earliest surviving synthetic proof of the cevian concurrency theorem (unknown in Latin Europe and rediscovered by J. P. Hogendijk in 1985).
 
-Renaissance & Seventeenth-Century Circle
-----------------------------------------
-
 .. _person-commandino:
 
 * **Federico Commandino** (*1509 – 1575*) — Translator of Euclid, Archimedes, Apollonius, Serenus (1566), and Pappus (1588), and author of *Liber de centro gravitatis solidorum* (1565); cited by Ceva on compound ratios and solid centroids.
@@ -74,29 +101,6 @@ Renaissance & Seventeenth-Century Circle
 .. _person-rossetti:
 
 * **Donato Rossetti** (*1633 – 1686*) — Canon of Livorno and Professor at the University of Pisa, gratefully honored in Ceva's 1678 *Prooemium* as his beloved teacher.
-
-.. _person-ceva:
-
-* **Giovanni Ceva** (*1647 – 1734*) — Milanese geometer, statician, and court mathematician at Mantua; author of *De lineis rectis se invicem secantibus statica constructio* (Milan, 1678), *Opuscula mathematica* (1682), *Geometria motus* (1692), and *De re numaria* (1711).
-
-.. _person-tommaso-ceva:
-
-* **Tommaso Ceva, S.J.** (*1648 – 1737*) — Younger brother of Giovanni Ceva and long-serving professor of mathematics at the Jesuit Brera College in Milan.
-
-.. _person-monza:
-
-* **Ludovico Monza** (*fl. 1650 – 1685*) — Master Milanese printer (*Ex Typographia Ludovici Montiae*) of the 1678 *editio princeps*, noted for setting algebraic addition with the obelus/dagger ``†`` (`A † F`).
-
-.. _person-gonzaga:
-
-* **Ferdinando Carlo Gonzaga-Nevers** (*1652 – 1708*) — Tenth Duke of Mantua, Montferrat, and Guastalla, patron and dedicatee of Ceva's 1678 treatise.
-
-.. _person-caravaggio:
-
-* **Pietro Paolo Caravaggio Jr.** (*1658 – 1723*) — Son of Ceva's Milanese mentor Pietro Paolo Caravaggio Sr., credited in *Liber Primus, Proposition VI* (`tab. 1. fig. 10`) with the pure Euclidean parallel-line proof of cevian concurrency.
-
-Modern Projective & Barycentric Heirs
--------------------------------------
 
 .. _person-carnot:
 

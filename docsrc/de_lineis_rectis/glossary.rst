@@ -1,3 +1,6 @@
+:navigation: footer
+:nav_title: Glossary
+
 .. _ceva-glossary:
 
 Latin & Mathematical Glossary

@@ -1,7 +1,9 @@
-Giovanni Ceva
-=============
+:title: GEOMETOR • ceva
 
-*Static Barycentrics, Cevian Concurrency, Spatial Equilibrium, and Synthetic Geometry (Milan, 1678)*
+GEOMETOR • ceva
+================
+
+.. rubric:: Giovanni Ceva's *De Lineis Rectis* (Milan, 1678) — Static Barycentrics, Cevian Concurrency & Digital Codex
 
 .. epigraph::
 
@@ -20,10 +22,26 @@ Overview
 2. ***Liber Secundus* — Circumscribed Conics, Isotomic Conjugates & Odd Polygons**: Using :person:`Serenus <serenus>` and :person:`Borelli's <borelli>` cylindrical projection (*Lemma* I), Ceva proves contact-ratio invariance on circles and ellipses, discovers the concurrency of incircle/inellipse contact cevians (*Prop.* I, anticipating :person:`Gergonne <gergonne>` $X(7)$) and its **isotomic conjugate** (*Prop.* I *Corollarium*, anticipating :person:`Nagel <nagel>` $X(8)$), and generalizes cevian concurrency to arbitrary **odd $(2m + 1)$-gons**.
 3. ***Appendix Geometrica* — Pure Area Ratios, Ungula Cubature & Indivisibles Caution**: Dispensing with mechanics altogether, Ceva re-grounds ratio geometry in pure Euclidean triangle areas ($[\triangle PAB] / [\triangle PAC] = BD / DC$), squares Hippocratean lunes (*Prop.* II), cubes the cylindrical *ungula* as $\frac{2}{3}$ of its circumscribed prism (*Prop.* VII), establishes the $5 : 3$ hemisphere centroid (*Prop.* XIII, praising :person:`Luca Valerio <valerio>`) and $2 : 1$ paraboloid centroid (*Prop.* XIV, citing :person:`Evangelista Torricelli <torricelli>`), and closes with his celebrated **caution on Cavalieri's indivisibles** on curved surfaces.
 
-Architecture of the Repository
-------------------------------
+----
 
-* **Digital Scriptorium Book Codex** (:doc:`de_lineis_rectis/index`): Four multi-track units (`:layout: book`) pairing original GEOMETOR English translations with folio-verified 1678 Neo-Latin primary texts, executive geometric summaries, scholarly commentary, **8** interactive ``.euclid-graphic`` SVG plates, and linked apparatus registries (:doc:`Concordance <de_lineis_rectis/concordance>`, :doc:`Bibliography <de_lineis_rectis/bibliography>`, :doc:`Persons <de_lineis_rectis/persons>`, :doc:`Glossary <de_lineis_rectis/glossary>`).
-* **Exact Symbolic Demonstrations** (:doc:`demos/index`): Pure-symbolic Python scripts (`Model(..., auto_intersect=False)`) free of floating-point coordinates, verifying canonical centers $X(1), X(2), X(4), X(6), X(7), X(8), J_A$ over $\mathbb{Q}$, harmonic ranges $(B, C; D, D') = -1$, **Spread Ceva's Theorem**, pentagonal concurrency, 3D 7-line tetrahedral equilibrium, and *Appendix* integrals.
-* **Python API Reference** (:doc:`modules/index`): Documented symbolic modules in ``geometor.ceva`` (`static_barycentrics`, `polygon_tetrahedron`, `sphinx_ext`, `__main__`).
-* **Project Context & Log** (:doc:`about/index`, :doc:`log/index`): Provenance, editorial conventions, and development log.
+Book Codex & Repository Architecture
+------------------------------------
+
+* :doc:`Book Codex: On Straight Lines Mutually Intersecting (De Lineis Rectis, 1678) <de_lineis_rectis/index>`: Four multi-track units pairing original GEOMETOR English translations with folio-verified 1678 Neo-Latin primary texts, executive geometric summaries, scholarly commentary, interactive ``.euclid-graphic`` SVG plates, and linked scholarly apparatus (:doc:`People </de_lineis_rectis/persons>`, :doc:`Bibliography </de_lineis_rectis/bibliography>`, :doc:`Concordance <de_lineis_rectis/concordance>`, :doc:`Glossary <de_lineis_rectis/glossary>`).
+* :doc:`Using This Edition (Reader's Guide & CLI) <usage/index>`: Interactive reading tracks, BNCF Florence primary folios, SVG diagram links, full-text search, and command-line usage.
+* :doc:`Exact Symbolic Demonstrations <demos/index>`: Pure-symbolic Python scripts (`Model(..., auto_intersect=False)`) free of floating-point coordinates, verifying canonical centers $X(1), X(2), X(4), X(6), X(7), X(8), J_A$ over $\mathbb{Q}$, harmonic ranges $(B, C; D, D') = -1$, **Spread Ceva's Theorem**, pentagonal concurrency, 3D 7-line tetrahedral equilibrium, and *Appendix* integrals.
+* :doc:`Python Package Reference <modules/index>`: Documented symbolic modules in ``geometor.ceva`` (`static_barycentrics`, `polygon_tetrahedron`, `sphinx_ext`, `__main__`).
+* :doc:`Curation Log <log/index>`: Chronological transcription, translation, and verification records.
+* :doc:`About GEOMETOR Ceva <about/index>`: Provenance, historical context, and editorial conventions.
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+
+   de_lineis_rectis/index
+   de_lineis_rectis/persons
+   de_lineis_rectis/bibliography
+   usage/index
+   demos/index
+   log/index
+   modules/index

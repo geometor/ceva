@@ -1,5 +1,6 @@
 :navigation: header
-:order: 20
+:order: 25
+:nav_title: Demos
 
 Symbolic Demonstrations
 =======================

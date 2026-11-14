@@ -1,3 +1,6 @@
+:navigation: footer
+:nav_title: Concordance
+
 .. _ceva-concordance:
 
 Cross-Corpus Geometric Concordance
