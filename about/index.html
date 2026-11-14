@@ -6,7 +6,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>About GEOMETOR Ceva &mdash; GEOMETOR • ceva</title>
+  <title>About &mdash; GEOMETOR • ceva</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
@@ -47,6 +47,9 @@
           <a href="../de_lineis_rectis/bibliography.html"  >Bibliography</a>
         </li>
         <li>
+          <a href="#" class="is-active" aria-selected="true" aria-current="page">About</a>
+        </li>
+        <li>
           <a href="../usage/index.html"  >Usage</a>
         </li>
         <li>
@@ -74,38 +77,65 @@
         </div>
         <div class="book-header-nav">
           <div class="book-nav-prev">
-            <a class="book-nav-btn" href="../modules/api/geometor/ceva/__main__/index.html" title="geometor.ceva.__main__">&larr; <span class="nav-label">Prev</span></a>
+            <a class="book-nav-btn" href="../de_lineis_rectis/glossary.html" title="Latin &amp; Mathematical Glossary">&larr; <span class="nav-label">Prev</span></a>
           </div>
           <div class="book-nav-center">
           </div>
           <div class="book-nav-next">
+            <a class="book-nav-btn" href="../usage/index.html" title="Using This Edition"><span class="nav-label">Next</span> &rarr;</a>
           </div>
         </div>
       </header>
       <div class="content body book-content" role="main">
-        <section class="level-1" id="about-geometor-ceva">
-        <span id="ceva-about"></span><h1>About GEOMETOR Ceva<a class="headerlink" href="#about-geometor-ceva" title="Link to this heading">¶</a></h1>
-        <p>Historical, philological, and symbolic-modeling provenance for <code class="docutils literal notranslate"><span class="pre">geometor-ceva</span></code> in the <strong>GEOMETOR Digital Scriptorium</strong>.</p>
-        <section class="level-2" id="public-domain-textual-provenance-copyright-audit">
-        <h2>Public-Domain Textual Provenance &amp; Copyright Audit<a class="headerlink" href="#public-domain-textual-provenance-copyright-audit" title="Link to this heading">¶</a></h2>
+        <section class="level-1" id="ceva-about">
+        <span id="about-index"></span><span id="about"></span><span id="id1"></span><h1>About<a class="headerlink" href="#ceva-about" title="Link to this heading">¶</a></h1>
+        <p class="rubric">Extracting Historical Semantic Knowledge &amp; Repurposing It for Exact Symbolic Reasoning</p>
+        <section class="level-2" id="about-this-edition">
+        <h2>About This Edition<a class="headerlink" href="#about-this-edition" title="Link to this heading">¶</a></h2>
+        <p><code class="docutils literal notranslate"><span class="pre">geometor-ceva</span></code> establishes the authoritative Digital Scriptorium critical edition and exact symbolic engine for <strong>Giovanni Ceva’s</strong> (1647–1734) landmark quarto treatise, <span class="citation-ref" data-cite="ceva:1678:dlr" title="Giovanni Ceva — De lineis rectis se invicem secantibus statica constructio. Ad Serenissimum Ferdinandum Carolum Ducem Mantuae, Montisferrati, Guastallae, &amp;c. (Milan: Ex Typographia Ludovici Montiae ([16], 104 pp., 10 folding engraved plates / 85 figures; BNCF Florence copy ita-bnc-mag-00001346-001))"><em>De lineis rectis se invicem secantibus statica constructio</em> (Milan, 1678)</span>. Dedicated to Ferdinando Carlo Gonzaga, Duke of Mantua, this revolutionary work introduced the static barycentric method to mathematics—resolving the concurrency and collinearity properties of intersecting straight lines by substituting fictitious gravitational weights in place of lines and invoking Archimedes’ Law of the Lever ($u \cdot \overline{AF} = v \cdot \overline{FB}$), while introducing algebraic negative weights ($F - A$) nearly a century and a half before August Ferdinand Möbius.</p>
+        <p>The edition reconstructs the complete 1678 treatise across four synchronized units: <em>Liber Primus</em> (establishing Menelaus’s transversal theorem, Ceva’s concurrency theorem $\frac{AF}{FB}\cdot\frac{BD}{DC}\cdot\frac{CE}{EA} = 1$, Caravaggio’s Euclidean parallel-line proof, 3D skew quadrilaterals, and 7-line tetrahedral concurrency), <em>Liber Secundus</em> (conic contact-ratio invariance, the contact cevian concurrency anticipating Gergonne $X(7)$ and its isotomic conjugate anticipating Nagel $X(8)$, and generalization to arbitrary odd $(2m + 1)$-gons), and the <em>Appendix Geometrica</em> (pure geometric area-ratio foundations, cubature of the cylindrical <em>ungula</em>, hemisphere and paraboloid centroids, and Ceva’s famous foundational critique of Cavalieri’s method of indivisibles).</p>
+        <p>Within the <strong>GEOMETOR</strong> canon, <code class="docutils literal notranslate"><span class="pre">geometor-ceva</span></code> forms the primary bridge uniting classical Archimedean statics (<code class="docutils literal notranslate"><span class="pre">geometor/archimedes</span></code>) with classical Greek transversal lemmas (<code class="docutils literal notranslate"><span class="pre">geometor/menelaus</span></code>, <code class="docutils literal notranslate"><span class="pre">geometor/pappus</span></code>), homogeneous barycentric coordinates in <code class="docutils literal notranslate"><span class="pre">geometor/etc</span></code>, and modern radical-free Rational Trigonometry (<code class="docutils literal notranslate"><span class="pre">geometor/wildberger</span></code>), establishing the computational foundation for cevian concurrency and harmonic division across all geometries.</p>
+        </section>
+        <section class="level-2" id="the-geometor-mission">
+        <h2>The GEOMETOR Mission<a class="headerlink" href="#the-geometor-mission" title="Link to this heading">¶</a></h2>
+        <p>The <strong>GEOMETOR</strong> initiative, founded by <strong>phi ARCHITECT</strong>, is dedicated to a three-fold synthesis of classical geometry, exact symbolic computation, and modern knowledge architecture:</p>
+        <ul class="simple">
+        <li><p><strong>Extracting Historical Semantic Knowledge</strong>: Moving beyond passive page scans and static OCR to recover the living deductive structure of 2,300+ years of geometric, axiomatic, and philosophical treatises. We elevate running prose, marginal citations, primary-source folios (via <code class="docutils literal notranslate"><span class="pre">publish</span> <span class="pre">folio</span></code>), and calibrated Ink-to-Vector <code class="docutils literal notranslate"><span class="pre">.euclid-graphic</span></code> diagrams into structured, machine-addressable semantic graphs where every enunciation, proof step, and historical cross-reference is individually referenceable.</p></li>
+        <li><p><strong>Exact Symbolic Grounding (``geometor.model``)</strong>: Anchoring geometric constructions in 100% exact symbolic algebra (via <code class="docutils literal notranslate"><span class="pre">SymPy</span></code>) and Rational Trigonometry invariants (quadrance, spread, cross-ratio) over exact algebraic number fields rather than lossy floating-point approximations. Every geometric theorem is treated as an exact algebraic truth verifiable through computational modeling.</p></li>
+        <li><p><strong>Repurposing Knowledge Across Mediums</strong>: Re-deploying extracted semantic and algebraic structures across synchronized multi-track <strong>Book Codices</strong> and EPUB 3 editions (via <code class="docutils literal notranslate"><span class="pre">photon-platform/publish</span></code>), computable deductive canons (<code class="docutils literal notranslate"><span class="pre">geometor.elements</span></code>, <code class="docutils literal notranslate"><span class="pre">geometor.etc</span></code>, <code class="docutils literal notranslate"><span class="pre">geometor.pappus</span></code>, <code class="docutils literal notranslate"><span class="pre">geometor.divine</span></code>), interactive SVG laboratories (<code class="docutils literal notranslate"><span class="pre">geometor.explorer</span></code>), QHD visual broadcasts, and neuro-symbolic program synthesis (<code class="docutils literal notranslate"><span class="pre">geometor.seer</span></code>) across <a class="reference external" href="https://geometor.com">geometor.com</a>.</p></li>
+        </ul>
+        </section>
+        <section class="level-2" id="sources-provenance-methodology">
+        <h2>Sources, Provenance &amp; Methodology<a class="headerlink" href="#sources-provenance-methodology" title="Link to this heading">¶</a></h2>
+        <section class="level-3" id="public-domain-textual-provenance-copyright-audit">
+        <h3>Public-Domain Textual Provenance &amp; Copyright Audit<a class="headerlink" href="#public-domain-textual-provenance-copyright-audit" title="Link to this heading">¶</a></h3>
         <p>All primary Latin texts in this repository are transcribed directly from the 100% Public Domain 1678 Milan quarto <em>editio princeps</em>:</p>
         <ul class="simple">
         <li><p><strong>Giovanni Ceva (1678)</strong>: <em>De lineis rectis se invicem secantibus statica constructio. Ad Serenissimum Ferdinandum Carolum Ducem Mantuae, Montisferrati, Guastallae, &amp;c. Auctore Ioanne Ceva Mediolanensi. Mediolani: Ex Typographia Ludovici Montiae, MDCLXXVIII. Superiorum Permissu.</em> (Biblioteca Nazionale Centrale di Firenze exemplar <cite>ita-bnc-mag-00001346-001</cite>; <cite>[16] + 104</cite> printed pages and <cite>10</cite> folding copperplates containing <cite>Figs. 1–85</cite>, with <cite>Printed page N = PDF scan page N + 17</cite>).</p></li>
         </ul>
         <p>Every English translation (<cite>-en</cite>), executive summary (<cite>-summary</cite>), interactive SVG diagram, and historical-mathematical commentary (<cite>-notes</cite>) in this codex is <strong>100% originally translated and authored for GEOMETOR</strong> directly from Ceva’s 1678 Latin. No modern copyrighted translations or sourcebook excerpts were consulted or reproduced.</p>
         </section>
-        <section class="level-2" id="typographic-conventions-of-the-1678-milan-imprint">
-        <h2>Typographic Conventions of the 1678 Milan Imprint<a class="headerlink" href="#typographic-conventions-of-the-1678-milan-imprint" title="Link to this heading">¶</a></h2>
+        <section class="level-3" id="typographic-conventions-of-the-1678-milan-imprint">
+        <h3>Typographic Conventions of the 1678 Milan Imprint<a class="headerlink" href="#typographic-conventions-of-the-1678-milan-imprint" title="Link to this heading">¶</a></h3>
         <p>In his prefatory <em>Typographus Lectori</em> note, Milanese printer <span class="person-ref" data-person="monza" title="Ludovico Monza (fl. 1650 – 1685) — Milanese Master Printer (Typographus Mediolanensis)">Ludovico Monza</span> informs the reader that his shop lacked sufficient cast sorts of the Greek cross <cite>+</cite> and therefore employed the typographic dagger/obelus <code class="docutils literal notranslate"><span class="pre">†</span></code> to denote algebraic addition of weights (e.g., <code class="docutils literal notranslate"><span class="pre">A</span> <span class="pre">†</span> <span class="pre">F</span></code> for $A + F$ concentrated at an interior fulcrum), paired with the analytic minus sign <code class="docutils literal notranslate"><span class="pre">-</span></code> (<code class="docutils literal notranslate"><span class="pre">F</span> <span class="pre">-</span> <span class="pre">A</span></code> for $F - A$, <em>Liber Primus</em> p. 5 <em>Scholium</em>) when balancing an exterior fulcrum. Our Latin track preserves Ceva’s authentic notation alongside clear editorial explanation.</p>
         </section>
-        <section class="level-2" id="position-in-the-geometor-canon">
-        <h2>Position in the GEOMETOR Canon<a class="headerlink" href="#position-in-the-geometor-canon" title="Link to this heading">¶</a></h2>
+        <section class="level-3" id="position-in-the-geometor-canon">
+        <h3>Position in the GEOMETOR Canon<a class="headerlink" href="#position-in-the-geometor-canon" title="Link to this heading">¶</a></h3>
         <p><code class="docutils literal notranslate"><span class="pre">geometor-ceva</span></code> bridges classical Greek synthetic geometry and modern projective, barycentric, and rational-trigonometric architecture across the GEOMETOR workspace:</p>
         <ul class="simple">
         <li><p><strong>Archimedean Statics to Barycentric Coordinates</strong>: Connects <code class="docutils literal notranslate"><span class="pre">geometor/archimedes</span></code> (<em>Equiponderants</em> I.6–7) directly to homogeneous barycentric coordinates in <code class="docutils literal notranslate"><span class="pre">geometor/etc</span></code> ($X(1), X(2), X(4), X(6), X(7), X(8)$) and <span class="person-ref" data-person="moebius" title="August Ferdinand Möbius (1790 – 1868) — German Geometer &amp; Astronomer">Möbius's</span> <em>Der barycentrische Calcul</em> (1827).</p></li>
         <li><p><strong>Projective Dualism &amp; Harmonic Ranges</strong>: Unites Ceva’s concurrency theorem with <code class="docutils literal notranslate"><span class="pre">geometor/menelaus</span></code> and <code class="docutils literal notranslate"><span class="pre">geometor/pappus</span></code> through the harmonic cross-ratio $(B, C; D, D') = -1$ verified via <code class="docutils literal notranslate"><span class="pre">geometor.model.is_harmonic</span></code>.</p></li>
         <li><p><strong>Radical-Free Rational Trigonometry</strong>: Extends Ceva’s theorem to <code class="docutils literal notranslate"><span class="pre">geometor/wildberger</span></code> via <strong>Spread Ceva’s Theorem</strong>, verified over $\mathbb{Q}$ on the Heronian $(13, 14, 15)$ triangle without a single square root.</p></li>
         </ul>
+        <p>Scholarly Apparatus &amp; References:</p>
+        <ul class="simple">
+        <li><p><a class="reference internal" href="../usage/index.html"><span class="doc">Reader’s Guide and Usage</span></a></p></li>
+        <li><p><a class="reference internal" href="../de_lineis_rectis/index.html"><span class="doc">De Lineis Rectis Codex</span></a></p></li>
+        <li><p><a class="reference internal" href="../demos/index.html"><span class="doc">Exact Symbolic Demonstrations</span></a></p></li>
+        <li><p><a class="reference internal" href="../de_lineis_rectis/persons.html"><span class="doc">Biographical Register of Persons</span></a></p></li>
+        <li><p><a class="reference internal" href="../de_lineis_rectis/bibliography.html"><span class="doc">Systematic Bibliography</span></a></p></li>
+        </ul>
+        </section>
         </section>
         </section>
 
@@ -114,12 +144,13 @@
         <div class="book-footer-ornament">&#10086;</div>
         <div class="book-footer-nav">
           <div class="book-nav-prev">
-            <a class="book-nav-btn" href="../modules/api/geometor/ceva/__main__/index.html" title="geometor.ceva.__main__">&larr; <span class="nav-label">geometor.ceva.__main__</span></a>
+            <a class="book-nav-btn" href="../de_lineis_rectis/glossary.html" title="Latin &amp; Mathematical Glossary">&larr; <span class="nav-label">Latin & Mathematical Glossary</span></a>
           </div>
           <div class="book-nav-center">
             <a class="book-toc-link" href="../index.html">GEOMETOR • ceva</a>
           </div>
           <div class="book-nav-next">
+            <a class="book-nav-btn" href="../usage/index.html" title="Using This Edition"><span class="nav-label">Using This Edition</span> &rarr;</a>
           </div>
         </div>
       </footer>
@@ -181,7 +212,6 @@
       <ul>
         <li><a href="../de_lineis_rectis/concordance.html"  >Concordance</a></li>
         <li><a href="../de_lineis_rectis/glossary.html"  >Glossary</a></li>
-        <li><a href="#" class="is-active" aria-selected="true" aria-current="page">About</a></li>
       </ul>
     </div>
     <hr />
@@ -194,7 +224,7 @@
 
   <script src="../_static/jquery.js?v=5d32c60e"></script>
   <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-  <script src="../_static/documentation_options.js?v=a58bc63e"></script>
+  <script src="../_static/documentation_options.js?v=92734c54"></script>
   <script src="../_static/doctools.js?v=fd6eb6e6"></script>
   <script src="../_static/sphinx_highlight.js?v=6ffebe34"></script>
   <script src="../_static/js/collection_controls.js?v=b6b5297a"></script>
