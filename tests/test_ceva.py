@@ -66,7 +66,7 @@ def _assert_no_floats_in_model(model: Model) -> None:
 
 def test_version_and_cli(capsys: pytest.CaptureFixture[str]) -> None:
     """Verify package version and Rich CLI summary output."""
-    assert __version__ == "0.1.0"
+    assert __version__ == "0.1.2"
     cli_main()
     captured = capsys.readouterr().out
     assert "GEOMETOR" in captured
