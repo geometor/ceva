@@ -1,33 +1,26 @@
 :navigation: header
-:order: 10
+:order: 1
+:nav_title: Intersecting Lines
 :layout: book
-:book_title: De Lineis Rectis Se Invicem Secantibus Statica Constructio
-:book_subtitle: Giovanni Ceva (Milan, 1678) · Static Barycentrics, Cevian Concurrency & Synthetic Geometry
+:book_title: On Straight Lines Mutually Intersecting
+:book_subtitle: De Lineis Rectis Se Invicem Secantibus Statica Constructio — Giovanni Ceva (Milan, 1678)
+:author: Giovanni Ceva
+:year: 1678
 
 .. _de-lineis-rectis-codex:
 
-De Lineis Rectis Codex (1678)
-=============================
+On Straight Lines Mutually Intersecting
+=======================================
 
-.. rst-class:: title-page
+.. rubric:: *De Lineis Rectis Se Invicem Secantibus Statica Constructio* — Giovanni Ceva (Milan, 1678)
 
-   **DE LINEIS RECTIS**
+.. container:: title-page
 
-   **SE INVICEM SECANTIBVS**
+   | **Author:** :person:`Giovanni Ceva <ceva>` (Milan, 1647 – Mantua, 1734)
+   | **First Latin Edition (Milan, 1678):** *De Lineis Rectis Se Invicem Secantibus Statica Constructio* (Ex Typographia Ludovici Montiae; BNCF Florence ``ita-bnc-mag-00001346-001``).
+   | **Digital Scriptorium Codex:** Synchronized 4-track bilingual edition (*English · Latin · Summary · Notes*) with interactive SVG plates and exact ``geometor.model`` static barycentric constructions.
 
-   **STATICA CONSTRVCTIO.**
-
-   *AD SERENISSIMVM FERDINANDVM CAROLVM Ducem Mantuæ, Montisferrati, Guastallæ, &c.*
-
-   **AVCTORE IOANNE CEVA Mediolanensi.**
-
-   *MEDIOLANI, Ex Typographia Ludouici Montiæ. MDCLXXVIII. SVPERIORVM PERMISSV.*
-
-   Latin Text: 1678 Milan Editio Princeps (BNCF Florence `ita-bnc-mag-00001346-001`)
-
-   Original English Translation, Interactive SVG Plates & Symbolic Apparatus: GEOMETOR Scriptorium
-
-Conspectus Operis
+Table of Contents
 -----------------
 
 Published in Milan in 1678 by :person:`Ludovico Monza <monza>` when :person:`Giovanni Ceva <ceva>` was thirty years old, *De lineis rectis se invicem secantibus statica constructio* (:cite:`1678 <ceva:1678:dlr>`) transformed :person:`Archimedes' <archimedes>` Law of the Lever into a universal calculus of geometric incidence and proportion. Each unit of this **Four-Track Bilingual Book Codex** provides synchronized reading tabs (**English**, **Latin**, **Summary**, and **Notes**) wired to interactive ``.euclid-graphic`` SVG figures:
@@ -42,12 +35,12 @@ Editorial & Translation Note
 
 All primary Latin texts in this codex are transcribed directly from the 1678 Milan *editio princeps* (:cite:`BNCF Magl. ita-bnc-mag-00001346-001 <ceva:1678:dlr>`, `Printed page N = PDF page N + 17`). Every English translation (`-en`), executive geometric summary (`-summary`), and historical-mathematical commentary (`-notes`) is **100% originally authored for GEOMETOR** directly from Ceva's Neo-Latin.
 
-Critical Apparatus & Concordances
----------------------------------
+Scholarly Apparatus
+-------------------
 
 * :doc:`Cross-Corpus Geometric Concordance <concordance>` — Bidirectional mapping linking Ceva's 1678 propositions to ``archimedes``, ``euclid``, ``elements``, ``menelaus``, ``ptolemy``, ``pappus``, ``apollonius``, ``etc``, ``altshiller-court``, ``wildberger``, and ``model``.
 * :doc:`Bibliography & Primary Editions <bibliography>` — 1678 Milan imprint, classical authorities, Renaissance staticians, and modern barycentric/projective works.
-* :doc:`Index Nominum (Persons) <persons>` — Prosopographical register of **26** geometers, staticians, printers, patrons, and commentators.
+* :doc:`People (Biographical Register) <persons>` — Prosopographical register of **26** geometers, staticians, printers, patrons, and commentators.
 * :doc:`Latin & Mathematical Glossary <glossary>` — Lexicon of **16** technical Neo-Latin, typographic, and symbolic-geometry terms.
 
 .. toctree::
@@ -75,7 +68,7 @@ Critical Apparatus & Concordances
 .. toctree::
    :maxdepth: 1
    :hidden:
-   :caption: Apparatus
+   :caption: Scholarly Apparatus
 
    concordance
    bibliography

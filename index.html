@@ -6,12 +6,12 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Giovanni Ceva &mdash; GEOMETOR • ceva</title>
+  <title>GEOMETOR • ceva &mdash; GEOMETOR • ceva</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=ea5fcf70" />
-  <link rel="stylesheet" type="text/css" href="_static/css/styles.css?v=66998e95" />
+  <link rel="stylesheet" type="text/css" href="_static/css/styles.css?v=8713e751" />
   <link rel="stylesheet" type="text/css" href="_static/graphviz.css?v=4ae1632d" />
   <link rel="stylesheet" type="text/css" href="_static/ceva_codex.css?v=bd145ad9" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
@@ -38,16 +38,25 @@
       <label for="nav-Header-toggle" >Header</label>
       <ul>
         <li>
-          <a href="de_lineis_rectis/index.html"  >De Lineis Rectis Codex (1678)</a>
+          <a href="de_lineis_rectis/index.html"  >Intersecting Lines</a>
         </li>
         <li>
-          <a href="demos/index.html"  >Symbolic Demonstrations</a>
+          <a href="de_lineis_rectis/persons.html"  >People</a>
+        </li>
+        <li>
+          <a href="de_lineis_rectis/bibliography.html"  >Bibliography</a>
+        </li>
+        <li>
+          <a href="usage/index.html"  >Usage</a>
+        </li>
+        <li>
+          <a href="demos/index.html"  >Demos</a>
+        </li>
+        <li>
+          <a href="log/index.html"  >Log</a>
         </li>
         <li>
           <a href="modules/index.html"  >Modules</a>
-        </li>
-        <li>
-          <a href="log/index.html"  >log</a>
         </li>
       </ul>
     </nav>
@@ -67,14 +76,14 @@
           <div class="book-nav-center">
           </div>
           <div class="book-nav-next">
-            <a class="book-nav-btn" href="de_lineis_rectis/index.html" title="De Lineis Rectis Codex (1678)"><span class="nav-label">Next</span> &rarr;</a>
+            <a class="book-nav-btn" href="de_lineis_rectis/index.html" title="On Straight Lines Mutually Intersecting"><span class="nav-label">Next</span> &rarr;</a>
           </div>
         </div>
       </header>
       <div class="content body book-content" role="main">
-        <section class="level-1" id="giovanni-ceva">
-        <h1>Giovanni Ceva<a class="headerlink" href="#giovanni-ceva" title="Link to this heading">¶</a></h1>
-        <p><em>Static Barycentrics, Cevian Concurrency, Spatial Equilibrium, and Synthetic Geometry (Milan, 1678)</em></p>
+        <section class="level-1" id="geometor-ceva">
+        <h1>GEOMETOR • ceva<a class="headerlink" href="#geometor-ceva" title="Link to this heading">¶</a></h1>
+        <p class="rubric">Giovanni Ceva’s <em>De Lineis Rectis</em> (Milan, 1678) — Static Barycentrics, Cevian Concurrency &amp; Digital Codex</p>
         <blockquote class="epigraph">
         <div><p><em>Substitutisque linearum vice ponderibus… nulla adhibita circulorum, linearumque præuia constructione, quæ ad linearum se se intersecantium symptomata spectant, solis ponderibus staticè enodare. Hinc staticam constructionem libuit appellare.</em></p>
         <p><em>Having substituted weights in place of straight lines… with no prior construction of circles and auxiliary lines employed, I resolved statically—by weights alone—the properties pertaining to mutually intersecting straight lines. Hence I was pleased to call it a Static Construction.</em></p>
@@ -89,14 +98,19 @@
         <li><p><strong>*Appendix Geometrica* — Pure Area Ratios, Ungula Cubature &amp; Indivisibles Caution</strong>: Dispensing with mechanics altogether, Ceva re-grounds ratio geometry in pure Euclidean triangle areas ($[\triangle PAB] / [\triangle PAC] = BD / DC$), squares Hippocratean lunes (<em>Prop.</em> II), cubes the cylindrical <em>ungula</em> as $\frac{2}{3}$ of its circumscribed prism (<em>Prop.</em> VII), establishes the $5 : 3$ hemisphere centroid (<em>Prop.</em> XIII, praising <span class="person-ref" data-person="valerio" title="Luca Valerio (1553 – 1618) — Italian Geometer &amp; Member of the Accademia dei Lincei">Luca Valerio</span>) and $2 : 1$ paraboloid centroid (<em>Prop.</em> XIV, citing <span class="person-ref" data-person="torricelli" title="Evangelista Torricelli (1608 – 1647) — Italian Geometer &amp; Physicist, Successor to Galileo">Evangelista Torricelli</span>), and closes with his celebrated <strong>caution on Cavalieri’s indivisibles</strong> on curved surfaces.</p></li>
         </ol>
         </section>
-        <section class="level-2" id="architecture-of-the-repository">
-        <h2>Architecture of the Repository<a class="headerlink" href="#architecture-of-the-repository" title="Link to this heading">¶</a></h2>
+        <hr class="docutils" />
+        <section class="level-2" id="book-codex-repository-architecture">
+        <h2>Book Codex &amp; Repository Architecture<a class="headerlink" href="#book-codex-repository-architecture" title="Link to this heading">¶</a></h2>
         <ul class="simple">
-        <li><p><strong>Digital Scriptorium Book Codex</strong> (<a class="reference internal" href="de_lineis_rectis/index.html"><span class="doc">De Lineis Rectis Codex (1678)</span></a>): Four multi-track units (<cite>:layout: book</cite>) pairing original GEOMETOR English translations with folio-verified 1678 Neo-Latin primary texts, executive geometric summaries, scholarly commentary, <strong>8</strong> interactive <code class="docutils literal notranslate"><span class="pre">.euclid-graphic</span></code> SVG plates, and linked apparatus registries (<a class="reference internal" href="de_lineis_rectis/concordance.html"><span class="doc">Concordance</span></a>, <a class="reference internal" href="de_lineis_rectis/bibliography.html"><span class="doc">Bibliography</span></a>, <a class="reference internal" href="de_lineis_rectis/persons.html"><span class="doc">Persons</span></a>, <a class="reference internal" href="de_lineis_rectis/glossary.html"><span class="doc">Glossary</span></a>).</p></li>
-        <li><p><strong>Exact Symbolic Demonstrations</strong> (<a class="reference internal" href="demos/index.html"><span class="doc">Symbolic Demonstrations</span></a>): Pure-symbolic Python scripts (<cite>Model(…, auto_intersect=False)</cite>) free of floating-point coordinates, verifying canonical centers $X(1), X(2), X(4), X(6), X(7), X(8), J_A$ over $\mathbb{Q}$, harmonic ranges $(B, C; D, D') = -1$, <strong>Spread Ceva’s Theorem</strong>, pentagonal concurrency, 3D 7-line tetrahedral equilibrium, and <em>Appendix</em> integrals.</p></li>
-        <li><p><strong>Python API Reference</strong> (<a class="reference internal" href="modules/index.html"><span class="doc">Modules</span></a>): Documented symbolic modules in <code class="docutils literal notranslate"><span class="pre">geometor.ceva</span></code> (<cite>static_barycentrics</cite>, <cite>polygon_tetrahedron</cite>, <cite>sphinx_ext</cite>, <cite>__main__</cite>).</p></li>
-        <li><p><strong>Project Context &amp; Log</strong> (<a class="reference internal" href="about/index.html"><span class="doc">About GEOMETOR Ceva</span></a>, <a class="reference internal" href="log/index.html"><span class="doc">log</span></a>): Provenance, editorial conventions, and development log.</p></li>
+        <li><p><a class="reference internal" href="de_lineis_rectis/index.html"><span class="doc">Book Codex: On Straight Lines Mutually Intersecting (De Lineis Rectis, 1678)</span></a>: Four multi-track units pairing original GEOMETOR English translations with folio-verified 1678 Neo-Latin primary texts, executive geometric summaries, scholarly commentary, interactive <code class="docutils literal notranslate"><span class="pre">.euclid-graphic</span></code> SVG plates, and linked scholarly apparatus (<a class="reference internal" href="de_lineis_rectis/persons.html"><span class="doc">People</span></a>, <a class="reference internal" href="de_lineis_rectis/bibliography.html"><span class="doc">Bibliography</span></a>, <a class="reference internal" href="de_lineis_rectis/concordance.html"><span class="doc">Concordance</span></a>, <a class="reference internal" href="de_lineis_rectis/glossary.html"><span class="doc">Glossary</span></a>).</p></li>
+        <li><p><a class="reference internal" href="usage/index.html"><span class="doc">Using This Edition (Reader’s Guide &amp; CLI)</span></a>: Interactive reading tracks, BNCF Florence primary folios, SVG diagram links, full-text search, and command-line usage.</p></li>
+        <li><p><a class="reference internal" href="demos/index.html"><span class="doc">Exact Symbolic Demonstrations</span></a>: Pure-symbolic Python scripts (<cite>Model(…, auto_intersect=False)</cite>) free of floating-point coordinates, verifying canonical centers $X(1), X(2), X(4), X(6), X(7), X(8), J_A$ over $\mathbb{Q}$, harmonic ranges $(B, C; D, D') = -1$, <strong>Spread Ceva’s Theorem</strong>, pentagonal concurrency, 3D 7-line tetrahedral equilibrium, and <em>Appendix</em> integrals.</p></li>
+        <li><p><a class="reference internal" href="modules/index.html"><span class="doc">Python Package Reference</span></a>: Documented symbolic modules in <code class="docutils literal notranslate"><span class="pre">geometor.ceva</span></code> (<cite>static_barycentrics</cite>, <cite>polygon_tetrahedron</cite>, <cite>sphinx_ext</cite>, <cite>__main__</cite>).</p></li>
+        <li><p><a class="reference internal" href="log/index.html"><span class="doc">Curation Log</span></a>: Chronological transcription, translation, and verification records.</p></li>
+        <li><p><a class="reference internal" href="about/index.html"><span class="doc">About GEOMETOR Ceva</span></a>: Provenance, historical context, and editorial conventions.</p></li>
         </ul>
+        <div class="toctree-wrapper compound">
+        </div>
         <div class="toctree-wrapper compound">
         </div>
         </section>
@@ -112,7 +126,7 @@
             <a class="book-toc-link" href="#">GEOMETOR • ceva</a>
           </div>
           <div class="book-nav-next">
-            <a class="book-nav-btn" href="de_lineis_rectis/index.html" title="De Lineis Rectis Codex (1678)"><span class="nav-label">De Lineis Rectis Codex (1678)</span> &rarr;</a>
+            <a class="book-nav-btn" href="de_lineis_rectis/index.html" title="On Straight Lines Mutually Intersecting"><span class="nav-label">On Straight Lines Mutually Intersecting</span> &rarr;</a>
           </div>
         </div>
       </footer>
@@ -172,7 +186,9 @@
   <footer>
     <div class="footer-nav">
       <ul>
-        <li><a href="about/index.html"  >About GEOMETOR Ceva</a></li>
+        <li><a href="de_lineis_rectis/concordance.html"  >Concordance</a></li>
+        <li><a href="de_lineis_rectis/glossary.html"  >Glossary</a></li>
+        <li><a href="about/index.html"  >About</a></li>
       </ul>
     </div>
     <hr />
@@ -185,7 +201,7 @@
 
   <script src="_static/jquery.js?v=5d32c60e"></script>
   <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-  <script src="_static/documentation_options.js?v=01f34227"></script>
+  <script src="_static/documentation_options.js?v=a58bc63e"></script>
   <script src="_static/doctools.js?v=fd6eb6e6"></script>
   <script src="_static/sphinx_highlight.js?v=6ffebe34"></script>
   <script src="_static/js/collection_controls.js?v=b6b5297a"></script>

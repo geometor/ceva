@@ -1,8 +1,9 @@
 :navigation: header
-:order: 40
+:order: 30
+:nav_title: Log
 
 ===
-log
+Log
 ===
 
 Chronological transcription, translation, symbolic verification, and compilation log for ``geometor-ceva``.
