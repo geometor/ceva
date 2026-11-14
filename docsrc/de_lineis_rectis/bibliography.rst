@@ -1,7 +1,14 @@
-.. _ceva-bibliography:
+:navigation: header
+:order: 6
+:nav_title: Bibliography
 
-Bibliography & Primary Editions
-===============================
+.. _ceva-bibliography:
+.. _bibliography:
+
+Bibliography
+============
+
+.. rubric:: Primary Editions, Classical Authorities & Modern Works in Ceva's Canon
 
 Primary Editions of Giovanni Ceva
 ---------------------------------
