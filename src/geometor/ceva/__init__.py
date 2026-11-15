@@ -34,7 +34,7 @@ from geometor.ceva.static_barycentrics import (
     verify_spread_ceva,
 )
 
-__version__ = "0.1.2"
+__version__ = "0.1.3"
 
 __all__ = [
     "CANONICAL_CENTERS",
