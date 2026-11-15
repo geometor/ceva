@@ -43,7 +43,6 @@ if "geometor.ceva.sphinx_ext" not in extensions:  # noqa: F405
 
 configure_local_intersphinx(intersphinx_mapping, _PROJECT_ROOT)  # noqa: F405
 
-html_logo = None
 html_static_path = ["_static"]
 html_css_files = [
     *globals().get("html_css_files", []),
