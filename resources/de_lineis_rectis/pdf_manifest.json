@@ -1,0 +1,12 @@
+{
+  "edition": "de_lineis_rectis",
+  "source_pdf": "resources/de_lineis_rectis/pdfs/ceva_1678_de_lineis_rectis.pdf",
+  "total_pages": 126,
+  "dpi": 300,
+  "preserve_color": false,
+  "folio_png_count": 126,
+  "rendered_new_count": 0,
+  "extracted_text_pages": 91,
+  "extracted_graphics_count": 0,
+  "extracted_graphics": []
+}

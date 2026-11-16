@@ -34,7 +34,9 @@ repo_name = "ceva"
 
 setup_globals(org, org_name, repo, repo_name)  # noqa: F405
 
-project = "GEOMETOR • ceva"
+site_title = "Giovanni Ceva"
+project = site_title
+html_title = f"{site_title} • {org_name}"
 author = "Giovanni Ceva (1678 Milan Editio Princeps / GEOMETOR Scriptorium)"
 copyright = "1678 Ludovico Monza (Milan) · Digital Codex & Symbolic Engine GEOMETOR"
 

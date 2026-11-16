@@ -49,10 +49,10 @@ EXPECTED_SVGS: tuple[str, ...] = (
 )
 
 EXPECTED_UNITS: tuple[str, ...] = (
-    "unit-1-statica-foundations",
-    "unit-2-liber-primus-ceva-menelaus",
-    "unit-3-liber-secundus-polygons-solids",
-    "unit-4-appendix-geometrica",
+    "statica_prolegomena",
+    "liber_primus",
+    "liber_secundus",
+    "appendix_geometrica",
 )
 
 
@@ -223,8 +223,8 @@ def test_euclid_graphic_svgs_valid_xml() -> None:
 def test_codex_tracks_apparatus_and_picture_directives() -> None:
     """Verify all 16 codex track RSTs, byte-identical JSON registries, and strict .. picture:: options."""
     for unit in EXPECTED_UNITS:
-        for suffix in ("en", "la", "summary", "notes"):
-            track_file = CODEX_DIR / unit / f"{unit}-{suffix}.rst"
+        for fname in ("index.rst", "la.rst", "summary.rst", "notes.rst"):
+            track_file = CODEX_DIR / unit / fname
             assert track_file.is_file(), f"Missing codex track: {track_file}"
             text = track_file.read_text(encoding="utf-8")
             assert len(text.strip()) > 400
