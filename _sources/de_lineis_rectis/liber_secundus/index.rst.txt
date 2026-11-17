@@ -1,7 +1,7 @@
 :layout: book
 :order: 3
 :canonical_id: liber_secundus
-:breadcrumb_title: Liber Secundus
+:breadcrumb_title: Book II
 :folio: 0062
 :tracks: English: index | Latin: la | Summary: summary | Notes: notes
 
@@ -10,8 +10,8 @@
 .. _liber-secundus:
 .. _liber-secundus-en:
 
-Liber Secundus · Circumscribed Conics, Isotomic Conjugates & Odd Polygons (pp. 45–72)
-===============================================================================================
+Book II · Circumscribed Conics, Isotomic Conjugates & Odd Polygons (pp. 45–72)
+==============================================================================
 
 .. rubric:: *Original GEOMETOR English translation from Giovanni Ceva's De lineis rectis se invicem secantibus statica constructio* (:cite:`Milan: Ludovico Monza, 1678 <ceva:1678:dlr>`, *Liber Secundus*, Lemma I & Props. I–XIV, pp. 45–72; Scans 0062–0089; `Tab. 4–7, Figs. 32–61`).
 

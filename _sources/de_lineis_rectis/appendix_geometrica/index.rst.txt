@@ -1,7 +1,7 @@
 :layout: book
 :order: 4
 :canonical_id: appendix_geometrica
-:breadcrumb_title: Appendix Geometrica
+:breadcrumb_title: Geometric Appendix
 :folio: 0090
 :tracks: English: index | Latin: la | Summary: summary | Notes: notes
 
@@ -10,8 +10,8 @@
 .. _appendix-geometrica:
 .. _appendix-geometrica-en:
 
-Appendix Geometrica · Area Ratios, Ungula, Centroids & Indivisibles (pp. 73–104)
-==========================================================================================
+Geometric Appendix · Area Ratios, Ungula, Centroids & Indivisibles (pp. 73–104)
+===============================================================================
 
 .. rubric:: *Original GEOMETOR English translation from Giovanni Ceva's De lineis rectis se invicem secantibus statica constructio* (:cite:`Milan: Ludovico Monza, 1678 <ceva:1678:dlr>`, *Appendix Geometrica*, pp. 73–104; Scans 0090–0100; `Tab. 8–10, Figs. 62–85`).
 

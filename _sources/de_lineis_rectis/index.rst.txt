@@ -1,14 +1,16 @@
 :navigation: header
 :order: 1
 :type: book
-:nav_title: De Lineis Rectis
-:breadcrumb_title: De Lineis Rectis
+:title: On Straight Lines Mutually Intersecting
+:nav_title: On Straight Lines
+:breadcrumb_title: On Straight Lines
 :layout: book
-:book_title: De lineis rectis se invicem secantibus statica constructio
-:book_subtitle: On Straight Lines Mutually Intersecting — Giovanni Ceva (Milan, 1678)
+:book_title: On Straight Lines Mutually Intersecting
+:book_subtitle: De lineis rectis se invicem secantibus statica constructio — Giovanni Ceva (Milan, 1678)
 :author: Giovanni Ceva
 :year: 1678
 :folio: 0010
+:tracks: English: index | Latin: title-la
 :excerpt: Giovanni Ceva's landmark 1678 Milan treatise applying Archimedean statics and the law of the lever to geometric concurrency and ratio geometry.
 
 .. _de-lineis-rectis-codex:
@@ -48,3 +50,10 @@ Table of Contents
    bibliography
    persons
    glossary
+
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+   :caption: Title Pages
+
+   title-la

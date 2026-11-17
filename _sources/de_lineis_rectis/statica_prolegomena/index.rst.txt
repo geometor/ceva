@@ -1,7 +1,7 @@
 :layout: book
 :order: 1
 :canonical_id: statica_prolegomena
-:breadcrumb_title: Statica Prolegomena
+:breadcrumb_title: Statical Prolegomena
 :folio: 0010
 :tracks: English: index | Latin: la | Summary: summary | Notes: notes
 
@@ -10,8 +10,8 @@
 .. _statica-prolegomena:
 .. _statica-prolegomena-en:
 
-Statica Prolegomena · Dedication, Typographus & Prooemium (1678)
-===========================================================================
+Statical Prolegomena · Dedication, Printer's Note & Prooemium (1678)
+====================================================================
 
 .. rubric:: *Original GEOMETOR English translation from Giovanni Ceva's De lineis rectis se invicem secantibus statica constructio* (:cite:`Milan: Ludovico Monza, 1678 <ceva:1678:dlr>`, Frontmatter, PDF pp. 10–17, Scans 0010–0017).
 
