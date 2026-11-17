@@ -61,7 +61,7 @@
           <a href="../index.html" class="is-active" aria-selected="true" >On Straight Lines</a>
         </li>
         <li>
-          <a href="../persons.html"  >People</a>
+          <a href="../people/index.html"  >People</a>
         </li>
         <li>
           <a href="../bibliography.html"  >Bibliography</a>
@@ -124,7 +124,7 @@
         <section class="level-2" id="core-results-of-liber-secundus-1678-pp-4572">
         <h2>Core Results of <em>Liber Secundus</em> (1678, pp. 45–72)<a class="headerlink" href="#core-results-of-liber-secundus-1678-pp-4572" title="Link to this heading">¶</a></h2>
         <ol class="arabic simple">
-        <li><p><strong>Affine Invariance of Circumscribed Conic Tangency (*Lib. II, Lemma I*)</strong>: Under any invertible affine transformation $X' = M X + b$ (realized geometrically by <a class="person-ref" id="occ-person-serenus-1" href="../persons.html#person-serenus" data-person="serenus" title="Serenus of Antinoöpolis (fl. 4th century AD) — Late Antique Geometer, Author of On the Section of a Cylinder">Serenus</a> and <a class="person-ref" id="occ-person-borelli-1" href="../persons.html#person-borelli" data-person="borelli" title="Giovanni Alfonso Borelli (1608 – 1679) — Italian Mathematician, Astronomer &amp; Biomechanist at Pisa">Borelli</a> via oblique cylindrical section), a circle maps to a general ellipse, tangent lines map to tangent lines, and every collinear contact division ratio $\lambda_k = \overline{V_k T_k} / \overline{T_k V_{k+1}}$ is strictly preserved, keeping $\prod_{k=0}^{n-1} \lambda_k = 1$ (<a class="reference internal" href="../../modules/api/geometor/ceva/polygon_tetrahedron/index.html#geometor.ceva.polygon_tetrahedron.prove_circumscribed_polygon_lemma" title="geometor.ceva.polygon_tetrahedron.prove_circumscribed_polygon_lemma"><code class="xref py py-func docutils literal notranslate"><span class="pre">prove_circumscribed_polygon_lemma()</span></code></a>).</p></li>
+        <li><p><strong>Affine Invariance of Circumscribed Conic Tangency (*Lib. II, Lemma I*)</strong>: Under any invertible affine transformation $X' = M X + b$ (realized geometrically by <a class="person-ref" id="occ-person-serenus-1" href="../people/serenus.html#person-serenus" data-person="serenus" title="Serenus of Antinoöpolis (fl. 4th century AD) — Late Antique Geometer, Author of On the Section of a Cylinder">Serenus</a> and <a class="person-ref" id="occ-person-borelli-1" href="../people/borelli.html#person-borelli" data-person="borelli" title="Giovanni Alfonso Borelli (1608 – 1679) — Italian Mathematician, Astronomer &amp; Biomechanist at Pisa">Borelli</a> via oblique cylindrical section), a circle maps to a general ellipse, tangent lines map to tangent lines, and every collinear contact division ratio $\lambda_k = \overline{V_k T_k} / \overline{T_k V_{k+1}}$ is strictly preserved, keeping $\prod_{k=0}^{n-1} \lambda_k = 1$ (<a class="reference internal" href="../../modules/api/geometor/ceva/polygon_tetrahedron/index.html#geometor.ceva.polygon_tetrahedron.prove_circumscribed_polygon_lemma" title="geometor.ceva.polygon_tetrahedron.prove_circumscribed_polygon_lemma"><code class="xref py py-func docutils literal notranslate"><span class="pre">prove_circumscribed_polygon_lemma()</span></code></a>).</p></li>
         <li><p><strong>Gergonne $X(7)$ &amp; Isotomic Conjugate $X(8)$ (*Lib. II, Prop. I &amp; Corollarium*)</strong>: Reflecting the contact feet $(D, E, F)$ of $P = (u : v : w)$ across the side midpoints produces $D^* = B + C - D$, $E^* = C + A - E$, $F^* = A + B - F$, inverting every side ratio and mapping $(u : v : w) \mapsto (u^{-1} : v^{-1} : w^{-1})$. For the incircle, $X(7) = \left(\frac{1}{s-a} : \frac{1}{s-b} : \frac{1}{s-c}\right) \mapsto X(8) = (s - a : s - b : s - c)$ (<a class="reference internal" href="../../modules/api/geometor/ceva/static_barycentrics/index.html#geometor.ceva.static_barycentrics.construct_isotomic_conjugate" title="geometor.ceva.static_barycentrics.construct_isotomic_conjugate"><code class="xref py py-func docutils literal notranslate"><span class="pre">construct_isotomic_conjugate()</span></code></a>).</p></li>
         <li><p><strong>Odd $(2m + 1)$-gon Multilateral Ceva Concurrency</strong>: On our convex rational pentagon $V_0=(0,0), V_1=(8,0), V_2=(11,6), V_3=(5,11), V_4=(-2,6)$ with $P=(4,4)$, <a class="reference internal" href="../../modules/api/geometor/ceva/polygon_tetrahedron/index.html#geometor.ceva.polygon_tetrahedron.verify_odd_polygon_ceva" title="geometor.ceva.polygon_tetrahedron.verify_odd_polygon_ceva"><code class="xref py py-func docutils literal notranslate"><span class="pre">verify_odd_polygon_ceva()</span></code></a> yields exact side ratios $\left(\frac{5}{6}, 2, \frac{13}{10}, \frac{3}{4}, \frac{8}{13}\right)$ whose product is identically $1$.</p></li>
         </ol>
@@ -198,6 +198,7 @@
         <li><a href="../../types/book.html">book</a></li>
         <li><a href="../../types/book_title.html">book_title</a></li>
         <li><a href="../../types/log.html">log</a></li>
+        <li><a href="../../types/person.html">person</a></li>
       </ul>
     </aside>
   </div>
@@ -222,6 +223,7 @@
   <script src="../../_static/doctools.js?v=fd6eb6e6"></script>
   <script src="../../_static/sphinx_highlight.js?v=6ffebe34"></script>
   <script src="../../_static/js/collection_controls.js?v=b6b5297a"></script>
+  <script src="../../_static/js/collection_directory.js?v=f242906c"></script>
   <script src="../../_static/js/geometor_interactive.js?v=b2892320"></script>
   <script src="../../_static/js/search_highlight.js"></script>
 

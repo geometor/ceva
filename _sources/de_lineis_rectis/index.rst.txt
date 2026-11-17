@@ -48,7 +48,7 @@ Table of Contents
 
    concordance
    bibliography
-   persons
+   people/index
    glossary
 
 .. toctree::

@@ -60,5 +60,5 @@ Scholarly Apparatus & References:
 * :doc:`Reader's Guide and Usage </usage/index>`
 * :doc:`De Lineis Rectis Codex </de_lineis_rectis/index>`
 * :doc:`Exact Symbolic Demonstrations </demos/index>`
-* :doc:`Biographical Register of Persons </de_lineis_rectis/persons>`
+* :doc:`Biographical Register of Persons </de_lineis_rectis/people/index>`
 * :doc:`Systematic Bibliography </de_lineis_rectis/bibliography>`
