@@ -53,7 +53,7 @@ The sidebar provides structured faceted navigation:
 6. People, Bibliography & Glossary Tooltips
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* **Prosopographical Hover Cards**: Links marked with ``:person:`` (e.g., :person:`Giovanni Ceva <ceva>`, :person:`Tommaso Ceva <tommaso-ceva>`, :person:`Archimedes <archimedes>`, :person:`Pietro Paolo Caravaggio Jr. <caravaggio>`) provide instant biographical summaries and direct links to the :doc:`People </de_lineis_rectis/persons>` register.
+* **Prosopographical Hover Cards**: Links marked with ``:person:`` (e.g., :person:`Giovanni Ceva <ceva>`, :person:`Tommaso Ceva <tommaso-ceva>`, :person:`Archimedes <archimedes>`, :person:`Pietro Paolo Caravaggio Jr. <caravaggio>`) provide instant biographical summaries and direct links to the :doc:`People </de_lineis_rectis/people/index>` register.
 * **Bibliographic Citations**: Citations formatted with ``:cite:`` link directly to the :doc:`Bibliography </de_lineis_rectis/bibliography>`.
 * **Glossary Tooltips**: Technical terms linked with ``:term:`` provide instant definitions of Neo-Latin and projective vocabulary.
 * **Light / Dark Theme**: Toggle visual themes using the control in the top navigation bar.
