@@ -20,6 +20,17 @@ Books in This Archive
 
 - `On Straight Lines Mutually Intersecting <https://geometor.github.io/ceva/de_lineis_rectis/>`_ — Giovanni Ceva's 1678 foundational masterpiece (*De lineis rectis se invicem secantibus statica constructio*), establishing static barycentrics, signed weights, Ceva's Theorem, Menelaus's Theorem, and 3D tetrahedral concurrency.
 
+Python Package & Modules
+------------------------
+
+The ``geometor-ceva`` Python package (``import geometor.ceva``) provides the executable symbolic geometry, construction, and compilation modules powering this archive:
+
+- ``polygon_tetrahedron.py`` — Multilateral polygons, circumscribed conics, 3D tetrahedra, and Appendix theorems (1678).
+- ``static_barycentrics.py`` — Exact static-barycentric solver and constructive proofs for Ceva's Theorem (1678).
+- ``sphinx_ext.py`` — Runtime Sphinx & photon-platform/publish integration for GEOMETOR Ceva.
+
+See the `API Reference <https://geometor.github.io/ceva/modules/>`_ for full module documentation.
+
 Repository Contents
 -------------------
 
