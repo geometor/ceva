@@ -1,7 +1,7 @@
 :layout: book
 :order: 2
 :canonical_id: liber_primus
-:breadcrumb_title: Liber Primus
+:breadcrumb_title: Book I
 :folio: 0018
 :tracks: English: index | Latin: la | Summary: summary | Notes: notes
 
@@ -10,8 +10,8 @@
 .. _liber-primus:
 .. _liber-primus-en:
 
-Liber Primus · Axiomata, Ceva, Menelaus & 3D Statics (pp. 1–44)
-===========================================================================
+Book I · Axioms, Ceva, Menelaus & 3D Statics (pp. 1–44)
+=======================================================
 
 .. rubric:: *Original GEOMETOR English translation from Giovanni Ceva's De lineis rectis se invicem secantibus statica constructio* (:cite:`Milan: Ludovico Monza, 1678 <ceva:1678:dlr>`, *Liber Primus*, pp. 1–44; Scans 0018–0061; `Tab. 1–3, Figs. 1–31`).
 

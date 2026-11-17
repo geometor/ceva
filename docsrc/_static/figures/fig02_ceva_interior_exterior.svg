@@ -1,4 +1,27 @@
 <svg xmlns="http://www.w3.org/2000/svg" class="euclid-graphic" viewBox="0 0 940 440" role="img" aria-label="Ceva Interior Concurrency with Caravaggio Parallel Line vs Exterior Negative Weight J_A">
+  <style>
+    svg {
+      --svg-bg: #fafaf9;
+      --geom-fg: #1c1917;
+      --geom-muted: #64748b;
+      --geom-halo: rgba(250, 250, 249, 0.92);
+      font-family: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
+      background-color: var(--svg-bg);
+    }
+    @media (prefers-color-scheme: dark) {
+      svg {
+        --svg-bg: #141417;
+        --geom-fg: #f4f4f5;
+        --geom-muted: #94a3b8;
+        --geom-halo: rgba(20, 20, 23, 0.92);
+      }
+    }
+    .svg-bg { fill: var(--svg-bg); }
+    .geom-line, .geom-circle, .geom-arc { fill: none; stroke: var(--geom-fg); stroke-linecap: round; stroke-linejoin: round; }
+    .geom-point { fill: var(--geom-fg); stroke: var(--svg-bg); stroke-width: 1.2; }
+    .geom-label { fill: var(--geom-fg); font-size: 13px; font-weight: 600; paint-order: stroke; stroke: var(--geom-halo); stroke-width: 3.5px; }
+  </style>
+  <rect class="svg-bg" x="0" y="0" width="940" height="440" />
   <defs>
     <marker id="geom-tick-1" viewBox="-2 -6 4 12" refX="0" refY="0" markerWidth="4" markerHeight="12" orient="auto">
       <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="currentColor" stroke-width="1.35" stroke-linecap="round"/>

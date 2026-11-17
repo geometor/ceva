@@ -3,6 +3,11 @@ GEOMETOR • ceva
 
 **Visit the Online Archive:** https://geometor.github.io/ceva/
 
+.. image:: docsrc/_static/figures/fig02_ceva_interior_exterior.svg
+   :alt: GEOMETOR • ceva featured geometric construction
+   :target: https://geometor.github.io/ceva/
+   :align: center
+
 **Giovanni Ceva • De lineis rectis se invicem secantibus statica constructio • semantic digital archive**
 
 Mission
@@ -13,7 +18,7 @@ Mission
 Books in This Archive
 ---------------------
 
-- **`De lineis rectis se invicem secantibus statica constructio <https://geometor.github.io/ceva/de_lineis_rectis/>`_** — Giovanni Ceva's 1678 foundational masterpiece, establishing static barycentrics, signed weights, Ceva's Theorem, Menelaus's Theorem, and 3D tetrahedral concurrency.
+- **`On Straight Lines Mutually Intersecting <https://geometor.github.io/ceva/de_lineis_rectis/>`_** — Giovanni Ceva's 1678 foundational masterpiece (*De lineis rectis se invicem secantibus statica constructio*), establishing static barycentrics, signed weights, Ceva's Theorem, Menelaus's Theorem, and 3D tetrahedral concurrency.
 
 Repository Contents
 -------------------
