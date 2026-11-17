@@ -18,7 +18,7 @@ Mission
 Books in This Archive
 ---------------------
 
-- **`On Straight Lines Mutually Intersecting <https://geometor.github.io/ceva/de_lineis_rectis/>`_** — Giovanni Ceva's 1678 foundational masterpiece (*De lineis rectis se invicem secantibus statica constructio*), establishing static barycentrics, signed weights, Ceva's Theorem, Menelaus's Theorem, and 3D tetrahedral concurrency.
+- `On Straight Lines Mutually Intersecting <https://geometor.github.io/ceva/de_lineis_rectis/>`_ — Giovanni Ceva's 1678 foundational masterpiece (*De lineis rectis se invicem secantibus statica constructio*), establishing static barycentrics, signed weights, Ceva's Theorem, Menelaus's Theorem, and 3D tetrahedral concurrency.
 
 Repository Contents
 -------------------
