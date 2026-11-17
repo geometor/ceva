@@ -1,4 +1,5 @@
-:navigation: footer
+:navigation: header
+:order: 14
 :nav_title: Concordance
 
 .. _ceva-concordance:
