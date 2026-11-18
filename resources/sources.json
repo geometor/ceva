@@ -1,0 +1,23 @@
+{
+  "repository": "geometor/ceva",
+  "rights_category": "public-domain",
+  "sources": [
+    {
+      "id": "ceva-1678-bncf",
+      "title": "De lineis rectis se invicem secantibus statica constructio (1678)",
+      "author": "Giovanni Ceva",
+      "year": "1678",
+      "era": "Internet Archive",
+      "languages": [
+        "Latin"
+      ],
+      "site_url": "https://archive.org/details/ita-bnc-mag-00001346-001",
+      "local_path": "resources/de_lineis_rectis/pdfs/ceva_1678_de_lineis_rectis.pdf",
+      "pages": 126,
+      "publisher": "Ex Typographia Ludovici Montiae, Milan",
+      "holding_institution": "Biblioteca Nazionale Centrale di Firenze (Magliabechiano)",
+      "rights": "Public Domain (1678)",
+      "excerpt": "First edition (Milan, 1678), 126 pp., BNCF Florence copy digitized via Internet Archive."
+    }
+  ]
+}
