@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 340" class="euclid-graphic" role="img" aria-label="Ceva 1678 Tabula X Fig. 82: Finite Volume of Infinitely Extended Hyperbolic Solid">
+  <defs>
+    <marker id="geom-tick-1" viewBox="-2 -6 4 12" refX="0" refY="0" markerWidth="4" markerHeight="12" orient="auto">
+      <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="currentColor" stroke-width="1.35" stroke-linecap="round"/>
+    </marker>
+    <marker id="geom-tick-2" viewBox="-4 -6 8 12" refX="0" refY="0" markerWidth="8" markerHeight="12" orient="auto">
+      <line x1="-1.8" y1="-4.5" x2="-1.8" y2="4.5" stroke="currentColor" stroke-width="1.35" stroke-linecap="round"/>
+      <line x1="1.8" y1="-4.5" x2="1.8" y2="4.5" stroke="currentColor" stroke-width="1.35" stroke-linecap="round"/>
+    </marker>
+    <marker id="geom-tick-3" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" orient="auto">
+      <line x1="-3.4" y1="-4.5" x2="-3.4" y2="4.5" stroke="currentColor" stroke-width="1.35" stroke-linecap="round"/>
+      <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="currentColor" stroke-width="1.35" stroke-linecap="round"/>
+      <line x1="3.4" y1="-4.5" x2="3.4" y2="4.5" stroke="currentColor" stroke-width="1.35" stroke-linecap="round"/>
+    </marker>
+  </defs>
+  <g id="elements">
+    <path d="M 240.00 50.00 L 244.50 87.24 L 249.00 106.84 L 253.50 118.94 L 258.00 127.14 L 262.50 133.08 L 267.00 137.57 L 271.50 141.08 L 276.00 143.91 L 280.50 146.24 L 285.00 148.18 L 289.50 149.83 L 294.00 151.25 L 298.50 152.48 L 303.00 153.56 L 307.50 154.52 L 312.00 155.37 L 316.50 156.13 L 321.00 156.81 L 325.50 157.43 L 330.00 158.00 L 334.50 158.52 L 339.00 158.99 L 343.50 159.43 L 348.00 159.83 L 352.50 160.20 L 357.00 160.55 L 361.50 160.87 L 366.00 161.18 L 370.50 161.46 L 375.00 161.72 L 379.50 161.97 L 384.00 162.21 L 388.50 162.43 L 393.00 162.64 L 397.50 162.84 L 402.00 163.02 L 406.50 163.20 L 411.00 163.37 L 415.50 163.53" data-ref="hyp_NE" fill="none" stroke="var(--geom-secondary, #0284c7)" stroke-width="2.20" stroke-linecap="round"/>
+    <path d="M 220.00 50.00 L 215.50 87.24 L 211.00 106.84 L 206.50 118.94 L 202.00 127.14 L 197.50 133.08 L 193.00 137.57 L 188.50 141.08 L 184.00 143.91 L 179.50 146.24 L 175.00 148.18 L 170.50 149.83 L 166.00 151.25 L 161.50 152.48 L 157.00 153.56 L 152.50 154.52 L 148.00 155.37 L 143.50 156.13 L 139.00 156.81 L 134.50 157.43 L 130.00 158.00 L 125.50 158.52 L 121.00 158.99 L 116.50 159.43 L 112.00 159.83 L 107.50 160.20 L 103.00 160.55 L 98.50 160.87 L 94.00 161.18 L 89.50 161.46 L 85.00 161.72 L 80.50 161.97 L 76.00 162.21 L 71.50 162.43 L 67.00 162.64 L 62.50 162.84 L 58.00 163.02 L 53.50 163.20 L 49.00 163.37 L 44.50 163.53" data-ref="hyp_NW" fill="none" stroke="var(--geom-secondary, #0284c7)" stroke-width="2.20" stroke-linecap="round"/>
+    <path d="M 220.00 290.00 L 215.50 252.76 L 211.00 233.16 L 206.50 221.06 L 202.00 212.86 L 197.50 206.92 L 193.00 202.43 L 188.50 198.92 L 184.00 196.09 L 179.50 193.76 L 175.00 191.82 L 170.50 190.17 L 166.00 188.75 L 161.50 187.52 L 157.00 186.44 L 152.50 185.48 L 148.00 184.63 L 143.50 183.87 L 139.00 183.19 L 134.50 182.57 L 130.00 182.00 L 125.50 181.48 L 121.00 181.01 L 116.50 180.57 L 112.00 180.17 L 107.50 179.80 L 103.00 179.45 L 98.50 179.13 L 94.00 178.82 L 89.50 178.54 L 85.00 178.28 L 80.50 178.03 L 76.00 177.79 L 71.50 177.57 L 67.00 177.36 L 62.50 177.16 L 58.00 176.98 L 53.50 176.80 L 49.00 176.63 L 44.50 176.47" data-ref="hyp_SW" fill="none" stroke="var(--geom-secondary, #0284c7)" stroke-width="2.20" stroke-linecap="round"/>
+    <path d="M 240.00 290.00 L 244.50 252.76 L 249.00 233.16 L 253.50 221.06 L 258.00 212.86 L 262.50 206.92 L 267.00 202.43 L 271.50 198.92 L 276.00 196.09 L 280.50 193.76 L 285.00 191.82 L 289.50 190.17 L 294.00 188.75 L 298.50 187.52 L 303.00 186.44 L 307.50 185.48 L 312.00 184.63 L 316.50 183.87 L 321.00 183.19 L 325.50 182.57 L 330.00 182.00 L 334.50 181.48 L 339.00 181.01 L 343.50 180.57 L 348.00 180.17 L 352.50 179.80 L 357.00 179.45 L 361.50 179.13 L 366.00 178.82 L 370.50 178.54 L 375.00 178.28 L 379.50 178.03 L 384.00 177.79 L 388.50 177.57 L 393.00 177.36 L 397.50 177.16 L 402.00 176.98 L 406.50 176.80 L 411.00 176.63 L 415.50 176.47" data-ref="hyp_SE" fill="none" stroke="var(--geom-secondary, #0284c7)" stroke-width="2.20" stroke-linecap="round"/>
+    <path d="M 40.00 170.00 L 230.00 170.00 L 420.00 170.00" data-ref="EK" class="geom-line" fill="none" stroke="var(--geom-primary, currentColor)" stroke-width="1.80" stroke-linecap="round" stroke-dasharray="6 4"/>
+    <path d="M 230.00 30.00 L 230.00 170.00 L 230.00 310.00" data-ref="FC" class="geom-line" fill="none" stroke="var(--geom-primary, currentColor)" stroke-width="1.80" stroke-linecap="round" stroke-dasharray="6 4"/>
+    <path d="M 195.36 204.64 L 230.00 170.00 L 264.64 135.36" data-ref="HM" class="geom-line" fill="none" stroke="var(--geom-highlight, #d97706)" stroke-width="2.10" stroke-linecap="round"/>
+  </g>
+  <g id="graphics">
+    <polygon points="195.36,135.36 264.64,135.36 264.64,204.64 195.36,204.64" data-ref="MNH" fill="var(--geom-accent-fill, rgba(217,119,6,0.16))" stroke="var(--geom-highlight, #d97706)"/>
+  </g>
+  <g id="highlights" style="pointer-events: none;">
+    <circle cx="230.00" cy="170.00" r="8.50" data-ref="D" fill="none" stroke="var(--geom-highlight, #d97706)" stroke-width="1.2" opacity="0.55"/>
+  </g>
+  <g id="points">
+    <circle cx="230.00" cy="170.00" r="4.00" data-ref="D" class="geom-point" fill="var(--geom-highlight, #d97706)" stroke="var(--geom-highlight, #d97706)" stroke-width="1.8"/>
+    <circle cx="264.64" cy="135.36" r="4.00" data-ref="M" class="geom-point" fill="var(--geom-point-fill, #ffffff)" stroke="var(--geom-primary, currentColor)" stroke-width="1.8"/>
+    <circle cx="195.36" cy="204.64" r="4.00" data-ref="H" class="geom-point" fill="var(--geom-point-fill, #ffffff)" stroke="var(--geom-primary, currentColor)" stroke-width="1.8"/>
+    <circle cx="264.64" cy="204.64" r="4.00" data-ref="N" class="geom-point" fill="var(--geom-point-fill, #ffffff)" stroke="var(--geom-primary, currentColor)" stroke-width="1.8"/>
+  </g>
+  <g id="labels">
+    <text x="242.00" y="184.00" data-ref="D" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="16" font-style="italic" font-weight="600" fill="var(--geom-highlight, #d97706)">D</text>
+    <text x="276.64" y="127.36" data-ref="M" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="16" font-style="italic" font-weight="600" fill="var(--geom-text, currentColor)">M</text>
+    <text x="181.36" y="218.64" data-ref="H" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="16" font-style="italic" font-weight="600" fill="var(--geom-text, currentColor)">H</text>
+    <text x="278.64" y="218.64" data-ref="N" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="16" font-style="italic" font-weight="600" fill="var(--geom-text, currentColor)">N</text>
+    <text x="48.00" y="158.00" data-ref="E" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="16" font-style="italic" font-weight="600" fill="var(--geom-text, currentColor)">E</text>
+    <text x="412.00" y="158.00" data-ref="K" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="16" font-style="italic" font-weight="600" fill="var(--geom-text, currentColor)">K</text>
+    <text x="244.00" y="42.00" data-ref="F" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="16" font-style="italic" font-weight="600" fill="var(--geom-text, currentColor)">F</text>
+    <text x="244.00" y="304.00" data-ref="C" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="16" font-style="italic" font-weight="600" fill="var(--geom-text, currentColor)">C</text>
+  </g>
+</svg>

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 360" class="euclid-graphic" role="img" aria-label="Ceva 1678 Tabula VII Fig. 57: Angle Bisectors and Incenter">
+  <defs>
+    <marker id="geom-tick-1" viewBox="-2 -6 4 12" refX="0" refY="0" markerWidth="4" markerHeight="12" orient="auto">
+      <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="currentColor" stroke-width="1.35" stroke-linecap="round"/>
+    </marker>
+    <marker id="geom-tick-2" viewBox="-4 -6 8 12" refX="0" refY="0" markerWidth="8" markerHeight="12" orient="auto">
+      <line x1="-1.8" y1="-4.5" x2="-1.8" y2="4.5" stroke="currentColor" stroke-width="1.35" stroke-linecap="round"/>
+      <line x1="1.8" y1="-4.5" x2="1.8" y2="4.5" stroke="currentColor" stroke-width="1.35" stroke-linecap="round"/>
+    </marker>
+    <marker id="geom-tick-3" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" orient="auto">
+      <line x1="-3.4" y1="-4.5" x2="-3.4" y2="4.5" stroke="currentColor" stroke-width="1.35" stroke-linecap="round"/>
+      <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="currentColor" stroke-width="1.35" stroke-linecap="round"/>
+      <line x1="3.4" y1="-4.5" x2="3.4" y2="4.5" stroke="currentColor" stroke-width="1.35" stroke-linecap="round"/>
+    </marker>
+  </defs>
+  <g id="elements">
+    <circle cx="221.28" cy="218.71" r="87.29" data-ref="incircle" fill="none" stroke="var(--geom-secondary, #0284c7)" stroke-width="1.80" stroke-dasharray="5 3"/>
+    <path d="M 210.00 54.00 L 143.00 180.00 L 76.00 306.00" data-ref="IA" class="geom-line" fill="none" stroke="var(--geom-primary, currentColor)" stroke-width="2.30" stroke-linecap="round"/>
+    <path d="M 210.00 54.00 L 301.00 180.00 L 392.00 306.00" data-ref="IE" class="geom-line" fill="none" stroke="var(--geom-primary, currentColor)" stroke-width="2.30" stroke-linecap="round"/>
+    <path d="M 76.00 306.00 L 234.00 306.00 L 392.00 306.00" data-ref="AE" class="geom-line" fill="none" stroke="var(--geom-primary, currentColor)" stroke-width="2.30" stroke-linecap="round"/>
+    <path d="M 210.00 54.00 L 218.63 180.00 L 227.26 306.00" data-ref="IC" class="geom-line" fill="none" stroke="var(--geom-highlight, #d97706)" stroke-width="2.00" stroke-linecap="round"/>
+    <path d="M 76.00 306.00 L 186.19 239.80 L 296.37 173.59" data-ref="AG" class="geom-line" fill="none" stroke="var(--geom-highlight, #d97706)" stroke-width="2.00" stroke-linecap="round"/>
+    <path d="M 392.00 306.00 L 267.78 242.48 L 143.55 178.96" data-ref="EN" class="geom-line" fill="none" stroke="var(--geom-highlight, #d97706)" stroke-width="2.00" stroke-linecap="round"/>
+  </g>
+  <g id="graphics">
+    <polygon points="210.00,54.00 76.00,306.00 392.00,306.00" data-ref="IAE" fill="var(--geom-accent-fill, rgba(180,120,40,0.06))" stroke="none"/>
+  </g>
+  <g id="highlights" style="pointer-events: none;">
+    <circle cx="221.28" cy="218.71" r="8.50" data-ref="F" fill="none" stroke="var(--geom-highlight, #d97706)" stroke-width="1.2" opacity="0.55"/>
+  </g>
+  <g id="points">
+    <circle cx="210.00" cy="54.00" r="3.60" data-ref="I" class="geom-point" fill="var(--geom-point-fill, #ffffff)" stroke="var(--geom-primary, currentColor)" stroke-width="1.8"/>
+    <circle cx="76.00" cy="306.00" r="3.60" data-ref="A" class="geom-point" fill="var(--geom-point-fill, #ffffff)" stroke="var(--geom-primary, currentColor)" stroke-width="1.8"/>
+    <circle cx="392.00" cy="306.00" r="3.60" data-ref="E" class="geom-point" fill="var(--geom-point-fill, #ffffff)" stroke="var(--geom-primary, currentColor)" stroke-width="1.8"/>
+    <circle cx="143.55" cy="178.96" r="3.60" data-ref="N" class="geom-point" fill="var(--geom-point-fill, #ffffff)" stroke="var(--geom-primary, currentColor)" stroke-width="1.8"/>
+    <circle cx="296.37" cy="173.59" r="3.60" data-ref="G" class="geom-point" fill="var(--geom-point-fill, #ffffff)" stroke="var(--geom-primary, currentColor)" stroke-width="1.8"/>
+    <circle cx="227.26" cy="306.00" r="3.60" data-ref="C" class="geom-point" fill="var(--geom-point-fill, #ffffff)" stroke="var(--geom-primary, currentColor)" stroke-width="1.8"/>
+    <circle cx="221.28" cy="218.71" r="4.00" data-ref="F" class="geom-point" fill="var(--geom-highlight, #d97706)" stroke="var(--geom-highlight, #d97706)" stroke-width="1.8"/>
+  </g>
+  <g id="labels">
+    <text x="210.00" y="40.00" data-ref="I" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="16" font-style="italic" font-weight="600" fill="var(--geom-text, currentColor)">I</text>
+    <text x="60.00" y="314.00" data-ref="A" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="16" font-style="italic" font-weight="600" fill="var(--geom-text, currentColor)">A</text>
+    <text x="408.00" y="314.00" data-ref="E" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="16" font-style="italic" font-weight="600" fill="var(--geom-text, currentColor)">E</text>
+    <text x="127.55" y="176.96" data-ref="N" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="16" font-style="italic" font-weight="600" fill="var(--geom-text, currentColor)">N</text>
+    <text x="312.37" y="171.59" data-ref="G" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="16" font-style="italic" font-weight="600" fill="var(--geom-text, currentColor)">G</text>
+    <text x="227.26" y="326.00" data-ref="C" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="16" font-style="italic" font-weight="600" fill="var(--geom-text, currentColor)">C</text>
+    <text x="233.28" y="206.71" data-ref="F" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="16" font-style="italic" font-weight="600" fill="var(--geom-highlight, #d97706)">F</text>
+  </g>
+</svg>

@@ -7,57 +7,57 @@
 Cross-Corpus Geometric Concordance
 ==================================
 
-Bidirectional concordance mapping propositions and static constructions in :person:`Giovanni Ceva's <ceva>` *De lineis rectis se invicem secantibus statica constructio* (:cite:`Milan, 1678 <ceva:1678:dlr>`) to sister repositories across the **GEOMETOR** canon and exact symbolic verifiers in ``geometor.ceva``.
+Bidirectional concordance mapping every landmark proposition in :person:`Giovanni Ceva's <ceva>` *De lineis rectis se invicem secantibus statica constructio* (:cite:`Milan, 1678 <ceva:1678:dlr>`, verified against BNCF Florence scans ``0001``–``0126``) to atomic Book Codex leaves, sister **GEOMETOR** repositories, and exact symbolic verifiers in ``geometor.ceva``.
 
-.. list-table:: Ceva 1678 Cross-Corpus Concordance
+.. list-table:: Ceva 1678 Folio-Verified Cross-Corpus Concordance
    :header-rows: 1
-   :widths: 22 30 22 26
+   :widths: 24 30 22 24
 
-   * - Ceva 1678 Locus
+   * - Ceva 1678 Locus (Folio / Page)
      - Geometric / Static Proposition
      - Sister GEOMETOR Canon
      - Symbolic Verifier (``geometor.ceva``)
-   * - *Lib. I*, *Axiomata* I–II & *Lemmata* I–II (pp. 1–2; `Tab. 1, Figs. 1–3`)
+   * - :ref:`Lib. I, Axioms & Lemmas I–II <liber-primus-axiomata-lemmata>` (pp. 1–2; ``0018``–``0019``; `Tab. 1, Figs. 1–3`)
      - Uniqueness of :term:`centrum gravitatis <centrum-gravitatis>` & Archimedes' Lever Law ($u \cdot \overline{AF} = v \cdot \overline{FB}$)
-     - ``archimedes`` *Equipond.* I.4–7; ``euclid`` V–VI
+     - ``archimedes`` *Equipond.* I.6; ``euclid`` V–VI
      - ``static_barycentrics.solve_static_barycentrics``
-   * - *Lib. I*, *Elementum* I & *Prop.* VIII (pp. 2–3, 10–12; `Tab. 1, Figs. 4, 12`)
-     - Static proof of :person:`Menelaus's <menelaus>` Transversal Theorem & :term:`harmonic range <sectio-harmonica>` $(B, C; D, D') = -1$
+   * - :ref:`Lib. I, Prop. I (Elem. I) <liber-primus-prop-01>` & :ref:`Prop. VI <liber-primus-prop-06>` (pp. 2–3, 7–10; ``0019``–``0027``; `Tab. 1, Figs. 4, 10`)
+     - Static :person:`Menelaus <menelaus>` sector & :person:`Caravaggio Jr.'s <caravaggio>` pure parallel-line proof (p. 10)
      - ``menelaus`` III.1; ``ptolemy`` I.13; ``pappus`` VII
      - ``static_barycentrics.construct_cevian_menelaus_harmonic``
-   * - *Lib. I*, *Elementum* II & *Prop.* VII (pp. 3–4, 8–10; `Tab. 1, Figs. 5, 11`)
-     - Interior cevian concurrency $\frac{AF}{FB}\cdot\frac{BD}{DC}\cdot\frac{CE}{EA} = 1$ at $P = \frac{uA+vB+wC}{u+v+w}$
+   * - :ref:`Lib. I, Prop. II (Elem. II) <liber-primus-prop-02>` & :ref:`Prop. X <liber-primus-prop-10>` (pp. 3–4, 15–17; ``0020``–``0034``; `Tab. 1, Fig. 5`)
+     - **Ceva's Theorem** $\frac{AD}{DE}\cdot\frac{EK}{KC}\cdot\frac{CB}{BA} = 1$ & Caravaggio Jr.'s second proof (p. 15)
      - ``etc`` $X(1), X(2), X(4), X(6)$; ``altshiller-court``
      - ``static_barycentrics.construct_ceva_concurrency``
-   * - *Lib. I*, *Elementum* III & p. 5 *Scholium* (`Tab. 1, Fig. 6`)
-     - Analytic negative weight :term:`F - A <pondus-negativum>` for exterior concurrency (excenter $J_A$)
+   * - :ref:`Lib. I, Prop. III–IV <liber-primus-prop-03>` (pp. 4–5; ``0021``–``0022``; `Tab. 1, Figs. 6–7`)
+     - Analytic negative weight :term:`F - A <pondus-negativum>` & addition sign :term:`✠ <obelus-additio>` (p. 5 Scholia)
      - ``etc`` excenters; :person:`Möbius <moebius>` (1827)
      - ``static_barycentrics.evaluate_canonical_centers``
-   * - *Lib. I*, *Elementa* IV–V *Coroll.* (pp. 5–7; `Tab. 1, Figs. 7–8`)
-     - Planar & :term:`3D skew quadrilateral <quadrilaterum-non-planum>` (*"non in eodem plano"*) fulcrum coplanarity & concurrency
+   * - :ref:`Lib. I, Prop. V (Elem. V) <liber-primus-prop-05>` & :ref:`Prop. XXII <liber-primus-prop-22>` (pp. 6–7, 30–31; ``0023``–``0048``; `Tab. 1, Fig. 8`)
+     - Planar & :term:`3D skew quadrilateral <quadrilaterum-non-planum>` (*"non in eodem plano"*) fulcrum coplanarity
      - ``elements`` XI; ``pappus``
      - ``polygon_tetrahedron.verify_skew_quadrilateral_ceva``
-   * - *Lib. I*, *Prop.* VI (pp. 7–8; `Tab. 1, Fig. 10`)
-     - Pure Euclidean parallel-line proof credited to :person:`Pietro Paolo Caravaggio Jr. <caravaggio>`
-     - ``euclid`` / ``elements`` I.29, VI.2, VI.4
-     - ``static_barycentrics.prove_ceva_barycentric_identity``
-   * - *Lib. I*, *Props.* IX–XXII (pp. 12–35) & Rational Trigonometry
-     - Medians $X(2)$, altitudes $X(4)$, bisectors $X(1)$, symmedians $X(6)$, & radical-free :term:`Spread Ceva <spread-ceva>`
-     - ``etc``; ``wildberger`` *Divine Proportions*
+   * - :ref:`Lib. I, Prop. XXI <liber-primus-prop-21>` (p. 30; ``0047``; `Tab. 2, Fig. 24`)
+     - Harmonic division along interior cevian $KL : LA = 2G : (I+H)$ & :term:`Spread Ceva <spread-ceva>`
+     - ``wildberger`` *Divine Proportions*; ``pappus``
      - ``static_barycentrics.verify_spread_ceva``
-   * - *Lib. I*, *Props.* XXIII–XXVI (pp. 36–43; `Tab. 3, Figs. 28–31`)
-     - :term:`3D Tetrahedron 7-Line Equilibrium <concordia-septem-linearum>` (*"mira quadam concordia"* at $O$)
-     - ``archimedes``; ``elements`` XII
+   * - :ref:`Lib. I, Props. XXIII–XXVI <liber-primus-prop-23>` (pp. 31–34; ``0048``–``0051``; `Tab. 3, Figs. 28–31`)
+     - :term:`3D Tetrahedron 7-Line Equilibrium <concordia-septem-linearum>` (*"mira quadam concordia"*), pyramids & frustum
+     - ``archimedes``; ``elements`` XII; :person:`Commandino <commandino>`
      - ``polygon_tetrahedron.solve_tetrahedron_static_equilibrium``
-   * - *Lib. II*, *Lemma* I & *Prop.* I + *Coroll.* (pp. 45–50; `Tab. 4, Figs. 32–37`)
-     - :term:`Cylindrical ellipse projection <sectio-cylindrica>`, :term:`Gergonne X(7) <punctum-contactus>` & :term:`Isotomic Nagel X(8) <coniugatum-isotomicum>`
-     - ``apollonius``; ``etc`` $X(7), X(8)$; ``casey``
+   * - :ref:`Lib. II, Lemmas I–III <liber-secundus-lemmata-conica>` & :ref:`Prop. I <liber-secundus-prop-01>` (pp. 35–38; ``0052``–``0055``; `Tab. 4, Figs. 32–38`)
+     - :term:`Cylindrical ellipse projection <sectio-cylindrica>`, Gergonne $X(7)$, & **Converse of Ceva's Theorem** (p. 38)
+     - ``apollonius``; ``serenus``; ``etc`` $X(7), X(8)$
+     - ``polygon_tetrahedron.prove_circumscribed_polygon_lemma``
+   * - :ref:`Lib. II, Props. IX–XVI <liber-secundus-prop-09>` (pp. 44–52; ``0061``–``0069``; `Tab. 5–7, Figs. 44–61`)
+     - Inscribed ellipses, 3-tangent parabola concurrency & cubic area law, Incenter `Tab. 7, Fig. 57`
+     - ``apollonius`` III.41; ``euclid`` VI.3; ``etc`` $X(1)$
      - ``static_barycentrics.construct_isotomic_conjugate``
-   * - *Lib. II*, *Props.* II–XIV (pp. 50–72; `Tab. 4–7, Figs. 38–61`)
-     - Odd $(2m + 1)$-gon multilateral Ceva concurrency ($\prod_{i=0}^{2m} r_i = 1$)
+   * - :ref:`Lib. II, Props. XIX–XXI <liber-secundus-prop-21>` (pp. 54–60; ``0071``–``0077``; `Tab. 8 & 10, Figs. 63–67, 85`)
+     - Reciprocally inscribed triangles & single-station optical distance rangefinder (`Fig. 85`)
      - ``pappus``; ``altshiller-court``
      - ``polygon_tetrahedron.construct_pentagon_ceva``
-   * - *Appendix Geometrica*, *Props.* I–XVI & Closing Scholium (pp. 73–104; `Tab. 8–10`)
-     - Synthetic area ratios ($[\triangle PAB]/[\triangle PAC] = BD/DC$), Lune, :term:`Ungula <ungula-cylindrica>` $= \frac{2}{3}$ prism, $5:3$ & $2:1$ centroids, & :term:`Indivisibles Caution <indivisibilia-cautio>`
-     - ``euclid`` VI.1, XII.2; ``archimedes``; ``hoenen``
+   * - :ref:`Appendix, Props. I–XVI & Scholium <appendix-geometrica-prop-04>` (pp. 61–83; ``0078``–``0100``; `Tab. 8–10, Figs. 68–84`)
+     - Hippocrates' Lunes, :term:`Ungula <ungula-cylindrica>` $= \frac{2}{3}$ prism, $5:3$ & $2:1$ centroids, Torricelli infinite solid, :term:`Indivisibles Caution <indivisibilia-cautio>` & p. 83 Printer's Note on ``✠``
+     - ``euclid`` XII.2; ``archimedes``; ``hoenen``
      - ``polygon_tetrahedron.verify_appendix_invariants``

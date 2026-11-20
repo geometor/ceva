@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 360" class="euclid-graphic" role="img" aria-label="Ceva 1678 Tabula VIII Fig. 71: Hippocrates Lune on Isosceles Right Triangle">
+  <defs>
+    <marker id="geom-tick-1" viewBox="-2 -6 4 12" refX="0" refY="0" markerWidth="4" markerHeight="12" orient="auto">
+      <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="currentColor" stroke-width="1.35" stroke-linecap="round"/>
+    </marker>
+    <marker id="geom-tick-2" viewBox="-4 -6 8 12" refX="0" refY="0" markerWidth="8" markerHeight="12" orient="auto">
+      <line x1="-1.8" y1="-4.5" x2="-1.8" y2="4.5" stroke="currentColor" stroke-width="1.35" stroke-linecap="round"/>
+      <line x1="1.8" y1="-4.5" x2="1.8" y2="4.5" stroke="currentColor" stroke-width="1.35" stroke-linecap="round"/>
+    </marker>
+    <marker id="geom-tick-3" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" orient="auto">
+      <line x1="-3.4" y1="-4.5" x2="-3.4" y2="4.5" stroke="currentColor" stroke-width="1.35" stroke-linecap="round"/>
+      <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="currentColor" stroke-width="1.35" stroke-linecap="round"/>
+      <line x1="3.4" y1="-4.5" x2="3.4" y2="4.5" stroke="currentColor" stroke-width="1.35" stroke-linecap="round"/>
+    </marker>
+  </defs>
+  <g id="elements">
+    <circle cx="220.00" cy="200.00" r="120.00" data-ref="circle_AC" fill="none" stroke="var(--geom-primary, currentColor)" stroke-width="2.00"/>
+    <path d="M 100.00 200.00 A 169.71 169.71 0 0 0 340.00 200.00" data-ref="arc_ADC" fill="none" stroke="var(--geom-highlight, #d97706)" stroke-width="2.30" stroke-linecap="round"/>
+    <path d="M 100.00 200.00 L 160.00 140.00 L 220.00 80.00" data-ref="AB" class="geom-line" fill="none" stroke="var(--geom-primary, currentColor)" stroke-width="2.30" stroke-linecap="round"/>
+    <path d="M 220.00 80.00 L 280.00 140.00 L 340.00 200.00" data-ref="BC" class="geom-line" fill="none" stroke="var(--geom-primary, currentColor)" stroke-width="2.30" stroke-linecap="round"/>
+    <path d="M 100.00 200.00 L 220.00 200.00 L 340.00 200.00" data-ref="AC" class="geom-line" fill="none" stroke="var(--geom-primary, currentColor)" stroke-width="2.30" stroke-linecap="round"/>
+  </g>
+  <g id="graphics">
+    <path d="M 100.00 200.00 A 169.71 169.71 0 0 0 340.00 200.00 A 120.00 120.00 0 0 1 100.00 200.00 Z" data-ref="D" fill="var(--geom-accent-fill, rgba(217,119,6,0.22))" stroke="none" stroke-width="1.90" stroke-linecap="round"/>
+    <polygon points="100.00,200.00 220.00,80.00 340.00,200.00" data-ref="ABC" fill="var(--geom-secondary-fill, rgba(2,132,199,0.14))" stroke="none"/>
+  </g>
+  <g id="highlights" style="pointer-events: none;">
+  </g>
+  <g id="points">
+    <circle cx="100.00" cy="200.00" r="4.00" data-ref="A" class="geom-point" fill="var(--geom-point-fill, #ffffff)" stroke="var(--geom-primary, currentColor)" stroke-width="1.8"/>
+    <circle cx="340.00" cy="200.00" r="4.00" data-ref="C" class="geom-point" fill="var(--geom-point-fill, #ffffff)" stroke="var(--geom-primary, currentColor)" stroke-width="1.8"/>
+    <circle cx="220.00" cy="80.00" r="4.00" data-ref="B" class="geom-point" fill="var(--geom-point-fill, #ffffff)" stroke="var(--geom-primary, currentColor)" stroke-width="1.8"/>
+  </g>
+  <g id="labels">
+    <text x="84.00" y="204.00" data-ref="A" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="16" font-style="italic" font-weight="600" fill="var(--geom-text, currentColor)">A</text>
+    <text x="356.00" y="204.00" data-ref="C" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="16" font-style="italic" font-weight="600" fill="var(--geom-text, currentColor)">C</text>
+    <text x="220.00" y="66.00" data-ref="B" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="16" font-style="italic" font-weight="600" fill="var(--geom-text, currentColor)">B</text>
+    <text x="220.00" y="286.00" data-ref="D_lbl" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="16" font-style="italic" font-weight="600" fill="var(--geom-highlight, #d97706)">Lune D = △ABC</text>
+  </g>
+</svg>

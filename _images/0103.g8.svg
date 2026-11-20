@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 360" class="euclid-graphic" role="img" aria-label="Ceva 1678 Tabula I Fig. 8: Elementum V Quadrilateral">
+  <defs>
+    <marker id="geom-tick-1" viewBox="-2 -6 4 12" refX="0" refY="0" markerWidth="4" markerHeight="12" orient="auto">
+      <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="currentColor" stroke-width="1.35" stroke-linecap="round"/>
+    </marker>
+    <marker id="geom-tick-2" viewBox="-4 -6 8 12" refX="0" refY="0" markerWidth="8" markerHeight="12" orient="auto">
+      <line x1="-1.8" y1="-4.5" x2="-1.8" y2="4.5" stroke="currentColor" stroke-width="1.35" stroke-linecap="round"/>
+      <line x1="1.8" y1="-4.5" x2="1.8" y2="4.5" stroke="currentColor" stroke-width="1.35" stroke-linecap="round"/>
+    </marker>
+    <marker id="geom-tick-3" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" orient="auto">
+      <line x1="-3.4" y1="-4.5" x2="-3.4" y2="4.5" stroke="currentColor" stroke-width="1.35" stroke-linecap="round"/>
+      <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="currentColor" stroke-width="1.35" stroke-linecap="round"/>
+      <line x1="3.4" y1="-4.5" x2="3.4" y2="4.5" stroke="currentColor" stroke-width="1.35" stroke-linecap="round"/>
+    </marker>
+  </defs>
+  <g id="elements">
+    <path d="M 115.00 88.00 L 235.00 78.00 L 355.00 68.00" data-ref="AC" class="geom-line" fill="none" stroke="var(--geom-primary, currentColor)" stroke-width="2.30" stroke-linecap="round"/>
+    <path d="M 355.00 68.00 L 350.00 177.00 L 345.00 286.00" data-ref="CI" class="geom-line" fill="none" stroke="var(--geom-primary, currentColor)" stroke-width="2.30" stroke-linecap="round"/>
+    <path d="M 345.00 286.00 L 227.50 290.50 L 110.00 295.00" data-ref="IH" class="geom-line" fill="none" stroke="var(--geom-primary, currentColor)" stroke-width="2.30" stroke-linecap="round"/>
+    <path d="M 110.00 295.00 L 112.50 191.50 L 115.00 88.00" data-ref="HA" class="geom-line" fill="none" stroke="var(--geom-primary, currentColor)" stroke-width="2.30" stroke-linecap="round"/>
+    <path d="M 225.40 78.80 L 224.10 184.74 L 222.80 290.68" data-ref="BG" class="geom-line" fill="none" stroke="var(--geom-highlight, #d97706)" stroke-width="2.20" stroke-linecap="round"/>
+    <path d="M 112.50 191.50 L 231.15 186.43 L 349.80 181.36" data-ref="ED" class="geom-line" fill="none" stroke="var(--geom-highlight, #d97706)" stroke-width="2.20" stroke-linecap="round"/>
+  </g>
+  <g id="graphics">
+    <polygon points="115.00,88.00 355.00,68.00 345.00,286.00 110.00,295.00" data-ref="ACIH" fill="var(--geom-accent-fill, rgba(180,120,40,0.07))" stroke="none"/>
+    <circle cx="115.00" cy="48.00" r="13.5" data-ref="M" fill="var(--geom-accent-fill, rgba(217,119,6,0.14))" stroke="var(--geom-highlight, #d97706)" stroke-width="1.4" stroke-dasharray="3 2"/>
+    <circle cx="392.00" cy="68.00" r="13.5" data-ref="L" fill="var(--geom-accent-fill, rgba(217,119,6,0.14))" stroke="var(--geom-highlight, #d97706)" stroke-width="1.4" stroke-dasharray="3 2"/>
+    <circle cx="388.00" cy="286.00" r="13.5" data-ref="K" fill="var(--geom-accent-fill, rgba(217,119,6,0.14))" stroke="var(--geom-highlight, #d97706)" stroke-width="1.4" stroke-dasharray="3 2"/>
+    <circle cx="110.00" cy="332.00" r="13.5" data-ref="N" fill="var(--geom-accent-fill, rgba(217,119,6,0.14))" stroke="var(--geom-highlight, #d97706)" stroke-width="1.4" stroke-dasharray="3 2"/>
+  </g>
+  <g id="highlights" style="pointer-events: none;">
+    <circle cx="224.08" cy="186.73" r="8.50" data-ref="F" fill="none" stroke="var(--geom-highlight, #d97706)" stroke-width="1.2" opacity="0.55"/>
+  </g>
+  <g id="points">
+    <circle cx="115.00" cy="88.00" r="4.00" data-ref="A" class="geom-point" fill="var(--geom-point-fill, #ffffff)" stroke="var(--geom-primary, currentColor)" stroke-width="1.8"/>
+    <circle cx="225.40" cy="78.80" r="4.00" data-ref="B" class="geom-point" fill="var(--geom-point-fill, #ffffff)" stroke="var(--geom-primary, currentColor)" stroke-width="1.8"/>
+    <circle cx="355.00" cy="68.00" r="4.00" data-ref="C" class="geom-point" fill="var(--geom-point-fill, #ffffff)" stroke="var(--geom-primary, currentColor)" stroke-width="1.8"/>
+    <circle cx="349.80" cy="181.36" r="4.00" data-ref="D" class="geom-point" fill="var(--geom-point-fill, #ffffff)" stroke="var(--geom-primary, currentColor)" stroke-width="1.8"/>
+    <circle cx="345.00" cy="286.00" r="4.00" data-ref="I" class="geom-point" fill="var(--geom-point-fill, #ffffff)" stroke="var(--geom-primary, currentColor)" stroke-width="1.8"/>
+    <circle cx="222.80" cy="290.68" r="4.00" data-ref="G" class="geom-point" fill="var(--geom-point-fill, #ffffff)" stroke="var(--geom-primary, currentColor)" stroke-width="1.8"/>
+    <circle cx="110.00" cy="295.00" r="4.00" data-ref="H" class="geom-point" fill="var(--geom-point-fill, #ffffff)" stroke="var(--geom-primary, currentColor)" stroke-width="1.8"/>
+    <circle cx="112.50" cy="191.50" r="4.00" data-ref="E" class="geom-point" fill="var(--geom-point-fill, #ffffff)" stroke="var(--geom-primary, currentColor)" stroke-width="1.8"/>
+    <circle cx="224.08" cy="186.73" r="4.00" data-ref="F" class="geom-point" fill="var(--geom-highlight, #d97706)" stroke="var(--geom-highlight, #d97706)" stroke-width="1.8"/>
+  </g>
+  <g id="labels">
+    <text x="115.00" y="53.00" data-ref="M" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="14" font-style="normal" font-weight="600" fill="var(--geom-highlight, #d97706)">M</text>
+    <text x="392.00" y="73.00" data-ref="L" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="14" font-style="normal" font-weight="600" fill="var(--geom-highlight, #d97706)">L</text>
+    <text x="388.00" y="291.00" data-ref="K" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="14" font-style="normal" font-weight="600" fill="var(--geom-highlight, #d97706)">K</text>
+    <text x="110.00" y="337.00" data-ref="N" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="14" font-style="normal" font-weight="600" fill="var(--geom-highlight, #d97706)">N</text>
+    <text x="99.00" y="92.00" data-ref="A" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="16" font-style="italic" font-weight="600" fill="var(--geom-text, currentColor)">A</text>
+    <text x="231.40" y="64.80" data-ref="B" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="16" font-style="italic" font-weight="600" fill="var(--geom-text, currentColor)">B</text>
+    <text x="365.00" y="56.00" data-ref="C" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="16" font-style="italic" font-weight="600" fill="var(--geom-text, currentColor)">C</text>
+    <text x="365.80" y="185.36" data-ref="D" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="16" font-style="italic" font-weight="600" fill="var(--geom-text, currentColor)">D</text>
+    <text x="357.00" y="302.00" data-ref="I" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="16" font-style="italic" font-weight="600" fill="var(--geom-text, currentColor)">I</text>
+    <text x="226.80" y="310.68" data-ref="G" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="16" font-style="italic" font-weight="600" fill="var(--geom-text, currentColor)">G</text>
+    <text x="94.00" y="301.00" data-ref="H" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="16" font-style="italic" font-weight="600" fill="var(--geom-text, currentColor)">H</text>
+    <text x="96.50" y="195.50" data-ref="E" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="16" font-style="italic" font-weight="600" fill="var(--geom-text, currentColor)">E</text>
+    <text x="238.08" y="176.73" data-ref="F" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="16" font-style="italic" font-weight="600" fill="var(--geom-highlight, #d97706)">F</text>
+  </g>
+</svg>

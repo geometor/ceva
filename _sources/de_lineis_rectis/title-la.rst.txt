@@ -8,6 +8,7 @@
 :persons_label: Index Nominum
 :bibliography_label: Bibliographia
 :glossary_label: Glossarium
+:folio: 0010
 :tracks: English: index | Latin: title-la
 
 .. _de-lineis-rectis-title-la:
@@ -16,6 +17,9 @@ De lineis rectis se invicem secantibus statica constructio
 ==========================================================
 
 .. rubric:: *Ioannes Ceva* — Mediolani, Ex Typographia Ludovici Montiae, MDCLXXVIII
+
+.. folio:: 0010
+   :page: Titulus
 
 .. container:: title-page
 
@@ -27,23 +31,23 @@ De lineis rectis se invicem secantibus statica constructio
 Conspectus Totius Operis
 ------------------------
 
-Statica Prolegomena · Dedicatio, Typographus et Prooemium
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Statica Prolegomena · Titulus, Dedicatio et Prooemium
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 :ref:`Latin <unit-1-statica-foundations-la>` · :ref:`English <unit-1-statica-foundations-en>`
 
-Liber Primus · Axiomata, Ceva, Menelaus et Statica Trium Dimensionum
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Liber Primus · Axiomata, Elementa Quinque et Statica Solidorum (pp. 1–34)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 :ref:`Latin <unit-2-liber-primus-ceva-menelaus-la>` · :ref:`English <unit-2-liber-primus-ceva-menelaus-en>`
 
-Liber Secundus · Sectiones Conicae, Coniugata Isotomica et Polygona Imparia
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Liber Secundus · Sectiones Conicae, Conuersa Ceuae et Instrumentum (pp. 35–60)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 :ref:`Latin <unit-3-liber-secundus-polygons-solids-la>` · :ref:`English <unit-3-liber-secundus-polygons-solids-en>`
 
-Appendix Geometrica · Rationes Arearum, Ungula, Centroida et Indivisibilia
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Appendix Geometrica · Menisci, Solida, Centra Grauitatis, Errata et Tabulae (pp. 61–83)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 :ref:`Latin <unit-4-appendix-geometrica-la>` · :ref:`English <unit-4-appendix-geometrica-en>`
 
