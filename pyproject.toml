@@ -5,7 +5,7 @@ authors = [
   { name = "geometor", email = "github@geometor.com" },
 ]
 description = "Digital Scriptorium Book Codex and exact SymPy / geometor.model symbolic demonstrations for Giovanni Ceva's De lineis rectis se invicem secantibus statica constructio (Milan, 1678)."
-readme = "README.rst"
+readme = "README.md"
 requires-python = ">=3.13"
 classifiers = [
     "Programming Language :: Python :: 3",
