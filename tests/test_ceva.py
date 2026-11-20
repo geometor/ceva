@@ -261,3 +261,67 @@ def test_codex_tracks_apparatus_and_picture_directives() -> None:
                         f"Forbidden indented caption under .. picture:: in {rst_path}:{j + 1}"
                     )
                     j += 1
+
+
+def test_atomic_leaves_complete_folio_coverage_and_paired_plates() -> None:
+    """Verify all 71 atomic leaves, 100% 126-folio coverage, 101 archival PNGs, and 22 leaf SVGs."""
+    import re
+
+    expected_leaf_counts = {
+        "statica_prolegomena": 3,
+        "liber_primus": 27,
+        "liber_secundus": 22,
+        "appendix_geometrica": 19,
+    }
+    folio_re = re.compile(r"^\.\.\s+folio::\s+(\d{4})\b", re.MULTILINE)
+    badge_re = re.compile(r"^:folio:\s+(\d{4})\b", re.MULTILINE)
+
+    total_leaves = 0
+    referenced_folios: set[int] = set()
+    for unit, expected_count in expected_leaf_counts.items():
+        unit_dir = CODEX_DIR / unit
+        leaf_dirs = sorted(p for p in unit_dir.iterdir() if p.is_dir())
+        assert len(leaf_dirs) == expected_count, (
+            f"Expected {expected_count} leaves in {unit}, found {len(leaf_dirs)}"
+        )
+        total_leaves += len(leaf_dirs)
+        for leaf_dir in leaf_dirs:
+            for fname in ("index.rst", "la.rst", "summary.rst", "notes.rst"):
+                rst_file = leaf_dir / fname
+                assert rst_file.is_file(), f"Missing leaf track: {rst_file}"
+                text = rst_file.read_text(encoding="utf-8")
+                assert badge_re.search(text), f"Missing :folio: badge in {rst_file}"
+                folios_here = folio_re.findall(text)
+                assert folios_here, f"Missing .. folio:: directive in {rst_file}"
+                assert ".. py_file::" not in text
+                for fid in folios_here:
+                    referenced_folios.add(int(fid))
+
+    assert total_leaves == 71
+    # Verify complete 100% coverage of all 126 digitized scans (0001..0126)
+    assert referenced_folios == set(range(1, 127)), (
+        f"Missing folios: {sorted(set(range(1, 127)) - referenced_folios)}"
+    )
+
+    # Verify all 101 extracted 1678 archival bitmaps exist and are non-empty PNGs
+    archival_pngs = sorted(CODEX_DIR.rglob("*.g*.png"))
+    assert len(archival_pngs) == 101, f"Expected 101 archival PNGs, found {len(archival_pngs)}"
+    for png in archival_pngs:
+        header = png.read_bytes()[:8]
+        assert header == b"\x89PNG\r\n\x1a\n", f"Invalid PNG header in {png}"
+
+    # Verify all 22 calibrated 5-layer .euclid-graphic SVGs inside leaf directories
+    svg_ns = "{http://www.w3.org/2000/svg}"
+    leaf_svgs = sorted(CODEX_DIR.rglob("*.g*.svg"))
+    assert len(leaf_svgs) == 22, f"Expected 22 calibrated leaf SVGs, found {len(leaf_svgs)}"
+    for svg_path in leaf_svgs:
+        root = ET.parse(svg_path).getroot()
+        assert root.tag == f"{svg_ns}svg"
+        assert "euclid-graphic" in root.attrib.get("class", "")
+        layer_ids = [el.attrib.get("id") for el in root.findall(f"{svg_ns}g")]
+        assert layer_ids == ["elements", "graphics", "highlights", "points", "labels"], (
+            f"Bad SVG layers in {svg_path}: {layer_ids}"
+        )
+        refs = [el.attrib["data-ref"] for el in root.iter() if "data-ref" in el.attrib]
+        assert len(refs) >= 5, f"Insufficient data-ref wiring in {svg_path}"
+
