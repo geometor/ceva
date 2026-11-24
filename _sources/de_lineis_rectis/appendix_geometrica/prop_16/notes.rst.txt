@@ -16,3 +16,4 @@ Proposition XVI: Center of Gravity of an Infinite Hyperbolic Plane — Notes
 **Archival Notes**:
 
 * Printed pp. 80–81 (folios ``0097``–``0098``), `Tab. 10, Fig. 83`.
+* **Static Moment Balance**: Combining Proposition XV with :person:`Torricelli's <torricelli>` Lemma 31 (*De dimensione parabolae*), Ceva balances the infinite hyperbolic half-section :g:`BECMA` (with :g:`AF` removed) against rectangle :g:`BE` about axis :g:`AE` to isolate centroid :g:`D`.

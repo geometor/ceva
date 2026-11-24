@@ -19,7 +19,11 @@ Proposition XV: Secant Segment Ratio in Element III
 
 **Proposition XV · Theorem VI** (p. 22, `Tab. 2, Fig. 17`)
 
-*In Element III, the ratio of segment :g:`DG` to the whole transversal :g:`DF` stands as the ratio of the corresponding sub-triangle solids formed upon base :g:`AC` and sides :g:`EA`, :g:`EC`.*
+*With the figure of the Third Element set forth, let two lines* :g:`AG`, :g:`BF` *be drawn moreover; it is to be shown that* :g:`GD` *to* :g:`DF` *is as the pyramid whose base is triangle* :g:`AEG` *and altitude* :g:`BC` *to the pyramid whose base is triangle* :g:`FEB` *and altitude* :g:`AC`.
+
+Since :g:`DG` to :g:`FD`, namely weight :g:`F` to :g:`G`, is compounded of the ratios of the heavy bodies :g:`F` to :g:`A`, :g:`A` to :g:`B`, and :g:`B` to :g:`G`, namely of straight lines :g:`AE` to :g:`EF`, :g:`CB` to :g:`CA`, and :g:`EG` to :g:`EB`;
+and from these ratios taken perturbedly, namely :g:`AE` to :g:`EF`, :g:`EG` to :g:`EB`, and :g:`CB` to :g:`CA`, is compounded also the ratio of the pyramid whose base is triangle :g:`AEG` and altitude :g:`CB` to the pyramid whose base is triangle :g:`FEB` and altitude :g:`CA`;
+:g:`DG` to :g:`FD` will be as the said pyramid of altitude :g:`CB` to the other pyramid of altitude :g:`CA`, which was &c.
 
 .. toctree::
    :hidden:

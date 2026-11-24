@@ -22,7 +22,12 @@ Proposition XIII: Tangent-Diameter Ratio in a Conic Section
 
 **Proposition XIII · Problem II** (p. 49, `Tab. 6, Figs. 51 & 52`)
 
-*Given a hyperbola, ellipse, or circle together with two tangents and a diameter cutting across them, to determine the exact ratio of the intercepted tangent segments via static moments and Apollonian ordinate relations.*
+*Let a certain line touch a hyperbola, an ellipse, or a circle, and let a diameter of the section be drawn through the point of contact; let another tangent cut both this diameter and the tangent, and let the ratio of the parts of the latter tangent be given: it is required to make known the other ratio formed from the portions of the drawn diameter.*
+
+Let :g:`C` be the center of the conic section :g:`AB`, touched by the line :g:`AD` at :g:`A`, and let :g:`CA` joined be produced outside the section so that together with the tangent :g:`AD` it is cut by another tangent drawn from :g:`B`—that is, :g:`CA` produced at :g:`E`, and :g:`AD` at :g:`D`:
+I say that if the ratio :g:`BD` to :g:`DE` is known, then :g:`CA` to :g:`AE` will also be known. Let :g:`CB` be joined, and produced let it meet the straight line :g:`AD` at point :g:`F`. Thus a figure of the First Element will be constructed, whose center is :g:`D` and vertex is :g:`C`;
+and since, from conics (*Apollonius III.1; Euclid VI.14*), triangle :g:`EDA` equals triangle :g:`BDF`, :g:`DB` will be to :g:`DE` as :g:`DA` to :g:`DF`. Now the ratio :g:`BD` to :g:`DE` is given; therefore :g:`AD` to :g:`DF` will also be given;
+and with the two ratios :g:`DB` to :g:`DE` and :g:`AD` to :g:`DF` given, I shall also make known the remaining two, and therefore :g:`CA` to :g:`AE` will be given, Q.E.D.
 
 .. toctree::
    :hidden:

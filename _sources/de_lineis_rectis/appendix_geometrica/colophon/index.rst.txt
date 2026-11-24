@@ -17,18 +17,20 @@ Imprimatur and Ludovico Monza Colophon
 .. picture:: 0101.g1.png
    :alt: 1678 woodcut printer's device of Ludovico Monza: HINC MICAT / INDE FERIT (LM)
 
-**IMPRIMATVR** (folio ``0101``)
+**I M P R I M A T U R.**
 
-* **Fr. Antonius Maria Cruceius**, Master of Sacred Theology & Commissary of the Holy Office of Milan.
-* **Iacobus Saita**, Canon of the Ambrosian Basilica, for the Most Eminent Cardinal Archbishop.
-* **Franciscus Arbona**, for the Most Excellent Senate of Milan.
+* **Fr. Antonius Maria Cruceius**, Master of Sacred Theology, and Commissary of the Holy Office of Milan.
+* **Iacobus Saita**, Canon of the Ambrosian Basilica, for the Most Eminent Lord Cardinal Archbishop.
+* **Franciscus Arbona**, for the Most Excellent Senate.
 
-Beneath the ecclesiastical and civic imprimaturs stands the ornate Baroque woodcut printer's device of :person:`Ludovico Monza <monza>`: a blindfolded winged putto astride a thunderbolt-grasping eagle inside a scrolled fruit cartouche bearing the Latin motto **HINC MICAT · INDE FERIT** (*"Here it flashes, there it strikes"*) and monogram **LM** beneath a cross:
+*Printer's device:* **HINC MICAT · INDE FERIT** (*Here it flashes, there it strikes*), *monogram* **LM**.
 
-**MEDIOLANI** — *Ex Typographia Ludouici Montiæ. MDCLXXVIII.*
+**M I L A N** — From the Press of :person:`Ludovico Monza <monza>`. 1678.
 
 .. folio:: 0102
    :page: Colophon Verso (Blank)
+
+*(Blank verso leaf.)*
 
 .. toctree::
    :hidden:

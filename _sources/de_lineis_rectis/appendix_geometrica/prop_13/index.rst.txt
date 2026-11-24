@@ -22,16 +22,29 @@ Proposition XIII: Center of Gravity of a Hemisphere (5:3)
 
 **Proposition XIII · Theorem XIII** (pp. 77–78, `Tab. 10, Fig. 80`)
 
-*The center of gravity :g:`O` of a solid **hemisphere** :g:`ABC` is the point dividing its axis :g:`BF` so that the segment toward vertex :g:`B` stands to the segment toward base center :g:`F` in the exact ratio **5 to 3**:*
+*The center of gravity of a hemisphere is that point in which the axis is so divided that the part which is toward the vertex is to the remaining part as 5 to 3.*
 
-$$\overline{BO} : \overline{OF} = 5 : 3 \qquad \left(\overline{OF} = \frac{3}{8}R,\quad \overline{BO} = \frac{5}{8}R\right).$$
-
-Enclosing the hemisphere :g:`ABC` inside its circumscribed cylinder :g:`AD` together with the inverted cone :g:`EFD` (whose circular slice at every height satisfies $\text{Cylinder slice} = \text{Cone slice} + \text{Hemisphere slice}$), Ceva treats axis :g:`BF` as a static lever! The cylinder balances at its midpoint :g:`L` ($1/2\,R$), while the cone balances at :g:`P` ($1/4\,R$ from base $ED$, citing :person:`Luca Valerio <valerio>`, :cite:`De centro gravitatis solidorum I.39 <valerio:1604:centro>`). Because $\text{Cone} : \text{Hemisphere} = 1 : 2$, lever equilibrium $\overline{OL} : \overline{LP} = 1 : 2$ forces $\overline{BO} : \overline{OF} = 5 : 3$ immediately!
-
-**Scholium** (p. 78): By the exact same static lever decomposition applied to Propositions XI–XII, one immediately finds the center of gravity of any hyperbolic conoid.
+Let there be a hemisphere :g:`ABC`, and let its axis :g:`FB` be cut at :g:`O`, so that :g:`BO` has to :g:`OF` that ratio which 5 has to 3. I say that point :g:`O` is the center of gravity of the said hemisphere.
+On the same base :g:`AC` and around the same axis :g:`BF` let there be conceived cylinder :g:`AD`, and likewise cone :g:`EFD` whose base is :g:`ED`; and let these solids be cut by the same plane :g:`HIKMNG` parallel to base :g:`AC` or :g:`ED`.
+Now it is evident that axis :g:`BF` passes through the center of all circles :g:`AC`, :g:`HG`, :g:`ED` of cylinder :g:`AD`; and likewise that the same axis passes through the centers of all circles of cone :g:`DFE` and of hemisphere :g:`CBA`;
+and because circle :g:`ED` is equal and concentric to itself; likewise circle :g:`HG` is equal to the two circles :g:`NI`, :g:`MK` concentric with it (for rectangle :g:`HNG`, that is square :g:`GC` or :g:`FQ` or :g:`QM`, together with square :g:`QN` equals square :g:`QG`),
+and finally circle :g:`AC` equals itself; there will be on axis :g:`BF`, as on a balance-beam, at point :g:`B` the same weight, whether circle :g:`ED` of cylinder :g:`DA` be suspended there, or circle :g:`DE` of cone :g:`DFE` weigh down at the same point;
+and by the same reasoning there will be at point :g:`Q` the same gravity, whether circle :g:`HG` of cylinder :g:`EC` be suspended from that point, or the magnitude composed of the two circles :g:`KM`, :g:`NI` of the cone and the hemisphere.
+Finally, because circle :g:`AC` of the cylinder weighs equally at :g:`F` as circle :g:`AC` itself of the hemisphere, it is clearly evident that all circles :g:`ED`, :g:`HG`, :g:`AC`, etc. of cylinder :g:`EC` obtain the same center of gravity
+as the composite of all circles :g:`ED`, :g:`KM`, etc. of the cone and all :g:`IN`, :g:`AC`, etc. of the hemisphere; that is, it is evident that cylinder :g:`EC` is concentric
 
 .. folio:: 0095
    :page: p. 78
+
+with the composite magnitude made of cone :g:`DFE` and hemisphere :g:`CBA` remaining in that described position. Therefore, at point :g:`L`, the midpoint of axis :g:`BF`, will be the center of gravity of the said composite magnitude;
+and once :g:`BP` is taken as half of :g:`BL`, namely the fourth part of :g:`BF` (margin: *Luca Valerio, De centro gravitatis* I.39), it is evident that point :g:`P` is the center of gravity of cone :g:`DFE`.
+
+Since however :g:`BO` is to :g:`OF` as 5 to 3, :g:`BF` will be to :g:`FO` as 8 to 3, and to :g:`LO` as 8 to 1; wherefore :g:`BL` to :g:`LO` will be as 4 to 1, and :g:`PL` to :g:`LO` as 2 to 1;
+and cone :g:`DFE` is to hemisphere :g:`CBA` as 1 to 2; therefore, since inversely as cone :g:`DFE` is to hemisphere :g:`CBA`, so is length :g:`OL` to :g:`LP`, it is clear that point :g:`O` is the center of gravity of hemisphere :g:`CBA`, which was to be demonstrated.
+
+**SCHOLIUM.**
+
+*By altogether the same reasoning which we used above, the center of gravity of a hyperbolic conoid is found, namely with attention to the eleventh proposition of this appendix, or even the twelfth.*
 
 .. toctree::
    :hidden:

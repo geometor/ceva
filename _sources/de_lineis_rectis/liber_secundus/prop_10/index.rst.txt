@@ -22,9 +22,14 @@ Proposition X: Squared Segment Ratios on Three Parabola Tangents
 
 **Proposition X · Theorem IX** (p. 47, `Tab. 6, Fig. 50`)
 
-*Let three straight lines touch a :g:`parabola` at points :g:`F`, :g:`E`, :g:`D`, meeting pairwise at :g:`A`, :g:`B`, :g:`C` (citing :person:`Apollonius <apollonius>`, *Conics* III.41: three tangents to a parabola cut one another in the same proportion). Then the segments along the central tangent :g:`AC` stand in the duplicate (squared) ratio of the segments along the chord :g:`FD`:*
+*If straight lines touching a parabola meet one another, the line drawn through the point of contact of the intercepted tangent and the intersection of*
+the remaining two will cut the line joining the remaining points of contact so that its segments obtain between themselves the same ratio as the squares of the homologous parts of one tangent.*
 
-$$\overline{AB} : \overline{BC} = \overline{FE}^2 : \overline{ED}^2.$$
+Let there be parabola :g:`AEC`, which three lines :g:`AFG`, :g:`FED`, :g:`GDC` touch at points
+:g:`A`, :g:`E`, :g:`C`; then let :g:`GE` be joined and produced so that it cuts :g:`AC` at point :g:`B`; I say that :g:`AB` to :g:`BC` is as the square on :g:`FE` to the square on :g:`DE`. Because on account of the third element, whose vertex is :g:`G` and center :g:`E`,
+the ratio of straight line :g:`AB` to :g:`BC`, namely of weight :g:`C` to :g:`A`, is compounded of the ratios of weights :g:`C` to :g:`D` to :g:`F` to :g:`A`, namely of straight lines :g:`DG` to :g:`GC`, :g:`FE` to :g:`ED`, and :g:`GA` to :g:`GF`;
+and (margin: *Conics* III.41) as :g:`DG` is to :g:`GC`, so is :g:`AF` to :g:`GA`; therefore :g:`AB` to :g:`BC` will be compounded of the ratios :g:`AF` to :g:`GA`, :g:`FE` to :g:`ED`, and :g:`GA` to :g:`GF`; and from these taken perturbedly, that is from the ratios :g:`FE` to :g:`ED`,
+:g:`AF` to :g:`GA` to :g:`GF`; indeed from :g:`FE` to :g:`ED` itself, and :g:`AF` to :g:`GF`, or (margin: *ibid.*) from the duplicate ratio of :g:`FE` to :g:`ED`; therefore :g:`AB` is to :g:`BC` as the square on :g:`FE` to the square on :g:`DE`, Q.E.D.
 
 .. toctree::
    :hidden:

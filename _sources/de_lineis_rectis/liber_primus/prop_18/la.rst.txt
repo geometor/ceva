@@ -18,6 +18,14 @@ Propositio XVIII · Theorema VIII
 
 .. rst-class:: latin-source
 
-**PROP. XVIII. THEOR. VIII.** (`tab. 2. fig. 20`, p. 26)
+**PROP. XVIII. THEOR. VIII.**
 
-*In quarto elemento, ratio segmentorum :g:`BD` ad :g:`DG` ex pyramidum super triangulis oppositis ratione demonstratur, cum Corollario.*
+*Posita eadem elementi quarti figura ducantur insuper lineae* :g:`EA`, :g:`FC`, *dico* :g:`GF` *ad* :g:`GE`, *esse vt est pyramis, cuius basis triangulum* :g:`FDC`, *altitudo verò* :g:`AB` *ad pyramidem, cuius basis triangulum* :g:`ADE`, *& altitudo* :g:`CB`.
+
+(`tab. 2. fig. 20`) Componitur proportio rectae :g:`GF` ad :g:`GE`, illa nempe ponderis :g:`E` ad :g:`F` ex rationibus grauium :g:`E` ad :g:`C` ad :g:`A` ad :g:`F`, rectarum videlicet :g:`CD` ad :g:`DE`, :g:`AB` ad :g:`BC`, & :g:`FD` ad :g:`DA`,
+vel ex ijsdem perturbatè acceptis, nempe ex :g:`CD` ad :g:`DE`, :g:`FD` ad :g:`DA`, & :g:`AB` ad :g:`BC`, hoc est ex rationibus trianguli :g:`FDC` ad triangulum :g:`EDA`, & ex recta :g:`AB` ad :g:`BC`;
+sed ex ijsdem rationibus componitur pyramis, cuius basis triangulum :g:`FDC`, altitudo verò :g:`AB` ad pyramidem, cuius basis triangulum :g:`ADE`, & altitudo :g:`BC`; ergo vt prior pyramis ad hanc, ita :g:`GF` ad :g:`GE`, quod &c.
+
+**COROLLARIVM.**
+
+*Patet, si recta* :g:`AB` *aequalis sit rectae* :g:`BC`, *esse triangulum* :g:`FDC` *ad triangulum* :g:`ADE`, *vt recta* :g:`GF` *ad* :g:`GE`.

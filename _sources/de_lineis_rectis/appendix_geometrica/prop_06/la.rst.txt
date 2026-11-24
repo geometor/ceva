@@ -20,7 +20,13 @@ Propositio VI · Theorema VI
 
 **PROP. VI. THEOR. VI.** (`tab. 8. fig. 73`, pp. 66–67)
 
-*Si in altero oppositorum semicirculorum hemihexagonum :g:`ABEC` inscribatur, in alio verò segmentum :g:`AFC` simile vni :g:`EGC`; erit semihexagonum :g:`ABEC` æquale menisco :g:`FE` vnà cum segmento :g:`EGC`, quod &c.*
+*Si in altero oppositorum semicirculorum hemihexagonum inscribatur, in alio verò semicirculo & supra eius basim, segmentum cuiusdam circuli describatur ijs simile, quae inscriptum semihexagonum supereminent; vnum ex istis simul cum illo spatio inter conuexam, & concauam peripheriam interiecto aequale erit praedicto semihexagono.*
+
+Sit circulus :g:`DE`, cuius diameter :g:`AC`, sitque :g:`AFC` segmentum circuli, simile vni :g:`EGC`, quod inscripto semihexagono :g:`ABEC` superstat; dico hoc segmentum :g:`EGC` vnà cum menisco :g:`EF` aequale esse hemihexagono :g:`ABEC`. Quoniam :g:`AC` quadrupla est ipsius :g:`EC` potentia; erit figura :g:`AFC` aequalis duplo segmento :g:`EGC`,
+& duobus :g:`BE`, :g:`BA` similiter inter se aequalibus; itaque cum semicirculus :g:`E` semicirculo :g:`D` sit aequalis, si à semicirculo
 
 .. folio:: 0084
    :page: p. 67
+
+:g:`D` auferantur tria segmenta :g:`CE`, :g:`BE`, :g:`BA`, & à semicirculo :g:`E` tollatur segmentum :g:`AFC`
+deficiens vno segmento :g:`CGE`, supererit semihexagonum :g:`ABEC` aequale menisco :g:`FE` excedenti segmento :g:`EGC`, quod &c.

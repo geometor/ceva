@@ -16,7 +16,7 @@ Liber Secundus · Sectiones Conicae, Conuersa Ceuae & Instrumentum
 
 .. rst-class:: latin-source
 
-*Liber Secundus* editionis Mediolanensis anni MDCLXXVIII (pp. 35–60; folia ``0052``–``0077``; `Tab. IV–VIII & X`) continet Lemmata sex & **Propositiones XXI** de polygonis circulis atque ellipsibus circumscriptis, parabolæ contingentibus, triangulis sibi mutuo inscriptis, ac nouo instrumento pro distantijs metiendis.
+*Liber Secundus* editionis Mediolanensis anni MDCLXXVIII (pp. 35–60; folia ``0052``–``0077``; `Tab. IV–VIII & X`) continet Lemmata sex & **Propositiones XXI** de polygonis circulis atque ellipsibus circumscriptis, parabolae contingentibus, triangulis sibi mutuo inscriptis, ac nouo instrumento pro distantijs metiendis.
 
 * :ref:`Liber Secundus · Lemmata I–III de Sectionibus Conicis <liber-secundus-lemmata-conica-la>` (``0052``)
 * :ref:`Propositio I · Theorema I & Corollarium (Conuersa Ceuae) <liber-secundus-prop-01-la>` (``0055``)

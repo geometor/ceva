@@ -21,9 +21,17 @@ Propositio XIV · Theorema XIV (Conoides Parabolicum)
 
 .. rst-class:: latin-source
 
-**PROP. XIV. THEOR. XIV.** (`tab. 10. fig. 81`, pp. 78–79; in marg. *22. primi conic., Lemma 22. in libro de dimensione parabolæ Euāg. Torricellij*)
+**PROP. XIV. THEOR. XIV.** (`tab. 10. fig. 81`, pp. 78–79)
 
-*Omnis portionis conoidis parabolici :g:`ABC` centrum grauitatis est punctum illud :g:`E`, in quo axis :g:`BD` sic diuiditur, vt pars :g:`BE` quæ est ad verticem reliqua :g:`ED` sit dupla.* Cum circuli conoidis proportionales sint lineis trianguli inscripti :g:`ABC`, portio conoidis concentrica erit triangulo :g:`ABC`, cuius centrum grauitatis est :g:`E`.
+*Omnis portionis conoidis parabolici centrum grauitatis est punctum illud, in quo axis sic diuiditur, vt pars quae est ad verticem reliqua sit dupla.*
+
+Sit portio conoidis parabolici :g:`ABC`, cuius axis :g:`BD` secetur in :g:`E`, ita vt :g:`BE` dupla sit :g:`ED`. Dico punctum :g:`E` esse centrum grauitatis eiusdem portionis.
+Intelligatur enim triangulum, cuius vertex :g:`B`, basis verò diameter :g:`AC`, quod triangulum vnà cum portione conoidis eodem plano :g:`FK` parallelo basi :g:`AC` abscindatur, sitque trianguli sectio linea :g:`IG`, portionis autem esto circulus, cuius diameter :g:`KF`.
+Patet omnes circulos conoidis :g:`AC`, :g:`FK` &c. concentricos esse omnibus lineis :g:`AC`, :g:`GI` &c. trianguli. Item conspicuum est centra vtrarumque magnitudinum in eodem axe :g:`BHD` reperiri.
+Itaque quia quadratum :g:`AD` ad ipsum :g:`FH`, (in marg. *22. primi conic. Lemma 22. in libro de dimensione parabolae Euang. Torricellij.*) circulus nempe :g:`AC` ad ipsum :g:`FK` est vt linea :g:`DB` ad :g:`BH`, imò vt :g:`AC` ad :g:`GI`;
+si axis :g:`BD` veluti libra concipiatur, erit in eodem puncto ipsius, tùm centrum grauitatis compositae magnitudinis ex omnibus circulis :g:`AC`, :g:`FK` &c. portionis; tùm illud compositae
 
 .. folio:: 0096
    :page: p. 79
+
+ex omnibus lineis :g:`AC`, :g:`GI` &c. trianguli, hoc est portio conoidis concentrica erit triangulo :g:`ABC`. Verùm quia trianguli :g:`ABC` centrum grauitatis est punctum :g:`E`; erit idipsum centrum grauitatis portionis conoidis parabolici :g:`AFBKC`, quod &c.

@@ -19,9 +19,12 @@ Proposition XVIII: Equal Rectangles on Two Circles Tangent to Two Lines
 
 **Proposition XVIII · Theorem XVI** (p. 53, `Tab. 7, Fig. 59`)
 
-*If two circles are both tangent to two intersecting straight lines meeting at :g:`C`, and a transversal through the contact/homothetic point cuts the tangent segments at :g:`D, E, A, F`, then the rectangles on the intercepted segments are equal:*
+*Let two straight lines* :g:`AC` *and* :g:`FD` *touch two circles* :g:`AF` *and* :g:`DC`, *of which* :g:`FD` *meets the former at* :g:`B`; *and when lines* :g:`AF` *and* :g:`DC` *are joined, let* :g:`DC` *be produced so as to meet* :g:`AF` *at* :g:`E`: *I say that the rectangle* :g:`DEA` *is equal to the rectangle* :g:`CEF`.
 
-$$\overline{DE} \cdot \overline{EA} = \overline{CE} \cdot \overline{EF}.$$
+Since :g:`FE` to :g:`EA`, namely weight :g:`A` to :g:`F`, in the figure of the First Element whose weights are :g:`F`, :g:`A`, :g:`C` and center is :g:`D`, is compounded from the ratios of the weights :g:`A` to :g:`C` to :g:`D` to :g:`F`, 
+namely of the lines :g:`CB` to :g:`BA`, :g:`DE` to :g:`EC`, and :g:`FB` to :g:`BD`; and as :g:`CB` is to :g:`BA`, so :g:`BD` is to :g:`FB`; therefore :g:`EF` to :g:`EA` will be compounded from the ratios :g:`BD` to :g:`FB`, :g:`DE` to :g:`EC`, and :g:`FB` to :g:`BD`, 
+or from the same taken in perturbed order, namely from the ratios :g:`BD` to :g:`FB` to :g:`BD`, and :g:`DE` to :g:`EC`; that is, :g:`EF` to :g:`EA` will be as :g:`DE` to :g:`EC`: 
+therefore the rectangle contained by the extreme lines :g:`EF`, :g:`EC` will equal that made from the means of those four proportionals, Q.E.D.
 
 .. toctree::
    :hidden:

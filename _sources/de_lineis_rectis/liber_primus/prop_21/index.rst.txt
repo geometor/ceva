@@ -20,13 +20,14 @@ Proposition XXI: Ratio Along an Interior Cevian Cut by a Chord
 .. picture:: 0105.g24.png
    :alt: 1678 copperplate Tabula II Fig. 24: Interior cevian AK cut by chord DB at L
 
-**Proposition XXI · Theorem X** (p. 30, `Tab. 2, Fig. 24`)
+**Proposition XXI · Theorem X**
 
-*In Element II (triangle :g:`AEC` with concurrent cevians :g:`AK`, :g:`EB`, :g:`CD` meeting at :g:`F`), let the chord :g:`DB` joining two cevian feet :g:`D` and :g:`B` cut the third cevian :g:`AK` at :g:`L`. Then :g:`KL` stands to :g:`LA` in the exact static ratio:*
+*With the figure of the Second Element set forth, let* :g:`DB` *also be joined, cutting* :g:`AK` *at* :g:`L`. *I say that* :g:`BL` *is to* :g:`LD` *as weight* :g:`D` *to* :g:`B`; *and* :g:`KL` *to* :g:`LA` *as double the weight* :g:`G` *to weight* :g:`K`.
 
-$$\overline{KL} : \overline{LA} = 2G : (I + H).$$
-
-Since :g:`K` carries the combined base weight $I + H$ while :g:`D` and :g:`B` carry $G + I$ and $G + H$ respectively, placing a second copy of weight $G$ at :g:`A` immediately balances :g:`D` and :g:`B` around :g:`L` on :g:`AK`! In particular, comparing :g:`L` with :g:`F` (where $\overline{AF} : \overline{FK} = (I+H) : G$) proves that $(A, K; L, F)$ forms a projective **harmonic range** whenever $DB$ is coupled with the base!
+(`Tab. 2, Fig. 24`) Let two weights :g:`G` be understood as suspended at :g:`A`. Since :g:`D` is the center of the two heavy bodies :g:`I`, :g:`G`, and likewise :g:`B` the center of the two :g:`H`, :g:`G`, 
+the center of gravity of all the heavy bodies :g:`I`, :g:`G`, :g:`G`, :g:`H` will lie on the balance-beam :g:`DB`. Likewise, because :g:`K` is the center of the two heavy bodies :g:`I`, :g:`H`, and at :g:`A` is double the weight of heavy body :g:`G`, the center of all the heavy bodies 
+:g:`I`, :g:`H`, :g:`G`, :g:`G` will lie on the balance-beam :g:`AK`; and since this center is unique, it will exist at the common intersection :g:`L` of the balance-beams :g:`DB` and :g:`KA`, 
+and therefore as :g:`BL` to :g:`LD`, so weight :g:`D` to weight :g:`B`; and as :g:`AL` to :g:`LK`, so weight :g:`K` to double :g:`G`, which &c.
 
 .. toctree::
    :hidden:

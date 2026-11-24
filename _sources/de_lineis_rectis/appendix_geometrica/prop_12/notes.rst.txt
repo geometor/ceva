@@ -16,3 +16,4 @@ Proposition XII: Hyperbolic Conoid Inscribed in a Conical Frustum — Notes
 **Archival Notes**:
 
 * Printed pp. 76–77 (folios ``0093``–``0094``), `Tab. 10, Fig. 79`. Marginal citations read ``16. tertij conic.`` and ``6. secundi``.
+* On p. 76, the print reads ``proprerea`` (for ``propterea``) and ``quorum radij IL, LO`` (referring to circles ``IP, LH``).

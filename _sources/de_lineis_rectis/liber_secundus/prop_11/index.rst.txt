@@ -16,12 +16,18 @@ Proposition XI: Concurrency on Three Tangents to a Parabola
 
 **Proposition XI · Theorem X** (pp. 47–48, `Tab. 6, Fig. 50`)
 
-*In the same three-tangent parabolic configuration (`Tab. 6, Fig. 50`), the three straight lines :g:`AD`, :g:`CF`, and :g:`BE` joining each tangent intersection to the opposite point of tangency on the parabola all concur at one single point :g:`H`!*
+*The same things remaining, let* :g:`AD`, :g:`CF` *be joined, cutting one another at* :g:`H`; *I say that point* :g:`H` *is on line* :g:`GEB`.
 
-Because Apollonius III.41 gives identical proportionality across the three tangents, substituting the tangent segments into the Converse of Ceva (*Book II Prop. I Coroll.*) forces exact concurrency—a projective specialization of Brianchon's theorem for the parabola proved over a century before Brianchon (1806)!
+For if it is possible that :g:`H` be outside line :g:`GEB`, :g:`GH` produced will not fall on :g:`B`, but on another point :g:`I`; therefore on account of the second element, in which :g:`H` is the center of weights :g:`DFI`, and the suspended weights are :g:`AGC`,
+straight line :g:`AI` to :g:`IC`, that is weight :g:`C` to :g:`A`, will be compounded of the ratios of weights :g:`C` to :g:`G` to :g:`A`, namely of straight lines :g:`GD` to :g:`DC`, and :g:`AF` to :g:`FG`.
+Yet as :g:`AF` to :g:`FG`, and likewise as :g:`GD` to :g:`DC`, so is :g:`FE` to :g:`ED`; therefore :g:`AI` to :g:`IC` will be as the square on :g:`FE` to the square on :g:`ED`.
+But in the same ratio of the squares is also :g:`AB` to :g:`BC`; therefore as :g:`AI` to :g:`IC`, so is :g:`AB` to :g:`BC`,
 
 .. folio:: 0065
    :page: p. 48
+
+and by composition, as :g:`AC` to :g:`IC`, so is :g:`AC` to :g:`CB`,
+and therefore :g:`IC` is equal to :g:`CB`, namely the whole to the part, which is absurd; therefore :g:`GH` will fall on :g:`B`, and hence :g:`H` will be on line :g:`GEB`, Q.E.D.
 
 .. toctree::
    :hidden:

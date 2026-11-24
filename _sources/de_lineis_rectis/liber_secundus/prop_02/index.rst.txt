@@ -16,7 +16,9 @@ Proposition II: Quadrilateral Circumscribed About a Circle or Ellipse
 
 **Proposition II · Theorem II** (p. 39, `Tab. 4, Figs. 32–34`)
 
-*If a quadrilateral is circumscribed about a circle or an ellipse, then the two chords joining opposite points of contact satisfy the exact four-weight static balance of Element V—so the cyclic product of the four tangent ratios equals unity and both opposite contact chords intersect at the common four-weight center of gravity.*
+*If a quadrilateral be circumscribed about a circle or an ellipse, and opposite points of contact be joined so that the joining lines intersect one another within the circle or ellipse, such a figure, with the conic section removed, will be that same one which we considered in the fifth element.*
+
+For taking the figure of the first lemma, if the two lines :g:`BF` and :g:`D✠` be conceived as drawn, the proposition is manifest, since there we showed that :g:`CD` to :g:`DE` is compounded of the ratios :g:`GF` to :g:`FE`, :g:`A✠` to :g:`✠G`, and :g:`CB` to :g:`BA`.
 
 .. toctree::
    :hidden:

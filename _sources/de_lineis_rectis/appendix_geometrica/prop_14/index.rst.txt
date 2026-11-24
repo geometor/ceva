@@ -22,14 +22,19 @@ Proposition XIV: Center of Gravity of a Parabolic Conoid (2:1)
 
 **Proposition XIV · Theorem XIV** (pp. 78–79, `Tab. 10, Fig. 81`)
 
-*The center of gravity :g:`E` of any portion of a **parabolic conoid** (paraboloid of revolution :g:`ABC`) divides its axis :g:`BD` so that the portion toward vertex :g:`B` is **double** the portion toward base :g:`D`:*
+*The center of gravity of every portion of a parabolic conoid is that point in which the axis is so divided that the part which is toward the vertex is double the remainder.*
 
-$$\overline{BE} : \overline{ED} = 2 : 1.$$
-
-Citing :person:`Apollonius <apollonius>` (*Conics* I.22) and :person:`Evangelista Torricelli <torricelli>` (:cite:`De dimensione parabolae, Lemma 22 <torricelli:1644:opera>`), Ceva inscribes the axial triangle $\triangle ABC$: at every height $H$ along axis $BD$, the area of the circular slice of the paraboloid scales linearly with $BH$, just as the chord length $GI$ of $\triangle ABC$ scales linearly with $BH$! Because corresponding slices along the lever axis $BD$ stand in constant ratio, the 3D paraboloid shares the exact same center of gravity :g:`E` ($2 : 1$) as the 2D triangle $\triangle ABC$!
+Let there be a portion of a parabolic conoid :g:`ABC`, whose axis :g:`BD` is cut at :g:`E`, so that :g:`BE` is double :g:`ED`. I say that point :g:`E` is the center of gravity of the same portion.
+For let a triangle be conceived whose vertex is :g:`B` and base diameter :g:`AC`, which triangle together with the portion of the conoid is cut off by the same plane :g:`FK` parallel to base :g:`AC`;
+and let the section of the triangle be line :g:`IG`, while that of the portion is the circle whose diameter is :g:`KF`. It is evident that all circles :g:`AC`, :g:`FK`, etc. of the conoid are concentric with all lines :g:`AC`, :g:`GI`, etc. of the triangle.
+Likewise it is manifest that the centers of both magnitudes lie on the same axis :g:`BHD`. Therefore, because square :g:`AD` is to :g:`FH` (margin: *Conics* I.22; *Torricelli, De dimensione parabolae*, Lemma 22),
+namely circle :g:`AC` to :g:`FK`, as line :g:`DB` is to :g:`BH`, indeed as :g:`AC` to :g:`GI`; if axis :g:`BD` be conceived as a balance-beam,
+at the same point of it will be both the center of gravity of the magnitude composed of all circles :g:`AC`, :g:`FK`, etc. of the portion, and that of the magnitude composed
 
 .. folio:: 0096
    :page: p. 79
+
+of all lines :g:`AC`, :g:`GI`, etc. of the triangle; that is, the portion of the conoid will be concentric with triangle :g:`ABC`.
 
 .. toctree::
    :hidden:

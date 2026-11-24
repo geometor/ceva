@@ -23,38 +23,8 @@ Titulus Operis · Mediolani MDCLXXVIII
 
 **DE LINEIS RECTIS SE INVICEM SECANTIBVS STATICA CONSTRVCTIO.**
 
-AD SERENISSIMVM **FERDINANDVM CAROLVM**, Ducem Mantuæ, Montisferrati, Guastallæ, &c.
+AD SERENISSIMVM **FERDINANDVM CAROLVM**, Ducem Mantuae, Montisferrati, Guastallae, &c.
 
 AVCTORE **IOANNE CEVA** Mediolanensi.
 
-**MEDIOLANI**, Ex Typographia Ludouici Montiæ. **MDCLXXVIII.** SVPERIORVM PERMISSV.
-
-.. folio:: 0001
-   :page: Front Cover
-
-.. folio:: 0002
-   :page: Front Pastedown
-
-.. folio:: 0003
-   :page: Spine
-
-.. folio:: 0004
-   :page: Fore-Edge
-
-.. folio:: 0005
-   :page: Top Edge
-
-.. folio:: 0006
-   :page: Bottom Edge
-
-.. folio:: 0007
-   :page: Flyleaf 1r (CFMAGL. 1.7.137)
-
-.. folio:: 0008
-   :page: Flyleaf 1v
-
-.. folio:: 0009
-   :page: Flyleaf 2r (XI CEV.)
-
-.. folio:: 0011
-   :page: Title Page Verso (Blank)
+**MEDIOLANI**, Ex Typographia Ludouici Montiae. **MDCLXXVIII.** SVPERIORVM PERMISSV.

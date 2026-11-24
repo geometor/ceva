@@ -21,13 +21,36 @@ Propositio V · Problema V · Elementum V
 
 .. rst-class:: latin-source
 
-**PROP. V. PROB. V. ELEM. V.** (`tab. 1. fig. 8`)
+**PROP. V. PROB. V. ELEM. V.**
 
-*In quadrilatero :g:`ACIH` ductis rectis :g:`BG`, :g:`ED` opposita latera secantibus, seque mutuo intersecantibus in :g:`F`; rationes omnium segmentorum staticè determinare.*
+*Sit quadrilaterum* :g:`AHIC <ACIH>`, *& in illo duae lineae* :g:`BFG <BG>`, :g:`EFD <ED>`, *oppositis lateribus occurrentes in punctis* :g:`B` :g:`G` :g:`E` :g:`D`, *& se inuicem secantes in* :g:`F`; *proportio autem lineae IG ad GH sit composita ex rationibus partium reliquorum laterum, rectarum videlicet AE ad EH, CB ad BA, & ID ad DC.*
+*Propositum est pondera* :g:`N` :g:`M` :g:`L` :g:`K` *ex angulis* :g:`H` :g:`A` :g:`C` :g:`I` *suspendere, ita vt pondus* :g:`K` *ad* :g:`L` *sit vt CD ad DI;* :g:`L` *ad* :g:`M`, *vt AB ad BC;* :g:`M` *ad* :g:`N`, *vt HE ad EA;* :g:`N` *ad* :g:`K`, *vt IG ad GH;*
+*& duo grauia simul* :g:`N` :g:`M` *ad duo* :g:`L` :g:`K` *simul, vt DF ad FE; tandem, vt duo* :g:`N` :g:`K` *ad duo* :g:`M` :g:`L`, *ita BF ad FG.*
 
-Positis in quatuor angulis :g:`A`, :g:`C`, :g:`I`, :g:`H` ponderibus :g:`M`, :g:`L`, :g:`K`, :g:`N`, ita vt :g:`B`, :g:`D`, :g:`G`, :g:`E` sint centra grauitatis binorum ponderum adiacentium; erit :g:`F` commune omnium quatuor ponderum centrum grauitatis, & productum quatuor rationum laterum æquale erit vnitate.
+(`tab. 1. fig. 8`) Fiat pondus :g:`K` ad :g:`L` vt CD ad DI; :g:`L` verò ad :g:`M` vt BA ad BC,
+& :g:`M` ad :g:`N` vt HE ad EA; dico :g:`N` ad :g:`K` esse vt IG ad GH, & duo :g:`N` :g:`M` ad duo :g:`L` :g:`K`, vt DF ad FE.
 
-**COROLLARIVM.** Idem omnino euenit, **licet prædictum quadrilaterum non in eodem plano iaceat**: nam rectæ :g:`BG`, :g:`ED` per vnicum centrum grauitatis :g:`F` transeuntes se necessario secant, atque in eodem plano consistunt. **Scholium** additur de rationum permutatione.
+Nam pondus :g:`N` ad :g:`K` componitur ex rationibus ponderum :g:`N` ad :g:`M`, :g:`M` ad :g:`L`, :g:`L` ad :g:`K`;
+Sed ex constructione, vt :g:`N` ad :g:`M`, ita recta AE ad EH; vt :g:`M` ad :g:`L`, ita recta CB ad BA; & vt :g:`L` ad :g:`K`, ita ID ad DC; ergo :g:`N` ad :g:`K` componitur ex rationibus rectarum AE ad EH, CB ad BA, & ID ad DC:
+verùm ex eisdem rationibus componitur (vt suppositum est) proportio rectae IG ad GH; ergo vt IG ad GH, ità reciprocè pondus :g:`N` ad :g:`K`; itaque punctum :g:`G` est centrum grauitatis ponderum :g:`N` :g:`K`: & quia :g:`BG` est quaedam libra, in cuius extremo :g:`B` est centrum grauitatis,
+atque adeò totum pondus grauium :g:`M` :g:`L`, itemque in alio extremo :g:`G` pondus est grauium :g:`N` :g:`K`; erit in ipsa libra :g:`GB <BG>` centrum grauitatis omnium grauium :g:`M` :g:`L` :g:`N` :g:`K`. Rursus :g:`ED` est alia libra, in cuius extremo :g:`E` est centrum, & ideo pondus grauium :g:`N` :g:`M`,
+& in alio extremo :g:`D` est eadem ratione pondus grauium :g:`L` :g:`K`; quare in hac etiam libra :g:`ED` reperitur centrum grauitatis eorumdem grauium :g:`N` :g:`M` :g:`K` :g:`L` in illa priori positione. Cum igitur tam in libra :g:`GB <BG>`, quàm in :g:`DE <ED>` sit centrum grauitatis praedictorum ponderum :g:`M` :g:`L` :g:`K` :g:`N`,
+illudque sit vnicum, erit in communi sectione :g:`F`; itaque vt duo simul pondera :g:`M` :g:`L` ad :g:`N` :g:`K`, sic erit GF ad FB, atque, vt duo :g:`M` :g:`N` ad duo :g:`K` :g:`L`, ita DF ad FE, quod &c.
+
+**COROLLARIVM.**
+
+*Elicitur ex hac propositione, quod licet praedictum sic sectum*
 
 .. folio:: 0024
    :page: p. 7
+
+*quadrilaterum non in eodem plano iaceat, semper tamen iunctae* :g:`ED`, :g:`BG` *in vnico plano sunt; & vlterius ea omnia contingunt, quae supra ostendimus. Cum enim demonstratum sit in vtraque libra* :g:`ED`, :g:`GB <BG>` *existere centrum grauitatis omnium grauium* :g:`N` :g:`M` :g:`L` :g:`K`,
+*necesse est vt habeant aliquod punctum commune, in quo se inuicem secent, quod cum ita sit, in eodem plano existent.*
+
+**SCHOLIVM.**
+
+*Pondera* :g:`M` :g:`L` :g:`K` :g:`N` *exprimemus deinceps literis* :g:`A` :g:`C` :g:`I` :g:`H`; *duo verò* :g:`M` :g:`L` *litera* :g:`B`; *duo* :g:`L` :g:`K` *litera* :g:`D`;
+*duo* :g:`K` :g:`N` *litera* :g:`G`; *duo* :g:`N` :g:`M` *litera* :g:`E` *indicabimus; sicuti, & quatuor* :g:`N` :g:`M` :g:`L` :g:`K` *litera* :g:`F` *exprimemus.*
+
+*Constructis iam, explicatisque his quinque elementis, quae vtilitas, seriesque varia Theorematum ex eorum commixtione sit sequtura, & quanto Geometria bono,*
+*cuius fines amplificare hoc qualicumque inuento conati sumus, palam ex sequentibus propositionibus constabit.*

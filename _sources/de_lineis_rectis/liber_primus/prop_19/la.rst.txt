@@ -18,6 +18,10 @@ Propositio XIX · Theorema IX
 
 .. rst-class:: latin-source
 
-**PROP. XIX. THEOR. IX.** (`tab. 2. fig. 21`, p. 26)
+**PROP. XIX. THEOR. IX.**
 
-*In eodem quarto elemento, altera segmentorum ratio per pyramidum proportionem exhibetur.*
+*Exposita eadem figura quarti elementi ducamus insuper duas lineas* :g:`EB`, :g:`GC`. *Dico* :g:`GF` *ad* :g:`FE` *esse, vt est pyramis, cuius basis triangulum* :g:`CDG`, *& altitudo* :g:`AB`, *ad pyramidem, cuius basis triangulum* :g:`BDE`, *& altitudo* :g:`AC`.
+
+(`tab. 2. fig. 21`) Componitur ratio :g:`GF` ad :g:`FE`, ponderis videlicet :g:`E` ad :g:`G`, ex rationibus grauium :g:`E` ad :g:`C` ad :g:`B` ad :g:`G`, rectarum videlicet :g:`CD` ad :g:`DE`, :g:`AB` ad :g:`AC`, & :g:`GD` ad :g:`DB`, vel ex ijsdem perturbatè acceptis, 
+nempe ex rationibus :g:`CD` ad :g:`DE`, :g:`GD` ad :g:`DB`, :g:`AB` ad :g:`AC`, hoc est ex triangulo :g:`CDG` ad triangulum :g:`EDB`; & ex recta :g:`AB` ad :g:`AC`; 
+ex his verò rationibus componitur ratio pyramidis, cuius basis triangulum :g:`CDG`, altitudo :g:`AB`, ad pyramidem, cuius basis triangulum :g:`EDB`, & altitudo :g:`AC`; ergo vt illa ad istam pyramidem, ita :g:`GF` ad :g:`FE`, quod &c.

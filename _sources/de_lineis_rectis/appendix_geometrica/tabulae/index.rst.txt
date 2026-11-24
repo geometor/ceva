@@ -44,7 +44,9 @@ Ten Folding Copperplate Plates (Tabulae I–X, Figs. 1–85)
 .. picture:: 0121.g0.png
    :alt: 1678 folding copperplate Tabula X (Figs. 78–85): Appendix Conoids, Centroids, Paradox & Optical Rangefinder
 
-The 1678 Milan *editio princeps* binds **ten folding engraved copperplate plates** (`Tabulae I–X`, folios ``0103``–``0122``, printed on odd rectos with blank even versos) housing all **85 numbered geometric diagrams** of the treatise, followed by the BNCF copy's trailing endpapers and back pasteboard cover (folios ``0123``–``0126``). Every single one of the 85 engraved diagrams has been individually cropped, contrast-normalized, and embedded directly inside its corresponding proposition page across Books I, II, and the Appendix Geometrica:
+**Ten Folding Copperplate Plates (Tab. I–X, Figs. 1–85)**
+
+Ten folding copperplate plates bound at the end of the volume contain all eighty-five geometric figures of the entire work (`Tab. I`: 1–12; `Tab. II`: 13–24; `Tab. III`: 25–31; `Tab. IIII`: 32–38; `Tab. V`: 39–46; `Tab. VI`: 47–54; `Tab. VII`: 55–61; `Tab. VIII`: 62–73; `Tab. IX`: 74–77; `Tab. X`: 78–85), followed by blank leaves and the back cover:
 
 * **Tabula I** (folio ``0103``, `Figs. 1–12`): Book I :ref:`Axioms & Lemmas I–II <liber-primus-axiomata-lemmata>` through :ref:`Prop. VIII <liber-primus-prop-08>`.
 * **Tabula II** (folio ``0105``, `Figs. 13–24`): Book I :ref:`Prop. X <liber-primus-prop-10>` through :ref:`Prop. XXI <liber-primus-prop-21>`.

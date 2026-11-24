@@ -21,6 +21,12 @@ Propositio XIII · Problema II
 
 .. rst-class:: latin-source
 
-**PROP. XIII. PROBL. II.** (`tab. 6. fig. 51, 52`, p. 49)
+**PROP. XIII. PROBL. II.** (`tab. 6. fig. 51. & 52.`, p. 49; in marg. *1. 3. conic.*, *14. 6. Euc.*)
 
-*In hyperbola, ellipsi, vel circulo, datis contingentibus et diametro, rationes segmentorum inuenire.*
+*Hyperbolam, ellipsim, & circulum quaedam linea contingat, & per contactum ducta sectionis diametro, hanc vna cum tangente tangens alia secet,*
+*& sit data partium ratio postremae tangentis: oportet alteram manifestare, quae fit ex portionibus ductae diametri.*
+
+Esto :g:`C` centrum conisectionis :g:`AB`, quam contingat linea :g:`AD` in :g:`A`, & iuncta :g:`CA` producatur extra sectionem,
+vt simul cum tangente :g:`AD` secetur ab alia contingente ducta ex :g:`B`, hoc est :g:`CA` producta in :g:`E`, & :g:`AD` in :g:`D`: Dico quod si manifesta fuerit ratio :g:`BD` ad :g:`DE`, etiam :g:`CA` ad :g:`AE` manifesta erit. Iungatur :g:`CB`, quae producta occurrat rectae :g:`AD` in puncto :g:`F`.
+Itaque constructa erit figura elementi primi, cuius centrum :g:`D`, & vertex :g:`C`; & quia, ex conicis, triangulum :g:`EDA` aequale est triangulo :g:`BDF`, erit :g:`DB` ad :g:`DE`, vt :g:`DA` ad :g:`DF`; est autem data ratio :g:`BD` ad :g:`DE`; ergo & ipsa :g:`AD` ad :g:`DF` dabitur;
+datis verò duabus rationibus :g:`DB` ad :g:`DE`, & :g:`AD` ad :g:`DF`, manifestabimus quoque duas reliquas, & propterea dabitur :g:`CA` ad :g:`AE`, quod &c.

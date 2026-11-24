@@ -16,9 +16,13 @@ Proposition XV: Rectangle Ratio Along Conic Tangents
 
 **Proposition XV · Theorem XIII** (p. 51, `Tab. 7, Fig. 56`)
 
-*In the three-tangent conic configuration (`Tab. 7, Fig. 56`), the ratio of segments :g:`FB` to :g:`BD` equals the ratio of the rectangles formed on the exterior tangent rays:*
+*If two tangents to a circle meet one another, and another tangent cuts them between their meeting point and their points of contact; the rectangles formed from the former tangents taken up to their meeting point,*
+*and the portions intercepted between their contacts and the other tangent, will stand to one another as do the portions of the just-mentioned tangent, so that homologous terms are coterminous.*
 
-$$\overline{FB} : \overline{BD} = (\overline{EA}\cdot\overline{AF}) : (\overline{EC}\cdot\overline{CD}).$$
+Let :g:`ABC` be a circle touched by :g:`AE` and :g:`CE` at points :g:`A` and :g:`C`,
+and let another line :g:`FBD` be drawn touching the circle at :g:`B`, cutting :g:`AE` at :g:`F` and :g:`CE` at :g:`D`. I say that :g:`FB` is to :g:`BD` as rectangle :g:`EAF` to rectangle :g:`ECD`.
+
+Now by the preceding corollary, the ratio :g:`FB` to :g:`BD` is compounded of the ratios of straight lines :g:`CE` (or :g:`EA`) to :g:`CD`, and :g:`AF` to :g:`AE` (or :g:`EC`); wherefore :g:`FB` to :g:`BD` will be as the ratio compounded of :g:`AE` to :g:`CD` and :g:`AF` to :g:`CE`, that is, as rectangle :g:`EAF` to rectangle :g:`ECD`, which was to be proved.
 
 .. toctree::
    :hidden:

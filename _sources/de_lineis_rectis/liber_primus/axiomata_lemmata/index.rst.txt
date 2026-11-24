@@ -26,24 +26,33 @@ Axioms, Postulate, and Lemmas I–II
 .. picture:: 0103.g3.png
    :alt: 1678 copperplate Tabula I Fig. 3: Straight lever AFKB
 
-**Static Construction of Mutually Intersecting Straight Lines — Book I**
+**Static Construction of Straight Lines Mutually Intersecting — Book I**
 
-**Axiom I**: Every heavy magnitude, or any system of weights joined together, possesses one single, unique :term:`center of gravity <centrum-gravitatis>`.
+**Axiom I.** *Heavy bodies suspended from their common* :term:`center of gravity <centrum-gravitatis>` *weigh just as if their whole weight were in the aforesaid center of gravity.*
 
-**Axiom II**: If two or more weights are united at their common center of gravity and conceived as suspended together at that point, the combined system acts with the exact same :term:`static moment <momentum-ponderis>` as the separated weights.
+**Axiom II.** *Weights in the same position have a single center of gravity.*
 
-**Postulate (*Petitio*)**: Let it be granted that at any given geometric point one may suspend a weight in any arbitrary assigned ratio to another weight.
+**Postulate.** *Let it be granted that, any weight being proposed, another can be found to which the given weight has any commanded ratio.*
 
-**Lemma I** (`Tab. 1, Fig. 1–2`; citing :person:`Archimedes <archimedes>`, *De Æquiponderantibus* I.6): If two weights :g:`mA` and :g:`mB` are placed at the endpoints :g:`A` and :g:`B` of a straight line :g:`AB`, their common center of gravity :g:`F` divides :g:`AB` inversely as the weights:
+**Lemma I.** *Given several weights in any position, if from the center of gravity of one or more of them a balance-beam be drawn which passes through the center of gravity of all, that beam produced will pass through the center of gravity of the remaining weight.*
 
-$$A : B = \overline{BF} : \overline{FA}.$$
+(`Tab. 1, Fig. 1`) Let the weights be $A, B, C, D$, let the center of gravity of them all be $E$, and that of weights $A, D$ be $F$, and let $FE$ be drawn; I say that if it be produced toward the parts of the remaining weights $B, C$, it will fall upon their center;
+for if this is not so, let $G$ be the center of gravity of weights $B, C$, so that the join $FG$ lies outside the line $FE$. Since therefore $FG$ joins the centers of gravity of weights $B, C$ and $A, D$, if it be made as $BC$ to $AD$,
+so the length $FM$ to $MG$, the center of gravity of the same four weights $B, C, D, A$ remaining in their former position will lie on the same balance-beam $FG$; and since this center is unique, it will not be $E$, as was supposed.
 
-**Corollary**: Conversely, if :g:`F` is given on :g:`AB`, weights chosen in the inverse ratio $\overline{BF} : \overline{FA}$ balance precisely at :g:`F`, where their sum acts as a single weight $A + B$.
-
-**Lemma II** (`Tab. 1, Fig. 3`): If a third weight is added along the same line :g:`AB` at :g:`K`, the compound center of gravity of all three weights is determined by grouping any two at their lever fulcrum and balancing their sum against the third.
+**Corollary.** *Hence it is manifest that if two heavy bodies $B, C$ be joined by some balance-beam $BC$, their center of gravity will lie in the common*
 
 .. folio:: 0019
    :page: p. 2
+
+(`Tab. 1, Fig. 2`) *intersection $H$ of the balance-beam $BC$ joining the centers of the heavy bodies $B, C$,*
+*and the line $FH$ passing through the aforesaid centers $F$ and $E$. For the center of the heavy bodies $B, C$ lies on $FH$, as has been proved, as well as on $BC$; therefore it will be $H$.*
+
+**Lemma II.**
+
+*Let there be two weights* :g:`A` *and* :g:`B`, *whose center of gravity is* :g:`F` *on the balance-beam* :g:`AB`; *I say that weight* :g:`A` *is to* :g:`B` *as* :g:`BF <FB>` *to* :g:`FA <AF>`.
+
+(`Tab. 1, Fig. 3`; :cite:`Archimedes, Eq. I.6 <archimedes:equipond>`) For if it is not so, let it be as :g:`A` to :g:`B`, so $BK$ to $KA$; therefore :g:`K` will be the center of gravity of weights :g:`A` and :g:`B`; and since this center is unique, it will not be :g:`F`, as was supposed.
 
 .. toctree::
    :hidden:
