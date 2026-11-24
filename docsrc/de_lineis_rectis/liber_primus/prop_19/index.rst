@@ -17,9 +17,13 @@ Proposition XIX: Second Pyramid Ratio of Element IV
 .. picture:: 0105.g21.png
    :alt: 1678 copperplate Tabula II Fig. 21: Second pyramid ratio of Element IV
 
-**Proposition XIX · Theorem IX** (p. 26, `Tab. 2, Fig. 21`)
+**Proposition XIX · Theorem IX**
 
-*In the Fourth Element, the ratio of the diagonal segments at :g:`D` stands in the corresponding dual ratio of triangular pyramids erected upon the opposing sides :g:`AC` and :g:`EF`.*
+*With the same figure of the Fourth Element set forth, let us draw moreover two lines* :g:`EB`, :g:`GC`. *I say that* :g:`GF` *is to* :g:`FE` *as the pyramid whose base is triangle* :g:`CDG` *and altitude* :g:`AB` *is to the pyramid whose base is triangle* :g:`BDE` *and altitude* :g:`AC`.
+
+(`Tab. 2, Fig. 21`) The ratio :g:`GF` to :g:`FE`, namely that of weight :g:`E` to :g:`G`, is compounded of the ratios of the heavy bodies :g:`E` to :g:`C` to :g:`B` to :g:`G`, namely of the straight lines :g:`CD` to :g:`DE`, :g:`AB` to :g:`AC`, and :g:`GD` to :g:`DB`, 
+or of the same taken perturbedly, namely from the ratios :g:`CD` to :g:`DE`, :g:`GD` to :g:`DB`, :g:`AB` to :g:`AC`, that is, from triangle :g:`CDG` to triangle :g:`EDB`, and from the straight line :g:`AB` to :g:`AC`; 
+but from these ratios is compounded the ratio of the pyramid whose base is triangle :g:`CDG` and altitude :g:`AB` to the pyramid whose base is triangle :g:`EDB` and altitude :g:`AC`; therefore as the former to the latter pyramid, so :g:`GF` to :g:`FE`, which &c.
 
 .. toctree::
    :hidden:

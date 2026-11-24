@@ -16,7 +16,7 @@ Appendix Geometrica · Menisci, Solida, Centra Grauitatis & Tabulae
 
 .. rst-class:: latin-source
 
-*Appendix Geometrica* editionis Mediolanensis anni MDCLXXVIII (pp. 61–83; folia ``0078``–``0100``), vnà cum *Imprimatur*, Colophone Ludouici Montiæ (``0101``–``0102``), & decem Tabulis æneis (``0103``–``0126``).
+*Appendix Geometrica* editionis Mediolanensis anni MDCLXXVIII (pp. 61–83; folia ``0078``–``0100``), vnà cum *Imprimatur*, Colophone Ludouici Montiae (``0101``–``0102``), & decem Tabulis aeneis (``0103``–``0126``).
 
 * :ref:`Appendix Geometrica · Propositio I · Theorema I <appendix-geometrica-prop-01-la>` (``0078``)
 * :ref:`Propositio II · Theorema II <appendix-geometrica-prop-02-la>` (``0080``)

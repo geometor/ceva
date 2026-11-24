@@ -17,11 +17,19 @@ Proposition XIII: First Pyramid Theorem of Element III
 .. picture:: 0105.g16.png
    :alt: 1678 copperplate Tabula II Fig. 16: First pyramid theorem of Element III
 
-**Proposition XIII · Theorem IV** (p. 21, `Tab. 2, Fig. 16`)
+**Proposition XIII · Theorem IV** (`Tab. 2, Fig. 16`)
 
-*In the Third Element, the ratio of the transversal segments :g:`FG` to :g:`GD` equals the ratio of two triangular pyramids (or compound area-segment solids) erected upon the sub-triangles of :g:`EAC`.*
+*Having set forth the figure of the same Third Element, let two lines* :g:`AD`, :g:`FC` *be joined moreover. I say that* :g:`GD` *to* :g:`GF` *is as the pyramid whose base is triangle* :g:`EAD` *and altitude* :g:`BC` 
+*to the pyramid whose base is triangle* :g:`CEF` *and altitude* :g:`AB`.
 
-**Corollary**: Expresses the same proportion directly in terms of planar areas and side segments without solid figures.
+Since :g:`DG` to :g:`GF`, namely weight :g:`F` to :g:`D`, is compounded of the ratios :g:`F` to :g:`A`, :g:`A` to :g:`C`, and :g:`C` to :g:`D`, namely of straight lines :g:`AE` to :g:`EF`, :g:`CB` to :g:`BA`, and :g:`ED` to :g:`EC`, 
+or of the same permuted, that is, of the ratios :g:`AE` to :g:`EF`, :g:`ED` to :g:`EC`, and :g:`CB` to :g:`BA`; and from the former two is compounded triangle :g:`AED` to triangle :g:`CFE` (since the angle at :g:`E` is common), 
+:g:`DG` to :g:`GF` will be compounded of the ratios of triangle :g:`AED` to :g:`EFC` and of straight line :g:`CB` to :g:`BA`; that is, :g:`DG` to :g:`GF` is as the pyramid whose base is triangle :g:`AED` and altitude :g:`BC`, 
+to the pyramid whose base is triangle :g:`EFC` and altitude :g:`AB`, which was to be proved.
+
+**Corollary.**
+
+*It is clear that if* :g:`CB` *be equal to* :g:`AB`, :g:`GD` *is to* :g:`GF` *as triangle* :g:`EAD` *is to triangle* :g:`CFE`.
 
 .. toctree::
    :hidden:

@@ -19,12 +19,18 @@ Proposition VI: Semihexagon Quadrature with Lune and Circular Segment
 
 **Proposition VI · Theorem VI** (pp. 66–67, `Tab. 8, Fig. 73`)
 
-*In a circle :g:`DE` on diameter :g:`AC`, inscribe a regular semihexagon :g:`ABEC` in one semicircle, and upon diameter :g:`AC` in the opposite semicircle describe a circular segment :g:`AFC` similar to one of the three equal cap segments :g:`EGC`, :g:`BE`, :g:`BA` surmounting the semihexagon. Then the regular semihexagon :g:`ABEC` equals the lune :g:`FE` together with one cap segment :g:`EGC`!*
+*If in one of the opposite semicircles a semihexagon be inscribed, and in the other semicircle and upon its base a segment of some circle be described similar to those which stand above the inscribed semihexagon;*
+*one of these together with that space lying between the convex and concave circumferences will be equal to the aforesaid semihexagon.*
 
-Because $\overline{AC}^2 = 4\,\overline{EC}^2$, the large segment :g:`AFC` equals four times a single cap segment—that is, one cap :g:`EGC` plus the three equal caps on $CE, BE, BA$. Subtracting those three caps from the opposite semicircle yields $\text{Semihexagon } ABEC = \text{Lune } FE + \text{Segment } EGC$.
+Let there be circle :g:`DE`, whose diameter is :g:`AC`, and let :g:`AFC` be a circular segment similar to one :g:`EGC` standing upon the inscribed semihexagon :g:`ABEC`;
+I say that this segment :g:`EGC` together with lune :g:`EF` is equal to semihexagon :g:`ABEC`. Since :g:`AC` is quadruple :g:`EC` itself in square, figure :g:`AFC` will be equal to double segment :g:`EGC`, and to the two :g:`BE`, :g:`BA` similarly equal to each other;
+therefore, since semicircle :g:`E` is equal to semicircle :g:`D`, if from semicircle
 
 .. folio:: 0084
    :page: p. 67
+
+:g:`D` the three segments :g:`CE`, :g:`BE`, :g:`BA` be taken away, and from semicircle :g:`E` segment :g:`AFC` lacking one segment :g:`CGE` be removed,
+semihexagon :g:`ABEC` will remain equal to lune :g:`FE` exceeding by segment :g:`EGC`, Q.E.D.
 
 .. toctree::
    :hidden:

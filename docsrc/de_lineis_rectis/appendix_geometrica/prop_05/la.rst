@@ -18,6 +18,9 @@ Propositio V · Theorema V
 
 .. rst-class:: latin-source
 
-**PROP. V. THEOR. V.** (`tab. 8. fig. 72`, p. 66)
+**PROP. V. THEOR. V.** (`tab. 8. fig. 72`)
 
-*Si in quodam semicirculo inscribatur quodlibet triangulum rectangulum :g:`ABC`, descriptis verò duobus semicirculis :g:`BCD`, :g:`ABE` super lateribus circa angulum rectum; triangulum :g:`ABC` duobus meniscis :g:`E`, :g:`D` simul sumptis æquale est.*
+*Si in quodam semicirculo inscribatur quodlibet triangulum rectangulum; descriptis vero duobus semicirculis, quorum diametri sint latera circa angulum rectum inscripti trianguli, ita vt eorum peripheriae extra circulum cadant; quod inter conuexam, & concauam peripheriam interijcitur, spatium aequale erit inscripto triangulo.*
+
+Sit semicirculus :g:`ABC`, & inscriptum triangulum rectangulum sit :g:`ABC`; describantur semicirculi :g:`BCD`, :g:`ABE`; dico triangulum :g:`ABC` duobus meniscis :g:`E`, :g:`D` simul sumptis aequale esse.
+Nam semicirculus :g:`ABC` super hypothenusam :g:`AC` descriptus, duobus alijs semicirculis aequalis est, dempto propterea communi spatio, reliquum triangulum :g:`ABC` aequabitur composito ex duobus reliquis meniscis :g:`E`, :g:`D`, quod &c.

@@ -17,4 +17,6 @@ Propositio II · Theorema II
 
 **PROP. II. THEOR. II.** (`tab. 4. fig. 32, 33, 34`, p. 39)
 
-*Si quadrilaterum circulo vel ellipsi circumscribatur, rectæ opposita contactuum puncta iungentes constituunt quintum elementum, & productum quatuor rationum segmentorum æquatur vnitati.*
+*Si circulo, vel ellipsi circumscriptum fuerit quoddam quadrilaterum, & iungantur opposita puncta contactuum, ita vt iungentes lineae se inuicem intra circulum, vel ellipsim secent, erit huiusmodi figura, ablata coni sectione, illa eadem, quam in quinto elemento considerauimus.*
+
+Nam accepta figura lemmatis primi si concipiantur ductae duae lineae :g:`BF`, :g:`D✠`, manifestum est propositum, quia ibi ostendimus :g:`CD` ad :g:`DE` componi ex rationibus :g:`GF` ad :g:`FE`, :g:`A✠` ad :g:`✠G`, & :g:`CB` ad :g:`BA`.

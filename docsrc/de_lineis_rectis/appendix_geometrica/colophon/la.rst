@@ -22,13 +22,15 @@ Imprimatur & Colophon Ludouici Montiae
 
 Fr. Antonius Maria Cruceius Sac. Th. Magister, & Commissarius Sancti Officij Mediolani.
 
-Iacobus Saita Canonicus Ambrosianæ Basilicæ pro Eminentissimo D. D. Cardinali Archiepiscopo.
+Iacobus Saita Canonicus Ambrosianae Basilicae pro Eminentissimo D. D. Cardinali Archiepiscopo.
 
 Franciscus Arbona pro Excellentissimo Senatu.
 
-*(Insigne typographicum: **HINC MICAT · INDE FERIT**, monogramma **LM**)*
+*Insigne typographicum:* **HINC MICAT · INDE FERIT**, *monogramma* **LM**.
 
-**M E D I O L A N I** — Ex Typographia Ludouici Montiæ. MDCLXXVIII.
+**M E D I O L A N I** — Ex Typographia Ludouici Montiae. MDCLXXVIII.
 
 .. folio:: 0102
    :page: Colophon Verso (Blank)
+
+*(Folium versum vacuum.)*

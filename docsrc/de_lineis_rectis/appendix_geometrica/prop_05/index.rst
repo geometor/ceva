@@ -19,9 +19,11 @@ Proposition V: Generalized Double Lune of Hippocrates
 
 **Proposition V · Theorem V** (p. 66, `Tab. 8, Fig. 72`)
 
-*If any arbitrary (scalene or isosceles) right triangle :g:`ABC` is inscribed in semicircle :g:`ABC` on hypotenuse :g:`AC`, and two exterior semicircles :g:`BCD` and :g:`ABE` are described on the two legs :g:`BC` and :g:`AB`, then the sum of the two exterior **lunes** $E + D$ equals the inscribed right triangle $\triangle ABC$ identically!*
+*If in any semicircle any right-angled triangle be inscribed, and two semicircles be described whose diameters are the sides about the right angle of the inscribed triangle, so that their circumferences fall outside the circle,*
+*the space lying between the convex and concave circumferences will be equal to the inscribed triangle.*
 
-By Pythagoras (:just:`I.47`) and Euclid XII.2, the semicircle on hypotenuse :g:`AC` equals the sum of the two semicircles on legs :g:`AB` and :g:`BC`. Subtracting the two common lens segments shared with the circumscribed semicircle leaves $\triangle ABC = E + D$.
+Let there be semicircle :g:`ABC`, and let the inscribed right-angled triangle be :g:`ABC`; let semicircles :g:`BCD`, :g:`ABE` be described; I say that triangle :g:`ABC` is equal to the two lunes :g:`E`, :g:`D` taken together.
+For semicircle :g:`ABC` described upon hypotenuse :g:`AC` is equal to the two other semicircles; therefore, the common space being taken away, the remaining triangle :g:`ABC` will be equal to the composite of the two remaining lunes :g:`E`, :g:`D`, Q.E.D.
 
 .. toctree::
    :hidden:

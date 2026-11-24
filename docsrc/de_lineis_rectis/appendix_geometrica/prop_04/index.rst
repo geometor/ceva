@@ -20,16 +20,20 @@ Proposition IV: Hippocrates' Lune on an Isosceles Right Triangle
 .. picture:: 0117.g71.png
    :alt: 1678 copperplate Tabula VIII Fig. 71: Hippocrates Lune equal to isosceles right triangle ABC
 
-**Proposition IV · Theorem IV** (pp. 65–66, `Tab. 8, Fig. 71`)
+**Proposition IV · Theorem IV** (`Tab. 8, Fig. 71`)
 
-*In a semicircle :g:`ABC` on diameter :g:`AC`, inscribe an isosceles right triangle :g:`ABC`, and with center :g:`B` and radius :g:`BA` describe the circular quadrant arc cutting the semicircle beneath :g:`AC`. Then the resulting circular **lune** :g:`D` (:person:`Hippocrates of Chios <hippocrates>`) is exactly equal in area to the rectilinear triangle $\triangle ABC$!*
+*If in one of the opposite semicircles of the same circle two sides of an inscribed square be applied, and in the remaining semicircle an arc be made whose radii are the said sides;*
+ *the isosceles right-angled triangle constituted by those applied chords and the diameter will be equal to the space lying between the convex and concave circumferences.*
 
-For as shown in Proposition II, the circular quadrant $BAC$ (of radius $BA = AC/\sqrt{2}$) equals the semicircle $ACD$ (of diameter $AC$, since $\frac{1}{4}\pi BA^2 = \frac{1}{2}\pi (AC/2)^2$). Subtracting the common circular segment between arc $AC$ and chord $AC$ leaves:
-
-$$\text{Area}(\text{Lune } D) = \text{Area}(\triangle ABC).$$
+Let there be circle :g:`ABCD <circle_AC>`, and let :g:`AB`, :g:`BC` be sides of an inscribed square applied to semicircle :g:`ABC`,
+so that from these and diameter :g:`AC` is formed the isosceles right triangle :g:`ABC`; then with center :g:`B` and radius :g:`BA`, or :g:`BC` equal to it, let arc :g:`ADC <arc_ADC>` be described.
+I say that triangle :g:`ABC` is equal to lune :g:`D`, namely to that space which between the concave circumference of the supposed circle and the convex circumference of the described arc
 
 .. folio:: 0083
    :page: p. 66
+
+is interposed.
+For it has been shown in the second proposition of this appendix that quadrant :g:`BAC` is equal to semicircle :g:`ACD <circle_AC>`; if therefore the common space be taken away, triangle :g:`ABC` will remain equal to lune :g:`D`, Q.E.D.
 
 .. toctree::
    :hidden:

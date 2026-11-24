@@ -21,9 +21,15 @@ Propositio IV · Theorema IV (Meniscus Hippocratis)
 
 .. rst-class:: latin-source
 
-**PROP. IV. THEOR. IV.** (`tab. 8. fig. 71`, pp. 65–66)
+**PROP. IV. THEOR. IV.** (`tab. 8. fig. 71`)
 
-*In semicirculo :g:`ABC` inscripto triangulo rectangulo isosceli :g:`ABC`, quadrans :g:`BAC` æqualis est semicirculo :g:`ACD`; si igitur auferatur commune spatium, remanebit triangulum :g:`ABC` æquale menisco :g:`D`, quod &c.*
+*Si in vno oppositorum semicirculorum eiusdem circuli duo inscripti quadrati latera applicentur, fiatque in reliquo semicirculo arcus, cuius dicta latera sint radij; triangulum rectangulum isosceles, quod ab istis applicatis & diametro constituitur, spatio inter conuexam, & concauam peripheriam interiecto aequale erit.*
+
+Sit circulus :g:`ABCD <circle_AC>`, atque :g:`AB`, :g:`BC` sint latera inscripti quadrati semicirculo :g:`ABC` applicata, ita vt ex his, & diametro :g:`AC` constet triangulum :g:`ABC` rectangulum isosceles; tum vero centro :g:`B`, interuallo :g:`BA`, vel ipsi aequali :g:`BC` arcus :g:`ADC <arc_ADC>` describatur.
+Dico triangulum :g:`ABC` aequale esse menisco :g:`D`, ei nimirum spatio, quod inter concauam peripheriam suppositi circuli, & conuexam descripti arcus
 
 .. folio:: 0083
    :page: p. 66
+
+interijcitur.
+Est enim ostensum in secunda huius propositione, quod quadrans :g:`BAC` sit aequalis semicirculo :g:`ACD <circle_AC>`; si igitur auferatur commune spatium remanebit triangulum :g:`ABC` aequale menisco :g:`D`, quod &c.

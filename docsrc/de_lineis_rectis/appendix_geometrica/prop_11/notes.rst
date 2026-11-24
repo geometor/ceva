@@ -16,3 +16,4 @@ Proposition XI: Volume of a Hyperbolic Conoid — Notes
 **Archival Notes**:
 
 * Printed pp. 75–76 (folios ``0092``–``0093``), opening `Tabula X` (`0121`, Fig. 78).
+* On p. 76, the final line prints ``conus ABD`` as a minor typographic slip for ``conus ABC``.

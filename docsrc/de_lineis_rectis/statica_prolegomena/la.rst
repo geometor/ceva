@@ -16,7 +16,7 @@ Statica Prolegomena · Titulus, Dedicatio & Prooemium
 
 .. rst-class:: latin-source
 
-Præliminaria editionis principis Mediolanensis anni MDCLXXVIII (ex Typographia :person:`Ludovici Montiæ <monza>`, folia ``0001``–``0017``): titulus operis, epistola dedicatoria ad Serenissimum :person:`Ferdinandum Carolum <gonzaga>` Ducem Mantuæ, atque Prooemium ad lectorem de noua :term:`statica constructione <statica-constructio>` linearum rectarum.
+Praeliminaria editionis principis Mediolanensis anni MDCLXXVIII (ex Typographia :person:`Ludovici Montiae <monza>`, folia ``0001``–``0017``): titulus operis, epistola dedicatoria ad Serenissimum :person:`Ferdinandum Carolum <gonzaga>` Ducem Mantuae, atque Prooemium ad lectorem de noua :term:`statica constructione <statica-constructio>` linearum rectarum.
 
 * :ref:`Titulus Operis <statica-prolegomena-frontispiece-la>` (``0001``–``0011``)
 * :ref:`Dedicatio ad Ferdinandum Carolum <statica-prolegomena-dedicatio-la>` (``0012``–``0014``)

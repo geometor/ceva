@@ -27,17 +27,37 @@ Liber Primus · Axiomata, Petitio & Lemmata I–II
 
 .. rst-class:: latin-source
 
-**DE LINEIS RECTIS SE INVICEM SECANTIBVS STATICA CONSTRVCTIO. LIBER PRIMVS.**
+**STATICAE CONSTRVCTIONIS LIBER PRIMVS.**
 
-**AXIOMA I.** Cuiuslibet magnitudinis grauis, aut plurium simul gravium, vnicum est centrum grauitatis.
+**AXIOMATA.**
 
-**AXIOMA II.** Si duo pluraue pondera in communi eorum centro grauitatis colligantur, idem prorsus efficiunt momentum ac prius diuisa.
+**I.** *Grauia ex communi centro grauitatis suspensa, ita ponderant, ac si tota eorum grauitas esset in praedicto centro grauitatis.*
 
-**PETITIO.** Postuletur in quouis dato puncto appendi posse pondus quodlibet ad datum pondus datam habens rationem.
+**II.** *Pondera in eadem positione vnicum habent centrum grauitatis.*
 
-**LEMMA I.** (`tab. 1. fig. 1, 2`; in marg. *6. Arch. æquipond.*) Si in extremis rectæ :g:`AB` appendantur duo pondera :g:`mA`, :g:`mB`, erit eorum centrum grauitatis punctum :g:`F` ita diuidens rectam :g:`AB`, vt sit pondus :g:`mA` ad pondus :g:`mB` reciprocè vt distantia :g:`FB` ad distantiam :g:`AF`. **Corollarium.** Ex his liquet, positis in :g:`A`, :g:`B` ponderibus reciprocam rationem habentibus distantijs, centrum grauitatis fore ipsum :g:`F`.
+**PETITIO.**
 
-**LEMMA II.** (`tab. 1. fig. 3`) Eadem ratione plurium in eadem recta :g:`AB` dispositorum ponderum commune centrum grauitatis per binorum compositionem inuenitur.
+*Proposito quolibet pondere aliud reperiri posse ad quod habeat datum pondus quamlibet imperatam rationem.*
+
+**LEMMA I.**
+
+*Pluribus datis ponderibus in qualibet positione, si ex centro grauitatis vnius, vel plurium eorum ducatur libra, quae transeat per centrum grauitatis omnium, ea producta transibit per centrum grauitatis reliqui ponderis.*
+
+(`tab. 1. fig. 1`) Sint pondera A B C D, quorum omnium grauitatis centrum sit E, illud autem ponderum A D sit F, ducaturque FE; dico quod si producatur ad partes reliquorum ponderum B C, in ipsorum centrum cadet;
+si enim hoc non est, sit G centrum grauitatis ponderum B C, itaut iuncta FG sit extra lineam FE. Quoniam igitur FG iungit centra grauitatis ponderum B C, A D, si fiat vt B C ad A D, ita longitudo FM ad MG,
+erit in eadem libra FG centrum grauitatis eorundem quatuor ponderum B C D A in priori positione manentium, quod cum vnicum sit, non erit E, vt ponebatur.
+
+**COROLLARIVM.**
+
+*Hinc manifestum est, quod si duo grauia B C iungantur libra aliqua B C, eorum centrum grauitatis erit in communi*
 
 .. folio:: 0019
    :page: p. 2
+
+(`tab. 1. fig. 2`) *sectione H librae B C iungentis centra grauium B C, & lineae FH transeuntis per praedicta centra F, & E. Centrum enim grauium B C tam est in FH, vt probatum est, quam in B C, ergo erit H.*
+
+**LEMMA II.**
+
+*Sint duo pondera* :g:`A` :g:`B`, *quorum centrum grauitatis sit* :g:`F` *in libra* :g:`AB`, *dico pondus* :g:`A` *ad* :g:`B` *esse, vt* :g:`BF <FB>` *ad* :g:`FA <AF>`.
+
+(`tab. 1. fig. 3`; in marg. *6. Arch. aequipond.*) Si enim ita non est, sit vt :g:`A` ad :g:`B`, ita BK ad KA; erit ergo :g:`K` centrum grauitatis ponderum :g:`A` :g:`B`; quod cum vnicum sit, non erit :g:`F`, vt ponebatur.

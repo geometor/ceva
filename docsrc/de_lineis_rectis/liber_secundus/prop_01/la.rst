@@ -23,6 +23,15 @@ Propositio I · Theorema I & Corollarium (Conuersa Ceuae)
 
 **PROP. I. THEOR. I.** (`tab. 4. fig. 38`, p. 38)
 
-*Si triangulum :g:`GAC` circulo vel ellipsi circumscribatur, contingantque latera sectionem in punctis :g:`F`, :g:`B`, :g:`D`; tres rectæ :g:`GB`, :g:`AD`, :g:`CF` ex angulis ad opposita contactuum puncta ductæ in vno eodemque puncto :g:`E` concurrunt.*
+*Si circulo, vel ellipsi fuerit circumscriptum quodlibet triangulum; rectae lineae à contactibus deductae ad oppositos angulos eiusdem trianguli, se inuicem in eodem puncto secabunt, & insurget, ablato circulo, figura illa, quam in secundo elemento considerauimus.*
 
-**COROLLARIVM** (p. 38 — *Theorema Conuersum*): Ex hoc constat vicissim, si trianguli latera ita secentur vt productum rationum alternarum æquetur vnitati, tres rectas ex angulis ad sectionum puncta ductas in vno puncto necessario concurrere.
+Sit circulus, vel ellipsis :g:`BFI`, circa quam sit triangulum :g:`AGC`, contingens praedictam sectionem in punctis :g:`FIB`, iunctaeque duae lineae :g:`AI`, :g:`CF` se inuicem secent in :g:`E`; dico quod si iungatur :g:`GE`, & protrahatur, transibit per reliquum contactum :g:`B`. Si enim hoc verum non est transeat per :g:`H`;
+& quia propter elementum secundum recta :g:`CH` ad :g:`HA`, pondus videlicet :g:`A` ad :g:`C` componitur ex rationibus grauium :g:`A` ad :g:`G` ad :g:`C`, hoc est rectarum :g:`GF` ad :g:`FA`, & :g:`CI` ad :g:`IG`; itemque propter conicam sectionem, recta :g:`CB` ad :g:`BA` ex ijsdem duabus rationibus componitur,
+erit vt :g:`CH` ad :g:`HA`, ita :g:`CB` ad :g:`BA`, & componendo, :g:`CA` ad :g:`AH`, vt :g:`CA` ad :g:`AB`; ideoque :g:`AH` erit aequalis ipsi :g:`AB`, totum scilicet parti, quod est absurdum. Necesse est igitur, vt iuncta linea :g:`GE` si producatur cadat in contactum :g:`B`.
+
+
+**COROLLARIVM.**
+
+*Hinc manifestum est, quod, si ratio* :g:`CB` *ad* :g:`BA` *componatur ex rationibus* :g:`GF` *ad* :g:`FA`, :g:`CI` *ad* :g:`IG`, *& iungantur* :g:`AI`, :g:`CF`, :g:`GB`, *conuenient in* :g:`E`. *Nam si exempli gratia* :g:`GB` *non transeat per* :g:`E`, *in quo se mutuò secant* :g:`AI`, :g:`CF`,
+ *si iungatur* :g:`GE`, *& producatur, cadet in aliud punctum* :g:`H`. *Erit igitur* :g:`CH` *ad* :g:`HA`, *vt ostensum est, propter elementum secundum, composita ex rationibus* :g:`GF` *ad* :g:`FA`, *&* :g:`CI` *ad* :g:`IG`:
+ *Quare vt* :g:`CB` *ad* :g:`BA`, *ita* :g:`CH` *ad* :g:`HA`, *& componendo, vt* :g:`CA` *ad* :g:`AB`, *ita* :g:`CA` *ad* :g:`AH`, *quod est absurdum.*

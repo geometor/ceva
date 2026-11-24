@@ -20,4 +20,8 @@ Propositio XVIII · Theorema XVI
 
 **PROP. XVIII. THEOR. XVI.** (`tab. 7. fig. 59`, p. 53)
 
-*Si duo circuli duas rectas se secantes contingant, rectangulum sub :g:`DE`, :g:`EA` æquale erit rectangulo sub :g:`CE`, :g:`EF`.*
+*Duos circulos* :g:`AF`, :g:`DC`, *contingant duae rectae* :g:`AC`, *&* :g:`FD`, *quarum* :g:`FD` *priori occurrat in* :g:`B`; *iunctis verò lineis* :g:`AF`, :g:`DC`, *producatur* :g:`DC`, *adeout occurrat ipsi* :g:`AF`, *in* :g:`E`, *dico rectangulum* :g:`DEA` *aequale esse rectangulo* :g:`CEF`.
+
+Quoniam :g:`FE` ad :g:`EA`, pondus videlicet :g:`A` ad :g:`F`, in figura elementi primi, cuius grauia :g:`FAC`, & centrum :g:`D`, componitur ex rationibus grauium :g:`A` ad :g:`C` ad :g:`D` ad :g:`F`, rectarum nimirum :g:`CB` ad :g:`BA`, :g:`DE` ad :g:`EC`, & :g:`FB` ad :g:`BD`; 
+vtque :g:`CB` ad :g:`BA`, ita :g:`BD` ad :g:`FB`; erit :g:`EF` ad :g:`EA` composita ex rationibus :g:`BD` ad :g:`FB`, :g:`DE` ad :g:`EC`, & :g:`FB` ad :g:`BD`, vel ex ijsdem perturbatè acceptis, nempe ex rationibus :g:`BD` ad :g:`FB` ad :g:`BD`, & :g:`DE` ad :g:`EC`; 
+hoc est :g:`EF` ad :g:`EA` erit vt :g:`DE` ad :g:`EC`: rectangulum igitur contentum lineis extremis :g:`EF`, :g:`EC`, aequale erit ei quod fit à medijs quatuor illarum proportionalium, ergo &c.

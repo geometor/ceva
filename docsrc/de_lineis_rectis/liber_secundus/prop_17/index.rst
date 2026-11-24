@@ -19,7 +19,12 @@ Proposition XVII: Concurrency from Three Inscribed Pairwise Tangent Circles
 
 **Proposition XVII · Theorem XV** (p. 53, `Tab. 8, Fig. 62`)
 
-*If three circles are inscribed within the three angles of a triangle so that each touches two sides of the triangle (and via Lemma VI share external tangent constraints), the three lines drawn from the triangle vertices through the respective circle centers concur at the Incenter.*
+*If a triangle enclose three circles, each of whose sides touches two of the supposed circles, and from each angle lines be drawn to the center of the circle nearest to it: these, if produced further, will meet one another at the same point.*
+
+Let there be three circles whose centers are :g:`C`, :g:`A`, :g:`B`, and let the triangle enclosing them be :g:`LEH`, touching them at points :g:`M`, :g:`D`, :g:`F`, :g:`G`, :g:`I`, :g:`K`; 
+I say that if the three lines :g:`HA`, :g:`EC`, :g:`LB` be joined and produced, they meet one another at the same point. Let the lines :g:`DF`, :g:`MK`, :g:`GI` be joined, cutting the lines :g:`EC`, :g:`LB`, :g:`HO` at the points :g:`P`, :g:`Q`, :g:`N`. 
+Since the tangents :g:`DE`, :g:`EF` and the segments :g:`DP`, :g:`PF` are equal to one another, while side :g:`EP` is common to both triangles :g:`DPE` and :g:`FPE`, these triangles will be equal to one another, and therefore angle :g:`DEP` will equal angle :g:`FEP`; 
+and since by the same reasoning angles :g:`MLQ` and :g:`QLK` are also equal, and likewise angles :g:`IHN` and :g:`GHN`, it is evident that the three lines :g:`EC`, :g:`HA`, :g:`LB` meet one another if produced, Q.E.D.
 
 .. toctree::
    :hidden:

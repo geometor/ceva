@@ -21,11 +21,34 @@ Propositio I · Problema I · Elementum I
 
 .. rst-class:: latin-source
 
-**PROP. I. PROB. I. ELEMENTVM I.** (`tab. 1. fig. 4`)
+**PROP. I. PROB. I. ELEMENTVM I.**
 
-*In triangulo :g:`AEC` ductis ex duobus angulis :g:`E`, :g:`C` rectis :g:`EB`, :g:`CD` ad latera opposita se mutuo secantibus in :g:`F`; rationes segmentorum ex datis ponderibus inuenire.*
+*Sint duae rectae* :g:`EA <AE>`, :g:`CA <AC>`, *conuenientes in* :g:`A`, *quibus occurrant duae aliae* :g:`CD`, :g:`EB`, *in* :g:`D` :g:`B` *punctis, quae se inuicem secent in* :g:`F`.
+*Propositum nobis sit ex punctis* :g:`E` :g:`C` :g:`A` *grauia in ea ratione suspendere, vt pondus* :g:`G` *ad* :g:`H` *eandem habeat rationem, quam CB ad BA; idem verò pondus* :g:`G` *ad* :g:`I`, *eam quam ED ad DA;*
+*pondus verò* :g:`I` *ad duo* :g:`H` :g:`G` *illam, quam BF ad FE, & graue* :g:`H` *ad duo grauia* :g:`I` :g:`G` *sit, vt DF ad FC.*
 
-Appendantur in punctis :g:`A`, :g:`E`, :g:`C` pondera :g:`G`, :g:`I`, :g:`H`, ita vt :g:`D` sit centrum grauitatis ponderum :g:`G`, :g:`I`, atque :g:`B` centrum grauitatis ponderum :g:`G`, :g:`H`. Cum igitur totius compositi ex :g:`G`, :g:`H`, :g:`I` centrum grauitatis reperiatur tum in recta :g:`CD`, tum in recta :g:`EB`, erit ipsum punctum concursus :g:`F` centrum grauitatis omnium trium ponderum. Quare erit :g:`CF` ad :g:`FD` vt summa ponderum :g:`G` et :g:`I` ad pondus :g:`H`; itemque :g:`EF` ad :g:`FB` vt summa ponderum :g:`G` et :g:`H` ad pondus :g:`I`. **Corollarium & Scholium**: Hinc statim deducuntur rationes figuræ sectoris Menelai.
+(`tab. 1. fig. 4`; in marg. *Postulatum.*) Reperiatur pondus :g:`H` ad quod propositum quoduis :g:`G` illam habeat rationem, quam recta CB ad BA;
+idem verò pondus :g:`G` ad aliud :g:`I` eam habeat rationem, quam habet recta ED ad DA; dico rectam BF ad FE esse, vt pondus :g:`I` ad duo grauia :g:`G` :g:`H`; rectam verò DF ad ipsam FC, vt pondus :g:`H` ad duo pondera :g:`I` :g:`G`.
+
+(in marg. *axioma 1.*) Quoniam :g:`DC <CD>` est quaedam libra, in cuius extremo :g:`D` est centrum grauitatis, & propterea totum pondus grauium :g:`G` :g:`I`, ac si vnum essent suspensum ex :g:`D`;
+in alio verò extremo :g:`C` est aliud pondus :g:`H`, erit in eadem libra :g:`DC <CD>` centrum grauitatis praedictorum ponderum :g:`G` :g:`I`, & :g:`H`. Similiter, quia :g:`EB` est alia quaedam libra, in cuius extremo :g:`B` est centrum grauitatis, & propterea totum pondus grauium :g:`G` :g:`H`;
+in alio verò extremo :g:`E` est aliud pondus :g:`I`, erit in eadem libra :g:`EB` centrum grauitatis praedictorum ponderum :g:`G` :g:`H`, & :g:`I` in priori illa positione existentium.
+
+(in marg. *ex primo lem.*) Cum itaque pondera :g:`G` :g:`I` :g:`H` in eodem situ considerata vnicum habeant centrum grauitatis; id verò tam in libra :g:`DC <CD>`, quàm in
 
 .. folio:: 0020
    :page: p. 3
+
+libra :g:`EB` ostensum fuerit, in sectione :g:`F` necessariò existet.
+Ergo (in marg. *ex 2. lem.*) vt pondus :g:`I` ad duo simul :g:`G` :g:`H`, ita BF ad FE; Similiter vt pondus :g:`H` ad alia duo simul :g:`G` :g:`I`, ita erit DF ad FC, quod erat faciendum.
+
+**COROLLARIVM.**
+
+*Deducitur punctum* :g:`F` *esse centrum grauitatis omnium grauium* :g:`I` :g:`G` :g:`H` *in illa positione.*
+
+**SCHOLIVM.**
+
+*Hanc propositionem, & quatuor, quae deinceps sequuntur elementa voco, vtpote prima fundamenta, quibus pleraque nituntur.*
+
+*Figuram hanc* :g:`A` :g:`E` :g:`F` :g:`C`, *iterum post tradita elementa, & non rarò exponemus; sed ad vitandam multiplicitatem literarum, pondera* :g:`G` :g:`I` :g:`H` *literis* :g:`A` :g:`E` :g:`C` *significabimus;*
+*aggregatum verò ex ponderibus* :g:`G` :g:`H`, *& alterum ex* :g:`G` :g:`I` *connotabimus litera* :g:`B`, *& litera* :g:`D`, *quippe quae notant centrum grauitatis, in quo ponderant grauia suspensa ex* :g:`A`, *&* :g:`C`, *& ex* :g:`A`, *&* :g:`E`; *omnia verò pondera exprimemus litera* :g:`F`, *quia ibi, vtpote in centro grauitatis ponderant, vt dictum est.*

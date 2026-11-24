@@ -18,16 +18,24 @@ Dedicatio · Serenissimo Mantuae Duci Ferdinando Carolo
 
 .. rst-class:: latin-source
 
-**SERENISSIMO MANTVÆ DVCI FERDINANDO CAROLO.**
+**SERENISSIMO MANTVAE DVCI FERDINANDO CAROLO.**
 
-Timerem, Serenissime Dux, præfigere tam splendida nomina exiguo huic libello, nisi publici iuris esset, præsidio Principum se, atque sua tueri. Scilicet Serenissimos hos Soles lucere omnibus voluit luminum Pater, & Moderator Deus, vt latè proijcerent beneficum iubar super vulgus mortalium.
+Timerem, Serenissime Dux, praefigere tam splendida nomina exiguo huic libello, nisi publici iuris esset, praesidio Principum se, atque sua tueri.
 
-Geometria, cui si desit Mæcenatum vmbra, deest vigor omnis & vita, ad Celsitudinis Tuæ patrocinium confugit: quæ quamuis paruo hoc volumine conclusa, nouas tamen rectarum linearum proprietates statica methodo exhibet.
-
-Serenissimæ Celsitudinis Tuæ Humillimus Seruus **Ioannes Ceua**.
+Scilicet Serenissimos hos Soles lucere omnibus voluit luminum Pater, & Moderator Deus, vt latè proijcerent beneficum iubar super vulgus
 
 .. folio:: 0013
    :page: Dedicatio [f. ✠2v]
 
+mortalium. Quod si vnicuique fas est bona, fortunasque suas credere tam grandi patrocinio;
+quantò aequius hoc idem sibi deposcunt inermes literae, praesertim Geometria, cui si desit Maecenatum vmbra, deest vigor omnis & vita. Nam amoenior literatura, caeteraeque scientiae ferme omnes habent theatra, porticus, & propugnatores suos; pauci verò Geometriae latus stipant, pauci scientiarum omnium Reginae excubias agunt.
+Nihil illi splendida prosunt natalia, nihil dignitas, nihil collata mortalibus beneficia. Illam igitur tibi supplicem sisto verende Princeps, vt ex hoc Serenissimo fastigio Celsitudinis Tuae patrocinium sibi vindicet & tutelam. Te interim, Heros fortissime, seruent Superi nobis, & bonis artibus incolumem diù. Hanc
+
 .. folio:: 0014
    :page: Dedicatio [f. ✠3r]
+
+enim praecelsam indolem tuam, & magnae mentis perspicaciam, hoc robur animi, clementiam, & decus augustae frontis nemo est, qui non suspiciat, atque in his non censeat collocatam spem maximam publicae felicitatis. Vale.
+
+Serenissimae Celsitudinis Tuae
+
+Humillimus Seruus **Ioannes Ceua**.

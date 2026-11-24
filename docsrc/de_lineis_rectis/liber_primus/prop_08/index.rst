@@ -14,16 +14,20 @@ Proposition VIII: Area Proportionality in Element I
 .. folio:: 0029
    :page: p. 12
 
-**Proposition VIII · Theorem II** (pp. 12–13, `Tab. 1, Fig. 12`)
+**Proposition VIII · Theorem II** (`Tab. 1, Fig. 12`; Euclid :just:`VI.23`)
 
-*In Element I (triangle :g:`AEC` cut by :g:`EB` and :g:`CD` meeting at :g:`F`), the ratio of the whole triangle $\triangle EAC$ to the upper sub-triangle $\triangle DAB$ equals the ratio of the lower base triangle $\triangle EFC$ to the interior triangle $\triangle DFB$:*
+*Let the same figure of the seventh proposition be set out. I say that triangle* :g:`EAC` *is to triangle* :g:`DAB` *as triangle* :g:`EFC` *is to triangle* :g:`DFB`.
 
-$$\triangle EAC : \triangle DAB = \triangle EFC : \triangle DFB.$$
-
-Ceva demonstrates this clean four-triangle area proportion directly by compounding the segment ratios obtained in *Proposition I* with Euclid VI.1 and VI.15 (triangles sharing an angle stand in the compound ratio of the containing sides) via *Lemma IV*.
+The ratio of triangle :g:`EAC` to triangle :g:`DAB` is compounded of the ratios of the sides containing the common angle :g:`EAC`, namely :g:`EA` to :g:`AD` and :g:`CA` to :g:`AB`. By our First Element, :g:`EA` to :g:`AD` (weight :g:`D` to :g:`E`) is 
+compounded of the ratios of weights :g:`D` to :g:`F` and :g:`F` to :g:`E`, or lines :g:`CF` to :g:`CD` and :g:`EB` to :g:`BF`. Likewise :g:`CA` to :g:`AB` (weight :g:`B` to :g:`C`) is compounded of weights :g:`B` to :g:`F` and :g:`F` to :g:`C`, namely 
+:g:`FE` to :g:`EB` and :g:`CD` to :g:`DF`. Therefore triangle :g:`EAC` to triangle :g:`DAB` is compounded of :g:`CF` to :g:`CD`, :g:`EB` to :g:`BF`, :g:`FE` to :g:`EB`, and :g:`CD` to :g:`DF`, or, permuting their order, of :g:`CF` to :g:`CD`, :g:`CD` to :g:`DF`, :g:`FE` to :g:`EB`, and :g:`EB` to :g:`BF`. 
+Now the first two compound that of :g:`CF` to :g:`DF`, and the last two compound the ratio of :g:`FE` to :g:`BF`; therefore
 
 .. folio:: 0030
    :page: p. 13
+
+triangle :g:`EAC` to :g:`DAB` is compounded of the ratios of lines :g:`CF` to :g:`FD` and :g:`FE` to :g:`BF`. 
+But of these same ratios about the equal angles at vertex :g:`F`, triangle :g:`EFC` to :g:`DFB` is also compounded; therefore as triangle :g:`EAC` is to :g:`DAB`, so is triangle :g:`EFC` to :g:`DFB` (Euclid :just:`VI.23`).
 
 .. toctree::
    :hidden:
