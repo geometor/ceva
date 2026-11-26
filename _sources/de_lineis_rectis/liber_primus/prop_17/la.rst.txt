@@ -13,8 +13,14 @@ Propositio XVII · Problema X
 .. folio:: 0040
    :page: p. 23
 
+.. picture:: 0105.g18.svg
+   :alt: Calibrated interactive SVG — Ceva 1678 Tabula II Fig. 18: Prop. XVII
+
 .. picture:: 0105.g18.png
    :alt: 1678 copperplate Tabula II Fig. 18: Element IV crossed lines
+
+.. picture:: 0105.g19.svg
+   :alt: Calibrated interactive SVG — Ceva 1678 Tabula II Fig. 19: Prop. XVII Bowtie
 
 .. picture:: 0105.g19.png
    :alt: 1678 copperplate Tabula II Fig. 19: Projective folding equivalence of Elements III and IV

@@ -14,6 +14,9 @@ Proposition XVIII: First Pyramid Ratio of Element IV
 .. folio:: 0043
    :page: p. 26
 
+.. picture:: 0105.g20.svg
+   :alt: Calibrated interactive SVG — Ceva 1678 Tabula II Fig. 20: Prop. XVIII
+
 .. picture:: 0105.g20.png
    :alt: 1678 copperplate Tabula II Fig. 20: First pyramid ratio of Element IV
 

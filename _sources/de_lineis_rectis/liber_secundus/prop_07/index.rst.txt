@@ -14,8 +14,14 @@ Proposition VII: Concurrency of Outer Vertices with Inscribed Midpoints
 .. folio:: 0060
    :page: p. 43
 
+.. picture:: 0111.g43.svg
+   :alt: Calibrated interactive SVG — Ceva 1678 Tabula V Fig. 43: Prop. VII
+
 .. picture:: 0111.g43.png
    :alt: 1678 copperplate Tabula V Fig. 43: Outer vertices joined to midpoints of inscribed Ceva triangle
+
+.. picture:: 0111.g45.svg
+   :alt: Calibrated interactive SVG — Ceva 1678 Tabula V Fig. 45: Prop. VII Case II
 
 .. picture:: 0111.g45.png
    :alt: 1678 copperplate Tabula V Fig. 45: Auxiliary midpoint concurrency diagram

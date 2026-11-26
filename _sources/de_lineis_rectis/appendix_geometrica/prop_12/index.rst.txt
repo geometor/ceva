@@ -14,6 +14,9 @@ Proposition XII: Hyperbolic Conoid Inscribed in a Conical Frustum
 .. folio:: 0093
    :page: p. 76
 
+.. picture:: 0121.g79.svg
+   :alt: Calibrated interactive SVG — Ceva 1678 Tabula X Fig. 79: Appendix Prop. XII
+
 .. picture:: 0121.g79.png
    :alt: 1678 copperplate Tabula X Fig. 79: Hyperbolic conoid ACE inscribed in conical frustum ABDE
 

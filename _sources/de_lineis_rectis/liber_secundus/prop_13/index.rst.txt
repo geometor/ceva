@@ -14,8 +14,14 @@ Proposition XIII: Tangent-Diameter Ratio in a Conic Section
 .. folio:: 0066
    :page: p. 49
 
+.. picture:: 0113.g51.svg
+   :alt: Calibrated interactive SVG — Ceva 1678 Tabula VII Fig. 51: Prop. XIII
+
 .. picture:: 0113.g51.png
    :alt: 1678 copperplate Tabula VI Fig. 51: Hyperbola/conic tangent-diameter problem
+
+.. picture:: 0113.g52.svg
+   :alt: Calibrated interactive SVG — Ceva 1678 Tabula VII Fig. 52: Prop. XIII Pole-Polar
 
 .. picture:: 0113.g52.png
    :alt: 1678 copperplate Tabula VI Fig. 52: Ellipse/circle tangent-diameter construction

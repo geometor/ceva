@@ -13,6 +13,9 @@ Propositio XXV · Theorema XIV
 .. folio:: 0050
    :page: p. 33
 
+.. picture:: 0107.g30.svg
+   :alt: Calibrated interactive SVG — Ceva 1678 Tabula III Fig. 30: Prop. XXV
+
 .. picture:: 0107.g30.png
    :alt: 1678 copperplate Tabula III Fig. 30: Truncated triangular pyramid (frustum) concurrency
 

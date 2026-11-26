@@ -19,11 +19,20 @@ Propositio IX · Problema I & Lemmata IV–V
 .. picture:: 0111.g44.png
    :alt: 1678 copperplate Tabula V Fig. 44: Construction of ellipse inscribed in triangle BAC
 
+.. picture:: 0113.g47.svg
+   :alt: Calibrated interactive SVG — Ceva 1678 Tabula VI Fig. 47: Prop. IX Case I
+
 .. picture:: 0113.g47.png
    :alt: 1678 copperplate Tabula VI Fig. 47: Lemma IV inscribed conic diameter construction
 
+.. picture:: 0113.g48.svg
+   :alt: Calibrated interactive SVG — Ceva 1678 Tabula VI Fig. 48: Prop. IX Case II
+
 .. picture:: 0113.g48.png
    :alt: 1678 copperplate Tabula VI Fig. 48: Lemma V auxiliary conic chords I
+
+.. picture:: 0113.g49.svg
+   :alt: Calibrated interactive SVG — Ceva 1678 Tabula VI Fig. 49: Prop. IX Case III
 
 .. picture:: 0113.g49.png
    :alt: 1678 copperplate Tabula VI Fig. 49: Lemma V auxiliary conic chords II

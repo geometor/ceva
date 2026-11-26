@@ -13,6 +13,9 @@ Propositio XXVI · Theorema XV
 .. folio:: 0051
    :page: p. 34
 
+.. picture:: 0107.g31.svg
+   :alt: Calibrated interactive SVG — Ceva 1678 Tabula III Fig. 31: Prop. XXVI
+
 .. picture:: 0107.g31.png
    :alt: 1678 copperplate Tabula III Fig. 31: Double opposite pyramid (bipyramid) concurrency
 

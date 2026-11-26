@@ -13,6 +13,9 @@ Appendix Geometrica · Propositio I · Theorema I
 .. folio:: 0078
    :page: p. 61
 
+.. picture:: 0117.g68.svg
+   :alt: Calibrated interactive SVG — Ceva 1678 Tabula IX Fig. 68: Appendix Prop. I
+
 .. picture:: 0117.g68.png
    :alt: 1678 copperplate Tabula VIII Fig. 68: Right scalene triangle inscribed in semicircle
 

@@ -13,6 +13,9 @@ Propositio V · Theorema V
 .. folio:: 0083
    :page: p. 66
 
+.. picture:: 0117.g72.svg
+   :alt: Calibrated interactive SVG — Ceva 1678 Tabula IX Fig. 72: Appendix Prop. V Hippocrates Lunes
+
 .. picture:: 0117.g72.png
    :alt: 1678 copperplate Tabula VIII Fig. 72: Two lunes E and D equal to any right triangle ABC
 

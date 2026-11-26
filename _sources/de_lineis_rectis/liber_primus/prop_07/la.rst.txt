@@ -13,8 +13,14 @@ Propositio VII · Theorema I & Lemma IV
 .. folio:: 0027
    :page: p. 10
 
+.. picture:: 0103.g11.svg
+   :alt: Calibrated interactive SVG — Ceva 1678 Tabula I Fig. 11: Prop. VII
+
 .. picture:: 0103.g11.png
    :alt: 1678 copperplate Tabula I Fig. 11: Triangle area comparison
+
+.. picture:: 0103.g12.svg
+   :alt: Calibrated interactive SVG — Ceva 1678 Tabula I Fig. 12: Prop. VII Chord DB
 
 .. picture:: 0103.g12.png
    :alt: 1678 copperplate Tabula I Fig. 12: Pyramid ratio theorem

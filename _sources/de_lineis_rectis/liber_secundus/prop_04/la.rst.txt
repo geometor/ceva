@@ -13,6 +13,9 @@ Propositio IV · Theorema IV
 .. folio:: 0057
    :page: p. 40
 
+.. picture:: 0111.g40.svg
+   :alt: Calibrated interactive SVG — Ceva 1678 Tabula V Fig. 40: Prop. IV
+
 .. picture:: 0111.g40.png
    :alt: 1678 copperplate Tabula V Fig. 40: Quadrilateral with proportionally divided opposite pairs
 

@@ -13,6 +13,9 @@ Propositio XII · Problema IX
 .. folio:: 0035
    :page: p. 18
 
+.. picture:: 0105.g15.svg
+   :alt: Calibrated interactive SVG — Ceva 1678 Tabula II Fig. 15: Prop. XII
+
 .. picture:: 0105.g15.png
    :alt: 1678 copperplate Tabula II Fig. 15: Element III combinatorial cases
 

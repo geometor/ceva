@@ -13,6 +13,9 @@ Propositio XIX · Theorema IX
 .. folio:: 0043
    :page: p. 26
 
+.. picture:: 0105.g21.svg
+   :alt: Calibrated interactive SVG — Ceva 1678 Tabula II Fig. 21: Prop. XIX
+
 .. picture:: 0105.g21.png
    :alt: 1678 copperplate Tabula II Fig. 21: Second pyramid ratio of Element IV
 

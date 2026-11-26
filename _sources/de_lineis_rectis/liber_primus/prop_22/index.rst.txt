@@ -14,11 +14,20 @@ Proposition XXII: Concurrency and Coplanarity in Skew Quadrilaterals
 .. folio:: 0047
    :page: p. 30
 
+.. picture:: 0107.g25.svg
+   :alt: Calibrated interactive SVG — Ceva 1678 Tabula III Fig. 25: Prop. XXII
+
 .. picture:: 0107.g25.png
    :alt: 1678 copperplate Tabula III Fig. 25: Skew quadrilateral projection I
 
+.. picture:: 0107.g26.svg
+   :alt: Calibrated interactive SVG — Ceva 1678 Tabula III Fig. 26: Prop. XXII Case II
+
 .. picture:: 0107.g26.png
    :alt: 1678 copperplate Tabula III Fig. 26: Skew quadrilateral projection II
+
+.. picture:: 0107.g27.svg
+   :alt: Calibrated interactive SVG — Ceva 1678 Tabula III Fig. 27: Prop. XXII Case III
 
 .. picture:: 0107.g27.png
    :alt: 1678 copperplate Tabula III Fig. 27: Skew quadrilateral projection III

@@ -14,6 +14,9 @@ Proposition III: Proportional Side Divisions and Bisected Base
 .. folio:: 0056
    :page: p. 39
 
+.. picture:: 0111.g39.svg
+   :alt: Calibrated interactive SVG — Ceva 1678 Tabula V Fig. 39: Prop. III
+
 .. picture:: 0111.g39.png
    :alt: 1678 copperplate Tabula V Fig. 39: Triangle with proportionally divided sides and bisected base
 

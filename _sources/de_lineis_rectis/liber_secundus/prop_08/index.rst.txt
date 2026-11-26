@@ -14,6 +14,9 @@ Proposition VIII: Segment Ratio on a Cevian Intersecting a Chord
 .. folio:: 0061
    :page: p. 44
 
+.. picture:: 0111.g46.svg
+   :alt: Calibrated interactive SVG — Ceva 1678 Tabula V Fig. 46: Prop. VIII
+
 .. picture:: 0111.g46.png
    :alt: 1678 copperplate Tabula V Fig. 46: Cevian segment ratio cut by side chord
 

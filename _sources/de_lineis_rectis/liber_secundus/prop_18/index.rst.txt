@@ -14,6 +14,9 @@ Proposition XVIII: Equal Rectangles on Two Circles Tangent to Two Lines
 .. folio:: 0070
    :page: p. 53
 
+.. picture:: 0115.g59.svg
+   :alt: Calibrated interactive SVG — Ceva 1678 Tabula VIII Fig. 59: Prop. XVIII
+
 .. picture:: 0115.g59.png
    :alt: 1678 copperplate Tabula VII Fig. 59: Two circles tangent to two intersecting lines
 

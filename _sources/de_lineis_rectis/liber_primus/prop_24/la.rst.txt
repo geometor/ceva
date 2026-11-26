@@ -13,6 +13,9 @@ Propositio XXIV · Theorema XIII
 .. folio:: 0049
    :page: p. 32
 
+.. picture:: 0107.g29.svg
+   :alt: Calibrated interactive SVG — Ceva 1678 Tabula III Fig. 29: Prop. XXIV
+
 .. picture:: 0107.g29.png
    :alt: 1678 copperplate Tabula III Fig. 29: Quadrangular pyramid five-line concurrency
 

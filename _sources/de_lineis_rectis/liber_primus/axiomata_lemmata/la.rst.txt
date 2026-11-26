@@ -19,8 +19,14 @@ Liber Primus · Axiomata, Petitio & Lemmata I–II
 .. picture:: 0103.g1.png
    :alt: 1678 copperplate Tabula I Fig. 1: Weighted balance and fulcrum
 
+.. picture:: 0103.g2.svg
+   :alt: Calibrated interactive SVG — Ceva 1678 Tabula I Fig. 2: Lemma I
+
 .. picture:: 0103.g2.png
    :alt: 1678 copperplate Tabula I Fig. 2: Lever with compound weights
+
+.. picture:: 0103.g3.svg
+   :alt: Calibrated interactive SVG — Ceva 1678 Tabula I Fig. 3: Lever Segments A-F-K-B
 
 .. picture:: 0103.g3.png
    :alt: 1678 copperplate Tabula I Fig. 3: Straight lever AFKB

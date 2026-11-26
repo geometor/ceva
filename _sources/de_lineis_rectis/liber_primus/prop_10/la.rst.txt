@@ -13,8 +13,14 @@ Propositio X · Problema VIII & Lemma V
 .. folio:: 0032
    :page: p. 15
 
+.. picture:: 0105.g13.svg
+   :alt: Calibrated interactive SVG — Ceva 1678 Tabula II Fig. 13: Prop. X
+
 .. picture:: 0105.g13.png
    :alt: 1678 copperplate Tabula II Fig. 13: Lemma V parallel-line construction
+
+.. picture:: 0105.g14.svg
+   :alt: Calibrated interactive SVG — Ceva 1678 Tabula II Fig. 14: Prop. X Variant
 
 .. picture:: 0105.g14.png
    :alt: 1678 copperplate Tabula II Fig. 14: Lemma V auxiliary triangle

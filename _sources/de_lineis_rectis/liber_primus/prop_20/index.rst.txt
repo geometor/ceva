@@ -14,8 +14,14 @@ Proposition XX: Twenty Combinatorial Cases of Element V
 .. folio:: 0044
    :page: p. 27
 
+.. picture:: 0105.g22.svg
+   :alt: Calibrated interactive SVG — Ceva 1678 Tabula II Fig. 22: Prop. XX
+
 .. picture:: 0105.g22.png
    :alt: 1678 copperplate Tabula II Fig. 22: Element V quadrilateral cases
+
+.. picture:: 0105.g23.svg
+   :alt: Calibrated interactive SVG — Ceva 1678 Tabula II Fig. 23: Prop. XX Weighted Quadrants
 
 .. picture:: 0105.g23.png
    :alt: 1678 copperplate Tabula II Fig. 23: Case XIX algebraic solution with cossic notation

@@ -13,6 +13,9 @@ Propositio XVI · Theorema XVI
 .. folio:: 0097
    :page: p. 80
 
+.. picture:: 0121.g83.svg
+   :alt: Calibrated interactive SVG — Ceva 1678 Tabula X Fig. 83: Appendix Prop. XVI Hyperbolic Solid
+
 .. picture:: 0121.g83.png
    :alt: 1678 copperplate Tabula X Fig. 83: Center of gravity D of infinitely long hyperbolic plane BECMA
 

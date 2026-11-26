@@ -14,8 +14,14 @@ Proposition II: Rectilinear Quadrature of Circular Lunes
 .. folio:: 0080
    :page: p. 63
 
+.. picture:: 0117.g69.svg
+   :alt: Calibrated interactive SVG — Ceva 1678 Tabula IX Fig. 69: Appendix Prop. II Case I
+
 .. picture:: 0117.g69.png
    :alt: 1678 copperplate Tabula VIII Fig. 69: Circular lune GK quadrature
+
+.. picture:: 0117.g70.svg
+   :alt: Calibrated interactive SVG — Ceva 1678 Tabula IX Fig. 70: Appendix Prop. II Case II
 
 .. picture:: 0117.g70.png
    :alt: 1678 copperplate Tabula VIII Fig. 70: Mixed curvilinear figure FCH quadrature

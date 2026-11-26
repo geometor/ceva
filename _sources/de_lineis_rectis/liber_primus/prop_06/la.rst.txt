@@ -16,6 +16,9 @@ Lemma III & Propositio VI · Problema VI
 .. picture:: 0103.g10.svg
    :alt: Calibrated interactive SVG of Caravaggio Jr. pure geometric parallel-line proof (Tab. I Fig. 10)
 
+.. picture:: 0103.g9.svg
+   :alt: Calibrated interactive SVG — Ceva 1678 Tabula I Fig. 9: Prop. VI Collinear Balance
+
 .. picture:: 0103.g9.png
    :alt: 1678 copperplate Tabula I Fig. 9: Lemma III ratio construction on line ABC
 

@@ -14,6 +14,9 @@ Proposition VI: Semihexagon Quadrature with Lune and Circular Segment
 .. folio:: 0083
    :page: p. 66
 
+.. picture:: 0117.g73.svg
+   :alt: Calibrated interactive SVG — Ceva 1678 Tabula IX Fig. 73: Appendix Prop. VI
+
 .. picture:: 0117.g73.png
    :alt: 1678 copperplate Tabula VIII Fig. 73: Semihexagon ABEC equal to lune FE plus segment EGC
 
