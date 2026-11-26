@@ -14,14 +14,26 @@ Proposition XIX: Fifteen Cases of Reciprocally Inscribed Triangles
 .. folio:: 0071
    :page: p. 54
 
+.. picture:: 0117.g63.svg
+   :alt: Calibrated interactive SVG — Ceva 1678 Tabula IX Fig. 63: Prop. XIX Case I
+
 .. picture:: 0117.g63.png
    :alt: 1678 copperplate Tabula VIII Fig. 63: Reciprocally inscribed triangles I
+
+.. picture:: 0117.g64.svg
+   :alt: Calibrated interactive SVG — Ceva 1678 Tabula IX Fig. 64: Prop. XIX Case II
 
 .. picture:: 0117.g64.png
    :alt: 1678 copperplate Tabula VIII Fig. 64: Reciprocally inscribed triangles II
 
+.. picture:: 0117.g65.svg
+   :alt: Calibrated interactive SVG — Ceva 1678 Tabula IX Fig. 65: Prop. XIX Case III
+
 .. picture:: 0117.g65.png
    :alt: 1678 copperplate Tabula VIII Fig. 65: Reciprocally inscribed triangles III
+
+.. picture:: 0117.g66.svg
+   :alt: Calibrated interactive SVG — Ceva 1678 Tabula IX Fig. 66: Prop. XIX Case IV
 
 .. picture:: 0117.g66.png
    :alt: 1678 copperplate Tabula VIII Fig. 66: Reciprocally inscribed triangles IV

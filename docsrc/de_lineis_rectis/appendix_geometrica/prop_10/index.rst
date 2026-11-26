@@ -14,6 +14,9 @@ Proposition X: Hyperbolic Annulus as Two-Thirds of Asymptotic Cylinder
 .. folio:: 0091
    :page: p. 74
 
+.. picture:: 0119.g77.svg
+   :alt: Calibrated interactive SVG — Ceva 1678 Tabula X Fig. 77: Appendix Prop. X Hyperbolas
+
 .. picture:: 0119.g77.png
    :alt: 1678 copperplate Tabula IX Fig. 77: Hyperbolic ring/annulus around axis MN
 

@@ -20,11 +20,20 @@ Proposition XVI & Lemma VI: Concurrency of Angle Bisectors (Incenter)
 .. picture:: 0115.g57.png
    :alt: 1678 copperplate Tabula VII Fig. 57: Concurrency of angle bisectors at Incenter
 
+.. picture:: 0115.g58.svg
+   :alt: Calibrated interactive SVG — Ceva 1678 Tabula VIII Fig. 58: Prop. XVI Equal Circles
+
 .. picture:: 0115.g58.png
    :alt: 1678 copperplate Tabula VII Fig. 58: Lemma VI equal circles common tangents
 
+.. picture:: 0115.g60.svg
+   :alt: Calibrated interactive SVG — Ceva 1678 Tabula VIII Fig. 60: Prop. XVI Internal Tangent
+
 .. picture:: 0115.g60.png
    :alt: 1678 copperplate Tabula VII Fig. 60: Lemma VI internal common tangent
+
+.. picture:: 0115.g61.svg
+   :alt: Calibrated interactive SVG — Ceva 1678 Tabula VIII Fig. 61: Prop. XVI External Tangent
 
 .. picture:: 0115.g61.png
    :alt: 1678 copperplate Tabula VII Fig. 61: Lemma VI external common tangent

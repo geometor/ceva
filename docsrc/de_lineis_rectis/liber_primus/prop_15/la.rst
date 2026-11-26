@@ -13,6 +13,9 @@ Propositio XV · Theorema VI
 .. folio:: 0039
    :page: p. 22
 
+.. picture:: 0105.g17.svg
+   :alt: Calibrated interactive SVG — Ceva 1678 Tabula II Fig. 17: Prop. XV
+
 .. picture:: 0105.g17.png
    :alt: 1678 copperplate Tabula II Fig. 17: Secant ratio in Element III
 

@@ -13,6 +13,9 @@ Propositio XI · Theorema XI (Conoides Hyperbolicum)
 .. folio:: 0092
    :page: p. 75
 
+.. picture:: 0121.g78.svg
+   :alt: Calibrated interactive SVG — Ceva 1678 Tabula X Fig. 78: Appendix Prop. XI
+
 .. picture:: 0121.g78.png
    :alt: 1678 copperplate Tabula X Fig. 78: Hyperbolic conoid RFQ inside asymptotic cone ABC
 

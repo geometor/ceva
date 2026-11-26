@@ -14,6 +14,9 @@ Proposition IX: General Oblique Cylindrical Portions via Prisms and Pyramid
 .. folio:: 0088
    :page: p. 71
 
+.. picture:: 0119.g76.svg
+   :alt: Calibrated interactive SVG — Ceva 1678 Tabula X Fig. 76: Appendix Prop. IX
+
 .. picture:: 0119.g76.png
    :alt: 1678 copperplate Tabula IX Fig. 76: General oblique cylindrical sections above center V
 

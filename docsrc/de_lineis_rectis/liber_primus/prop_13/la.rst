@@ -13,6 +13,9 @@ Propositio XIII · Theorema IV
 .. folio:: 0038
    :page: p. 21
 
+.. picture:: 0105.g16.svg
+   :alt: Calibrated interactive SVG — Ceva 1678 Tabula II Fig. 16: Prop. XIII
+
 .. picture:: 0105.g16.png
    :alt: 1678 copperplate Tabula II Fig. 16: First pyramid theorem of Element III
 

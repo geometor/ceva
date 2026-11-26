@@ -14,6 +14,9 @@ Proposition VI: Parallelism via Midpoints and Exterior Vertex Line
 .. folio:: 0058
    :page: p. 41
 
+.. picture:: 0111.g42.svg
+   :alt: Calibrated interactive SVG — Ceva 1678 Tabula V Fig. 42: Prop. VI
+
 .. picture:: 0111.g42.png
    :alt: 1678 copperplate Tabula V Fig. 42: Midpoints of triangle sides and parallel segments BD || HG
 

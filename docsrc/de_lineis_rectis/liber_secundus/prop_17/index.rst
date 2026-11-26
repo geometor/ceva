@@ -14,6 +14,9 @@ Proposition XVII: Concurrency from Three Inscribed Pairwise Tangent Circles
 .. folio:: 0070
    :page: p. 53
 
+.. picture:: 0117.g62.svg
+   :alt: Calibrated interactive SVG — Ceva 1678 Tabula IX Fig. 62: Prop. XVII Three Circles
+
 .. picture:: 0117.g62.png
    :alt: 1678 copperplate Tabula VIII Fig. 62: Three circles inside a triangle touching sides pairwise
 

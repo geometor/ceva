@@ -14,14 +14,26 @@ Proposition XIV: Concurrency on Three Tangents to a Circle or Ellipse
 .. folio:: 0066
    :page: p. 49
 
+.. picture:: 0113.g53.svg
+   :alt: Calibrated interactive SVG — Ceva 1678 Tabula VII Fig. 53: Prop. XIV Case I
+
 .. picture:: 0113.g53.png
    :alt: 1678 copperplate Tabula VI Fig. 53: Exterior tangents to circle/ellipse I
+
+.. picture:: 0113.g54.svg
+   :alt: Calibrated interactive SVG — Ceva 1678 Tabula VII Fig. 54: Prop. XIV Case II
 
 .. picture:: 0113.g54.png
    :alt: 1678 copperplate Tabula VI Fig. 54: Exterior tangents to circle/ellipse II
 
+.. picture:: 0115.g55.svg
+   :alt: Calibrated interactive SVG — Ceva 1678 Tabula VIII Fig. 55: Prop. XIV Third Tangent
+
 .. picture:: 0115.g55.png
    :alt: 1678 copperplate Tabula VII Fig. 55: Three tangents to ellipse concurrency
+
+.. picture:: 0115.g56.svg
+   :alt: Calibrated interactive SVG — Ceva 1678 Tabula VIII Fig. 56: Prop. XIV Circle Tangent
 
 .. picture:: 0115.g56.png
    :alt: 1678 copperplate Tabula VII Fig. 56: Three tangents to circle concurrency

@@ -13,6 +13,9 @@ Propositio VIII · Theorema VIII
 .. folio:: 0087
    :page: p. 70
 
+.. picture:: 0119.g75.svg
+   :alt: Calibrated interactive SVG — Ceva 1678 Tabula X Fig. 75: Appendix Prop. VIII Cylindrical Ungula
+
 .. picture:: 0119.g75.png
    :alt: 1678 copperplate Tabula IX Fig. 75: Three oblique planes cutting a semicylinder along ED
 

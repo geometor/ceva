@@ -264,7 +264,7 @@ def test_codex_tracks_apparatus_and_picture_directives() -> None:
 
 
 def test_atomic_leaves_complete_folio_coverage_and_paired_plates() -> None:
-    """Verify all 71 atomic leaves, 100% 126-folio coverage, 101 archival PNGs, and 22 leaf SVGs."""
+    """Verify all 71 atomic leaves, 100% 126-folio coverage, 101 archival PNGs, and 85 leaf SVGs."""
     import re
 
     expected_leaf_counts = {
@@ -310,10 +310,10 @@ def test_atomic_leaves_complete_folio_coverage_and_paired_plates() -> None:
         header = png.read_bytes()[:8]
         assert header == b"\x89PNG\r\n\x1a\n", f"Invalid PNG header in {png}"
 
-    # Verify all 22 calibrated 5-layer .euclid-graphic SVGs inside leaf directories
+    # Verify all 85 calibrated 5-layer .euclid-graphic SVGs inside leaf directories
     svg_ns = "{http://www.w3.org/2000/svg}"
     leaf_svgs = sorted(CODEX_DIR.rglob("*.g*.svg"))
-    assert len(leaf_svgs) == 22, f"Expected 22 calibrated leaf SVGs, found {len(leaf_svgs)}"
+    assert len(leaf_svgs) == 85, f"Expected 85 calibrated leaf SVGs, found {len(leaf_svgs)}"
     for svg_path in leaf_svgs:
         root = ET.parse(svg_path).getroot()
         assert root.tag == f"{svg_ns}svg"

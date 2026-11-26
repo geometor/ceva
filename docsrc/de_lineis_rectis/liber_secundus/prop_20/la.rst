@@ -13,6 +13,9 @@ Propositio XX · Theorema XVII
 .. folio:: 0075
    :page: p. 58
 
+.. picture:: 0117.g67.svg
+   :alt: Calibrated interactive SVG — Ceva 1678 Tabula IX Fig. 67: Prop. XX
+
 .. picture:: 0117.g67.png
    :alt: 1678 copperplate Tabula VIII Fig. 67: Parallel segments DC and EK cut by transversal CIB
 

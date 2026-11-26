@@ -16,11 +16,20 @@ Liber Secundus · Lemmata I–III de Sectionibus Conicis
 .. picture:: 0109.g35.svg
    :alt: Calibrated interactive SVG of Ceva Liber II Lemma I Oblique Cylinder Projection (Tab. IV Fig. 35)
 
+.. picture:: 0109.g32.svg
+   :alt: Calibrated interactive SVG — Ceva 1678 Tabula IV Fig. 32: Inscribed Conic in Triangle
+
 .. picture:: 0109.g32.png
    :alt: 1678 copperplate Tabula IV Fig. 32: Triangle circumscribed about ellipse
 
+.. picture:: 0109.g33.svg
+   :alt: Calibrated interactive SVG — Ceva 1678 Tabula IV Fig. 33: Inscribed Ellipse in Quadrilateral
+
 .. picture:: 0109.g33.png
    :alt: 1678 copperplate Tabula IV Fig. 33: Quadrilateral circumscribed about ellipse
+
+.. picture:: 0109.g34.svg
+   :alt: Calibrated interactive SVG — Ceva 1678 Tabula IV Fig. 34: Inscribed Circle in Quadrilateral
 
 .. picture:: 0109.g34.png
    :alt: 1678 copperplate Tabula IV Fig. 34: Pentagon/quadrilateral circumscribed about circle
@@ -28,8 +37,14 @@ Liber Secundus · Lemmata I–III de Sectionibus Conicis
 .. picture:: 0109.g35.png
    :alt: 1678 copperplate Tabula IV Fig. 35: Oblique cylindrical projection of circle to ellipse
 
+.. picture:: 0109.g36.svg
+   :alt: Calibrated interactive SVG — Ceva 1678 Tabula IV Fig. 36: Oblique Cylinder Section
+
 .. picture:: 0109.g36.png
    :alt: 1678 copperplate Tabula IV Fig. 36: Serenus right cylinder construction
+
+.. picture:: 0109.g37.svg
+   :alt: Calibrated interactive SVG — Ceva 1678 Tabula IV Fig. 37: Ellipse Ordinate
 
 .. picture:: 0109.g37.png
    :alt: 1678 copperplate Tabula IV Fig. 37: Congruence of ellipses via conjugate diameters
