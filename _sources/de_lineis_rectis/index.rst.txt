@@ -34,16 +34,6 @@ Table of Contents
 .. toctree::
    :maxdepth: 1
    :hidden:
-   :caption: Treatise Sections
-
-   statica_prolegomena/index
-   liber_primus/index
-   liber_secundus/index
-   appendix_geometrica/index
-
-.. toctree::
-   :maxdepth: 1
-   :hidden:
    :caption: Scholarly Apparatus
 
    concordance
