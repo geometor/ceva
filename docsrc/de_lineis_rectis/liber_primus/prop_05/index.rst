@@ -22,21 +22,21 @@ Proposition V: Fifth Element (Planar & Skew Quadrilateral)
 
 **Proposition V · Problem V · Element V**
 
-*Let there be a quadrilateral* :g:`AHIC <ACIH>`, *and in it two lines* :g:`BFG <BG>`, :g:`EFD <ED>` *meeting opposite sides at the points* :g:`B`, :g:`G`, :g:`E`, :g:`D` *and intersecting each other at* :g:`F`; *and let the ratio of line* $IG$ *to* $GH$ *be compounded of the ratios of the parts of the remaining sides,*
-*namely of the straight lines* $AE$ *to* $EH$, $CB$ *to* $BA$, *and* $ID$ *to* $DC$. *It is proposed to suspend weights* :g:`N`, :g:`M`, :g:`L`, :g:`K` *from the angles* :g:`H`, :g:`A`, :g:`C`, :g:`I` *so that weight* :g:`K` *to* :g:`L` *is as* $CD$ *to* $DI$; :g:`L` *to* :g:`M` *as* $AB$ *to* $BC$;
-:g:`M` *to* :g:`N` *as* $HE$ *to* $EA$; :g:`N` *to* :g:`K` *as* $IG$ *to* $GH$; *and the two heavy bodies* :g:`N`, :g:`M` *together to the two* :g:`L`, :g:`K` *together as* $DF$ *to* $FE$; *and finally, as the two* :g:`N`, :g:`K` *to the two* :g:`M`, :g:`L`, *so* $BF$ *to* $FG$.
+*Let there be a quadrilateral* :g:`AHIC <ACIH>`, *and in it two lines* :g:`BFG <BG>`, :g:`EFD <ED>` *meeting opposite sides at the points* :g:`B`, :g:`G`, :g:`E`, :g:`D` *and intersecting each other at* :g:`F`; *and let the ratio of line* :math:`IG` *to* :math:`GH` *be compounded of the ratios of the parts of the remaining sides,*
+*namely of the straight lines* :math:`AE` *to* :math:`EH`, :math:`CB` *to* :math:`BA`, *and* :math:`ID` *to* :math:`DC`. *It is proposed to suspend weights* :g:`N`, :g:`M`, :g:`L`, :g:`K` *from the angles* :g:`H`, :g:`A`, :g:`C`, :g:`I` *so that weight* :g:`K` *to* :g:`L` *is as* :math:`CD` *to* :math:`DI`; :g:`L` *to* :g:`M` *as* :math:`AB` *to* :math:`BC`;
+:g:`M` *to* :g:`N` *as* :math:`HE` *to* :math:`EA`; :g:`N` *to* :g:`K` *as* :math:`IG` *to* :math:`GH`; *and the two heavy bodies* :g:`N`, :g:`M` *together to the two* :g:`L`, :g:`K` *together as* :math:`DF` *to* :math:`FE`; *and finally, as the two* :g:`N`, :g:`K` *to the two* :g:`M`, :g:`L`, *so* :math:`BF` *to* :math:`FG`.
 
-(`Tab. 1, Fig. 8`) Let weight :g:`K` be made to :g:`L` as $CD$ to $DI$; :g:`L` to :g:`M` as $BA$ to $BC$; and :g:`M` to :g:`N` as $HE$ to $EA$; I say that :g:`N` is to :g:`K` as $IG$ to $GH$,
-and the two :g:`N`, :g:`M` to the two :g:`L`, :g:`K` as $DF$ to $FE$.
+(`Tab. 1, Fig. 8`) Let weight :g:`K` be made to :g:`L` as :math:`CD` to :math:`DI`; :g:`L` to :g:`M` as :math:`BA` to :math:`BC`; and :g:`M` to :g:`N` as :math:`HE` to :math:`EA`; I say that :g:`N` is to :g:`K` as :math:`IG` to :math:`GH`,
+and the two :g:`N`, :g:`M` to the two :g:`L`, :g:`K` as :math:`DF` to :math:`FE`.
 
 For weight :g:`N` to :g:`K` is compounded of the ratios of the weights :g:`N` to :g:`M`, :g:`M` to :g:`L`, and :g:`L` to :g:`K`; but by construction, as :g:`N` to :g:`M`, so straight line
-$AE$ to $EH$; as :g:`M` to :g:`L`, so straight line $CB$ to $BA$; and as :g:`L` to :g:`K`, so $ID$ to $DC$. Therefore :g:`N` to :g:`K` is compounded of the ratios of straight lines $AE$ to $EH$, $CB$ to $BA$, and $ID$ to $DC$;
-but of the same ratios is compounded (as was supposed) the ratio of straight line $IG$ to $GH$; therefore as $IG$ to $GH$, so reciprocally weight :g:`N` to :g:`K`; and thus point :g:`G` is the center of gravity of weights :g:`N`, :g:`K`. And because :g:`BG` is a certain balance-beam,
+:math:`AE` to :math:`EH`; as :g:`M` to :g:`L`, so straight line :math:`CB` to :math:`BA`; and as :g:`L` to :g:`K`, so :math:`ID` to :math:`DC`. Therefore :g:`N` to :g:`K` is compounded of the ratios of straight lines :math:`AE` to :math:`EH`, :math:`CB` to :math:`BA`, and :math:`ID` to :math:`DC`;
+but of the same ratios is compounded (as was supposed) the ratio of straight line :math:`IG` to :math:`GH`; therefore as :math:`IG` to :math:`GH`, so reciprocally weight :g:`N` to :g:`K`; and thus point :g:`G` is the center of gravity of weights :g:`N`, :g:`K`. And because :g:`BG` is a certain balance-beam,
 at whose extremity :g:`B` is the center of gravity, and thus the whole weight of the heavy bodies :g:`M`, :g:`L`, and likewise at the other extremity :g:`G` is the weight of the heavy bodies :g:`N`, :g:`K`,
 the center of gravity of all the heavy bodies :g:`M`, :g:`L`, :g:`N`, :g:`K` will lie on the same balance-beam :g:`GB <BG>`. Again, :g:`ED` is another balance-beam, at whose extremity :g:`E` is the center—and therefore the weight—of the heavy bodies :g:`N`, :g:`M`,
 and at the other extremity :g:`D` is by the same reason the weight of the heavy bodies :g:`L`, :g:`K`; wherefore on this balance-beam :g:`ED` as well is found the center of gravity of the same heavy bodies :g:`N`, :g:`M`, :g:`K`, :g:`L` in that former position.
 Since therefore the center of gravity of the aforesaid weights :g:`M`, :g:`L`, :g:`K`, :g:`N` lies both on balance-beam :g:`GB <BG>` and on :g:`DE <ED>`, and that center is unique, it will lie at their common intersection :g:`F`;
-and thus as the two weights :g:`M`, :g:`L` together to :g:`N`, :g:`K`, so will $GF$ be to $FB$, and as the two :g:`M`, :g:`N` to the two :g:`K`, :g:`L`, so $DF$ to $FE$, which &c.
+and thus as the two weights :g:`M`, :g:`L` together to :g:`N`, :g:`K`, so will :math:`GF` be to :math:`FB`, and as the two :g:`M`, :g:`N` to the two :g:`K`, :g:`L`, so :math:`DF` to :math:`FE`, which &c.
 
 **Corollary.**
 

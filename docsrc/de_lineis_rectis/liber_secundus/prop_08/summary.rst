@@ -13,4 +13,4 @@ Proposition VIII: Segment Ratio on a Cevian Intersecting a Chord — Summary
 .. folio:: 0061
    :page: p. 44
 
-*Book II, Proposition VIII* (p. 44, `Tab. 5, Fig. 46`) isolates the exact segment ratio $CH : HG$ cut along a cevian by a chord joining two side-division points.
+*Book II, Proposition VIII* (p. 44, `Tab. 5, Fig. 46`) isolates the exact segment ratio :math:`CH : HG` cut along a cevian by a chord joining two side-division points.

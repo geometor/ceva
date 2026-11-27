@@ -13,4 +13,4 @@ Proposition XIV: Center of Gravity of a Parabolic Conoid (2:1) — Summary
 .. folio:: 0095
    :page: p. 78
 
-*Appendix Prop. XIV* (pp. 78–79, `Tab. 10, Fig. 81`) proves in one breathtaking Cavalieri-Torricelli stroke that a **parabolic conoid's** center of gravity coincides with its axial triangle's centroid, dividing the axis in exact ratio **$2 : 1$**.
+*Appendix Prop. XIV* (pp. 78–79, `Tab. 10, Fig. 81`) proves in one breathtaking Cavalieri-Torricelli stroke that a **parabolic conoid's** center of gravity coincides with its axial triangle's centroid, dividing the axis in exact ratio :math:`2 : 1`.

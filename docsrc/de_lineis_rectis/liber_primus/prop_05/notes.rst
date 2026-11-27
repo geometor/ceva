@@ -17,4 +17,4 @@ Proposition V: Fifth Element (Planar & Skew Quadrilateral) — Notes
 
 * Printed pp. 6–7 (folios ``0023``–``0024``), `Tab. 1, Fig. 8`.
 * This 3D skew-quadrilateral corollary directly anticipates :person:`Ceva's <ceva>` full tetrahedral theorem in *Liber Primus* Prop. XXIII (pp. 31–32).
-* Verified symbolically with exact vanishing $4 \times 4$ coplanarity determinant in :func:`geometor.ceva.polygon_tetrahedron.verify_skew_quadrilateral_ceva`.
+* Verified symbolically with exact vanishing :math:`4 \times 4` coplanarity determinant in :func:`geometor.ceva.polygon_tetrahedron.verify_skew_quadrilateral_ceva`.

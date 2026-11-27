@@ -13,4 +13,4 @@ Proposition IX & Lemmas IV–V: Inscribing an Ellipse Given Two Contact Points �
 .. folio:: 0061
    :page: p. 44
 
-*Book II, Proposition IX* (pp. 44–46, `Tab. 5, Fig. 44`) solves the projective conic-inscription problem—given two tangency points $F, E$ on a triangle, Ceva concurrency immediately locates the third contact point $D$ and the unique inscribed ellipse—followed by *Lemmas IV–V* (`Tab. 6, Figs. 47–49`).
+*Book II, Proposition IX* (pp. 44–46, `Tab. 5, Fig. 44`) solves the projective conic-inscription problem—given two tangency points :math:`F, E` on a triangle, Ceva concurrency immediately locates the third contact point :math:`D` and the unique inscribed ellipse—followed by *Lemmas IV–V* (`Tab. 6, Figs. 47–49`).

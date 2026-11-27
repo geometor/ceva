@@ -26,7 +26,9 @@ or from the same taken in perturbed order, that is, from the ratios :g:`FH` to :
 Therefore, if the ratio :g:`DE` to :g:`EF` be taken away on both sides, there will remain the triplicate of :g:`FE` to :g:`ED`, that is, the cube on :g:`FE` to the cube on :g:`ED`, compounded from the ratios :g:`FH` to :g:`HC` and :g:`AH` to :g:`HD`;
 since triangle :g:`FHA` to :g:`DHC` is likewise compounded from these same ratios, it is evident that the cube on :g:`FE` to the cube on :g:`ED` is as triangle :g:`FHA` to triangle :g:`DHC`, Q.E.D.
 
-$$\triangle FHA : \triangle DHC = \overline{FE}^3 : \overline{ED}^3.$$
+.. math::
+
+   \triangle FHA : \triangle DHC = \overline{FE}^3 : \overline{ED}^3.
 
 **Scholium**
 

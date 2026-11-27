@@ -59,7 +59,7 @@ Key Features
 
       **Exact Static Barycentrics & Spread Ceva**
 
-      Executable SymPy models in :doc:`demos/index` verify signed weights, isotomic conjugates ($X(7) \leftrightarrow X(8)$), harmonic ranges, and radical-free Spread Ceva over $\mathbb{Q}$.
+      Executable SymPy models in :doc:`demos/index` verify signed weights, isotomic conjugates (:math:`X(7) \leftrightarrow X(8)`), harmonic ranges, and radical-free Spread Ceva over :math:`\mathbb{Q}`.
 
 Reference & Project
 -------------------

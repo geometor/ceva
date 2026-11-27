@@ -13,4 +13,4 @@ Proposition III: Twelfth-Semicircle Arcs from Squared Side Ratios — Summary
 .. folio:: 0081
    :page: p. 64
 
-*Appendix Prop. III* (pp. 64–65) identifies exact $3:4$ and $1:4$ squared-segment ratios that isolate $1/12$ of a semicircle ($15^\circ$ arcs), preparing Hippocrates' classical lune theorems.
+*Appendix Prop. III* (pp. 64–65) identifies exact :math:`3:4` and :math:`1:4` squared-segment ratios that isolate :math:`1/12` of a semicircle (:math:`15^\circ` arcs), preparing Hippocrates' classical lune theorems.

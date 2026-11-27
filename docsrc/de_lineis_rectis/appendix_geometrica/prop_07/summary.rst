@@ -13,4 +13,4 @@ Proposition VII: Cylindrical Hoof as Two-Thirds of Circumscribed Prism — Summa
 .. folio:: 0084
    :page: p. 67
 
-*Appendix Prop. VII* (pp. 67–69, `Tab. 9, Fig. 74`) proves by :person:`Cavalieri's <cavalieri>` indivisibles and :person:`Apollonius <apollonius>` (*Conics* I.21) that a **cylindrical ungula (hoof)** equals exactly $\frac{2}{3}$ of its circumscribed triangular prism—reproducing Archimedes's *Method* result synthetically via triangle slices.
+*Appendix Prop. VII* (pp. 67–69, `Tab. 9, Fig. 74`) proves by :person:`Cavalieri's <cavalieri>` indivisibles and :person:`Apollonius <apollonius>` (*Conics* I.21) that a **cylindrical ungula (hoof)** equals exactly :math:`\frac{2}{3}` of its circumscribed triangular prism—reproducing Archimedes's *Method* result synthetically via triangle slices.

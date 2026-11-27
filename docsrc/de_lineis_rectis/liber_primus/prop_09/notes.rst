@@ -16,4 +16,4 @@ Proposition IX: Fifteen Combinatorial Cases of Element II — Notes
 **Archival & Mathematical Notes**:
 
 * Printed pp. 13–15 (folios ``0030``–``0032``); Errata p. 83 corrects p. 13 line 13 *deriuantium* -> *deriuatorum*.
-* Notice the remarkable contrast with classical Euclidean geometry: solving all 15 inverse ratio problems synthetically would require 15 separate auxiliary-parallel constructions, whereas Ceva's weights reduce all 15 to trivial linear algebra in $(G : H : I)$.
+* Notice the remarkable contrast with classical Euclidean geometry: solving all 15 inverse ratio problems synthetically would require 15 separate auxiliary-parallel constructions, whereas Ceva's weights reduce all 15 to trivial linear algebra in :math:`(G : H : I)`.

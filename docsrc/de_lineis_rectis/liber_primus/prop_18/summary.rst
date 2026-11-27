@@ -13,4 +13,4 @@ Proposition XVIII: First Pyramid Ratio of Element IV — Summary
 .. folio:: 0043
    :page: p. 26
 
-*Proposition XVIII* (p. 26, `Tab. 2, Fig. 20`) gives the Euclidean area/solid theorem for the central transversal ratio $BD : DG$ in Element IV.
+*Proposition XVIII* (p. 26, `Tab. 2, Fig. 20`) gives the Euclidean area/solid theorem for the central transversal ratio :math:`BD : DG` in Element IV.

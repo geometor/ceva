@@ -16,4 +16,4 @@ Proposition XVII: Ten Cases of Element IV & Folding Equivalence — Notes
 **Archival Notes**:
 
 * Printed pp. 23–25 (folios ``0040``–``0042``), `Tab. 2, Figs. 18–19`.
-* Notice how this Corollary reveals Ceva's nascent awareness of projective invariance: changing the sign of a vertex weight corresponds geometrically to reversing orientation across the intersection point $D$.
+* Notice how this Corollary reveals Ceva's nascent awareness of projective invariance: changing the sign of a vertex weight corresponds geometrically to reversing orientation across the intersection point :math:`D`.

@@ -13,4 +13,4 @@ Proposition XX: Parallel Segments Cut by a Transversal — Summary
 .. folio:: 0075
    :page: p. 58
 
-*Book II, Proposition XX* (p. 58, `Tab. 8, Fig. 67`) expresses the ratio of two parallel segments $DC : EK$ solely from two local ratios $BD : DE$ and $IC : BI$—the geometric engine for Ceva's optical rangefinder in Prop. XXI.
+*Book II, Proposition XX* (p. 58, `Tab. 8, Fig. 67`) expresses the ratio of two parallel segments :math:`DC : EK` solely from two local ratios :math:`BD : DE` and :math:`IC : BI`—the geometric engine for Ceva's optical rangefinder in Prop. XXI.

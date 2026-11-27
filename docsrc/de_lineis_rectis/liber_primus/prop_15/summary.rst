@@ -13,4 +13,4 @@ Proposition XV: Secant Segment Ratio in Element III — Summary
 .. folio:: 0039
    :page: p. 22
 
-*Proposition XV* (p. 22, `Tab. 2, Fig. 17`) isolates the part-to-whole ratio $DG : DF$ along the transversal in Element III via Euclidean area/solid compounding.
+*Proposition XV* (p. 22, `Tab. 2, Fig. 17`) isolates the part-to-whole ratio :math:`DG : DF` along the transversal in Element III via Euclidean area/solid compounding.

@@ -13,4 +13,4 @@ Proposition XIII: First Pyramid Theorem of Element III — Summary
 .. folio:: 0038
    :page: p. 21
 
-*Proposition XIII* (p. 21, `Tab. 2, Fig. 16`) translates the static transversal ratio $FG : GD$ of Element III into a Euclidean solid/area proportion with planar corollary.
+*Proposition XIII* (p. 21, `Tab. 2, Fig. 16`) translates the static transversal ratio :math:`FG : GD` of Element III into a Euclidean solid/area proportion with planar corollary.

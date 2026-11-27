@@ -13,4 +13,4 @@ Proposition V: Iterated Nested Ceva Triangles — Summary
 .. folio:: 0057
    :page: p. 40
 
-*Book II, Proposition V* (pp. 40–41, `Tab. 5, Fig. 41`) demonstrates how nested/iterated Ceva configurations preserve concurrency along a shared cevian axis $DH$.
+*Book II, Proposition V* (pp. 40–41, `Tab. 5, Fig. 41`) demonstrates how nested/iterated Ceva configurations preserve concurrency along a shared cevian axis :math:`DH`.

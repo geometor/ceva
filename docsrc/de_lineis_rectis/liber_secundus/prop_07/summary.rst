@@ -13,4 +13,4 @@ Proposition VII: Concurrency of Outer Vertices with Inscribed Midpoints — Summ
 .. folio:: 0060
    :page: p. 43
 
-*Book II, Proposition VII* (pp. 43–44, `Tab. 5, Figs. 43 & 45`) proves a striking iterated-cevian theorem: lines from the vertices of $\triangle BAC$ to the midpoints of the sides of any inscribed Ceva triangle $\triangle DEF$ are themselves concurrent inside $\triangle DEF$.
+*Book II, Proposition VII* (pp. 43–44, `Tab. 5, Figs. 43 & 45`) proves a striking iterated-cevian theorem: lines from the vertices of :math:`\triangle BAC` to the midpoints of the sides of any inscribed Ceva triangle :math:`\triangle DEF` are themselves concurrent inside :math:`\triangle DEF`.

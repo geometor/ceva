@@ -13,4 +13,4 @@ Proposition XI: Side Ratio via Triangles and Rectangles — Summary
 .. folio:: 0034
    :page: p. 17
 
-*Proposition XI* (pp. 17–18, `Tab. 1, Fig. 5`) relates the ratio of outer sides $AE : AC$ in Ceva's triangle to sub-triangles and rectangles formed on the cevian feet $D, K, B$.
+*Proposition XI* (pp. 17–18, `Tab. 1, Fig. 5`) relates the ratio of outer sides :math:`AE : AC` in Ceva's triangle to sub-triangles and rectangles formed on the cevian feet :math:`D, K, B`.

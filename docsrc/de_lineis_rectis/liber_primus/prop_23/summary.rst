@@ -13,4 +13,4 @@ Proposition XXIII: Seven Concurrent Lines in a Tetrahedron — Summary
 .. folio:: 0048
    :page: p. 31
 
-Crowning *Liber Primus*, *Proposition XXIII* (pp. 31–32, `Tab. 3, Fig. 28`) proves that in any arbitrarily weighted 3D tetrahedron, all **4 vertex-to-face cevians** and all **3 opposite-edge bimedians** (7 lines in total) concur at one unique spatial center of gravity $O$.
+Crowning *Liber Primus*, *Proposition XXIII* (pp. 31–32, `Tab. 3, Fig. 28`) proves that in any arbitrarily weighted 3D tetrahedron, all **4 vertex-to-face cevians** and all **3 opposite-edge bimedians** (7 lines in total) concur at one unique spatial center of gravity :math:`O`.

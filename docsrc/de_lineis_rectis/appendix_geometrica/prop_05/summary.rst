@@ -13,4 +13,4 @@ Proposition V: Generalized Double Lune of Hippocrates — Summary
 .. folio:: 0083
    :page: p. 66
 
-*Appendix Prop. V* (p. 66, `Tab. 8, Fig. 72`) proves the general **double lune of Hippocrates**: for *any* right triangle $\triangle ABC$, the sum of the two lunes $E + D$ erected on the legs equals $\triangle ABC$.
+*Appendix Prop. V* (p. 66, `Tab. 8, Fig. 72`) proves the general **double lune of Hippocrates**: for *any* right triangle :math:`\triangle ABC`, the sum of the two lunes :math:`E + D` erected on the legs equals :math:`\triangle ABC`.
