@@ -16,5 +16,5 @@ Proposition I: First Element (Menelaus Transversal) — Notes
 **Archival & Mathematical Commentary**:
 
 * Printed pp. 2–3 (folios ``0019``–``0020``), `Tab. 1, Fig. 4`.
-* Note Ceva's authentic 1678 lettering: triangle vertices are $A$ (apex), $E$ (bottom-left), $C$ (bottom-right), with vertex weights labeled $G$ (at $A$), $I$ (at $E$), and $H$ (at $C$).
-* From $G : I = ED : DA$, $G : H = CB : BA$, and $CF : FD = (G + I) : H$, eliminating $G, H, I$ reproduces the full Menelaus relation on $\triangle AEB$ cut by transversal $CFD$.
+* Note Ceva's authentic 1678 lettering: triangle vertices are :math:`A` (apex), :math:`E` (bottom-left), :math:`C` (bottom-right), with vertex weights labeled :math:`G` (at :math:`A`), :math:`I` (at :math:`E`), and :math:`H` (at :math:`C`).
+* From :math:`G : I = ED : DA`, :math:`G : H = CB : BA`, and :math:`CF : FD = (G + I) : H`, eliminating :math:`G, H, I` reproduces the full Menelaus relation on :math:`\triangle AEB` cut by transversal :math:`CFD`.

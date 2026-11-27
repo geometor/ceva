@@ -13,4 +13,4 @@ Proposition XVI: Base Ratio in Element III — Summary
 .. folio:: 0040
    :page: p. 23
 
-*Proposition XVI* (p. 23) completes the Euclidean area-ratio quartet (Props. XIII–XVI) for Element III by isolating the base ratio $BC : CA$.
+*Proposition XVI* (p. 23) completes the Euclidean area-ratio quartet (Props. XIII–XVI) for Element III by isolating the base ratio :math:`BC : CA`.

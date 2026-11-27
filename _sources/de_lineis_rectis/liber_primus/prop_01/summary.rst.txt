@@ -13,4 +13,4 @@ Proposition I: First Element (Menelaus Transversal) — Summary
 .. folio:: 0019
    :page: p. 2
 
-*Elementum I* (pp. 2–3, `Tab. 1, Fig. 4`) places weights $G, I, H$ at vertices $A, E, C$ of $\triangle AEC$ so that two intersecting cevians $EB, CD$ meet at the common center of gravity $F$, immediately resolving both the cevian segment ratios and :person:`Menelaus's <menelaus>` transversal theorem.
+*Elementum I* (pp. 2–3, `Tab. 1, Fig. 4`) places weights :math:`G, I, H` at vertices :math:`A, E, C` of :math:`\triangle AEC` so that two intersecting cevians :math:`EB, CD` meet at the common center of gravity :math:`F`, immediately resolving both the cevian segment ratios and :person:`Menelaus's <menelaus>` transversal theorem.

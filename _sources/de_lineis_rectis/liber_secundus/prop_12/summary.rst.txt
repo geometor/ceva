@@ -13,4 +13,4 @@ Proposition XII: Cubic Area Ratio on Three Parabola Tangents — Summary
 .. folio:: 0065
    :page: p. 48
 
-*Book II, Proposition XII* (pp. 48–49, `Tab. 6, Fig. 50`) crowns Ceva's parabolic triad with the striking **cubic area law** $\triangle FHA : \triangle DHC = FE^3 : ED^3$.
+*Book II, Proposition XII* (pp. 48–49, `Tab. 6, Fig. 50`) crowns Ceva's parabolic triad with the striking **cubic area law** :math:`\triangle FHA : \triangle DHC = FE^3 : ED^3`.

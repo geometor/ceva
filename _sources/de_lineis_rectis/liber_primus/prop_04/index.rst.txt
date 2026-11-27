@@ -22,17 +22,17 @@ Proposition IV: Fourth Element (Crossed Lines & the Sign ✠)
 
 **Proposition IV · Problem IV · Element IV**
 
-*Between two certain lines* :g:`AC`, :g:`EF` *let three lines* :g:`EC`, :g:`AF`, :g:`BG` *intersect one another at* :g:`D`; *it is required to suspend from the points* :g:`A`, :g:`C`, :g:`E`, :g:`F` *heavy bodies* :g:`I`, :g:`H`, :g:`K`, :g:`L` *so that weight* :g:`L` *to* :g:`K` *is as straight line* $EG$ *to* $GF$;
-:g:`K` *to* :g:`H` *as* $CD$ *to* $DE$; :g:`H` *to* :g:`I` *as* $AB$ *to* $BC$; :g:`I` *to* :g:`L` *as* $FD$ *to* $DA$; *and finally let the two* :g:`I`, :g:`H` *stand to the two* :g:`K`, :g:`L` *as* $GD$ *to* $DB$.
+*Between two certain lines* :g:`AC`, :g:`EF` *let three lines* :g:`EC`, :g:`AF`, :g:`BG` *intersect one another at* :g:`D`; *it is required to suspend from the points* :g:`A`, :g:`C`, :g:`E`, :g:`F` *heavy bodies* :g:`I`, :g:`H`, :g:`K`, :g:`L` *so that weight* :g:`L` *to* :g:`K` *is as straight line* :math:`EG` *to* :math:`GF`;
+:g:`K` *to* :g:`H` *as* :math:`CD` *to* :math:`DE`; :g:`H` *to* :g:`I` *as* :math:`AB` *to* :math:`BC`; :g:`I` *to* :g:`L` *as* :math:`FD` *to* :math:`DA`; *and finally let the two* :g:`I`, :g:`H` *stand to the two* :g:`K`, :g:`L` *as* :math:`GD` *to* :math:`DB`.
 
 (`Tab. 1, Fig. 7`) Let a certain weight :g:`I` to :g:`L` have that ratio
-which $FD$ has to $DA$; :g:`L` to :g:`K` that which $EG$ has to $GF$; and :g:`K` to :g:`H` that which $CD$ has to $DE$. I say that we have now satisfied the problem.
+which :math:`FD` has to :math:`DA`; :g:`L` to :g:`K` that which :math:`EG` has to :math:`GF`; and :g:`K` to :g:`H` that which :math:`CD` has to :math:`DE`. I say that we have now satisfied the problem.
 
 Since :g:`G` is the center of gravity of the heavy bodies :g:`K`, :g:`L`,
 and the same :g:`D` is the center of gravity both of the heavy bodies :g:`I`, :g:`L` and of :g:`K`, :g:`H`, point :g:`D` will therefore be the center of the four heavy bodies :g:`K`, :g:`L`, :g:`H`, :g:`I`. Now balance-beam :g:`GB <BG>` is drawn from :g:`G` through :g:`D`;
-therefore point :g:`B`, at which it cuts balance-beam :g:`AC`, will be the center of gravity of the remaining weights :g:`I`, :g:`H`; wherefore as weight :g:`H` is to weight :g:`I`, so $AB$ to $BC$. Again, since :g:`BG` is another balance-beam, at whose extremity :g:`B` is the center of gravity,
+therefore point :g:`B`, at which it cuts balance-beam :g:`AC`, will be the center of gravity of the remaining weights :g:`I`, :g:`H`; wherefore as weight :g:`H` is to weight :g:`I`, so :math:`AB` to :math:`BC`. Again, since :g:`BG` is another balance-beam, at whose extremity :g:`B` is the center of gravity,
 and therefore the weight of the heavy bodies :g:`I`, :g:`H`, and likewise at the other extremity :g:`G` the weight of the heavy bodies :g:`K`, :g:`L`, the center of gravity of all the aforesaid heavy bodies :g:`I`, :g:`H`, :g:`K`, :g:`L` will lie on the same balance-beam :g:`BG`;
-and since this center is unique and stands at :g:`D`, it will be as :g:`I`, :g:`H` to :g:`K`, :g:`L`, so $GD$ to $DB$, which &c.
+and since this center is unique and stands at :g:`D`, it will be as :g:`I`, :g:`H` to :g:`K`, :g:`L`, so :math:`GD` to :math:`DB`, which &c.
 
 **Scholium.** *To weights* :g:`I`, :g:`H`, :g:`L`, :g:`K` *will correspond in order the letters* :g:`A`, :g:`C`, :g:`F`, :g:`E`; *to the two* :g:`I`, :g:`H` *the letter* :g:`B`;
 *to the two* :g:`K`, :g:`L` *the letter* :g:`G`; *to all* :g:`I`, :g:`H`, :g:`L`, :g:`K` *the letter* :g:`D`; *for* :g:`I`, :g:`L` *we shall employ* ``A ✠ F``, *that is* :g:`A` *plus* :g:`F`, *and similarly for the two* :g:`K`, :g:`H` *the other two letters* ``E ✠ C``,

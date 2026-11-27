@@ -13,4 +13,4 @@ Proposition IV: Hippocrates' Lune on an Isosceles Right Triangle — Summary
 .. folio:: 0082
    :page: p. 65
 
-*Appendix Prop. IV* (pp. 65–66, `Tab. 8, Fig. 71`) proves the classic quadrature of :person:`Hippocrates's <hippocrates>` Lune: the circular lune $D$ equals the inscribed isosceles right triangle $\triangle ABC$ identically.
+*Appendix Prop. IV* (pp. 65–66, `Tab. 8, Fig. 71`) proves the classic quadrature of :person:`Hippocrates's <hippocrates>` Lune: the circular lune :math:`D` equals the inscribed isosceles right triangle :math:`\triangle ABC` identically.

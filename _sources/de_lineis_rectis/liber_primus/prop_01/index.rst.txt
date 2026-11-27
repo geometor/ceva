@@ -23,11 +23,11 @@ Proposition I: First Element (Menelaus Transversal)
 **Proposition I · Problem I · Element I**
 
 *Let two straight lines* :g:`EA <AE>`, :g:`CA <AC>` *meet at* :g:`A`, *and let two others,* :g:`CD`, :g:`EB`, *meet them at the points* :g:`D` *and* :g:`B`, *intersecting each other at* :g:`F`.
-*Let it be proposed to us from the points* :g:`E`, :g:`C`, :g:`A` *to suspend heavy bodies in such a ratio that weight* :g:`G` *has to* :g:`H` *the same ratio as $CB$ to $BA$; and the same weight* :g:`G` *to* :g:`I`, *that which $ED$ has to $DA$;*
-*and weight* :g:`I` *to the two* :g:`H`, :g:`G` *that which $BF$ has to $FE$; and let the heavy body* :g:`H` *to the two heavy bodies* :g:`I`, :g:`G` *be as $DF$ to $FC$.*
+*Let it be proposed to us from the points* :g:`E`, :g:`C`, :g:`A` *to suspend heavy bodies in such a ratio that weight* :g:`G` *has to* :g:`H` *the same ratio as* :math:`CB` *to* :math:`BA`; *and the same weight* :g:`G` *to* :g:`I`, *that which* :math:`ED` *has to* :math:`DA`;
+*and weight* :g:`I` *to the two* :g:`H`, :g:`G` *that which* :math:`BF` *has to* :math:`FE`; *and let the heavy body* :g:`H` *to the two heavy bodies* :g:`I`, :g:`G` *be as* :math:`DF` *to* :math:`FC`.
 
-(`Tab. 1, Fig. 4`; *Postulate*) Let a weight :g:`H` be found to which any proposed weight :g:`G` has that ratio which the straight line $CB$ has to $BA$; and let the same weight :g:`G` have to another :g:`I` that ratio which the straight line $ED$ has to $DA$;
-I say that the straight line $BF$ is to $FE$ as weight :g:`I` to the two heavy bodies :g:`G`, :g:`H`; and the straight line $DF$ to $FC$ itself as weight :g:`H` to the two weights :g:`I`, :g:`G`.
+(`Tab. 1, Fig. 4`; *Postulate*) Let a weight :g:`H` be found to which any proposed weight :g:`G` has that ratio which the straight line :math:`CB` has to :math:`BA`; and let the same weight :g:`G` have to another :g:`I` that ratio which the straight line :math:`ED` has to :math:`DA`;
+I say that the straight line :math:`BF` is to :math:`FE` as weight :g:`I` to the two heavy bodies :g:`G`, :g:`H`; and the straight line :math:`DF` to :math:`FC` itself as weight :g:`H` to the two weights :g:`I`, :g:`G`.
 
 (*Axiom I*) Since :g:`DC <CD>` is a certain balance-beam, at whose extremity :g:`D` is the center of gravity—and therefore the whole weight of the heavy bodies :g:`G`, :g:`I`, as if they were one weight suspended from :g:`D`—while at the other extremity :g:`C` is the other weight :g:`H`,
 the center of gravity of the aforesaid weights :g:`G`, :g:`I`, and :g:`H` will lie on the same balance-beam :g:`DC <CD>`. Similarly, because :g:`EB` is another balance-beam, at whose extremity :g:`B` is the center of gravity—and therefore the whole weight of the heavy bodies :g:`G`, :g:`H`—
@@ -39,7 +39,7 @@ while at the other extremity :g:`E` is the other weight :g:`I`, the center of gr
    :page: p. 3
 
 the balance-beam :g:`EB`, it will necessarily exist at the intersection :g:`F`.
-Therefore (*from the second lemma*) as weight :g:`I` to the two :g:`G`, :g:`H` together, so $BF$ to $FE$; similarly as weight :g:`H` to the other two :g:`G`, :g:`I` together, so will $DF$ be to $FC$, which was to be done.
+Therefore (*from the second lemma*) as weight :g:`I` to the two :g:`G`, :g:`H` together, so :math:`BF` to :math:`FE`; similarly as weight :g:`H` to the other two :g:`G`, :g:`I` together, so will :math:`DF` be to :math:`FC`, which was to be done.
 
 **Corollary.** *It is deduced that point* :g:`F` *is the center of gravity of all the heavy bodies* :g:`I`, :g:`G`, :g:`H` *in that position.*
 

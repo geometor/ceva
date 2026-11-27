@@ -13,4 +13,4 @@ Proposition XIV: Dual Pyramid Theorem of Element III — Summary
 .. folio:: 0039
    :page: p. 22
 
-*Proposition XIV* (p. 22) establishes the dual area/solid proportion for the interior cevian ratio $EG : GB$ in Element III, complementing Prop. XIII.
+*Proposition XIV* (p. 22) establishes the dual area/solid proportion for the interior cevian ratio :math:`EG : GB` in Element III, complementing Prop. XIII.

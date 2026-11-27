@@ -13,4 +13,4 @@ Proposition V: Fifth Element (Planar & Skew Quadrilateral) — Summary
 .. folio:: 0023
    :page: p. 6
 
-*Elementum V* (pp. 6–7, `Tab. 1, Fig. 8`) proves four-vertex static equilibrium on a quadrilateral $ACIH$ divided by opposite-side joins $BG, ED$ meeting at $F$. Its famous *Corollarium* proves that the four edge fulcrums of a **3D skew quadrilateral** are strictly coplanar whenever their cyclic ratio product equals $1$.
+*Elementum V* (pp. 6–7, `Tab. 1, Fig. 8`) proves four-vertex static equilibrium on a quadrilateral :math:`ACIH` divided by opposite-side joins :math:`BG, ED` meeting at :math:`F`. Its famous *Corollarium* proves that the four edge fulcrums of a **3D skew quadrilateral** are strictly coplanar whenever their cyclic ratio product equals :math:`1`.

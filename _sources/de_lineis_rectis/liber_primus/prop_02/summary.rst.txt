@@ -13,4 +13,4 @@ Proposition II: Second Element (Interior Ceva Concurrency) — Summary
 .. folio:: 0020
    :page: p. 3
 
-*Elementum II* (pp. 3–4, `Tab. 1, Fig. 5`) is the locus classicus of **Ceva's Theorem**. By grouping three vertex weights $(G, I, H)$ at $(A, E, C)$ in three pairs, the third line $AK$ through $F$ necessarily hits the fulcrum $K$ of $I$ and $H$ on $EC$, forcing $(AD/DE)(EK/KC)(CB/BA) = 1$ in three lines.
+*Elementum II* (pp. 3–4, `Tab. 1, Fig. 5`) is the locus classicus of **Ceva's Theorem**. By grouping three vertex weights :math:`(G, I, H)` at :math:`(A, E, C)` in three pairs, the third line :math:`AK` through :math:`F` necessarily hits the fulcrum :math:`K` of :math:`I` and :math:`H` on :math:`EC`, forcing :math:`(AD/DE)(EK/KC)(CB/BA) = 1` in three lines.

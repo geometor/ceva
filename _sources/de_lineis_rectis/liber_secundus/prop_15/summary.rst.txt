@@ -13,4 +13,4 @@ Proposition XV: Rectangle Ratio Along Conic Tangents — Summary
 .. folio:: 0068
    :page: p. 51
 
-*Book II, Proposition XV* (p. 51, `Tab. 7, Fig. 56`) derives the metric rectangle proportion $FB : BD = (EA \cdot AF) : (EC \cdot CD)$ directly from the three-tangent concurrency of Prop. XIV.
+*Book II, Proposition XV* (p. 51, `Tab. 7, Fig. 56`) derives the metric rectangle proportion :math:`FB : BD = (EA \cdot AF) : (EC \cdot CD)` directly from the three-tangent concurrency of Prop. XIV.

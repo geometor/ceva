@@ -13,4 +13,4 @@ Proposition I: Inscribed Conic Concurrency & Converse of Ceva's Theorem — Summ
 .. folio:: 0055
    :page: p. 38
 
-*Book II, Proposition I* (p. 38, `Tab. 4, Fig. 38`) proves that the vertex-to-contact cevians of any triangle circumscribed about a circle or ellipse concur at one point (the generalized **Gergonne point** $X(7)$), and deduces in its landmark **Corollary** the **Converse of Ceva's Theorem**.
+*Book II, Proposition I* (p. 38, `Tab. 4, Fig. 38`) proves that the vertex-to-contact cevians of any triangle circumscribed about a circle or ellipse concur at one point (the generalized **Gergonne point** :math:`X(7)`), and deduces in its landmark **Corollary** the **Converse of Ceva's Theorem**.

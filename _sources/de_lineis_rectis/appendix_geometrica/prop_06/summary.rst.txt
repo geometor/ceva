@@ -13,4 +13,4 @@ Proposition VI: Semihexagon Quadrature with Lune and Circular Segment — Summar
 .. folio:: 0083
    :page: p. 66
 
-*Appendix Prop. VI* (pp. 66–67, `Tab. 8, Fig. 73`) completes the ancient circle-quadrature group (Props. I–VI) with Hippocrates's semihexagon-plus-lune identity using the $4:1$ scaling of diameter to hexagon side.
+*Appendix Prop. VI* (pp. 66–67, `Tab. 8, Fig. 73`) completes the ancient circle-quadrature group (Props. I–VI) with Hippocrates's semihexagon-plus-lune identity using the :math:`4:1` scaling of diameter to hexagon side.

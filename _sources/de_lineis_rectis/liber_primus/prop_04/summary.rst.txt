@@ -13,4 +13,4 @@ Proposition IV: Fourth Element (Crossed Lines & the Sign ✠) — Summary
 .. folio:: 0022
    :page: p. 5
 
-*Elementum IV* (p. 5, `Tab. 1, Fig. 7`) establishes four-weight static balance on a crossed bowtie quadrilateral $AF, EC, BG$ concurring at $D$. Its *Scholium* formally defines Ceva's algebraic addition notation ``A ✠ F`` (*hoc est A plus F*), employing Monza's substitute cross glyph ``✠``.
+*Elementum IV* (p. 5, `Tab. 1, Fig. 7`) establishes four-weight static balance on a crossed bowtie quadrilateral :math:`AF, EC, BG` concurring at :math:`D`. Its *Scholium* formally defines Ceva's algebraic addition notation ``A ✠ F`` (*hoc est A plus F*), employing Monza's substitute cross glyph ``✠``.

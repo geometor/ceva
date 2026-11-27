@@ -16,4 +16,4 @@ Proposition XXI: Ratio Along an Interior Cevian Cut by a Chord — Notes
 **Archival & Mathematical Notes**:
 
 * Printed p. 30 (folio ``0047``), `Tab. 2, Fig. 24` (final diagram of Tabula II).
-* Notice how doubling vertex weight $G$ (assigning $G$ twice at $A$, once to pair with $I$ at $D$ and once to pair with $H$ at $B$) makes $L$ the fulcrum of $(2G)$ at $A$ and $(I+H)$ at $K$ — an algebraic gem that instantly yields harmonic division on every cevian!
+* Notice how doubling vertex weight :math:`G` (assigning :math:`G` twice at :math:`A`, once to pair with :math:`I` at :math:`D` and once to pair with :math:`H` at :math:`B`) makes :math:`L` the fulcrum of :math:`(2G)` at :math:`A` and :math:`(I+H)` at :math:`K` — an algebraic gem that instantly yields harmonic division on every cevian!

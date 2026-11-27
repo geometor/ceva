@@ -16,5 +16,5 @@ Proposition XXIII: Seven Concurrent Lines in a Tetrahedron — Notes
 **Archival, Errata & Symbolic Notes**:
 
 * Printed pp. 31–32 (folios ``0048``–``0049``), `Tab. 3, Fig. 28`. Errata p. 83 corrects p. 32 line 33 ``℞ ad ✠`` -> ``℞ ad X``.
-* Generalizes :person:`Commandino <commandino>` (*De centro gravitatis solidorum*, 1565) from uniform weights ($3:1$ ratio) to arbitrary masses $(R, S, T, Q)$.
+* Generalizes :person:`Commandino <commandino>` (*De centro gravitatis solidorum*, 1565) from uniform weights (:math:`3:1` ratio) to arbitrary masses :math:`(R, S, T, Q)`.
 * Verified with exact rational 3D coordinates and zero concurrency residuals in :func:`geometor.ceva.polygon_tetrahedron.solve_tetrahedron_static_equilibrium`.

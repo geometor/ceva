@@ -13,4 +13,4 @@ Proposition XXV: Concurrent Lines in a Pyramidal Frustum — Summary
 .. folio:: 0050
    :page: p. 33
 
-*Proposition XXV* (pp. 33–34, `Tab. 3, Fig. 30`) proves 3D static concurrency of three spatial transversals ($HL, IG, MO$) inside a **truncated triangular pyramid (frustum)**.
+*Proposition XXV* (pp. 33–34, `Tab. 3, Fig. 30`) proves 3D static concurrency of three spatial transversals (:math:`HL, IG, MO`) inside a **truncated triangular pyramid (frustum)**.
